@@ -630,7 +630,7 @@ iOS App 权限说明：*"发现和连接眼镜热点来同步媒体文件"*
 
 **URL Scheme：**
 - `rokidai://` — 深链接
-- `wx656b5a082d3b902a` — 微信
+- `wx**************` — 微信
 - `joygorokid` — 京东
 - `awbkus8yvpwfz8tx` — 抖音
 
