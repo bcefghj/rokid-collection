@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_black">#FF000000</color>
+    <color name="bg_card">#CC1A1A2E</color>
+    <color name="bg_card_selected">#CC2A2A4E</color>
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_secondary">#B0B0B0</color>
+    <color name="accent_cyan">#00E5FF</color>
+    <color name="accent_green">#00E676</color>
+    <color name="accent_orange">#FF9100</color>
+    <color name="accent_red">#FF1744</color>
+    <color name="nav_arrow">#00E5FF</color>
+    <color name="distance_text">#FFFFFF</color>
+</resources>

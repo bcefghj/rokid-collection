@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">地铁导航</string>
+    <string name="hint_destination">输入目的地</string>
+    <string name="searching">正在搜索路线…</string>
+    <string name="no_route_found">未找到公交/地铁路线</string>
+    <string name="network_error">网络连接失败</string>
+    <string name="total_time">全程约 %1$s</string>
+    <string name="walk_segment">步行 %1$s</string>
+    <string name="station_count">%1$d站</string>
+    <string name="transfer">换乘</string>
+    <string name="board_at">上车: %1$s</string>
+    <string name="alight_at">下车: %1$s</string>
+    <string name="direction_to">方向: %1$s</string>
+    <string name="plan_label">方案%1$d</string>
+    <string name="via_stations">途经站点</string>
+    <string name="exit_confirm">再按一次退出</string>
+    <string name="locating">正在定位…</string>
+    <string name="loc_failed">定位失败，请检查GPS</string>
+    <string name="from_current">从当前位置出发</string>
+</resources>

@@ -1,0 +1,2 @@
+rootProject.name = 'RokidNavigation'
+include ':app'

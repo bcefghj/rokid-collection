@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_plan_card"
+    android:paddingStart="14px"
+    android:paddingEnd="14px"
+    android:paddingTop="12px"
+    android:paddingBottom="12px"
+    android:layout_marginBottom="10px"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <!-- 方案标题行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_plan_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16px"
+            android:textColor="@color/green_normal"
+            android:textFontWeight="600" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_plan_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18px"
+            android:textColor="@color/green_normal"
+            android:textFontWeight="600" />
+    </LinearLayout>
+
+    <!-- 路线摘要（线路名称条） -->
+    <LinearLayout
+        android:id="@+id/line_tags_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8px"
+        android:gravity="center_vertical" />
+
+    <!-- 费用和步行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6px"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_plan_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13px"
+            android:textColor="@color/green_normal_60" />
+
+        <TextView
+            android:id="@+id/tv_plan_walk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13px"
+            android:textColor="@color/green_normal_60"
+            android:layout_marginStart="16px" />
+    </LinearLayout>
+</LinearLayout>

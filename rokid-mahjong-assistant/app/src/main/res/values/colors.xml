@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="neon_green">#44FF66</color>
+    <color name="neon_green_dim">#228833</color>
+    <color name="bright_blue">#00BFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+</resources>

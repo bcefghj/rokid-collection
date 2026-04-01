@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="8dp"
+    android:paddingVertical="6dp"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/segment_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:paddingEnd="6dp" />
+
+        <TextView
+            android:id="@+id/segment_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFB0B0B0"
+            android:textSize="12sp"
+            android:paddingEnd="8dp" />
+
+        <TextView
+            android:id="@+id/segment_summary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#FFFFFFFF"
+            android:textSize="13sp"
+            android:maxLines="2"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/segment_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF888888"
+        android:textSize="11sp"
+        android:paddingStart="30dp"
+        android:paddingTop="2dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/segment_arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  ↓"
+        android:textColor="#FF555555"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:paddingTop="2dp" />
+
+</LinearLayout>

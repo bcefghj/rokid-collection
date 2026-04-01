@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="green_normal">#FF00FF88</color>
+    <color name="green_normal_80">#CC00FF88</color>
+    <color name="green_normal_60">#9900FF88</color>
+    <color name="green_normal_40">#6600FF88</color>
+    <color name="green_dim">#FF008844</color>
+    <color name="green_dark">#FF003322</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="selected_bg">#2200FF88</color>
+    <color name="wifi_strong">#FF00FF88</color>
+    <color name="wifi_medium">#FFFFCC00</color>
+    <color name="wifi_weak">#FFFF4444</color>
+    <color name="connected">#FF00CCFF</color>
+</resources>

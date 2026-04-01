@@ -1,0 +1,39 @@
+# Android 编译产物
+*.class
+*.log
+*.apk
+*.ap_
+*.aab
+
+# Build 目录
+/build/
+/app/build/
+**/build/
+
+# Gradle
+.gradle/
+**/.gradle/
+local.properties
+gradle.properties.local
+
+# IDE 文件
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keystore
+*.jks
+*.keystore
+
+# ProGuard
+proguard/
+
+# Android Studio captures
+captures/
+
+# Kotlin 特定
+*.kotlin_module
+
+# 发行版APK（releases目录例外）
+!releases/*.apk

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="480px">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="20px"
+            android:paddingEnd="20px"
+            android:paddingTop="8px">
+
+            <!-- 目的地 -->
+            <TextView
+                android:id="@+id/tv_dest_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="26px"
+                android:textColor="@color/green_normal"
+                android:textFontWeight="600"
+                android:singleLine="true"
+                android:ellipsize="end"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- 方案列表 -->
+            <ScrollView
+                android:id="@+id/scroll_plans"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="12px"
+                android:scrollbars="none"
+                android:fadingEdge="vertical"
+                android:fadingEdgeLength="20px"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_dest_name"
+                app:layout_constraintBottom_toTopOf="@id/tv_hint">
+
+                <LinearLayout
+                    android:id="@+id/plans_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="16px" />
+            </ScrollView>
+
+            <!-- 操作提示 -->
+            <TextView
+                android:id="@+id/tv_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="前滑 下一个  后滑 上一个/返回  到底前滑进详情"
+                android:textSize="16px"
+                android:textColor="@color/green_normal_40"
+                android:layout_marginBottom="4px"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</FrameLayout>

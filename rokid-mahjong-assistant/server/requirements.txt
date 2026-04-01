@@ -1,0 +1,16 @@
+fastapi>=0.100.0
+uvicorn>=0.20.0
+python-multipart
+requests
+mahjong
+faster-whisper
+scipy
+numpy
+openai
+python-dotenv
+pytest
+opencv-python-headless>=4.8.0
+onnxruntime
+supervision
+pillow
+ruff

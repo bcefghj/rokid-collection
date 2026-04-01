@@ -1,0 +1,20 @@
+# Android build outputs
+build/
+.gradle/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Local configs
+local.properties
+*.keystore
+*.jks
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Logs
+*.log

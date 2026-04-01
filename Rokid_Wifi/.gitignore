@@ -1,0 +1,12 @@
+# macOS
+.DS_Store
+
+# Android 编译产物
+/app/build/
+/.gradle/
+/build/
+local.properties
+
+# IDE
+.idea/
+*.iml

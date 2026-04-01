@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AR导航</string>
+    <string name="tab_nearby">附近</string>
+    <string name="tab_search">搜索</string>
+    <string name="tab_history">历史</string>
+    <string name="hint_search">说出或输入目的地…</string>
+    <string name="btn_navigate">开始导航</string>
+    <string name="btn_voice">语音搜索</string>
+    <string name="loading">正在搜索…</string>
+    <string name="locating">正在定位…</string>
+    <string name="no_result">未找到结果</string>
+    <string name="nav_arrived">您已到达目的地</string>
+    <string name="nav_straight">直行</string>
+    <string name="nav_left">左转</string>
+    <string name="nav_right">右转</string>
+    <string name="nav_uturn">掉头</string>
+    <string name="nav_slight_left">左前方</string>
+    <string name="nav_slight_right">右前方</string>
+    <string name="network_error">网络异常，请检查网络</string>
+    <string name="location_error">定位失败，请检查权限</string>
+    <string name="key_tip">↑↓选择 · 确认导航 · 返回退出</string>
+    <string name="voice_tip">按PROG1键语音搜索</string>
+    <string name="walk">步行</string>
+    <string name="meter">米</string>
+    <string name="km">公里</string>
+    <string name="minute">分钟</string>
+</resources>

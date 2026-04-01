@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WiFi连接</string>
+    <string name="scanning">正在扫描WiFi…</string>
+    <string name="no_wifi">未找到WiFi网络</string>
+    <string name="connecting">正在连接…</string>
+    <string name="connected">已连接</string>
+    <string name="connect_failed">连接失败</string>
+    <string name="exit_confirm">再按一次退出</string>
+</resources>

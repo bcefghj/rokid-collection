@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">智慧生活</string>
+    <string name="title_home">智慧生活</string>
+    <string name="search">搜索</string>
+    <string name="settings">设置</string>
+    <string name="locating">定位中…</string>
+    <string name="no_results">暂无结果</string>
+    <string name="loading">加载中…</string>
+    <string name="navigate">导航</string>
+    <string name="walk_navi">步行</string>
+    <string name="drive_navi">驾车</string>
+    <string name="save">保存</string>
+    <string name="api_key_hint">请输入高德 Web Service API Key</string>
+    <string name="search_radius">搜索半径</string>
+    <string name="api_key_guide">前往 lbs.amap.com 注册开发者账号，创建应用后获取 Web 服务 Key</string>
+</resources>

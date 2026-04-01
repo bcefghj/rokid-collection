@@ -1,0 +1,18 @@
+# Build outputs
+transit_app/build/
+transit_app/app/build/
+transit_app/.gradle/
+*.apk
+local.properties
+
+# Large binary files (download separately)
+transit_app/app/src/main/assets/sherpa/*.onnx
+transit_app/app/libs/*.aar
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

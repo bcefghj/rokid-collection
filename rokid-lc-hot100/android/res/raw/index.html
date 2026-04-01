@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:100%;height:100%;overflow:hidden;background:#000}
+body{color:#00ff41;font-family:sans-serif;display:flex;flex-direction:column;padding:6px 12px}
+#bar{font-size:12px;color:#00aa33;text-align:center;padding:3px 0;border-bottom:1px solid #003300;display:flex;justify-content:space-between}
+#bar span{flex:1;text-align:center}
+#ct{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;
+  white-space:pre-wrap;padding:6px;overflow:hidden;font-size:20px;line-height:1.45;font-weight:bold}
+#ft{font-size:11px;color:#005500;text-align:center;padding:3px 0;border-top:1px solid #003300}
+.menu{text-align:left;font-size:16px;line-height:1.8}
+.menu .s{color:#00ff41;font-weight:bold}
+.menu .n{color:#006622}
+.menu .done{color:#004400;text-decoration:line-through}
+.tag{font-size:11px;color:#008833}
+.diff-E{color:#00cc44}.diff-M{color:#ffaa00}.diff-H{color:#ff4444}
+</style></head><body>
+<div id="bar"><span id="bl"></span><span id="bc">LC Hot100</span><span id="br"></span></div>
+<div id="ct">加载中...</div>
+<div id="ft">← 上一题 | ● 查看讲解 | ↑ 标记已会 | → 下一题</div>
+<script>
+/*PROBLEMS_DATA_PLACEHOLDER*/
+var D=[];try{D=PROBLEMS_DATA;}catch(e){}
+var mode='list',ci=0,pi=0,masteredSet={};
+
+function loadMastered(){
+  try{var s=NativeBridge.load('mastered');if(s)masteredSet=JSON.parse(s);}catch(e){
+    try{var s=localStorage.getItem('lc_mastered');if(s)masteredSet=JSON.parse(s);}catch(e2){}
+  }
+}
+function saveMastered(){
+  var s=JSON.stringify(masteredSet);
+  try{NativeBridge.save('mastered',s);}catch(e){}
+  try{localStorage.setItem('lc_mastered',s);}catch(e){}
+}
+
+function countRemaining(){
+  var c=0;D.forEach(function(p){if(!masteredSet[p.id])c++;});return c;
+}
+
+function showList(){
+  mode='list';pi=0;
+  var remain=countRemaining();
+  document.getElementById('bc').textContent='LC Hot100';
+  document.getElementById('bl').textContent='剩余'+remain+'题';
+  document.getElementById('br').textContent=D.length+'题';
+  var h='<div class="menu">';
+  var start=Math.max(0,ci-3),end=Math.min(D.length,start+8);
+  for(var i=start;i<end;i++){
+    var p=D[i],done=masteredSet[p.id];
+    var cls=i===ci?(done?'s done':'s'):(done?'done':'n');
+    var icon=i===ci?'▶ ':' ';
+    var diff='<span class="diff-'+p.difficulty[0]+'">'+p.difficulty+'</span>';
+    h+='<div class="'+cls+'">'+icon+'#'+p.id+' '+p.title+' '+diff;
+    if(done)h+=' ✓';
+    h+='</div>';
+  }
+  h+='</div>';
+  document.getElementById('ct').innerHTML=h;
+  document.getElementById('ft').textContent='← 上一题 | ● 查看讲解 | ↑ 标记已会 | → 下一题';
+}
+
+function showPage(){
+  mode='page';
+  var p=D[ci];
+  document.getElementById('bl').textContent='#'+p.id+' '+p.difficulty;
+  document.getElementById('bc').textContent=p.title;
+  document.getElementById('br').textContent=(pi+1)+'/'+p.pages.length;
+  document.getElementById('ct').className='';
+  document.getElementById('ct').innerHTML='';
+  document.getElementById('ct').textContent=p.pages[pi];
+  document.getElementById('ft').textContent='← 上一页 | ● 返回列表 | 下一页 →';
+}
+
+function toggleMastered(){
+  var p=D[ci];
+  if(masteredSet[p.id])delete masteredSet[p.id];
+  else masteredSet[p.id]=1;
+  saveMastered();
+}
+
+function onKey(k){
+  if(mode==='list'){
+    if(k==='right'){ci=Math.min(D.length-1,ci+1);showList();}
+    else if(k==='left'){ci=Math.max(0,ci-1);showList();}
+    else if(k==='center'){pi=0;showPage();}
+    else if(k==='up'){toggleMastered();showList();}
+  }else if(mode==='page'){
+    if(k==='right'){pi=Math.min(D[ci].pages.length-1,pi+1);showPage();}
+    else if(k==='left'){
+      if(pi>0){pi--;showPage();}
+      else showList();
+    }
+    else if(k==='center'){showList();}
+    else if(k==='up'){toggleMastered();showPage();}
+  }
+}
+
+document.addEventListener('keydown',function(e){
+  var m={'ArrowLeft':'left','ArrowRight':'right','ArrowUp':'up','ArrowDown':'down','Enter':'center'};
+  if(m[e.key])onKey(m[e.key]);
+});
+
+loadMastered();
+if(D.length>0)showList();
+else document.getElementById('ct').textContent='无题目数据';
+</script></body></html>

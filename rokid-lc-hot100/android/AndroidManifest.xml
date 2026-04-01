@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    LC Hot100 Android Manifest
+    包名: com.rokid.lchot100
+    目标设备: Rokid RG-glasses (Android 12, API 32)
+
+    屏幕方向说明:
+    ★ 不设置 screenOrientation ★
+    Rokid 物理屏是竖屏面板(480×640)，光学系统自动将画面旋转投射到眼睛里变成横屏。
+    如果设置 landscape，系统再旋转一次，反而导致方向错误（顺时针旋转90度）。
+    正确做法：使用系统默认 portrait，与 VLC、KOReader 保持一致。
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rokid.lchot100"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="33" />
+
+    <!-- 允许 HTTP 明文流量（Android 9+ 默认禁止，本地开发时需要） -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="LC Hot100"
+        android:usesCleartextTraffic="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        <activity
+            android:name="com.rokid.lchot100.MainActivity"
+            android:exported="true"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
