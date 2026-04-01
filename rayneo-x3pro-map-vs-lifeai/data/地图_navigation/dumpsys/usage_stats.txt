@@ -1,0 +1,131 @@
+    time="2026-03-18 10:41:42" type=ACTIVITY_RESUMED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=245744335 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 10:41:47" type=ACTIVITY_STOPPED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 10:41:49" type=STANDBY_BUCKET_CHANGED package=com.Ffalcon.BEATSPACE standbyBucket=5 reason=d flags=0x0 
+    time="2026-03-18 10:41:51" type=ACTIVITY_PAUSED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=245744335 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 10:41:51" type=ACTIVITY_RESUMED package=com.android.permissioncontroller class=com.android.permissioncontroller.permission.ui.GrantPermissionsActivity instanceId=220690448 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 10:41:52" type=STANDBY_BUCKET_CHANGED package=com.rayneogame.pinball standbyBucket=5 reason=d flags=0x0 
+    time="2026-03-18 10:41:56" type=ACTIVITY_PAUSED package=com.android.permissioncontroller class=com.android.permissioncontroller.permission.ui.GrantPermissionsActivity instanceId=220690448 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 10:41:56" type=ACTIVITY_RESUMED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=245744335 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 10:41:56" type=ACTIVITY_STOPPED package=com.android.permissioncontroller class=com.android.permissioncontroller.permission.ui.GrantPermissionsActivity instanceId=220690448 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 10:42:18" type=STANDBY_BUCKET_CHANGED package=com.rayneogame.skiing standbyBucket=5 reason=d flags=0x0 
+    time="2026-03-18 10:42:24" type=ACTIVITY_PAUSED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=245744335 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 10:42:24" type=ACTIVITY_RESUMED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 10:42:26" type=ACTIVITY_STOPPED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=245744335 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 10:42:33" type=ACTIVITY_PAUSED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 10:42:33" type=ACTIVITY_RESUMED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.settings.SettingsActivity instanceId=101357088 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 10:42:34" type=ACTIVITY_STOPPED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 10:42:44" type=STANDBY_BUCKET_CHANGED package=com.rayneo.airscreen standbyBucket=5 reason=d flags=0x0 
+    time="2026-03-18 10:42:44" type=ACTIVITY_PAUSED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.settings.SettingsActivity instanceId=101357088 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+--
+    time="2026-03-18 11:34:01" type=ACTIVITY_RESUMED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=183456382 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 11:34:03" type=ACTIVITY_STOPPED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 11:34:14" type=ACTIVITY_PAUSED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=183456382 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 11:34:14" type=ACTIVITY_RESUMED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 11:34:16" type=ACTIVITY_STOPPED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=183456382 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 11:34:34" type=SCREEN_NON_INTERACTIVE package=android flags=0x0 
+    time="2026-03-18 11:34:34" type=ACTIVITY_PAUSED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 11:34:34" type=ACTIVITY_RESUMED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity instanceId=183578611 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity flags=0x0 
+    time="2026-03-18 11:34:34" type=ACTIVITY_PAUSED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity instanceId=183578611 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity flags=0x0 
+    time="2026-03-18 11:34:35" type=ACTIVITY_STOPPED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+--
+    time="2026-03-18 12:06:01" type=ACTIVITY_RESUMED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=236979512 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 12:06:03" type=ACTIVITY_STOPPED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 12:06:41" type=ACTIVITY_PAUSED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=236979512 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 12:06:41" type=ACTIVITY_RESUMED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 12:06:43" type=ACTIVITY_STOPPED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=236979512 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 12:06:46" type=SCREEN_NON_INTERACTIVE package=android flags=0x0 
+    time="2026-03-18 12:06:47" type=ACTIVITY_PAUSED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+    time="2026-03-18 12:06:47" type=ACTIVITY_RESUMED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity instanceId=174807432 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity flags=0x0 
+    time="2026-03-18 12:06:47" type=ACTIVITY_PAUSED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity instanceId=174807432 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity flags=0x0 
+    time="2026-03-18 12:06:47" type=ACTIVITY_STOPPED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+--
+    time="2026-03-18 19:44:15" type=ACTIVITY_RESUMED package=com.ffalcon.navigation class=com.ffalcon.LBSUnityActivity instanceId=84735017 taskRootPackage=com.ffalcon.navigation taskRootClass=com.ffalcon.LBSUnityActivity flags=0x0 
+    time="2026-03-18 19:44:16" type=ACTIVITY_STOPPED package=com.ffalconxr.mercury.launcher class=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity instanceId=154446077 taskRootPackage=com.ffalconxr.mercury.launcher taskRootClass=com.ffalconxr.mercury.launcher.home.LauncherHomeActivity flags=0x0 
+  In-memory daily stats
+  timeRange="2026/3/18 18:32 – 2026/3/19 03:46" 
+    packages
+      package=com.android.internal.display.cutout.emulation.corner totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="1970-01-01 00:00:00" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+--
+      package=com.ffalcon.navigation totalTimeUsed="01:30" lastTimeUsed="2026-03-18 19:44:15" totalTimeVisible="01:42" lastTimeVisible="2026-03-18 19:44:15" lastTimeComponentUsed="2026-03-18 19:44:15" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=5 
+      package=com.eg.android.AlipayGGlasses totalTimeUsed="01:19" lastTimeUsed="2026-03-18 11:33:51" totalTimeVisible="01:22" lastTimeVisible="2026-03-18 11:33:52" lastTimeComponentUsed="2026-03-18 11:33:32" totalTimeFS="00:00" lastTimeFS="2026-03-18 10:32:50" appLaunchCount=3 
+      package=com.larus.nova totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="1970-01-01 00:00:00" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.android.networkstack.tethering.inprocess totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="2026-03-18 10:32:48" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.android.networkstack.permissionconfig totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="1970-01-01 00:00:00" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.rayneo.airscreen totalTimeUsed="00:19" lastTimeUsed="2026-03-18 10:52:25" totalTimeVisible="00:23" lastTimeVisible="2026-03-18 10:52:26" lastTimeComponentUsed="2026-03-18 10:52:09" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=2 
+--
+      package=com.ffalcon.navigation 
+      package=com.eg.android.AlipayGGlasses 
+      package=com.larus.nova 
+      package=com.android.networkstack.tethering.inprocess 
+      package=com.android.networkstack.permissionconfig 
+      package=com.rayneo.airscreen 
+--
+      package=com.ffalcon.navigation totalTimeUsed="01:30" lastTimeUsed="2026-03-18 19:44:15" totalTimeVisible="01:42" lastTimeVisible="2026-03-18 19:44:15" lastTimeComponentUsed="2026-03-18 19:44:15" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=5 
+      package=com.eg.android.AlipayGGlasses totalTimeUsed="01:19" lastTimeUsed="2026-03-18 11:33:51" totalTimeVisible="01:22" lastTimeVisible="2026-03-18 11:33:52" lastTimeComponentUsed="2026-03-18 11:33:32" totalTimeFS="00:00" lastTimeFS="2026-03-18 10:32:50" appLaunchCount=3 
+      package=com.larus.nova totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="1970-01-01 00:00:00" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.android.networkstack.tethering.inprocess totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="2026-03-18 10:32:48" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.android.networkstack.permissionconfig totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="1970-01-01 00:00:00" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.rayneo.airscreen totalTimeUsed="00:19" lastTimeUsed="2026-03-18 10:52:25" totalTimeVisible="00:23" lastTimeVisible="2026-03-18 10:52:26" lastTimeComponentUsed="2026-03-18 10:52:09" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=2 
+--
+      package=com.ffalcon.navigation 
+      package=com.eg.android.AlipayGGlasses 
+      package=com.larus.nova 
+      package=com.android.networkstack.tethering.inprocess 
+      package=com.android.networkstack.permissionconfig 
+      package=com.rayneo.airscreen 
+--
+      package=com.ffalcon.navigation totalTimeUsed="01:30" lastTimeUsed="2026-03-18 19:44:15" totalTimeVisible="01:42" lastTimeVisible="2026-03-18 19:44:15" lastTimeComponentUsed="2026-03-18 19:44:15" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=5 
+      package=com.eg.android.AlipayGGlasses totalTimeUsed="01:19" lastTimeUsed="2026-03-18 11:33:51" totalTimeVisible="01:22" lastTimeVisible="2026-03-18 11:33:52" lastTimeComponentUsed="2026-03-18 11:33:32" totalTimeFS="00:00" lastTimeFS="2026-03-18 10:32:50" appLaunchCount=3 
+      package=com.larus.nova totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="1970-01-01 00:00:00" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.android.networkstack.tethering.inprocess totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="2026-03-18 10:32:48" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.android.networkstack.permissionconfig totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="1970-01-01 00:00:00" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.rayneo.airscreen totalTimeUsed="00:19" lastTimeUsed="2026-03-18 10:52:25" totalTimeVisible="00:23" lastTimeVisible="2026-03-18 10:52:26" lastTimeComponentUsed="2026-03-18 10:52:09" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=2 
+--
+      package=com.ffalcon.navigation 
+      package=com.eg.android.AlipayGGlasses 
+      package=com.larus.nova 
+      package=com.android.networkstack.tethering.inprocess 
+      package=com.android.networkstack.permissionconfig 
+      package=com.rayneo.airscreen 
+--
+      package=com.ffalcon.navigation totalTimeUsed="01:30" lastTimeUsed="2026-03-18 19:44:15" totalTimeVisible="01:42" lastTimeVisible="2026-03-18 19:44:15" lastTimeComponentUsed="2026-03-18 19:44:15" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=5 
+      package=com.eg.android.AlipayGGlasses totalTimeUsed="01:19" lastTimeUsed="2026-03-18 11:33:51" totalTimeVisible="01:22" lastTimeVisible="2026-03-18 11:33:52" lastTimeComponentUsed="2026-03-18 11:33:32" totalTimeFS="00:00" lastTimeFS="2026-03-18 10:32:50" appLaunchCount=3 
+      package=com.larus.nova totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="1970-01-01 00:00:00" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.android.networkstack.tethering.inprocess totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="2026-03-18 10:32:48" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.android.networkstack.permissionconfig totalTimeUsed="00:00" lastTimeUsed="1970-01-01 00:00:00" totalTimeVisible="00:00" lastTimeVisible="1970-01-01 00:00:00" lastTimeComponentUsed="1970-01-01 00:00:00" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=0 
+      package=com.rayneo.airscreen totalTimeUsed="00:19" lastTimeUsed="2026-03-18 10:52:25" totalTimeVisible="00:23" lastTimeVisible="2026-03-18 10:52:26" lastTimeComponentUsed="2026-03-18 10:52:09" totalTimeFS="00:00" lastTimeFS="1970-01-01 00:00:00" appLaunchCount=2 
+--
+      package=com.ffalcon.navigation 
+      package=com.eg.android.AlipayGGlasses 
+      package=com.larus.nova 
+      package=com.android.networkstack.tethering.inprocess 
+      package=com.android.networkstack.permissionconfig 
+      package=com.rayneo.airscreen 
+--
+      Token 60: [com.android.permissioncontroller, com.android.permissioncontroller.permission.ui.GrantPermissionsActivity, com.rayneo.airscreen, com.rayneo.openxradapter.RayNeoGameXRActivity, com.rayneo.lifeai, com.ffalcon.LBSUnityActivity, com.ffalcon.navigation, com.RayneoGame.ARPet, com.rayneogame.unity.UnityGameActivityX3]
+      Token 61: [com.qualcomm.qti.qms.service.trustzoneaccess]
+      Token 62: [com.qualcomm.qti.server.wigig.tethering.rro]
+      Token 63: [com.qualcomm.qtil.btdsda]
+      Token 64: [com.android.bluetooth]
+      Token 65: [com.qualcomm.timeservice]
+--
+      Token 93: [com.ffalcon.navigation, com.ffalcon.LBSUnityActivity]
+      Token 94: [com.larus.nova]
+      Token 95: [com.rayneo.airscreen, com.rayneo.openxradapter.RayNeoGameXRActivity]
+      Token 96: [com.leiniao.camera, notification_id, com.android.camera.quickshot.QuickShotService, com.android.camera.CameraActivity, com.android.camera.ui.guide.CameraGuideActivity, com.android.camera.ui.guide.GuideTransitionActivity]
+      Token 97: [com.tencent.wemeet.app]
+      Token 98: [com.sina.weibo]
+--
+ Currently Active:com.ffalcon.navigation, 
+ Observed Entities:
+
+
+User 0 App Standby States:
+  package=com.ffalconxr.mercury.launcher.mini.test u=0 bucket=10 reason=u-su used=+9h14m52s803ms usedByUser=+9h14m29s631ms usedScr=+1h1m5s554ms lastPred=+9h14m52s803ms activeLeft=-7h14m13s816ms wsLeft=-9h14m29s631ms lastJob=-24855d3h14m7s177ms idle=n
+--
+  package=com.ffalcon.navigation u=0 bucket=10 reason=u-su used=+9h14m52s803ms usedByUser=+9h14m29s631ms usedScr=+1h1m5s554ms lastPred=+9h14m52s803ms activeLeft=-7h14m13s816ms wsLeft=-9h14m29s631ms lastJob=-24855d3h14m7s177ms idle=n
+  package=com.eg.android.AlipayGGlasses u=0 bucket=10 reason=u-su used=+9h14m52s803ms usedByUser=+9h14m29s631ms usedScr=+1h1m5s554ms lastPred=+9h14m52s803ms activeLeft=-7h14m13s816ms wsLeft=-9h14m29s631ms lastJob=-24855d3h14m7s177ms idle=n
+  package=com.android.wallpaper.livepicker u=0 bucket=10 reason=u-su used=+9h14m52s803ms usedByUser=+9h14m29s631ms usedScr=+1h1m5s554ms lastPred=+9h14m52s803ms activeLeft=-7h14m13s816ms wsLeft=-9h14m29s631ms lastJob=-24855d3h14m7s177ms idle=n
+  package=com.ffalcon.translate u=0 bucket=10 reason=u-su used=+9h14m52s803ms usedByUser=+9h14m29s631ms usedScr=+1h1m5s554ms lastPred=+9h14m52s803ms activeLeft=-7h14m13s816ms wsLeft=-9h14m29s631ms lastJob=-24855d3h14m7s177ms idle=n
+  package=com.larus.nova u=0 bucket=5 reason=d used=+8h58m36s275ms usedByUser=+9h14m29s631ms usedScr=+46m0s841ms lastPred=+9h14m1s919ms activeLeft=-9h14m29s631ms wsLeft=-9h14m29s631ms lastJob=-24855d3h14m7s177ms idle=n
+  package=com.android.storagemanager u=0 bucket=10 reason=u-su used=+9h14m52s803ms usedByUser=+9h14m29s631ms usedScr=+1h1m5s554ms lastPred=+9h14m52s803ms activeLeft=-7h14m13s816ms wsLeft=-9h14m29s631ms lastJob=-24855d3h14m7s177ms idle=n

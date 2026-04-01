@@ -1,0 +1,3028 @@
+
+== Service global info: ==
+
+Number of camera devices: 2
+Number of normal camera devices: 2
+Number of public camera devices visible to API1: 2
+    Device 0 maps to "0"
+    Device 1 maps to "1"
+Active Camera Clients:
+[]
+Allowed user IDs: 0
+
+== Camera service events log (most recent at top): ==
+  03-18 19:33:40 : DISCONNECT device 0 client for package com.eg.android.AlipayGGlasses (PID 2575)
+  03-18 19:33:32 : CONNECT device 0 client for package com.eg.android.AlipayGGlasses (PID 2575)
+  03-18 19:33:07 : DISCONNECT device 0 client for package com.eg.android.AlipayGGlasses (PID 2575)
+  03-18 19:33:04 : CONNECT device 0 client for package com.eg.android.AlipayGGlasses (PID 2575)
+  03-18 19:14:12 : DISCONNECT device 0 client for package com.leiniao.camera (PID 3055)
+  03-18 19:14:10 : CONNECT device 0 client for package com.leiniao.camera (PID 3055)
+  03-18 19:00:36 : DISCONNECT device 0 client for package com.leiniao.camera (PID 3055)
+  03-18 19:00:11 : CONNECT device 0 client for package com.leiniao.camera (PID 3055)
+  03-18 19:00:02 : DISCONNECT device 0 client for package com.leiniao.camera (PID 3055)
+  03-18 19:00:02 : CONNECT device 0 client for package com.leiniao.camera (PID 3055)
+  03-18 18:37:37 : DISCONNECT device 0 client for package com.leiniao.camera (PID 3055)
+  03-18 18:37:30 : CONNECT device 0 client for package com.leiniao.camera (PID 3055)
+  03-18 18:36:54 : DISCONNECT device 0 client for package com.rayneo.xr.runtime (PID 2603)
+  03-18 18:36:48 : CONNECT device 0 client for package com.rayneo.xr.runtime (PID 2603)
+  02-04 14:18:49 : USER_SWITCH previous allowed user IDs: <None>, current allowed user IDs: 0
+  01-18 02:54:18 : ADD device 0, reason: (Device added)
+  01-18 02:54:18 : ADD device 1, reason: (Device added)
+
+== Camera device 0 dynamic info: ==
+  Device 0 is closed, no client instance
+== Camera device 1 dynamic info: ==
+  Device 1 is closed, no client instance
+== Camera Provider HAL legacy/1-0 (v2.7, remote) static info: 2 devices: ==
+== Camera HAL device device@3.7/legacy/0 (v3.7) static information: ==
+  Resource cost: 50
+  Conflicting devices: None
+  API1 info:
+    Has a flash unit: false
+    Facing: Back
+    Orientation: 90
+  API2 camera characteristics:
+    Dumping camera metadata array: 161 / 161 entries, 16328 / 16328 bytes of extra data.
+      Version: 1, Flags: 00000000
+      android.colorCorrection.availableAberrationModes (00004): byte[3]
+        [0 1 2 ]
+      android.control.aeAvailableAntibandingModes (10012): byte[4]
+        [0 1 2 3 ]
+      android.control.aeAvailableModes (10013): byte[2]
+        [0 1 ]
+      android.control.aeAvailableTargetFpsRanges (10014): int32[8]
+        [15 15 24 24 ]
+        [15 30 30 30 ]
+      android.control.aeCompensationRange (10015): int32[2]
+        [-12 12 ]
+      android.control.aeCompensationStep (10016): rational[1]
+        [(1 / 6) ]
+      android.control.afAvailableModes (10017): byte[1]
+        [0 ]
+      android.control.availableEffects (10018): byte[9]
+        [0 1 2 3 4 5 8 7 6 ]
+      android.control.availableSceneModes (10019): byte[16]
+        [0 1 2 3 4 5 6 7 8 9 10 12 13 14 15 18 ]
+      android.control.availableVideoStabilizationModes (1001a): byte[2]
+        [0 1 ]
+      android.control.awbAvailableModes (1001b): byte[9]
+        [1 2 3 4 5 6 7 8 0 ]
+      android.control.maxRegions (1001c): int32[3]
+        [1 0 0 ]
+      android.control.sceneModeOverrides (1001d): byte[48]
+        [1 1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 ]
+        [1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 1 ]
+        [0 1 1 0 1 1 0 1 1 0 1 1 0 1 1 0 ]
+      android.control.aeLockAvailable (10024): byte[1]
+        [TRUE ]
+      android.control.awbLockAvailable (10025): byte[1]
+        [TRUE ]
+      android.control.availableModes (10026): byte[3]
+        [0 1 2 ]
+      android.control.postRawSensitivityBoostRange (10027): int32[2]
+        [100 3199 ]
+      android.control.zoomRatioRange (1002e): float[2]
+        [1.00000000 8.00000000 ]
+      android.edge.availableEdgeModes (30002): byte[4]
+        [1 2 0 3 ]
+      android.flash.info.available (50000): byte[1]
+        [FALSE ]
+      android.hotPixel.availableHotPixelModes (60001): byte[3]
+        [0 1 2 ]
+      android.jpeg.availableThumbnailSizes (70007): int32[18]
+        [0 0 176 144 ]
+        [240 144 256 144 ]
+        [240 160 256 154 ]
+        [246 184 240 240 ]
+        [320 240 ]
+      android.jpeg.maxSize (70008): int32[1]
+        [12360712 ]
+      android.lens.info.availableApertures (90000): float[1]
+        [2.25000000 ]
+      android.lens.info.availableFilterDensities (90001): float[1]
+        [0.00000000 ]
+      android.lens.info.availableFocalLengths (90002): float[1]
+        [1.89999998 ]
+      android.lens.info.availableOpticalStabilization (90003): byte[1]
+        [0 ]
+      android.lens.info.hyperfocalDistance (90004): float[1]
+        [1.24653745 ]
+      android.lens.info.minimumFocusDistance (90005): float[1]
+        [0.00000000 ]
+      android.lens.info.shadingMapSize (90006): int32[2]
+        [17 13 ]
+      android.lens.info.focusDistanceCalibration (90007): byte[1]
+        [APPROXIMATE ]
+      android.lens.facing (80005): byte[1]
+        [BACK ]
+      android.noiseReduction.availableNoiseReductionModes (a0002): byte[5]
+        [0 1 2 3 4 ]
+      android.request.maxNumOutputStreams (c0006): int32[3]
+        [1 3 2 ]
+      android.request.maxNumInputStreams (c0008): int32[1]
+        [1 ]
+      android.request.pipelineMaxDepth (c000a): byte[1]
+        [8 ]
+      android.request.partialResultCount (c000b): int32[1]
+        [2 ]
+      android.request.availableCapabilities (c000c): byte[8]
+        [BACKWARD_COMPATIBLE RAW YUV_REPROCESSING PRIVATE_REPROCESSING READ_SENSOR_SETTINGS MANUAL_SENSOR BURST_CAPTURE MANUAL_POST_PROCESSING ]
+      android.request.availableRequestKeys (c000d): int32[102]
+        [0 1 2 3 ]
+        [65536 65537 65538 65539 ]
+        [65540 65541 65542 65543 ]
+        [65568 65545 65546 65547 ]
+        [65549 65550 65551 65552 ]
+        [65553 65576 65583 65577 ]
+        [196608 262146 393216 458752 ]
+        [458753 458754 458755 458756 ]
+        [458757 458758 524288 524289 ]
+        [524290 524291 524292 655360 ]
+        [786433 851968 851985 917504 ]
+        [917505 917506 917520 917527 ]
+        [917528 917532 917533 917537 ]
+        [1048576 1114112 1114115 1114128 ]
+        [1245184 1245185 1245186 1245187 ]
+        [1441792 524301 524294 524295 ]
+        [524298 524302 524303 -2141323262 ]
+        [-2141323263 -2141323264 -2141323259 -2141323255 ]
+        [-2141323254 -2141323253 -2141323249 -2141323252 ]
+        [-2141323251 -2141323250 -2141323246 -2141323245 ]
+        [-2141323242 -2141323240 -2141323260 -2141323261 ]
+        [-2141323241 -2141323239 -2141323238 -2141323237 ]
+        [-2141323236 -2141323235 -2141323234 -2141323233 ]
+        [-2141323228 -2141323227 -2141323226 -2141323225 ]
+        [-2141323224 -2141323223 -2141323244 -2141323231 ]
+        [-2141323230 -2141323229 ]
+      android.request.availableResultKeys (c000e): int32[69]
+        [0 1 2 65539 ]
+        [65540 65567 65543 65544 ]
+        [65568 65547 65570 65551 ]
+        [65576 65583 65577 196608 ]
+        [262146 262149 458752 458753 ]
+        [458754 458755 458756 458757 ]
+        [458758 524288 524289 524290 ]
+        [524291 524296 524297 524292 ]
+        [655360 786433 851968 851985 ]
+        [917526 917523 917504 917505 ]
+        [917506 917520 917532 917533 ]
+        [917522 917525 917536 917537 ]
+        [917527 917528 1048576 1114112 ]
+        [1114121 1114124 1114125 1114126 ]
+        [1114118 1114119 1245184 1245185 ]
+        [1245186 1245187 1441792 524301 ]
+        [524294 524295 524298 524302 ]
+        [524303 ]
+      android.request.availableCharacteristicsKeys (c000f): int32[123]
+        [4 65554 65555 65556 ]
+        [65557 65558 65559 65560 ]
+        [65561 65562 65563 65564 ]
+        [65565 65571 65572 65573 ]
+        [65574 65575 65577 65582 ]
+        [65584 1638402 1638401 1638403 ]
+        [1638400 1638410 1638409 1638411 ]
+        [196610 327680 393217 458759 ]
+        [458760 589824 589825 589826 ]
+        [589827 589828 589829 589830 ]
+        [589831 524293 1703936 1703937 ]
+        [655362 786438 786440 786442 ]
+        [786443 786444 786445 786446 ]
+        [786447 786448 851972 851977 ]
+        [851978 851979 851976 851980 ]
+        [851981 851982 851983 851984 ]
+        [851986 851987 851988 851989 ]
+        [851990 851991 851992 917526 ]
+        [917523 917534 917535 983040 ]
+        [983041 983042 983043 983044 ]
+        [983045 983046 983047 983048 ]
+        [983049 983050 983051 983052 ]
+        [983053 983054 917507 917508 ]
+        [917509 917510 917511 917512 ]
+        [917513 917514 917516 917517 ]
+        [917518 917519 917529 1048578 ]
+        [1179648 1179650 1179654 1179655 ]
+        [1245188 1245189 1376256 1376258 ]
+        [1507329 1572865 524300 524301 ]
+        [524295 524294 524298 524302 ]
+        [524303 1900544 1900545 ]
+      android.request.availableSessionKeys (c0010): int32[36]
+        [65541 -2141323262 -2141323263 -2141323264 ]
+        [-2141323259 -2141323255 -2141323254 -2141323253 ]
+        [-2141323249 -2141323252 -2141323251 -2141323250 ]
+        [-2141323246 -2141323245 -2141323242 -2141323240 ]
+        [-2141323260 -2141323261 -2141323241 -2141323239 ]
+        [-2141323238 -2141323237 -2141323236 -2141323235 ]
+        [-2141323234 -2141323233 -2141323228 -2141323227 ]
+        [-2141323226 -2141323225 -2141323224 -2141323223 ]
+        [-2141323244 -2141323231 -2141323230 -2141323229 ]
+      android.scaler.availableMaxDigitalZoom (d0004): float[1]
+        [8.00000000 ]
+      android.scaler.availableInputOutputFormatsMap (d0009): int32[8]
+        [34 2 35 33 ]
+        [35 2 35 33 ]
+      android.scaler.availableStreamConfigurations (d000a): int32[708]
+        [34 4032 3024 OUTPUT ]
+        [34 4032 3024 INPUT ]
+        [35 4032 3024 OUTPUT ]
+        [35 4032 3024 INPUT ]
+        [33 4032 3024 OUTPUT ]
+        [54 4032 3024 OUTPUT ]
+        [34 4032 3024 OUTPUT ]
+        [34 4032 3024 INPUT ]
+        [35 4032 3024 OUTPUT ]
+        [35 4032 3024 INPUT ]
+        [33 4032 3024 OUTPUT ]
+        [54 4032 3024 OUTPUT ]
+        [34 4000 3000 OUTPUT ]
+        [34 4000 3000 INPUT ]
+        [35 4000 3000 OUTPUT ]
+        [35 4000 3000 INPUT ]
+        [33 4000 3000 OUTPUT ]
+        [54 4000 3000 OUTPUT ]
+        [34 3840 2160 OUTPUT ]
+        [34 3840 2160 INPUT ]
+        [35 3840 2160 OUTPUT ]
+        [35 3840 2160 INPUT ]
+        [33 3840 2160 OUTPUT ]
+        [54 3840 2160 OUTPUT ]
+        [34 3264 2448 OUTPUT ]
+        [34 3264 2448 INPUT ]
+        [35 3264 2448 OUTPUT ]
+        [35 3264 2448 INPUT ]
+        [33 3264 2448 OUTPUT ]
+        [54 3264 2448 OUTPUT ]
+        [34 3200 2400 OUTPUT ]
+        [34 3200 2400 INPUT ]
+        [35 3200 2400 OUTPUT ]
+        [35 3200 2400 INPUT ]
+        [33 3200 2400 OUTPUT ]
+        [54 3200 2400 OUTPUT ]
+        [34 2876 2156 OUTPUT ]
+        [34 2876 2156 INPUT ]
+        [35 2876 2156 OUTPUT ]
+        [35 2876 2156 INPUT ]
+        [33 2876 2156 OUTPUT ]
+        [54 2876 2156 OUTPUT ]
+        [34 2582 1936 OUTPUT ]
+        [35 2582 1936 OUTPUT ]
+        [33 2582 1936 OUTPUT ]
+        [54 2582 1936 OUTPUT ]
+        [34 2432 1824 OUTPUT ]
+        [35 2432 1824 OUTPUT ]
+        [33 2432 1824 OUTPUT ]
+        [54 2432 1824 OUTPUT ]
+        [34 1728 2304 OUTPUT ]
+        [35 1728 2304 OUTPUT ]
+        [33 1728 2304 OUTPUT ]
+        [54 1728 2304 OUTPUT ]
+        [34 2432 1368 OUTPUT ]
+        [35 2432 1368 OUTPUT ]
+        [33 2432 1368 OUTPUT ]
+        [54 2432 1368 OUTPUT ]
+        [34 2400 1350 OUTPUT ]
+        [35 2400 1350 OUTPUT ]
+        [33 2400 1350 OUTPUT ]
+        [54 2400 1350 OUTPUT ]
+        [34 2400 1344 OUTPUT ]
+        [35 2400 1344 OUTPUT ]
+        [33 2400 1344 OUTPUT ]
+        [54 2400 1344 OUTPUT ]
+        [34 1344 2400 OUTPUT ]
+        [35 1344 2400 OUTPUT ]
+        [33 1344 2400 OUTPUT ]
+        [54 1344 2400 OUTPUT ]
+        [34 2048 1536 OUTPUT ]
+        [35 2048 1536 OUTPUT ]
+        [33 2048 1536 OUTPUT ]
+        [54 2048 1536 OUTPUT ]
+        [34 1472 1920 OUTPUT ]
+        [35 1472 1920 OUTPUT ]
+        [33 1472 1920 OUTPUT ]
+        [54 1472 1920 OUTPUT ]
+        [34 1920 1440 OUTPUT ]
+        [35 1920 1440 OUTPUT ]
+        [33 1920 1440 OUTPUT ]
+        [54 1920 1440 OUTPUT ]
+        [34 2176 1224 OUTPUT ]
+        [35 2176 1224 OUTPUT ]
+        [33 2176 1224 OUTPUT ]
+        [54 2176 1224 OUTPUT ]
+        [34 1920 1080 OUTPUT ]
+        [35 1920 1080 OUTPUT ]
+        [33 1920 1080 OUTPUT ]
+        [54 1920 1080 OUTPUT ]
+        [34 1600 1200 OUTPUT ]
+        [35 1600 1200 OUTPUT ]
+        [33 1600 1200 OUTPUT ]
+        [54 1600 1200 OUTPUT ]
+        [34 1440 1080 OUTPUT ]
+        [35 1440 1080 OUTPUT ]
+        [33 1440 1080 OUTPUT ]
+        [54 1440 1080 OUTPUT ]
+        [34 1280 960 OUTPUT ]
+        [35 1280 960 OUTPUT ]
+        [33 1280 960 OUTPUT ]
+        [54 1280 960 OUTPUT ]
+        [34 1280 720 OUTPUT ]
+        [35 1280 720 OUTPUT ]
+        [33 1280 720 OUTPUT ]
+        [54 1280 720 OUTPUT ]
+        [34 720 1280 OUTPUT ]
+        [35 720 1280 OUTPUT ]
+        [33 720 1280 OUTPUT ]
+        [54 720 1280 OUTPUT ]
+        [34 1024 768 OUTPUT ]
+        [35 1024 768 OUTPUT ]
+        [33 1024 768 OUTPUT ]
+        [54 1024 768 OUTPUT ]
+        [34 960 720 OUTPUT ]
+        [35 960 720 OUTPUT ]
+        [33 960 720 OUTPUT ]
+        [54 960 720 OUTPUT ]
+        [34 1280 480 OUTPUT ]
+        [35 1280 480 OUTPUT ]
+        [33 1280 480 OUTPUT ]
+        [54 1280 480 OUTPUT ]
+        [34 960 540 OUTPUT ]
+        [35 960 540 OUTPUT ]
+        [33 960 540 OUTPUT ]
+        [54 960 540 OUTPUT ]
+        [34 800 600 OUTPUT ]
+        [35 800 600 OUTPUT ]
+        [33 800 600 OUTPUT ]
+        [54 800 600 OUTPUT ]
+        [34 648 648 OUTPUT ]
+        [35 648 648 OUTPUT ]
+        [33 648 648 OUTPUT ]
+        [54 648 648 OUTPUT ]
+        [34 800 480 OUTPUT ]
+        [35 800 480 OUTPUT ]
+        [33 800 480 OUTPUT ]
+        [54 800 480 OUTPUT ]
+        [34 720 480 OUTPUT ]
+        [35 720 480 OUTPUT ]
+        [33 720 480 OUTPUT ]
+        [54 720 480 OUTPUT ]
+        [34 640 480 OUTPUT ]
+        [35 640 480 OUTPUT ]
+        [33 640 480 OUTPUT ]
+        [54 640 480 OUTPUT ]
+        [34 640 400 OUTPUT ]
+        [35 640 400 OUTPUT ]
+        [33 640 400 OUTPUT ]
+        [54 640 400 OUTPUT ]
+        [34 640 360 OUTPUT ]
+        [35 640 360 OUTPUT ]
+        [33 640 360 OUTPUT ]
+        [54 640 360 OUTPUT ]
+        [34 480 360 OUTPUT ]
+        [35 480 360 OUTPUT ]
+        [33 480 360 OUTPUT ]
+        [54 480 360 OUTPUT ]
+        [34 352 288 OUTPUT ]
+        [35 352 288 OUTPUT ]
+        [33 352 288 OUTPUT ]
+        [54 352 288 OUTPUT ]
+        [34 320 240 OUTPUT ]
+        [35 320 240 OUTPUT ]
+        [33 320 240 OUTPUT ]
+        [54 320 240 OUTPUT ]
+        [34 320 180 OUTPUT ]
+        [35 320 180 OUTPUT ]
+        [33 320 180 OUTPUT ]
+        [54 320 180 OUTPUT ]
+        [34 176 144 OUTPUT ]
+        [35 176 144 OUTPUT ]
+        [33 176 144 OUTPUT ]
+        [54 176 144 OUTPUT ]
+        [37 4032 3024 OUTPUT ]
+        [32 4032 3024 OUTPUT ]
+        [36 4032 3024 OUTPUT ]
+      android.scaler.availableMinFrameDurations (d000b): int64[652]
+        [34 4032 ]
+        [3024 33333333 ]
+        [35 4032 ]
+        [3024 33333333 ]
+        [33 4032 ]
+        [3024 33333333 ]
+        [54 4032 ]
+        [3024 33333333 ]
+        [34 4032 ]
+        [3024 33333333 ]
+        [35 4032 ]
+        [3024 33333333 ]
+        [33 4032 ]
+        [3024 33333333 ]
+        [54 4032 ]
+        [3024 33333333 ]
+        [34 4000 ]
+        [3000 33333333 ]
+        [35 4000 ]
+        [3000 33333333 ]
+        [33 4000 ]
+        [3000 33333333 ]
+        [54 4000 ]
+        [3000 33333333 ]
+        [34 3840 ]
+        [2160 33333333 ]
+        [35 3840 ]
+        [2160 33333333 ]
+        [33 3840 ]
+        [2160 33333333 ]
+        [54 3840 ]
+        [2160 33333333 ]
+        [34 3264 ]
+        [2448 33333333 ]
+        [35 3264 ]
+        [2448 33333333 ]
+        [33 3264 ]
+        [2448 33333333 ]
+        [54 3264 ]
+        [2448 33333333 ]
+        [34 3200 ]
+        [2400 33333333 ]
+        [35 3200 ]
+        [2400 33333333 ]
+        [33 3200 ]
+        [2400 33333333 ]
+        [54 3200 ]
+        [2400 33333333 ]
+        [34 2876 ]
+        [2156 33333333 ]
+        [35 2876 ]
+        [2156 33333333 ]
+        [33 2876 ]
+        [2156 33333333 ]
+        [54 2876 ]
+        [2156 33333333 ]
+        [34 2582 ]
+        [1936 33333333 ]
+        [35 2582 ]
+        [1936 33333333 ]
+        [33 2582 ]
+        [1936 33333333 ]
+        [54 2582 ]
+        [1936 33333333 ]
+        [34 2432 ]
+        [1824 33333333 ]
+        [35 2432 ]
+        [1824 33333333 ]
+        [33 2432 ]
+        [1824 33333333 ]
+        [54 2432 ]
+        [1824 33333333 ]
+        [34 1728 ]
+        [2304 33333333 ]
+        [35 1728 ]
+        [2304 33333333 ]
+        [33 1728 ]
+        [2304 33333333 ]
+        [54 1728 ]
+        [2304 33333333 ]
+        [34 2432 ]
+        [1368 33333333 ]
+        [35 2432 ]
+        [1368 33333333 ]
+        [33 2432 ]
+        [1368 33333333 ]
+        [54 2432 ]
+        [1368 33333333 ]
+        [34 2400 ]
+        [1350 33333333 ]
+        [35 2400 ]
+        [1350 33333333 ]
+        [33 2400 ]
+        [1350 33333333 ]
+        [54 2400 ]
+        [1350 33333333 ]
+        [34 2400 ]
+        [1344 33333333 ]
+        [35 2400 ]
+        [1344 33333333 ]
+        [33 2400 ]
+        [1344 33333333 ]
+        [54 2400 ]
+        [1344 33333333 ]
+        [34 1344 ]
+        [2400 33333333 ]
+        [35 1344 ]
+        [2400 33333333 ]
+        [33 1344 ]
+        [2400 33333333 ]
+        [54 1344 ]
+        [2400 33333333 ]
+        [34 2048 ]
+        [1536 33333333 ]
+        [35 2048 ]
+        [1536 33333333 ]
+        [33 2048 ]
+        [1536 33333333 ]
+        [54 2048 ]
+        [1536 33333333 ]
+        [34 1472 ]
+        [1920 33333333 ]
+        [35 1472 ]
+        [1920 33333333 ]
+        [33 1472 ]
+        [1920 33333333 ]
+        [54 1472 ]
+        [1920 33333333 ]
+        [34 1920 ]
+        [1440 33333333 ]
+        [35 1920 ]
+        [1440 33333333 ]
+        [33 1920 ]
+        [1440 33333333 ]
+        [54 1920 ]
+        [1440 33333333 ]
+        [34 2176 ]
+        [1224 33333333 ]
+        [35 2176 ]
+        [1224 33333333 ]
+        [33 2176 ]
+        [1224 33333333 ]
+        [54 2176 ]
+        [1224 33333333 ]
+        [34 1920 ]
+        [1080 33333333 ]
+        [35 1920 ]
+        [1080 33333333 ]
+        [33 1920 ]
+        [1080 33333333 ]
+        [54 1920 ]
+        [1080 33333333 ]
+        [34 1600 ]
+        [1200 33333333 ]
+        [35 1600 ]
+        [1200 33333333 ]
+        [33 1600 ]
+        [1200 33333333 ]
+        [54 1600 ]
+        [1200 33333333 ]
+        [34 1440 ]
+        [1080 33333333 ]
+        [35 1440 ]
+        [1080 33333333 ]
+        [33 1440 ]
+        [1080 33333333 ]
+        [54 1440 ]
+        [1080 33333333 ]
+        [34 1280 ]
+        [960 33333333 ]
+        [35 1280 ]
+        [960 33333333 ]
+        [33 1280 ]
+        [960 33333333 ]
+        [54 1280 ]
+        [960 33333333 ]
+        [34 1280 ]
+        [720 33333333 ]
+        [35 1280 ]
+        [720 33333333 ]
+        [33 1280 ]
+        [720 33333333 ]
+        [54 1280 ]
+        [720 33333333 ]
+        [34 720 ]
+        [1280 33333333 ]
+        [35 720 ]
+        [1280 33333333 ]
+        [33 720 ]
+        [1280 33333333 ]
+        [54 720 ]
+        [1280 33333333 ]
+        [34 1024 ]
+        [768 33333333 ]
+        [35 1024 ]
+        [768 33333333 ]
+        [33 1024 ]
+        [768 33333333 ]
+        [54 1024 ]
+        [768 33333333 ]
+        [34 960 ]
+        [720 33333333 ]
+        [35 960 ]
+        [720 33333333 ]
+        [33 960 ]
+        [720 33333333 ]
+        [54 960 ]
+        [720 33333333 ]
+        [34 1280 ]
+        [480 33333333 ]
+        [35 1280 ]
+        [480 33333333 ]
+        [33 1280 ]
+        [480 33333333 ]
+        [54 1280 ]
+        [480 33333333 ]
+        [34 960 ]
+        [540 33333333 ]
+        [35 960 ]
+        [540 33333333 ]
+        [33 960 ]
+        [540 33333333 ]
+        [54 960 ]
+        [540 33333333 ]
+        [34 800 ]
+        [600 33333333 ]
+        [35 800 ]
+        [600 33333333 ]
+        [33 800 ]
+        [600 33333333 ]
+        [54 800 ]
+        [600 33333333 ]
+        [34 648 ]
+        [648 33333333 ]
+        [35 648 ]
+        [648 33333333 ]
+        [33 648 ]
+        [648 33333333 ]
+        [54 648 ]
+        [648 33333333 ]
+        [34 800 ]
+        [480 33333333 ]
+        [35 800 ]
+        [480 33333333 ]
+        [33 800 ]
+        [480 33333333 ]
+        [54 800 ]
+        [480 33333333 ]
+        [34 720 ]
+        [480 33333333 ]
+        [35 720 ]
+        [480 33333333 ]
+        [33 720 ]
+        [480 33333333 ]
+        [54 720 ]
+        [480 33333333 ]
+        [34 640 ]
+        [480 33333333 ]
+        [35 640 ]
+        [480 33333333 ]
+        [33 640 ]
+        [480 33333333 ]
+        [54 640 ]
+        [480 33333333 ]
+        [34 640 ]
+        [400 33333333 ]
+        [35 640 ]
+        [400 33333333 ]
+        [33 640 ]
+        [400 33333333 ]
+        [54 640 ]
+        [400 33333333 ]
+        [34 640 ]
+        [360 33333333 ]
+        [35 640 ]
+        [360 33333333 ]
+        [33 640 ]
+        [360 33333333 ]
+        [54 640 ]
+        [360 33333333 ]
+        [34 480 ]
+        [360 33333333 ]
+        [35 480 ]
+        [360 33333333 ]
+        [33 480 ]
+        [360 33333333 ]
+        [54 480 ]
+        [360 33333333 ]
+        [34 352 ]
+        [288 33333333 ]
+        [35 352 ]
+        [288 33333333 ]
+        [33 352 ]
+        [288 33333333 ]
+        [54 352 ]
+        [288 33333333 ]
+        [34 320 ]
+        [240 33333333 ]
+        [35 320 ]
+        [240 33333333 ]
+        [33 320 ]
+        [240 33333333 ]
+        [54 320 ]
+        [240 33333333 ]
+        [34 320 ]
+        [180 33333333 ]
+        [35 320 ]
+        [180 33333333 ]
+        [33 320 ]
+        [180 33333333 ]
+        [54 320 ]
+        [180 33333333 ]
+        [34 176 ]
+        [144 33333333 ]
+        [35 176 ]
+        [144 33333333 ]
+        [33 176 ]
+        [144 33333333 ]
+        [54 176 ]
+        [144 33333333 ]
+        [37 4032 ]
+        [3024 33328889 ]
+        [32 4032 ]
+        [3024 33328889 ]
+        [36 4032 ]
+        [3024 33328889 ]
+      android.scaler.availableRawSizes (d0008): int32[6]
+        [4032 3024 4032 2268 ]
+        [1920 1080 ]
+      android.scaler.availableStallDurations (d000c): int64[160]
+        [33 4032 ]
+        [3024 79252992 ]
+        [33 4032 ]
+        [3024 79252992 ]
+        [33 4000 ]
+        [3000 78000000 ]
+        [33 3840 ]
+        [2160 53913600 ]
+        [33 3264 ]
+        [2448 51936768 ]
+        [33 3200 ]
+        [2400 49920000 ]
+        [33 2876 ]
+        [2156 40304264 ]
+        [33 2582 ]
+        [1936 32491888 ]
+        [33 2432 ]
+        [1824 28833792 ]
+        [33 1728 ]
+        [2304 25878528 ]
+        [33 2432 ]
+        [1368 21625344 ]
+        [33 2400 ]
+        [1350 21060000 ]
+        [33 2400 ]
+        [1344 20966400 ]
+        [33 1344 ]
+        [2400 20966400 ]
+        [33 2048 ]
+        [1536 20447232 ]
+        [33 1472 ]
+        [1920 18370560 ]
+        [33 1920 ]
+        [1440 17971200 ]
+        [33 2176 ]
+        [1224 17312256 ]
+        [33 1920 ]
+        [1080 13478400 ]
+        [33 1600 ]
+        [1200 12480000 ]
+        [33 1440 ]
+        [1080 10108800 ]
+        [33 1280 ]
+        [960 7987200 ]
+        [33 1280 ]
+        [720 5990400 ]
+        [33 720 ]
+        [1280 5990400 ]
+        [33 1024 ]
+        [768 5111808 ]
+        [33 960 ]
+        [720 4492800 ]
+        [33 1280 ]
+        [480 3993600 ]
+        [33 960 ]
+        [540 3369600 ]
+        [33 800 ]
+        [600 3120000 ]
+        [33 648 ]
+        [648 2729376 ]
+        [33 800 ]
+        [480 2496000 ]
+        [33 720 ]
+        [480 2246400 ]
+        [33 640 ]
+        [480 1996800 ]
+        [33 640 ]
+        [400 1664000 ]
+        [33 640 ]
+        [360 1497600 ]
+        [33 480 ]
+        [360 1123200 ]
+        [33 352 ]
+        [288 658944 ]
+        [33 320 ]
+        [240 499200 ]
+        [33 320 ]
+        [180 374400 ]
+        [33 176 ]
+        [144 164736 ]
+      android.scaler.croppingType (d000d): byte[1]
+        [CENTER_ONLY ]
+      android.sensor.opaqueRawSize (e001e): int32[3]
+        [4032 3024 15240960 ]
+      android.sensor.info.activeArraySize (f0000): int32[4]
+        [0 0 4032 3024 ]
+      android.sensor.info.sensitivityRange (f0001): int32[2]
+        [100 1600 ]
+      android.sensor.info.colorFilterArrangement (f0002): byte[1]
+        [RGGB ]
+      android.sensor.info.exposureTimeRange (f0003): int64[2]
+        [37512 317378880 ]
+      android.sensor.info.maxFrameDuration (f0004): int64[1]
+        [317417632 ]
+      android.sensor.info.physicalSize (f0005): float[2]
+        [4.03200006 3.02399993 ]
+      android.sensor.info.pixelArraySize (f0006): int32[2]
+        [4032 3024 ]
+      android.sensor.info.whiteLevel (f0007): int32[1]
+        [1023 ]
+      android.sensor.info.timestampSource (f0008): byte[1]
+        [REALTIME ]
+      android.sensor.info.lensShadingApplied (f0009): byte[1]
+        [TRUE ]
+      android.sensor.info.preCorrectionActiveArraySize (f000a): int32[4]
+        [0 0 4032 3024 ]
+      android.sensor.referenceIlluminant1 (e0003): byte[1]
+        [D65 ]
+      android.sensor.referenceIlluminant2 (e0004): byte[1]
+        [17 ]
+      android.sensor.calibrationTransform1 (e0005): rational[9]
+        [(75 / 128) (0 / 128) ]
+        [(0 / 128) (0 / 128) ]
+        [(128 / 128) (0 / 128) ]
+        [(0 / 128) (0 / 128) ]
+        [(77 / 128) ]
+      android.sensor.calibrationTransform2 (e0006): rational[9]
+        [(128 / 128) (0 / 128) ]
+        [(0 / 128) (0 / 128) ]
+        [(128 / 128) (0 / 128) ]
+        [(0 / 128) (0 / 128) ]
+        [(128 / 128) ]
+      android.sensor.colorTransform1 (e0007): rational[9]
+        [(207 / 128) (-98 / 128) ]
+        [(-32 / 128) (-124 / 128) ]
+        [(240 / 128) (5 / 128) ]
+        [(5 / 128) (-17 / 128) ]
+        [(90 / 128) ]
+      android.sensor.colorTransform2 (e0008): rational[9]
+        [(344 / 128) (-238 / 128) ]
+        [(-60 / 128) (-137 / 128) ]
+        [(279 / 128) (-1 / 128) ]
+        [(7 / 128) (-17 / 128) ]
+        [(152 / 128) ]
+      android.sensor.forwardMatrix1 (e0009): rational[9]
+        [(56 / 128) (49 / 128) ]
+        [(18 / 128) (28 / 128) ]
+        [(92 / 128) (8 / 128) ]
+        [(2 / 128) (12 / 128) ]
+        [(91 / 128) ]
+      android.sensor.forwardMatrix2 (e000a): rational[9]
+        [(56 / 128) (49 / 128) ]
+        [(18 / 128) (28 / 128) ]
+        [(92 / 128) (8 / 128) ]
+        [(2 / 128) (12 / 128) ]
+        [(91 / 128) ]
+      android.sensor.blackLevelPattern (e000c): int32[4]
+        [64 64 64 64 ]
+      android.sensor.maxAnalogSensitivity (e000d): int32[1]
+        [1600 ]
+      android.sensor.orientation (e000e): int32[1]
+        [90 ]
+      android.sensor.profileHueSatMapDimensions (e000f): int32[3]
+        [0 0 0 ]
+      android.sensor.availableTestPatternModes (e0019): int32[1]
+        [0 ]
+      android.shading.availableModes (100002): byte[3]
+        [0 1 2 ]
+      android.statistics.info.availableFaceDetectModes (120000): byte[2]
+        [0 1 ]
+      android.statistics.info.maxFaceCount (120002): int32[1]
+        [10 ]
+      android.statistics.info.availableHotPixelMapModes (120006): byte[1]
+        [0 ]
+      android.statistics.info.availableLensShadingMapModes (120007): byte[2]
+        [0 1 ]
+      android.tonemap.maxCurvePoints (130004): int32[1]
+        [64 ]
+      android.tonemap.availableToneMapModes (130005): byte[3]
+        [0 1 2 ]
+      android.info.supportedHardwareLevel (150000): byte[1]
+        [LIMITED ]
+      android.info.supportedBufferManagementVersion (150002): byte[1]
+        [HIDL_DEVICE_3_5 ]
+      android.sync.maxLatency (170001): int32[1]
+        [PER_FRAME_CONTROL ]
+      android.reprocess.maxCaptureStall (180001): int32[1]
+        [2 ]
+      android.lens.poseReference (8000c): byte[1]
+        [PRIMARY_CAMERA ]
+      android.lens.distortion (8000d): float[5]
+        [0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 ]
+      android.lens.poseTranslation (80007): float[3]
+        [0.00000000 0.00000000 0.00000000 ]
+      android.lens.poseRotation (80006): float[4]
+        [0.00000000 0.00000000 0.00000000 1.00000000 ]
+      android.lens.intrinsicCalibration (8000a): float[5]
+        [1899.99987793 1899.99987793 0.00000000 0.00000000 0.00000000 ]
+      android.heic.info.supported (1d0000): byte[1]
+        [TRUE ]
+      android.heic.info.maxJpegAppSegmentsCount (1d0001): byte[1]
+        [1 ]
+      org.codeaurora.qcamera3.saturation.range (80b80001): int32[4]
+        [0 10 5 1 ]
+      org.codeaurora.qcamera3.shadingCorrection.enableShadingCorrection (800f0000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.inSensorSHDRMode.inSensorSHDRMode (80110000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.exposure_metering.available_modes (80a30001): int32[3]
+        [0 1 2 ]
+      org.codeaurora.qcamera3.iso_exp_priority.iso_available_modes (80040003): int32[8]
+        [0 1 2 3 ]
+        [4 5 6 7 ]
+      org.codeaurora.qcamera3.iso_exp_priority.exposure_time_range (80040004): int64[2]
+        [37512 317378880 ]
+      org.codeaurora.qcamera3.sharpness.range (80020001): int32[2]
+        [0 6 ]
+      org.codeaurora.qcamera3.histogram.buckets (80050001): int32[1]
+        [256 ]
+      org.codeaurora.qcamera3.histogram.max_count (80050002): int32[1]
+        [256 ]
+      org.codeaurora.qcamera3.instant_aec.instant_aec_available_modes (80080001): int32[3]
+        [0 1 2 ]
+      org.quic.camera.AIDESupported.isAIDESupported (80980000): byte[1]
+        [0 ]
+      org.quic.camera.MaxPreviewSize.MaxPreviewSize (804a0000): int32[2]
+        [8000 6000 ]
+      org.quic.camera.BurstFPS.isBurstShotSupported (80490001): byte[1]
+        [1 ]
+      org.quic.camera.BurstFPS.MaxBurstShotFPS (80490002): float[1]
+        [30.00000000 ]
+      org.quic.camera.LiveshotSize.isLiveshotSizeSameAsVideoSize (804c0000): byte[1]
+        [0 ]
+      org.quic.camera.FDRendering.isFDRenderingInVideoUISupported (804e0001): byte[1]
+        [1 ]
+      org.quic.camera.FDRendering.isFDRenderingInCameraUISupported (804e0000): byte[1]
+        [1 ]
+      org.quic.camera2.VideoConfigurations.info.VideoConfigurationsTable (803b0000): int32[112]
+        [3840 2160 60 30 ]
+        [1 1 4032 3024 ]
+        [2876 2156 60 30 ]
+        [1 1 4032 3024 ]
+        [2582 1936 60 30 ]
+        [1 1 4032 3024 ]
+        [1920 1080 60 30 ]
+        [1 1 4032 3024 ]
+        [1280 960 60 30 ]
+        [1 1 4032 3024 ]
+        [1280 720 60 30 ]
+        [1 1 4032 3024 ]
+        [1280 480 60 30 ]
+        [1 1 4032 3024 ]
+        [720 480 60 30 ]
+        [1 1 4032 3024 ]
+        [640 480 60 30 ]
+        [1 1 4032 3024 ]
+        [480 360 60 30 ]
+        [1 1 4032 3024 ]
+        [352 288 60 30 ]
+        [1 1 4032 3024 ]
+        [320 240 60 30 ]
+        [1 1 4032 3024 ]
+        [320 180 60 30 ]
+        [1 1 4032 3024 ]
+        [176 144 60 30 ]
+        [1 1 4032 3024 ]
+      org.quic.camera2.VideoConfigurations.info.VideoConfigurationsTableSize (803b0001): int32[1]
+        [14 ]
+      org.quic.camera.SensorModeFS.isFastShutterModeSupported (80520000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.available_video_hdr_modes.video_hdr_modes (80330000): int32[5]
+        [0 1 2 4 ]
+        [5 ]
+      org.codeaurora.qcamera3.manualWB.color_temperature_range (80270001): int32[2]
+        [0 10000 ]
+      org.codeaurora.qcamera3.manualWB.gains_range (80270003): float[2]
+        [1.00000000 31.98999977 ]
+      org.codeaurora.qcamera3.platformCapabilities.IPEICACapabilities (80590000): byte[8]
+        [0 0 0 0 89 13 0 0 ]
+      org.codeaurora.qcamera3.platformCapabilities.ExtendedMaxZoom (80590001): float[1]
+        [100.00000000 ]
+      org.codeaurora.qcamera3.platformCapabilities.EnableVSR (80590002): int32[1]
+        [0 ]
+      org.quic.camera2.sensormode.info.SensorModeTable (80370000): int32[11]
+        [3 3 4032 3024 ]
+        [30 4032 2268 30 ]
+        [1920 1080 30 ]
+      org.quic.camera.ltmDynamicContrast.ltmDynamicContrastStrengthRange (805f0003): float[2]
+        [-100.00000000 100.00000000 ]
+      org.quic.camera.ltmDynamicContrast.ltmDarkBoostStrengthRange (805f0004): float[2]
+        [-100.00000000 100.00000000 ]
+      org.quic.camera.ltmDynamicContrast.ltmBrightSupressStrengthRange (805f0005): float[2]
+        [-100.00000000 100.00000000 ]
+      org.quic.camera.swcapabilities.SWMCTFEnable (806e0000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.stats.bsgc_available (80300001): byte[1]
+        [0 ]
+      org.quic.camera.swcapabilities.MFNRType (806e0001): int32[1]
+        [1 ]
+      org.quic.camera.swcapabilities.isQLLSupported (806e0003): byte[1]
+        [1 ]
+      org.quic.camera.HEICSupport.HEICEnabled (80880000): byte[1]
+        [1 ]
+      org.quic.camera2.objectTrackingResults.TrackerEnable (80250000): byte[1]
+        [1 ]
+      org.codeaurora.qcamera3.logicalCameraType.logical_camera_type (80580000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.availableStreamMap (805e0000): int32[208]
+        [0 0 35 0 ]
+        [1 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 35 0 ]
+        [2 0 1 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 35 1 ]
+        [2 1 1 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 35 2 ]
+        [2 2 1 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [640 480 35 0 ]
+        [2 0 0 1 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [640 480 35 1 ]
+        [2 1 0 1 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [640 480 35 2 ]
+        [2 2 0 1 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 37 0 ]
+        [2 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 37 1 ]
+        [2 1 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 37 2 ]
+        [2 2 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 32 0 ]
+        [2 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 32 1 ]
+        [2 1 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 32 2 ]
+        [2 2 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+      org.codeaurora.qcamera3.sessionParameters.enableMFNR (805e0002): int32[1]
+        [1 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableSHDR (805e0003): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableMFHDR (805e0004): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableQHDR (805e0017): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.numHDRexposure (805e0019): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableAutoHDR (805e0018): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.HDRModePreference (805e001a): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.enableQLL (805e000f): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.enableStatsVisualizer (805e0013): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableAFBracketing (805e001b): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.HDRVideoMode (805e0009): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableSalinet (805e0024): byte[1]
+        [0 ]
+      com.leiniao.device.capabilities.sensor.highresolution (80d90000): int32[2]
+        [4032 3024 ]
+      com.leiniao.feature.stream.scenedetect.available (80d50000): int32[1]
+        [7 ]
+      com.leiniao.feature.stream.motiondetect.enable (80d50001): int32[1]
+        [1 ]
+      com.leiniao.feature.stream.distortion.enable (80d50008): int32[1]
+        [1 ]
+      com.leiniao.feature.capture.distortion.enable (80d60000): int32[1]
+        [1 ]
+      com.leiniao.feature.capture.mfnr.enable (80d60005): int32[1]
+        [1 ]
+      com.leiniao.feature.stream.hdr.enable (80d50009): int32[1]
+        [1 ]
+      com.leiniao.feature.stream.autozoom.available (80d50003): int32[1]
+        [1 ]
+      com.leiniao.feature.stream.eis.available (80d50004): int32[1]
+        [1 ]
+      com.leiniao.feature.stream.supereis.available (80d50005): int32[1]
+        [1 ]
+      com.leiniao.feature.stream.denoise.available (80d50006): int32[1]
+        [0 ]
+      com.leiniao.feature.stream.videohdr.available (80d50007): int32[1]
+        [1 ]
+      com.leiniao.config.mmi.calibrationCameraId (80d80009): int32[2]
+        [0 2 ]
+      com.leiniao.config.mmi.calibrationSize (80d80008): int32[2]
+        [4000 3000 ]
+      com.leiniao.config.video.af.enable (80d80007): byte[30]
+        [0 1 1 0 2 0 0 3 1 0 4 0 0 5 1 0 ]
+        [6 1 0 10 1 0 9 1 0 7 0 0 8 0 ]
+      android.heic.availableHeicStreamConfigurations (1c0000): int32[156]
+        [33 4032 3024 OUTPUT ]
+        [33 4000 3000 OUTPUT ]
+        [33 3840 2160 OUTPUT ]
+        [33 3264 2448 OUTPUT ]
+        [33 3200 2400 OUTPUT ]
+        [33 2876 2156 OUTPUT ]
+        [33 2582 1936 OUTPUT ]
+        [33 2432 1824 OUTPUT ]
+        [33 1728 2304 OUTPUT ]
+        [33 2432 1368 OUTPUT ]
+        [33 2400 1350 OUTPUT ]
+        [33 2400 1344 OUTPUT ]
+        [33 1344 2400 OUTPUT ]
+        [33 2048 1536 OUTPUT ]
+        [33 1472 1920 OUTPUT ]
+        [33 1920 1440 OUTPUT ]
+        [33 2176 1224 OUTPUT ]
+        [33 1920 1080 OUTPUT ]
+        [33 1600 1200 OUTPUT ]
+        [33 1440 1080 OUTPUT ]
+        [33 1280 960 OUTPUT ]
+        [33 1280 720 OUTPUT ]
+        [33 720 1280 OUTPUT ]
+        [33 1024 768 OUTPUT ]
+        [33 960 720 OUTPUT ]
+        [33 1280 480 OUTPUT ]
+        [33 960 540 OUTPUT ]
+        [33 800 600 OUTPUT ]
+        [33 648 648 OUTPUT ]
+        [33 800 480 OUTPUT ]
+        [33 720 480 OUTPUT ]
+        [33 640 480 OUTPUT ]
+        [33 640 400 OUTPUT ]
+        [33 640 360 OUTPUT ]
+        [33 480 360 OUTPUT ]
+        [33 352 288 OUTPUT ]
+        [33 320 240 OUTPUT ]
+        [33 320 180 OUTPUT ]
+        [33 176 144 OUTPUT ]
+      android.heic.availableHeicMinFrameDurations (1c0001): int64[156]
+        [33 4032 ]
+        [3024 33333333 ]
+        [33 4000 ]
+        [3000 33333333 ]
+        [33 3840 ]
+        [2160 33333333 ]
+        [33 3264 ]
+        [2448 33333333 ]
+        [33 3200 ]
+        [2400 33333333 ]
+        [33 2876 ]
+        [2156 33333333 ]
+        [33 2582 ]
+        [1936 33333333 ]
+        [33 2432 ]
+        [1824 33333333 ]
+        [33 1728 ]
+        [2304 33333333 ]
+        [33 2432 ]
+        [1368 33333333 ]
+        [33 2400 ]
+        [1350 33333333 ]
+        [33 2400 ]
+        [1344 33333333 ]
+        [33 1344 ]
+        [2400 33333333 ]
+        [33 2048 ]
+        [1536 33333333 ]
+        [33 1472 ]
+        [1920 33333333 ]
+        [33 1920 ]
+        [1440 33333333 ]
+        [33 2176 ]
+        [1224 33333333 ]
+        [33 1920 ]
+        [1080 33333333 ]
+        [33 1600 ]
+        [1200 33333333 ]
+        [33 1440 ]
+        [1080 33333333 ]
+        [33 1280 ]
+        [960 33333333 ]
+        [33 1280 ]
+        [720 33333333 ]
+        [33 720 ]
+        [1280 33333333 ]
+        [33 1024 ]
+        [768 33333333 ]
+        [33 960 ]
+        [720 33333333 ]
+        [33 1280 ]
+        [480 33333333 ]
+        [33 960 ]
+        [540 33333333 ]
+        [33 800 ]
+        [600 33333333 ]
+        [33 648 ]
+        [648 33333333 ]
+        [33 800 ]
+        [480 33333333 ]
+        [33 720 ]
+        [480 33333333 ]
+        [33 640 ]
+        [480 33333333 ]
+        [33 640 ]
+        [400 33333333 ]
+        [33 640 ]
+        [360 33333333 ]
+        [33 480 ]
+        [360 33333333 ]
+        [33 352 ]
+        [288 33333333 ]
+        [33 320 ]
+        [240 33333333 ]
+        [33 320 ]
+        [180 33333333 ]
+        [33 176 ]
+        [144 33333333 ]
+      android.heic.availableHeicStallDurations (1c0002): int64[156]
+        [33 4032 ]
+        [3024 1134000000 ]
+        [33 4000 ]
+        [3000 1116071424 ]
+        [33 3840 ]
+        [2160 771428608 ]
+        [33 3264 ]
+        [2448 743142848 ]
+        [33 3200 ]
+        [2400 714285696 ]
+        [33 2876 ]
+        [2156 576697920 ]
+        [33 2582 ]
+        [1936 464913664 ]
+        [33 2432 ]
+        [1824 412571424 ]
+        [33 1728 ]
+        [2304 370285728 ]
+        [33 2432 ]
+        [1368 309428576 ]
+        [33 2400 ]
+        [1350 301339296 ]
+        [33 2400 ]
+        [1344 300000000 ]
+        [33 1344 ]
+        [2400 300000000 ]
+        [33 2048 ]
+        [1536 292571424 ]
+        [33 1472 ]
+        [1920 262857136 ]
+        [33 1920 ]
+        [1440 257142848 ]
+        [33 2176 ]
+        [1224 247714288 ]
+        [33 1920 ]
+        [1080 192857152 ]
+        [33 1600 ]
+        [1200 178571424 ]
+        [33 1440 ]
+        [1080 144642848 ]
+        [33 1280 ]
+        [960 114285712 ]
+        [33 1280 ]
+        [720 85714288 ]
+        [33 720 ]
+        [1280 85714288 ]
+        [33 1024 ]
+        [768 73142856 ]
+        [33 960 ]
+        [720 64285712 ]
+        [33 1280 ]
+        [480 57142856 ]
+        [33 960 ]
+        [540 48214288 ]
+        [33 800 ]
+        [600 44642856 ]
+        [33 648 ]
+        [648 39053572 ]
+        [33 800 ]
+        [480 35714284 ]
+        [33 720 ]
+        [480 32142856 ]
+        [33 640 ]
+        [480 28571428 ]
+        [33 640 ]
+        [400 23809524 ]
+        [33 640 ]
+        [360 21428572 ]
+        [33 480 ]
+        [360 16071428 ]
+        [33 352 ]
+        [288 9428571 ]
+        [33 320 ]
+        [240 7142857 ]
+        [33 320 ]
+        [180 5357143 ]
+        [33 176 ]
+        [144 2357142 ]
+      android.scaler.availableRotateAndCropModes (d0010): byte[1]
+        [0 ]
+== Camera HAL device device@3.7/legacy/0 (v3.7) dumpState: ==
+No active camera device session instance
+== Camera HAL device device@3.7/legacy/1 (v3.7) static information: ==
+  Resource cost: 50
+  Conflicting devices: None
+  API1 info:
+    Has a flash unit: false
+    Facing: Back
+    Orientation: 0
+  API2 camera characteristics:
+    Dumping camera metadata array: 166 / 166 entries, 6848 / 6848 bytes of extra data.
+      Version: 1, Flags: 00000000
+      android.colorCorrection.availableAberrationModes (00004): byte[3]
+        [0 1 2 ]
+      android.control.aeAvailableAntibandingModes (10012): byte[4]
+        [0 1 2 3 ]
+      android.control.aeAvailableModes (10013): byte[2]
+        [0 1 ]
+      android.control.aeAvailableTargetFpsRanges (10014): int32[8]
+        [15 15 24 24 ]
+        [13 30 30 30 ]
+      android.control.aeCompensationRange (10015): int32[2]
+        [-12 12 ]
+      android.control.aeCompensationStep (10016): rational[1]
+        [(1 / 6) ]
+      android.control.afAvailableModes (10017): byte[1]
+        [0 ]
+      android.control.availableEffects (10018): byte[9]
+        [0 1 2 3 4 5 8 7 6 ]
+      android.control.availableSceneModes (10019): byte[16]
+        [0 1 2 3 4 5 6 7 8 9 10 12 13 14 15 18 ]
+      android.control.availableVideoStabilizationModes (1001a): byte[2]
+        [0 1 ]
+      android.control.awbAvailableModes (1001b): byte[9]
+        [1 2 3 4 5 6 7 8 0 ]
+      android.control.maxRegions (1001c): int32[3]
+        [1 0 0 ]
+      android.control.sceneModeOverrides (1001d): byte[48]
+        [1 1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 ]
+        [1 0 1 1 0 1 1 0 1 1 0 1 1 0 1 1 ]
+        [0 1 1 0 1 1 0 1 1 0 1 1 0 1 1 0 ]
+      android.control.availableHighSpeedVideoConfigurations (10023): int32[10]
+        [640 480 30 120 ]
+        [1 640 480 120 ]
+        [120 1 ]
+      android.control.aeLockAvailable (10024): byte[1]
+        [TRUE ]
+      android.control.awbLockAvailable (10025): byte[1]
+        [TRUE ]
+      android.control.availableModes (10026): byte[3]
+        [0 1 2 ]
+      android.control.postRawSensitivityBoostRange (10027): int32[2]
+        [100 3199 ]
+      android.control.zoomRatioRange (1002e): float[2]
+        [1.00000000 8.00000000 ]
+      android.edge.availableEdgeModes (30002): byte[4]
+        [1 2 0 3 ]
+      android.flash.info.available (50000): byte[1]
+        [FALSE ]
+      android.hotPixel.availableHotPixelModes (60001): byte[3]
+        [0 1 2 ]
+      android.jpeg.availableThumbnailSizes (70007): int32[18]
+        [0 0 176 144 ]
+        [240 144 256 144 ]
+        [240 160 256 154 ]
+        [246 184 240 240 ]
+        [320 240 ]
+      android.jpeg.maxSize (70008): int32[1]
+        [475144 ]
+      android.lens.info.availableApertures (90000): float[1]
+        [2.00000000 ]
+      android.lens.info.availableFilterDensities (90001): float[1]
+        [0.00000000 ]
+      android.lens.info.availableFocalLengths (90002): float[1]
+        [0.70999998 ]
+      android.lens.info.availableOpticalStabilization (90003): byte[1]
+        [0 ]
+      android.lens.info.hyperfocalDistance (90004): float[1]
+        [23.80480194 ]
+      android.lens.info.minimumFocusDistance (90005): float[1]
+        [0.00000000 ]
+      android.lens.info.shadingMapSize (90006): int32[2]
+        [17 13 ]
+      android.lens.info.focusDistanceCalibration (90007): byte[1]
+        [APPROXIMATE ]
+      android.lens.facing (80005): byte[1]
+        [BACK ]
+      android.noiseReduction.availableNoiseReductionModes (a0002): byte[5]
+        [0 1 2 3 4 ]
+      android.request.maxNumOutputStreams (c0006): int32[3]
+        [1 3 2 ]
+      android.request.maxNumInputStreams (c0008): int32[1]
+        [1 ]
+      android.request.pipelineMaxDepth (c000a): byte[1]
+        [8 ]
+      android.request.partialResultCount (c000b): int32[1]
+        [2 ]
+      android.request.availableCapabilities (c000c): byte[9]
+        [BACKWARD_COMPATIBLE CONSTRAINED_HIGH_SPEED_VIDEO RAW YUV_REPROCESSING PRIVATE_REPROCESSING READ_SENSOR_SETTINGS MANUAL_SENSOR BURST_CAPTURE MANUAL_POST_PROCESSING ]
+      android.request.availableRequestKeys (c000d): int32[102]
+        [0 1 2 3 ]
+        [65536 65537 65538 65539 ]
+        [65540 65541 65542 65543 ]
+        [65568 65545 65546 65547 ]
+        [65549 65550 65551 65552 ]
+        [65553 65576 65583 65577 ]
+        [196608 262146 393216 458752 ]
+        [458753 458754 458755 458756 ]
+        [458757 458758 524288 524289 ]
+        [524290 524291 524292 655360 ]
+        [786433 851968 851985 917504 ]
+        [917505 917506 917520 917527 ]
+        [917528 917532 917533 917537 ]
+        [1048576 1114112 1114115 1114128 ]
+        [1245184 1245185 1245186 1245187 ]
+        [1441792 524301 524294 524295 ]
+        [524298 524302 524303 -2141323262 ]
+        [-2141323263 -2141323264 -2141323259 -2141323255 ]
+        [-2141323254 -2141323253 -2141323249 -2141323252 ]
+        [-2141323251 -2141323250 -2141323246 -2141323245 ]
+        [-2141323242 -2141323240 -2141323260 -2141323261 ]
+        [-2141323241 -2141323239 -2141323238 -2141323237 ]
+        [-2141323236 -2141323235 -2141323234 -2141323233 ]
+        [-2141323228 -2141323227 -2141323226 -2141323225 ]
+        [-2141323224 -2141323223 -2141323244 -2141323231 ]
+        [-2141323230 -2141323229 ]
+      android.request.availableResultKeys (c000e): int32[69]
+        [0 1 2 65539 ]
+        [65540 65567 65543 65544 ]
+        [65568 65547 65570 65551 ]
+        [65576 65583 65577 196608 ]
+        [262146 262149 458752 458753 ]
+        [458754 458755 458756 458757 ]
+        [458758 524288 524289 524290 ]
+        [524291 524296 524297 524292 ]
+        [655360 786433 851968 851985 ]
+        [917526 917523 917504 917505 ]
+        [917506 917520 917532 917533 ]
+        [917522 917525 917536 917537 ]
+        [917527 917528 1048576 1114112 ]
+        [1114121 1114124 1114125 1114126 ]
+        [1114118 1114119 1245184 1245185 ]
+        [1245186 1245187 1441792 524301 ]
+        [524294 524295 524298 524302 ]
+        [524303 ]
+      android.request.availableCharacteristicsKeys (c000f): int32[123]
+        [4 65554 65555 65556 ]
+        [65557 65558 65559 65560 ]
+        [65561 65562 65563 65564 ]
+        [65565 65571 65572 65573 ]
+        [65574 65575 65577 65582 ]
+        [65584 1638402 1638401 1638403 ]
+        [1638400 1638410 1638409 1638411 ]
+        [196610 327680 393217 458759 ]
+        [458760 589824 589825 589826 ]
+        [589827 589828 589829 589830 ]
+        [589831 524293 1703936 1703937 ]
+        [655362 786438 786440 786442 ]
+        [786443 786444 786445 786446 ]
+        [786447 786448 851972 851977 ]
+        [851978 851979 851976 851980 ]
+        [851981 851982 851983 851984 ]
+        [851986 851987 851988 851989 ]
+        [851990 851991 851992 917526 ]
+        [917523 917534 917535 983040 ]
+        [983041 983042 983043 983044 ]
+        [983045 983046 983047 983048 ]
+        [983049 983050 983051 983052 ]
+        [983053 983054 917507 917508 ]
+        [917509 917510 917511 917512 ]
+        [917513 917514 917516 917517 ]
+        [917518 917519 917529 1048578 ]
+        [1179648 1179650 1179654 1179655 ]
+        [1245188 1245189 1376256 1376258 ]
+        [1507329 1572865 524300 524301 ]
+        [524295 524294 524298 524302 ]
+        [524303 1900544 1900545 ]
+      android.request.availableSessionKeys (c0010): int32[36]
+        [65541 -2141323262 -2141323263 -2141323264 ]
+        [-2141323259 -2141323255 -2141323254 -2141323253 ]
+        [-2141323249 -2141323252 -2141323251 -2141323250 ]
+        [-2141323246 -2141323245 -2141323242 -2141323240 ]
+        [-2141323260 -2141323261 -2141323241 -2141323239 ]
+        [-2141323238 -2141323237 -2141323236 -2141323235 ]
+        [-2141323234 -2141323233 -2141323228 -2141323227 ]
+        [-2141323226 -2141323225 -2141323224 -2141323223 ]
+        [-2141323244 -2141323231 -2141323230 -2141323229 ]
+      android.scaler.availableMaxDigitalZoom (d0004): float[1]
+        [8.00000000 ]
+      android.scaler.availableInputOutputFormatsMap (d0009): int32[8]
+        [34 2 35 33 ]
+        [35 2 35 33 ]
+      android.scaler.availableStreamConfigurations (d000a): int32[148]
+        [34 640 480 OUTPUT ]
+        [34 640 480 INPUT ]
+        [35 640 480 OUTPUT ]
+        [35 640 480 INPUT ]
+        [33 640 480 OUTPUT ]
+        [54 640 480 OUTPUT ]
+        [34 640 400 OUTPUT ]
+        [35 640 400 OUTPUT ]
+        [33 640 400 OUTPUT ]
+        [54 640 400 OUTPUT ]
+        [34 640 360 OUTPUT ]
+        [35 640 360 OUTPUT ]
+        [33 640 360 OUTPUT ]
+        [54 640 360 OUTPUT ]
+        [34 480 360 OUTPUT ]
+        [35 480 360 OUTPUT ]
+        [33 480 360 OUTPUT ]
+        [54 480 360 OUTPUT ]
+        [34 352 288 OUTPUT ]
+        [35 352 288 OUTPUT ]
+        [33 352 288 OUTPUT ]
+        [54 352 288 OUTPUT ]
+        [34 320 240 OUTPUT ]
+        [35 320 240 OUTPUT ]
+        [33 320 240 OUTPUT ]
+        [54 320 240 OUTPUT ]
+        [34 320 180 OUTPUT ]
+        [35 320 180 OUTPUT ]
+        [33 320 180 OUTPUT ]
+        [54 320 180 OUTPUT ]
+        [34 176 144 OUTPUT ]
+        [35 176 144 OUTPUT ]
+        [33 176 144 OUTPUT ]
+        [54 176 144 OUTPUT ]
+        [37 640 480 OUTPUT ]
+        [32 640 480 OUTPUT ]
+        [36 640 480 OUTPUT ]
+      android.scaler.availableMinFrameDurations (d000b): int64[140]
+        [34 640 ]
+        [480 33333333 ]
+        [35 640 ]
+        [480 33333333 ]
+        [33 640 ]
+        [480 33333333 ]
+        [54 640 ]
+        [480 33333333 ]
+        [34 640 ]
+        [400 33333333 ]
+        [35 640 ]
+        [400 33333333 ]
+        [33 640 ]
+        [400 33333333 ]
+        [54 640 ]
+        [400 33333333 ]
+        [34 640 ]
+        [360 33333333 ]
+        [35 640 ]
+        [360 33333333 ]
+        [33 640 ]
+        [360 33333333 ]
+        [54 640 ]
+        [360 33333333 ]
+        [34 480 ]
+        [360 33333333 ]
+        [35 480 ]
+        [360 33333333 ]
+        [33 480 ]
+        [360 33333333 ]
+        [54 480 ]
+        [360 33333333 ]
+        [34 352 ]
+        [288 33333333 ]
+        [35 352 ]
+        [288 33333333 ]
+        [33 352 ]
+        [288 33333333 ]
+        [54 352 ]
+        [288 33333333 ]
+        [34 320 ]
+        [240 33333333 ]
+        [35 320 ]
+        [240 33333333 ]
+        [33 320 ]
+        [240 33333333 ]
+        [54 320 ]
+        [240 33333333 ]
+        [34 320 ]
+        [180 33333333 ]
+        [35 320 ]
+        [180 33333333 ]
+        [33 320 ]
+        [180 33333333 ]
+        [54 320 ]
+        [180 33333333 ]
+        [34 176 ]
+        [144 33333333 ]
+        [35 176 ]
+        [144 33333333 ]
+        [33 176 ]
+        [144 33333333 ]
+        [54 176 ]
+        [144 33333333 ]
+        [37 640 ]
+        [480 33333333 ]
+        [32 640 ]
+        [480 33333333 ]
+        [36 640 ]
+        [480 33333333 ]
+      android.scaler.availableRawSizes (d0008): int32[8]
+        [640 480 640 480 ]
+        [640 480 640 480 ]
+      android.scaler.availableStallDurations (d000c): int64[32]
+        [33 640 ]
+        [480 1996800 ]
+        [33 640 ]
+        [400 1664000 ]
+        [33 640 ]
+        [360 1497600 ]
+        [33 480 ]
+        [360 1123200 ]
+        [33 352 ]
+        [288 658944 ]
+        [33 320 ]
+        [240 499200 ]
+        [33 320 ]
+        [180 374400 ]
+        [33 176 ]
+        [144 164736 ]
+      android.scaler.croppingType (d000d): byte[1]
+        [CENTER_ONLY ]
+      android.sensor.opaqueRawSize (e001e): int32[3]
+        [640 480 384000 ]
+      android.sensor.info.activeArraySize (f0000): int32[4]
+        [0 0 640 480 ]
+      android.sensor.info.sensitivityRange (f0001): int32[2]
+        [100 1550 ]
+      android.sensor.info.colorFilterArrangement (f0002): byte[1]
+        [MONO ]
+      android.sensor.info.exposureTimeRange (f0003): int64[2]
+        [235568 529094944 ]
+      android.sensor.info.maxFrameDuration (f0004): int64[1]
+        [529300338 ]
+      android.sensor.info.physicalSize (f0005): float[2]
+        [1.91999996 1.44000006 ]
+      android.sensor.info.pixelArraySize (f0006): int32[2]
+        [640 480 ]
+      android.sensor.info.whiteLevel (f0007): int32[1]
+        [1023 ]
+      android.sensor.info.timestampSource (f0008): byte[1]
+        [REALTIME ]
+      android.sensor.info.lensShadingApplied (f0009): byte[1]
+        [TRUE ]
+      android.sensor.info.preCorrectionActiveArraySize (f000a): int32[4]
+        [0 0 640 480 ]
+      android.sensor.referenceIlluminant1 (e0003): byte[1]
+        [D65 ]
+      android.sensor.referenceIlluminant2 (e0004): byte[1]
+        [17 ]
+      android.sensor.calibrationTransform1 (e0005): rational[9]
+        [(128 / 128) (0 / 128) ]
+        [(0 / 128) (0 / 128) ]
+        [(128 / 128) (0 / 128) ]
+        [(0 / 128) (0 / 128) ]
+        [(128 / 128) ]
+      android.sensor.calibrationTransform2 (e0006): rational[9]
+        [(128 / 128) (0 / 128) ]
+        [(0 / 128) (0 / 128) ]
+        [(128 / 128) (0 / 128) ]
+        [(0 / 128) (0 / 128) ]
+        [(128 / 128) ]
+      android.sensor.colorTransform1 (e0007): rational[9]
+        [(229 / 128) (-109 / 128) ]
+        [(-35 / 128) (-124 / 128) ]
+        [(240 / 128) (5 / 128) ]
+        [(6 / 128) (-20 / 128) ]
+        [(106 / 128) ]
+      android.sensor.colorTransform2 (e0008): rational[9]
+        [(330 / 128) (-228 / 128) ]
+        [(-58 / 128) (-137 / 128) ]
+        [(279 / 128) (-1 / 128) ]
+        [(10 / 128) (-22 / 128) ]
+        [(202 / 128) ]
+      android.sensor.forwardMatrix1 (e0009): rational[9]
+        [(56 / 128) (49 / 128) ]
+        [(18 / 128) (28 / 128) ]
+        [(92 / 128) (8 / 128) ]
+        [(2 / 128) (12 / 128) ]
+        [(91 / 128) ]
+      android.sensor.forwardMatrix2 (e000a): rational[9]
+        [(56 / 128) (49 / 128) ]
+        [(18 / 128) (28 / 128) ]
+        [(92 / 128) (8 / 128) ]
+        [(2 / 128) (12 / 128) ]
+        [(91 / 128) ]
+      android.sensor.blackLevelPattern (e000c): int32[4]
+        [64 64 64 64 ]
+      android.sensor.maxAnalogSensitivity (e000d): int32[1]
+        [1550 ]
+      android.sensor.orientation (e000e): int32[1]
+        [0 ]
+      android.sensor.profileHueSatMapDimensions (e000f): int32[3]
+        [0 0 0 ]
+      android.sensor.availableTestPatternModes (e0019): int32[4]
+        [0 0 0 0 ]
+      android.shading.availableModes (100002): byte[3]
+        [0 1 2 ]
+      android.statistics.info.availableFaceDetectModes (120000): byte[2]
+        [0 1 ]
+      android.statistics.info.maxFaceCount (120002): int32[1]
+        [10 ]
+      android.statistics.info.availableHotPixelMapModes (120006): byte[1]
+        [0 ]
+      android.statistics.info.availableLensShadingMapModes (120007): byte[2]
+        [0 1 ]
+      android.tonemap.maxCurvePoints (130004): int32[1]
+        [64 ]
+      android.tonemap.availableToneMapModes (130005): byte[3]
+        [0 1 2 ]
+      android.info.supportedHardwareLevel (150000): byte[1]
+        [LIMITED ]
+      android.info.supportedBufferManagementVersion (150002): byte[1]
+        [HIDL_DEVICE_3_5 ]
+      android.sync.maxLatency (170001): int32[1]
+        [PER_FRAME_CONTROL ]
+      android.reprocess.maxCaptureStall (180001): int32[1]
+        [2 ]
+      android.lens.poseReference (8000c): byte[1]
+        [PRIMARY_CAMERA ]
+      android.lens.distortion (8000d): float[5]
+        [0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 ]
+      android.lens.poseTranslation (80007): float[3]
+        [0.00000000 0.00000000 0.00000000 ]
+      android.lens.poseRotation (80006): float[4]
+        [0.00000000 0.00000000 0.00000000 1.00000000 ]
+      android.lens.intrinsicCalibration (8000a): float[5]
+        [236.66665649 236.66665649 0.00000000 0.00000000 0.00000000 ]
+      android.heic.info.supported (1d0000): byte[1]
+        [TRUE ]
+      android.heic.info.maxJpegAppSegmentsCount (1d0001): byte[1]
+        [1 ]
+      org.codeaurora.qcamera3.saturation.range (80b80001): int32[4]
+        [0 10 5 1 ]
+      org.codeaurora.qcamera3.shadingCorrection.enableShadingCorrection (800f0000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.inSensorSHDRMode.inSensorSHDRMode (80110000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.exposure_metering.available_modes (80a30001): int32[3]
+        [0 1 2 ]
+      org.codeaurora.qcamera3.iso_exp_priority.iso_available_modes (80040003): int32[8]
+        [0 1 2 3 ]
+        [4 5 6 7 ]
+      org.codeaurora.qcamera3.iso_exp_priority.exposure_time_range (80040004): int64[2]
+        [235568 529094944 ]
+      org.codeaurora.qcamera3.sharpness.range (80020001): int32[2]
+        [0 6 ]
+      org.codeaurora.qcamera3.histogram.buckets (80050001): int32[1]
+        [256 ]
+      org.codeaurora.qcamera3.histogram.max_count (80050002): int32[1]
+        [256 ]
+      org.codeaurora.qcamera3.instant_aec.instant_aec_available_modes (80080001): int32[3]
+        [0 1 2 ]
+      org.quic.camera.AIDESupported.isAIDESupported (80980000): byte[1]
+        [0 ]
+      org.quic.camera.MaxPreviewSize.MaxPreviewSize (804a0000): int32[2]
+        [8000 6000 ]
+      org.quic.camera.BurstFPS.isBurstShotSupported (80490001): byte[1]
+        [1 ]
+      org.quic.camera.BurstFPS.MaxBurstShotFPS (80490002): float[1]
+        [30.00000000 ]
+      org.quic.camera.LiveshotSize.isLiveshotSizeSameAsVideoSize (804c0000): byte[1]
+        [0 ]
+      org.quic.camera.FDRendering.isFDRenderingInVideoUISupported (804e0001): byte[1]
+        [1 ]
+      org.quic.camera.FDRendering.isFDRenderingInCameraUISupported (804e0000): byte[1]
+        [1 ]
+      org.quic.camera2.VideoConfigurations.info.VideoConfigurationsTable (803b0000): int32[96]
+        [640 480 60 30 ]
+        [1 1 640 480 ]
+        [640 480 60 60 ]
+        [1 1 640 480 ]
+        [480 360 60 30 ]
+        [1 1 640 480 ]
+        [480 360 60 60 ]
+        [1 1 640 480 ]
+        [352 288 60 30 ]
+        [1 1 640 480 ]
+        [352 288 60 60 ]
+        [1 1 640 480 ]
+        [320 240 60 30 ]
+        [1 1 640 480 ]
+        [320 240 60 60 ]
+        [1 1 640 480 ]
+        [320 180 60 30 ]
+        [1 1 640 480 ]
+        [320 180 60 60 ]
+        [1 1 640 480 ]
+        [176 144 60 30 ]
+        [1 1 640 480 ]
+        [176 144 60 60 ]
+        [1 1 640 480 ]
+      org.quic.camera2.VideoConfigurations.info.VideoConfigurationsTableSize (803b0001): int32[1]
+        [12 ]
+      org.quic.camera.SensorModeFS.isFastShutterModeSupported (80520000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.available_video_hdr_modes.video_hdr_modes (80330000): int32[5]
+        [0 1 2 4 ]
+        [5 ]
+      org.codeaurora.qcamera3.manualWB.color_temperature_range (80270001): int32[2]
+        [0 10000 ]
+      org.codeaurora.qcamera3.manualWB.gains_range (80270003): float[2]
+        [1.00000000 31.98999977 ]
+      org.codeaurora.qcamera3.platformCapabilities.IPEICACapabilities (80590000): byte[8]
+        [0 0 0 0 89 13 0 0 ]
+      org.codeaurora.qcamera3.platformCapabilities.ExtendedMaxZoom (80590001): float[1]
+        [100.00000000 ]
+      org.codeaurora.qcamera3.platformCapabilities.EnableVSR (80590002): int32[1]
+        [0 ]
+      org.quic.camera2.sensormode.info.SensorModeTable (80370000): int32[14]
+        [4 3 640 480 ]
+        [30 640 480 30 ]
+        [640 480 60 640 ]
+        [480 120 ]
+      org.codeaurora.qcamera3.supportedHDRmodes.HDRModes (80340000): int32[1]
+        [2 ]
+      org.quic.camera.AutoHDRSupport.isAutoHDRSupported (804f0000): byte[1]
+        [0 ]
+      org.quic.camera2.customhfrfps.info.CustomHFRFpsTable (80390000): int32[24]
+        [640 480 60 640 ]
+        [400 60 640 360 ]
+        [60 480 360 60 ]
+        [352 288 60 320 ]
+        [240 60 320 180 ]
+        [60 176 144 60 ]
+      org.quic.camera2.streamBasedFPS.info.StreamBasedFPSTable (803a0000): int32[64]
+        [640 480 30 60 ]
+        [640 480 60 60 ]
+        [640 400 30 60 ]
+        [640 400 60 60 ]
+        [640 360 30 60 ]
+        [640 360 60 60 ]
+        [480 360 30 60 ]
+        [480 360 60 60 ]
+        [352 288 30 60 ]
+        [352 288 60 60 ]
+        [320 240 30 60 ]
+        [320 240 60 60 ]
+        [320 180 30 60 ]
+        [320 180 60 60 ]
+        [176 144 30 60 ]
+        [176 144 60 60 ]
+      org.quic.camera.ltmDynamicContrast.ltmDynamicContrastStrengthRange (805f0003): float[2]
+        [-100.00000000 100.00000000 ]
+      org.quic.camera.ltmDynamicContrast.ltmDarkBoostStrengthRange (805f0004): float[2]
+        [-100.00000000 100.00000000 ]
+      org.quic.camera.ltmDynamicContrast.ltmBrightSupressStrengthRange (805f0005): float[2]
+        [-100.00000000 100.00000000 ]
+      org.quic.camera.swcapabilities.SWMCTFEnable (806e0000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.stats.bsgc_available (80300001): byte[1]
+        [0 ]
+      org.quic.camera.swcapabilities.MFNRType (806e0001): int32[1]
+        [1 ]
+      org.quic.camera.swcapabilities.isQLLSupported (806e0003): byte[1]
+        [1 ]
+      org.quic.camera.HEICSupport.HEICEnabled (80880000): byte[1]
+        [1 ]
+      org.quic.camera2.objectTrackingResults.TrackerEnable (80250000): byte[1]
+        [1 ]
+      org.codeaurora.qcamera3.logicalCameraType.logical_camera_type (80580000): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.availableStreamMap (805e0000): int32[208]
+        [0 0 35 0 ]
+        [1 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 35 0 ]
+        [2 0 1 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 35 1 ]
+        [2 1 1 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 35 2 ]
+        [2 2 1 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [640 480 35 0 ]
+        [2 0 0 1 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [640 480 35 1 ]
+        [2 1 0 1 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [640 480 35 2 ]
+        [2 2 0 1 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 37 0 ]
+        [2 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 37 1 ]
+        [2 1 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 37 2 ]
+        [2 2 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 32 0 ]
+        [2 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 32 1 ]
+        [2 1 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+        [0 0 32 2 ]
+        [2 2 0 0 ]
+        [0 0 0 0 ]
+        [0 0 0 0 ]
+      org.codeaurora.qcamera3.sessionParameters.enableMFNR (805e0002): int32[1]
+        [1 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableSHDR (805e0003): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableMFHDR (805e0004): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableQHDR (805e0017): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.numHDRexposure (805e0019): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableAutoHDR (805e0018): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.HDRModePreference (805e001a): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.enableQLL (805e000f): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.enableStatsVisualizer (805e0013): byte[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableAFBracketing (805e001b): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.HDRVideoMode (805e0009): int32[1]
+        [0 ]
+      org.codeaurora.qcamera3.sessionParameters.EnableSalinet (805e0024): byte[1]
+        [0 ]
+      com.leiniao.device.capabilities.sensor.highresolution (80d90000): int32[2]
+        [640 480 ]
+      com.leiniao.feature.stream.scenedetect.available (80d50000): int32[1]
+        [7 ]
+      com.leiniao.feature.stream.motiondetect.enable (80d50001): int32[1]
+        [0 ]
+      com.leiniao.feature.stream.distortion.enable (80d50008): int32[1]
+        [0 ]
+      com.leiniao.feature.capture.distortion.enable (80d60000): int32[1]
+        [0 ]
+      com.leiniao.feature.capture.mfnr.enable (80d60005): int32[1]
+        [0 ]
+      com.leiniao.feature.stream.hdr.enable (80d50009): int32[1]
+        [0 ]
+      com.leiniao.feature.stream.autozoom.available (80d50003): int32[1]
+        [0 ]
+      com.leiniao.feature.stream.eis.available (80d50004): int32[1]
+        [1 ]
+      com.leiniao.feature.stream.supereis.available (80d50005): int32[1]
+        [0 ]
+      com.leiniao.feature.stream.denoise.available (80d50006): int32[1]
+        [0 ]
+      com.leiniao.feature.stream.videohdr.available (80d50007): int32[1]
+        [1 ]
+      com.leiniao.config.mmi.calibrationCameraId (80d80009): int32[2]
+        [0 2 ]
+      com.leiniao.config.mmi.calibrationSize (80d80008): int32[2]
+        [1600 1200 ]
+      com.leiniao.config.video.af.enable (80d80007): byte[21]
+        [1 1 0 1 2 0 1 3 0 1 4 0 1 5 0 1 ]
+        [6 0 1 9 0 ]
+      android.heic.availableHeicStreamConfigurations (1c0000): int32[32]
+        [33 640 480 OUTPUT ]
+        [33 640 400 OUTPUT ]
+        [33 640 360 OUTPUT ]
+        [33 480 360 OUTPUT ]
+        [33 352 288 OUTPUT ]
+        [33 320 240 OUTPUT ]
+        [33 320 180 OUTPUT ]
+        [33 176 144 OUTPUT ]
+      android.heic.availableHeicMinFrameDurations (1c0001): int64[32]
+        [33 640 ]
+        [480 33333333 ]
+        [33 640 ]
+        [400 33333333 ]
+        [33 640 ]
+        [360 33333333 ]
+        [33 480 ]
+        [360 33333333 ]
+        [33 352 ]
+        [288 33333333 ]
+        [33 320 ]
+        [240 33333333 ]
+        [33 320 ]
+        [180 33333333 ]
+        [33 176 ]
+        [144 33333333 ]
+      android.heic.availableHeicStallDurations (1c0002): int64[32]
+        [33 640 ]
+        [480 28571428 ]
+        [33 640 ]
+        [400 23809524 ]
+        [33 640 ]
+        [360 21428572 ]
+        [33 480 ]
+        [360 16071428 ]
+        [33 352 ]
+        [288 9428571 ]
+        [33 320 ]
+        [240 7142857 ]
+        [33 320 ]
+        [180 5357143 ]
+        [33 176 ]
+        [144 2357142 ]
+      android.scaler.availableRotateAndCropModes (d0010): byte[1]
+        [0 ]
+== Camera HAL device device@3.7/legacy/1 (v3.7) dumpState: ==
+No active camera device session instance
+
+== Vendor tags: ==
+
+  Dumping vendor tag descriptors for vendor with id 1444090318955667673 
+  Dumping configured vendor tag descriptors: 643 entries
+    0x80000000 (private_property) with type 0 (byte) defined in section org.codeaurora.qcamera3.internal_private
+    0x80010000 (aec_speed) with type 2 (float) defined in section org.codeaurora.qcamera3.aec_convergence_speed
+    0x80020000 (strength) with type 1 (int32) defined in section org.codeaurora.qcamera3.sharpness
+    0x80020001 (range) with type 1 (int32) defined in section org.codeaurora.qcamera3.sharpness
+    0x80030000 (level) with type 1 (int32) defined in section org.codeaurora.qcamera3.contrast
+    0x80040000 (use_iso_exp_priority) with type 3 (int64) defined in section org.codeaurora.qcamera3.iso_exp_priority
+    0x80040001 (use_iso_value) with type 1 (int32) defined in section org.codeaurora.qcamera3.iso_exp_priority
+    0x80040002 (select_priority) with type 1 (int32) defined in section org.codeaurora.qcamera3.iso_exp_priority
+    0x80040003 (iso_available_modes) with type 1 (int32) defined in section org.codeaurora.qcamera3.iso_exp_priority
+    0x80040004 (exposure_time_range) with type 3 (int64) defined in section org.codeaurora.qcamera3.iso_exp_priority
+    0x80040005 (use_gain_value) with type 2 (float) defined in section org.codeaurora.qcamera3.iso_exp_priority
+    0x80050000 (enable) with type 0 (byte) defined in section org.codeaurora.qcamera3.histogram
+    0x80050001 (buckets) with type 1 (int32) defined in section org.codeaurora.qcamera3.histogram
+    0x80050002 (max_count) with type 1 (int32) defined in section org.codeaurora.qcamera3.histogram
+    0x80050003 (stats) with type 1 (int32) defined in section org.codeaurora.qcamera3.histogram
+    0x80050004 (stats_type) with type 1 (int32) defined in section org.codeaurora.qcamera3.histogram
+    0x80060000 (enable) with type 0 (byte) defined in section org.codeaurora.qcamera3.bayer_grid
+    0x80060001 (width) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_grid
+    0x80060002 (height) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_grid
+    0x80060003 (r_stats) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_grid
+    0x80060004 (g_stats) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_grid
+    0x80060005 (b_stats) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_grid
+    0x80060006 (stats_type) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_grid
+    0x80070000 (enable) with type 0 (byte) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80070001 (width) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80070002 (height) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80070003 (r_stats) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80070004 (g_stats) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80070005 (b_stats) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80070006 (stats_type) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80070007 (roi_be_x) with type 2 (float) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80070008 (roi_be_y) with type 2 (float) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80070009 (roi_be_width) with type 2 (float) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x8007000a (roi_be_height) with type 2 (float) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x8007000b (bitDepth) with type 1 (int32) defined in section org.codeaurora.qcamera3.bayer_exposure
+    0x80080000 (instant_aec_mode) with type 1 (int32) defined in section org.codeaurora.qcamera3.instant_aec
+    0x80080001 (instant_aec_available_modes) with type 1 (int32) defined in section org.codeaurora.qcamera3.instant_aec
+    0x80090000 (awb_speed) with type 2 (float) defined in section org.codeaurora.qcamera3.awb_convergence_speed
+    0x800a0000 (mode) with type 0 (byte) defined in section org.codeaurora.qcamera3.ae_bracket
+    0x800a0001 (num_frames) with type 1 (int32) defined in section org.codeaurora.qcamera3.ae_bracket
+    0x800a0002 (exposure_values) with type 1 (int32) defined in section org.codeaurora.qcamera3.ae_bracket
+    0x800b0000 (AFBracketingConfiguration) with type 0 (byte) defined in section org.codeaurora.qcamera3.af_bracket
+    0x800c0000 (enable) with type 0 (byte) defined in section org.codeaurora.qcamera3.jpeg_encode_crop
+    0x800c0001 (rect) with type 1 (int32) defined in section org.codeaurora.qcamera3.jpeg_encode_crop
+    0x800c0002 (roi) with type 1 (int32) defined in section org.codeaurora.qcamera3.jpeg_encode_crop
+    0x800d0000 (dynamic_black_level_pattern) with type 2 (float) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d0001 (is_mono_only) with type 0 (byte) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d0002 (sensor_mode_index) with type 1 (int32) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d0003 (EEPROMInformation) with type 0 (byte) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d0004 (integration_information) with type 1 (int32) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d0005 (mountAngle) with type 1 (int32) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d0006 (CSIPHYSlotInfo) with type 1 (int32) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d0007 (cameraPosition) with type 1 (int32) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d0008 (sensor_mode_info) with type 0 (byte) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d0009 (sensor_pdaf_info) with type 0 (byte) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d000a (current_mode) with type 1 (int32) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d000b (targetFPS) with type 1 (int32) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d000c (DepthConversionLibInfo) with type 0 (byte) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d000d (sensorCaps) with type 0 (byte) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800d000e (dynamicSensorModeSwitch) with type 1 (int32) defined in section org.codeaurora.qcamera3.sensor_meta_data
+    0x800e0000 (use_av_timer) with type 0 (byte) defined in section org.codeaurora.qcamera3.av_timer
+    0x800f0000 (enableShadingCorrection) with type 0 (byte) defined in section org.codeaurora.qcamera3.shadingCorrection
+    0x80100000 (enableSWPDPC) with type 0 (byte) defined in section org.codeaurora.qcamera3.SWPDPC
+    0x80110000 (inSensorSHDRMode) with type 0 (byte) defined in section org.codeaurora.qcamera3.inSensorSHDRMode
+    0x80120000 (AECStatsControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120001 (AWBStatsControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120002 (AFStatsControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120003 (AFDStatsControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120004 (IHistStatsControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120005 (AECFrameControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120006 (AWBFrameControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120007 (AFFrameControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120008 (DigitalGainControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120009 (AWBWarmstartGain) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x8012000a (AWBWarmstartCCT) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x8012000b (AWBFrameControlRGain) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x8012000c (AWBFrameControlGGain) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x8012000d (AWBFrameControlBGain) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x8012000e (AWBFrameControlCCT) with type 1 (int32) defined in section org.quic.camera2.statsconfigs
+    0x8012000f (AWBDecisionAfterTC) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x80120010 (HistNodeLTCRatioIndex) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120011 (AECStartUpSensitivity) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x80120012 (AECSensitivity) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x80120013 (AECExposureTime) with type 3 (int64) defined in section org.quic.camera2.statsconfigs
+    0x80120014 (AECLinearGain) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x80120015 (AECLuxIndex) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x80120016 (FOVCFrameControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120017 (MultiCamera3ASyncType) with type 1 (int32) defined in section org.quic.camera2.statsconfigs
+    0x80120018 (QLLFrameControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x80120019 (QLLAWBSnapshotControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x8012001a (IFOVCFrameControl) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x8012001b (isAFLock) with type 0 (byte) defined in section org.quic.camera2.statsconfigs
+    0x8012001c (ratioLongtoShort) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x8012001d (ratioLongtoSafe) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x8012001e (ratioSafetoShort) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x8012001f (AECCompenDarkBoostGain) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x80120020 (AECCompenADRCGain) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x80120021 (AECWarmstartCompenDBGain) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x80120022 (AECWarmstartCompenADRCGain) with type 2 (float) defined in section org.quic.camera2.statsconfigs
+    0x80120023 (AECRequestID) with type 3 (int64) defined in section org.quic.camera2.statsconfigs
+    0x80120024 (AECCameraID) with type 1 (int32) defined in section org.quic.camera2.statsconfigs
+    0x80130000 (OEMIFEIQSetting) with type 0 (byte) defined in section org.quic.camera2.iqsettings
+    0x80130001 (OEMBPSIQSetting) with type 0 (byte) defined in section org.quic.camera2.iqsettings
+    0x80130002 (OEMIPEIQSetting) with type 0 (byte) defined in section org.quic.camera2.iqsettings
+    0x80140000 (OEM_AEC_IQTrigger) with type 2 (float) defined in section org.quic.camera2.oem.trigger
+    0x80140001 (OEM_AWB_IQTrigger) with type 2 (float) defined in section org.quic.camera2.oem.trigger
+    0x80140002 (OEM_AF_IQTrigger) with type 2 (float) defined in section org.quic.camera2.oem.trigger
+    0x80140003 (OEM_Reserve_IQTrigger) with type 2 (float) defined in section org.quic.camera2.oem.trigger
+    0x80150000 (HDRVideoMode) with type 0 (byte) defined in section org.quic.camera2.streamconfigs
+    0x80160000 (OEMJPEGLumaQuantizationTable) with type 0 (byte) defined in section org.quic.camera2.jpegquantizationtables
+    0x80160001 (OEMJPEGChromaQuantizationTable) with type 0 (byte) defined in section org.quic.camera2.jpegquantizationtables
+    0x80170000 (sensor_register_control) with type 1 (int32) defined in section org.quic.camera2.sensor_register_control
+    0x80180000 (ICAInPerspectiveTransform) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80180001 (ICAInGridOut2InTransform) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80180002 (ICAInGridIn2OutTransform) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80180003 (ICAInInterpolationParams) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80180004 (ICARefPerspectiveTransform) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80180005 (ICARefGridTransform) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80180006 (ICARefInterpolationParams) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80180007 (ICAReferenceParams) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80180008 (ICAReferenceParamsLookAhead) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80180009 (ICAInPerspectiveTransformLookAhead) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x8018000a (ICAInGridTransformLookahead) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x8018000b (ExtraFrameworkBuffers) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x8018000c (EISv3OutputCropFOV) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x8018000d (EISv2OutputCropFOV) with type 0 (byte) defined in section org.quic.camera2.ipeicaconfigs
+    0x80190000 (MFNRTotalNumFrames) with type 1 (int32) defined in section org.quic.camera2.mfnrconfigs
+    0x80190001 (MFNRBlendFrameNum) with type 1 (int32) defined in section org.quic.camera2.mfnrconfigs
+    0x80190002 (MultiframeRequestTimestamp) with type 3 (int64) defined in section org.quic.camera2.mfnrconfigs
+    0x801a0000 (MFSRTotalNumFrames) with type 1 (int32) defined in section org.quic.camera2.mfsrconfigs
+    0x801a0001 (MFSRBlendFrameNum) with type 1 (int32) defined in section org.quic.camera2.mfsrconfigs
+    0x801b0000 (DebugDataAll) with type 0 (byte) defined in section org.quic.camera.debugdata
+    0x801b0001 (DebugDataAEC) with type 0 (byte) defined in section org.quic.camera.debugdata
+    0x801b0002 (DebugDataAWB) with type 0 (byte) defined in section org.quic.camera.debugdata
+    0x801b0003 (DebugDataAF) with type 0 (byte) defined in section org.quic.camera.debugdata
+    0x801b0004 (DebugDataAFD) with type 0 (byte) defined in section org.quic.camera.debugdata
+    0x801c0000 (TuningDataDump) with type 0 (byte) defined in section org.quic.camera.tuningdata
+    0x801d0000 (FocusValue) with type 2 (float) defined in section org.quic.camera.focusvalue
+    0x801e0000 (stats) with type 0 (byte) defined in section org.quic.camera.offlineRSstats
+    0x801e0001 (rsconfig) with type 0 (byte) defined in section org.quic.camera.offlineRSstats
+    0x801f0000 (adrcData) with type 0 (byte) defined in section org.quic.camera.opeADRCInfoData
+    0x80200000 (TuningMode) with type 0 (byte) defined in section org.quic.camera2.tuning.mode
+    0x80210000 (Feature1Mode) with type 0 (byte) defined in section org.quic.camera2.tuning.feature
+    0x80210001 (Feature2Mode) with type 0 (byte) defined in section org.quic.camera2.tuning.feature
+    0x80220000 (OEMFDConfig) with type 0 (byte) defined in section org.quic.camera2.oemfdconfig
+    0x80230000 (OEMFDResults) with type 0 (byte) defined in section org.quic.camera2.oemfdresults
+    0x80230001 (OEMFDContourResults) with type 1 (int32) defined in section org.quic.camera2.oemfdresults
+    0x80240000 (Enable) with type 0 (byte) defined in section org.quic.camera2.objectTrackingConfig
+    0x80240001 (CmdTrigger) with type 1 (int32) defined in section org.quic.camera2.objectTrackingConfig
+    0x80240002 (RegisterROI) with type 1 (int32) defined in section org.quic.camera2.objectTrackingConfig
+    0x80250000 (TrackerEnable) with type 0 (byte) defined in section org.quic.camera2.objectTrackingResults
+    0x80250001 (TrackerStatus) with type 1 (int32) defined in section org.quic.camera2.objectTrackingResults
+    0x80250002 (ResultROI) with type 1 (int32) defined in section org.quic.camera2.objectTrackingResults
+    0x80250003 (TrackerScore) with type 1 (int32) defined in section org.quic.camera2.objectTrackingResults
+    0x80260000 (RefCropSize) with type 0 (byte) defined in section org.quic.camera2.ref.cropsize
+    0x80260001 (DisableZoomCrop) with type 1 (int32) defined in section org.quic.camera2.ref.cropsize
+    0x80270000 (color_temperature) with type 1 (int32) defined in section org.codeaurora.qcamera3.manualWB
+    0x80270001 (color_temperature_range) with type 1 (int32) defined in section org.codeaurora.qcamera3.manualWB
+    0x80270002 (gains) with type 2 (float) defined in section org.codeaurora.qcamera3.manualWB
+    0x80270003 (gains_range) with type 2 (float) defined in section org.codeaurora.qcamera3.manualWB
+    0x80270004 (partial_mwb_mode) with type 1 (int32) defined in section org.codeaurora.qcamera3.manualWB
+    0x80280000 (enable) with type 0 (byte) defined in section org.codeaurora.qcamera3.temporal_denoise
+    0x80280001 (process_type) with type 1 (int32) defined in section org.codeaurora.qcamera3.temporal_denoise
+    0x80290000 (ResidualCrop) with type 0 (byte) defined in section org.quic.camera.ifecropinfo
+    0x80290001 (AppliedCrop) with type 0 (byte) defined in section org.quic.camera.ifecropinfo
+    0x80290002 (SensorIFEAppliedCrop) with type 0 (byte) defined in section org.quic.camera.ifecropinfo
+    0x802a0000 (Submitted) with type 0 (byte) defined in section org.quic.camera.ifeinitpacket
+    0x802b0000 (EISV3Enable) with type 0 (byte) defined in section org.quic.camera.eis3enable
+    0x802c0000 (preview) with type 0 (byte) defined in section org.quic.camera.streamTypePresent
+    0x802d0000 (Enabled) with type 0 (byte) defined in section org.quic.camera.eisrealtime
+    0x802d0001 (RequestedMargin) with type 0 (byte) defined in section org.quic.camera.eisrealtime
+    0x802d0002 (StabilizationMargins) with type 0 (byte) defined in section org.quic.camera.eisrealtime
+    0x802d0003 (AdditionalCropOffset) with type 0 (byte) defined in section org.quic.camera.eisrealtime
+    0x802d0004 (StabilizedOutputDims) with type 0 (byte) defined in section org.quic.camera.eisrealtime
+    0x802d0005 (MinimalTotalMargins) with type 0 (byte) defined in section org.quic.camera.eisrealtime
+    0x802d0006 (MotionIndication) with type 0 (byte) defined in section org.quic.camera.eisrealtime
+    0x802d0007 (EISOISMode) with type 0 (byte) defined in section org.quic.camera.eisrealtime
+    0x802d0008 (EIS2ModeWithDM) with type 0 (byte) defined in section org.quic.camera.eisrealtime
+    0x802e0000 (Enabled) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802e0001 (FrameDelay) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802e0002 (RequestedMargin) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802e0003 (StabilizationMargins) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802e0004 (AdditionalCropOffset) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802e0005 (StabilizedOutputDims) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802e0006 (MinimalTotalMargins) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802e0007 (DISMVStats) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802e0008 (ExtraHALBuffers) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802e0009 (MOFAlignment) with type 0 (byte) defined in section org.quic.camera.eislookahead
+    0x802f0000 (timestamp) with type 0 (byte) defined in section org.quic.camera.qtimer
+    0x802f0001 (startOfExposure) with type 0 (byte) defined in section org.quic.camera.qtimer
+    0x80300000 (is_hdr_scene) with type 0 (byte) defined in section org.codeaurora.qcamera3.stats
+    0x80300001 (bsgc_available) with type 0 (byte) defined in section org.codeaurora.qcamera3.stats
+    0x80300002 (blink_detected) with type 0 (byte) defined in section org.codeaurora.qcamera3.stats
+    0x80300003 (blink_degree) with type 0 (byte) defined in section org.codeaurora.qcamera3.stats
+    0x80300004 (smile_degree) with type 0 (byte) defined in section org.codeaurora.qcamera3.stats
+    0x80300005 (smile_confidence) with type 0 (byte) defined in section org.codeaurora.qcamera3.stats
+    0x80300006 (gaze_angle) with type 0 (byte) defined in section org.codeaurora.qcamera3.stats
+    0x80300007 (gaze_direction) with type 1 (int32) defined in section org.codeaurora.qcamera3.stats
+    0x80300008 (gaze_degree) with type 0 (byte) defined in section org.codeaurora.qcamera3.stats
+    0x80300009 (contours) with type 1 (int32) defined in section org.codeaurora.qcamera3.stats
+    0x8030000a (contour_results) with type 1 (int32) defined in section org.codeaurora.qcamera3.stats
+    0x80310000 (is_qcfa_sensor) with type 0 (byte) defined in section org.codeaurora.qcamera3.quadra_cfa
+    0x80310001 (qcfa_dimension) with type 1 (int32) defined in section org.codeaurora.qcamera3.quadra_cfa
+    0x80320000 (enable) with type 1 (int32) defined in section org.quic.camera.resource
+    0x80320001 (res_type) with type 1 (int32) defined in section org.quic.camera.resource
+    0x80330000 (video_hdr_modes) with type 1 (int32) defined in section org.codeaurora.qcamera3.available_video_hdr_modes
+    0x80340000 (HDRModes) with type 1 (int32) defined in section org.codeaurora.qcamera3.supportedHDRmodes
+    0x80350000 (HDRMaxResolution) with type 1 (int32) defined in section org.codeaurora.qcamera3.HDRMaxResolutionCap
+    0x80360000 (preview) with type 0 (byte) defined in section org.quic.camera.streamDimension
+    0x80360001 (video) with type 0 (byte) defined in section org.quic.camera.streamDimension
+    0x80360002 (snapshot) with type 0 (byte) defined in section org.quic.camera.streamDimension
+    0x80360003 (depth) with type 0 (byte) defined in section org.quic.camera.streamDimension
+    0x80370000 (SensorModeTable) with type 1 (int32) defined in section org.quic.camera2.sensormode.info
+    0x80380000 (duration) with type 1 (int32) defined in section org.quic.camera2.verticalOffset
+    0x80390000 (CustomHFRFpsTable) with type 1 (int32) defined in section org.quic.camera2.customhfrfps.info
+    0x803a0000 (StreamBasedFPSTable) with type 1 (int32) defined in section org.quic.camera2.streamBasedFPS.info
+    0x803a0001 (PreviewFPS) with type 1 (int32) defined in section org.quic.camera2.streamBasedFPS.info
+    0x803a0002 (VideoFPS) with type 1 (int32) defined in section org.quic.camera2.streamBasedFPS.info
+    0x803b0000 (VideoConfigurationsTable) with type 1 (int32) defined in section org.quic.camera2.VideoConfigurations.info
+    0x803b0001 (VideoConfigurationsTableSize) with type 1 (int32) defined in section org.quic.camera2.VideoConfigurations.info
+    0x803c0000 (GammaInfo) with type 0 (byte) defined in section org.quic.camera.gammainfo
+    0x803d0000 (RealtimeUVGammaInfo) with type 0 (byte) defined in section org.quic.camera.uvgammainfo
+    0x803d0001 (OfflineUVGammaInfo) with type 0 (byte) defined in section org.quic.camera.uvgammainfo
+    0x803e0000 (IPEGammaPreOutput) with type 0 (byte) defined in section org.quic.camera.ipegammapreoutput
+    0x803f0000 (IFEGTMInfo) with type 0 (byte) defined in section org.quic.camera.ifegtminfo
+    0x80400000 (BPSGTMInfo) with type 0 (byte) defined in section org.quic.camera.bpsgtminfo
+    0x80410000 (IFEBLTMLut) with type 0 (byte) defined in section org.quic.camera.ifebltm
+    0x80420000 (BPSNRMConfigs) with type 0 (byte) defined in section org.quic.camera.bpsnrmconfigs
+    0x80430000 (IFENRMConfigs) with type 0 (byte) defined in section org.quic.camera.ifenrmconfigs
+    0x80440000 (IntermediateDimension) with type 0 (byte) defined in section org.quic.camera.intermediateDimension
+    0x80450000 (endOfStream) with type 0 (byte) defined in section org.quic.camera.recording
+    0x80450001 (endOfStreamRequestId) with type 0 (byte) defined in section org.quic.camera.recording
+    0x80450002 (requestHasVideoBuffer) with type 0 (byte) defined in section org.quic.camera.recording
+    0x80460000 (disableFPSLimits) with type 0 (byte) defined in section org.quic.camera.manualExposure
+    0x80460001 (overrideSensorFrameDuration) with type 3 (int64) defined in section org.quic.camera.manualExposure
+    0x80470000 (strobeControl) with type 0 (byte) defined in section org.quic.camera.strobeControl
+    0x80480000 (EarlyPCRenable) with type 0 (byte) defined in section org.quic.camera.EarlyPCRenable
+    0x80490000 (burstfps) with type 0 (byte) defined in section org.quic.camera.BurstFPS
+    0x80490001 (isBurstShotSupported) with type 0 (byte) defined in section org.quic.camera.BurstFPS
+    0x80490002 (MaxBurstShotFPS) with type 2 (float) defined in section org.quic.camera.BurstFPS
+    0x804a0000 (MaxPreviewSize) with type 1 (int32) defined in section org.quic.camera.MaxPreviewSize
+    0x804b0000 (ScreenGrab) with type 0 (byte) defined in section org.quic.camera.ScreenGrab
+    0x804c0000 (isLiveshotSizeSameAsVideoSize) with type 0 (byte) defined in section org.quic.camera.LiveshotSize
+    0x804d0000 (deviceMemoryType) with type 0 (byte) defined in section org.quic.camera.deviceCapabilities
+    0x804e0000 (isFDRenderingInCameraUISupported) with type 0 (byte) defined in section org.quic.camera.FDRendering
+    0x804e0001 (isFDRenderingInVideoUISupported) with type 0 (byte) defined in section org.quic.camera.FDRendering
+    0x804f0000 (isAutoHDRSupported) with type 0 (byte) defined in section org.quic.camera.AutoHDRSupport
+    0x80500000 (isHWMFHDRSupported) with type 0 (byte) defined in section org.quic.camera.HWMFHDRSupported
+    0x80510000 (CustomNoiseReduction) with type 0 (byte) defined in section org.quic.camera.CustomNoiseReduction
+    0x80520000 (isFastShutterModeSupported) with type 0 (byte) defined in section org.quic.camera.SensorModeFS
+    0x80520001 (SensorModeFS) with type 0 (byte) defined in section org.quic.camera.SensorModeFS
+    0x80530000 (IFEMaxLineWidth) with type 1 (int32) defined in section org.quic.camera.HWResourceInfo
+    0x80530001 (numIFEsforGivenTarget) with type 1 (int32) defined in section org.quic.camera.HWResourceInfo
+    0x80530002 (maxIFEsRequired) with type 1 (int32) defined in section org.quic.camera.HWResourceInfo
+    0x80540000 (AECDataPublisherPresent) with type 0 (byte) defined in section org.quic.camera.AECDataPublisherPresent
+    0x80550000 (AECData) with type 0 (byte) defined in section org.quic.camera.AECData
+    0x80550001 (sensor_register_control) with type 1 (int32) defined in section org.quic.camera.AECData
+    0x80560000 (OEMEXIFAppData1) with type 0 (byte) defined in section org.quic.camera.oemexifappdata
+    0x80570000 (isDepthFocus) with type 0 (byte) defined in section org.quic.camera.isDepthFocus
+    0x80580000 (logical_camera_type) with type 0 (byte) defined in section org.codeaurora.qcamera3.logicalCameraType
+    0x80590000 (IPEICACapabilities) with type 0 (byte) defined in section org.codeaurora.qcamera3.platformCapabilities
+    0x80590001 (ExtendedMaxZoom) with type 2 (float) defined in section org.codeaurora.qcamera3.platformCapabilities
+    0x80590002 (EnableVSR) with type 1 (int32) defined in section org.codeaurora.qcamera3.platformCapabilities
+    0x805a0000 (LCRRawformat) with type 0 (byte) defined in section org.quic.camera.LCRRawformat
+    0x805b0000 (isValid) with type 0 (byte) defined in section org.codeaurora.qcamera3.exposuretable
+    0x805b0001 (sensitivityCorrectionFactor) with type 2 (float) defined in section org.codeaurora.qcamera3.exposuretable
+    0x805b0002 (kneeCount) with type 1 (int32) defined in section org.codeaurora.qcamera3.exposuretable
+    0x805b0003 (gainKneeEntries) with type 2 (float) defined in section org.codeaurora.qcamera3.exposuretable
+    0x805b0004 (expTimeKneeEntries) with type 3 (int64) defined in section org.codeaurora.qcamera3.exposuretable
+    0x805b0005 (incrementPriorityKneeEntries) with type 1 (int32) defined in section org.codeaurora.qcamera3.exposuretable
+    0x805b0006 (expIndexKneeEntries) with type 2 (float) defined in section org.codeaurora.qcamera3.exposuretable
+    0x805b0007 (thresAntiBandingMinExpTimePct) with type 2 (float) defined in section org.codeaurora.qcamera3.exposuretable
+    0x805c0000 (meteringTable) with type 2 (float) defined in section org.codeaurora.qcamera3.meteringtable
+    0x805c0001 (meteringTableSize) with type 1 (int32) defined in section org.codeaurora.qcamera3.meteringtable
+    0x805d0000 (disable) with type 0 (byte) defined in section org.codeaurora.qcamera3.adrc
+    0x805e0000 (availableStreamMap) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0001 (overrideResourceCostValidation) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0002 (enableMFNR) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0003 (EnableSHDR) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0004 (EnableMFHDR) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0005 (numPCRsBeforeStreamOn) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0006 (EnableMCXMasterCb) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0007 (McxYuvCallbackInfo) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0008 (McxRawCallbackInfo) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0009 (HDRVideoMode) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e000a (dynamicFPSConfig) with type 2 (float) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e000b (RawCbSourceType) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e000c (ExtendedMaxZoom) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e000d (EnableVSR) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e000e (enableMCTFwithReferenceFrame) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e000f (enableQLL) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0010 (enableShadingCorrection) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0011 (enableSWPDPC) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0012 (contour_version) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0013 (enableStatsVisualizer) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0014 (inSensorSHDRMode) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0015 (enablePerReqSync) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0016 (EnableInsensorZoom) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0017 (EnableQHDR) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0018 (EnableAutoHDR) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0019 (numHDRexposure) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e001a (HDRModePreference) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e001b (EnableAFBracketing) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e001c (InduceErrorType) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e001d (InducePipelineName) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e001e (InduceNodeName) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e001f (InducePortId) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0020 (EnableXR) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0021 (enableSecureMode) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0022 (EnableAFFocusMap) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0023 (EnableIdealRAW) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0024 (EnableSalinet) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0025 (Use16BitRaw) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0026 (EnableIPEPreviewInStill) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0027 (UseBPSIdealRawHDR) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0028 (IsRayNeoRuntime) with type 0 (byte) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805e0029 (RayNeoRuntimeStreamConfig) with type 1 (int32) defined in section org.codeaurora.qcamera3.sessionParameters
+    0x805f0000 (ltmDynamicContrastStrength) with type 2 (float) defined in section org.quic.camera.ltmDynamicContrast
+    0x805f0001 (ltmDarkBoostStrength) with type 2 (float) defined in section org.quic.camera.ltmDynamicContrast
+    0x805f0002 (ltmBrightSupressStrength) with type 2 (float) defined in section org.quic.camera.ltmDynamicContrast
+    0x805f0003 (ltmDynamicContrastStrengthRange) with type 2 (float) defined in section org.quic.camera.ltmDynamicContrast
+    0x805f0004 (ltmDarkBoostStrengthRange) with type 2 (float) defined in section org.quic.camera.ltmDynamicContrast
+    0x805f0005 (ltmBrightSupressStrengthRange) with type 2 (float) defined in section org.quic.camera.ltmDynamicContrast
+    0x80600000 (csidbinninginfo) with type 0 (byte) defined in section org.quic.camera.ifecsidconfig
+    0x80610000 (CVPMetaData) with type 0 (byte) defined in section org.quic.camera.cvpMetaData
+    0x80610001 (CVPDownScaleRatio) with type 2 (float) defined in section org.quic.camera.cvpMetaData
+    0x80610002 (CVPICALmcCfg) with type 0 (byte) defined in section org.quic.camera.cvpMetaData
+    0x80610003 (CVPMvWarp) with type 0 (byte) defined in section org.quic.camera.cvpMetaData
+    0x80610004 (CVPAlignmentMode) with type 1 (int32) defined in section org.quic.camera.cvpMetaData
+    0x80610005 (ExtraHALBuffers) with type 1 (int32) defined in section org.quic.camera.cvpMetaData
+    0x80610006 (CVPICAVideoLmcCfg) with type 0 (byte) defined in section org.quic.camera.cvpMetaData
+    0x80620000 (StreamCropInfo) with type 0 (byte) defined in section com.qti.camera.streamCropInfo
+    0x80620001 (RequestCropInfo) with type 0 (byte) defined in section com.qti.camera.streamCropInfo
+    0x80620002 (AllCropInfo) with type 0 (byte) defined in section com.qti.camera.streamCropInfo
+    0x80620003 (EnableAllCropInfo) with type 1 (int32) defined in section com.qti.camera.streamCropInfo
+    0x80620004 (EnableStreamCrop) with type 1 (int32) defined in section com.qti.camera.streamCropInfo
+    0x80630000 (DisableOfflineLSC) with type 0 (byte) defined in section com.qti.camera.offlineLSC
+    0x80640000 (StreamMap) with type 0 (byte) defined in section com.qti.camera.streamMapMeta
+    0x80650000 (isBurstShot) with type 0 (byte) defined in section org.quic.camera.burstshot
+    0x80660000 (GeoLibStillFrameConfigPrefilter) with type 0 (byte) defined in section org.quic.camera.geoLibStillFrameConfig
+    0x80660001 (GeoLibStillFrameConfigBlending) with type 0 (byte) defined in section org.quic.camera.geoLibStillFrameConfig
+    0x80660002 (GeoLibStillFrameConfigEqualization) with type 0 (byte) defined in section org.quic.camera.geoLibStillFrameConfig
+    0x80660003 (GeoLibStillFrameConfigPostFilter) with type 0 (byte) defined in section org.quic.camera.geoLibStillFrameConfig
+    0x80670000 (StillOutputDimension) with type 0 (byte) defined in section org.quic.camera.snapshotOutputDimension
+    0x80670001 (DisplayOutputDimension) with type 0 (byte) defined in section org.quic.camera.snapshotOutputDimension
+    0x80680000 (smile_enable) with type 0 (byte) defined in section org.codeaurora.qcamera3.facial_attr
+    0x80680001 (gaze_enable) with type 0 (byte) defined in section org.codeaurora.qcamera3.facial_attr
+    0x80680002 (blink_enable) with type 0 (byte) defined in section org.codeaurora.qcamera3.facial_attr
+    0x80680003 (contour_enable) with type 0 (byte) defined in section org.codeaurora.qcamera3.facial_attr
+    0x80690000 (ScratchBufferData) with type 0 (byte) defined in section org.quic.camera.scratchbufferdata
+    0x806a0000 (numIFEsUsed) with type 1 (int32) defined in section org.quic.camera.ISPConfigData
+    0x806b0000 (OverrideIPEScaleProfile) with type 0 (byte) defined in section org.quic.camera.overrideIPEScaleProfile
+    0x806c0000 (isValidDarkBoostOffset) with type 0 (byte) defined in section org.codeaurora.qcamera3.tmcusercontrol
+    0x806c0001 (darkBoostOffset) with type 2 (float) defined in section org.codeaurora.qcamera3.tmcusercontrol
+    0x806c0002 (isValidFourthToneAnchor) with type 0 (byte) defined in section org.codeaurora.qcamera3.tmcusercontrol
+    0x806c0003 (fourthToneAnchor) with type 2 (float) defined in section org.codeaurora.qcamera3.tmcusercontrol
+    0x806d0000 (OverrideGPURotationUsecase) with type 0 (byte) defined in section org.quic.camera.overrideGPURotationUsecase
+    0x806e0000 (SWMCTFEnable) with type 0 (byte) defined in section org.quic.camera.swcapabilities
+    0x806e0001 (MFNRType) with type 1 (int32) defined in section org.quic.camera.swcapabilities
+    0x806e0002 (SWMCTFType) with type 0 (byte) defined in section org.quic.camera.swcapabilities
+    0x806e0003 (isQLLSupported) with type 0 (byte) defined in section org.quic.camera.swcapabilities
+    0x806f0000 (HDRFeatureMode) with type 1 (int32) defined in section org.quic.camera.hdrfeaturemode
+    0x806f0001 (HDRFeatureModeData) with type 1 (int32) defined in section org.quic.camera.hdrfeaturemode
+    0x806f0002 (NumberOfSplits) with type 1 (int32) defined in section org.quic.camera.hdrfeaturemode
+    0x806f0003 (NumberOfExpFrames) with type 1 (int32) defined in section org.quic.camera.hdrfeaturemode
+    0x80700000 (isGeoLibNeeded) with type 1 (int32) defined in section org.quic.camera.geolib
+    0x80710000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.tintless
+    0x80720000 (GeoLibEnableVSR) with type 0 (byte) defined in section org.quic.camera.enableVSR
+    0x80730000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.bhist
+    0x80740000 (GeoLibInitMetadataVideo) with type 0 (byte) defined in section org.quic.camera.geoLibInit
+    0x80740001 (GeoLibInitMetadataDisplay) with type 0 (byte) defined in section org.quic.camera.geoLibInit
+    0x80750000 (MctfIpeMaxFovMetadataVideo) with type 0 (byte) defined in section org.quic.camera.mctfIpeMaxFov
+    0x80750001 (MctfIpeMaxFovMetadataDisplay) with type 0 (byte) defined in section org.quic.camera.mctfIpeMaxFov
+    0x80760000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.awbbg
+    0x80770000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.hdrbhist
+    0x80780000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.aecbhist
+    0x80790000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.hdrbe
+    0x807a0000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.hdr10phist
+    0x807b0000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.aecbe
+    0x807c0000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.baf
+    0x807d0000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.rs
+    0x807e0000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.bfw
+    0x807f0000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.ihist
+    0x80800000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.ltmdc
+    0x80810000 (stats) with type 0 (byte) defined in section org.codeaurora.qcamera3.cs
+    0x80820000 (statsNNSaliencyWidth) with type 0 (byte) defined in section org.quic.camera2.statsNNSaliNetResults
+    0x80820001 (statsNNSaliencyHeight) with type 0 (byte) defined in section org.quic.camera2.statsNNSaliNetResults
+    0x80820002 (statsNNSaliencyMapData) with type 0 (byte) defined in section org.quic.camera2.statsNNSaliNetResults
+    0x80820003 (statsNNSaliencyNumROI) with type 0 (byte) defined in section org.quic.camera2.statsNNSaliNetResults
+    0x80820004 (statsNNSaliencyROIData) with type 1 (int32) defined in section org.quic.camera2.statsNNSaliNetResults
+    0x80820005 (statsNNSaliencyROIWeight) with type 1 (int32) defined in section org.quic.camera2.statsNNSaliNetResults
+    0x80830000 (Enable) with type 0 (byte) defined in section org.quic.camera2.statsNNControl
+    0x80840000 (Enable) with type 0 (byte) defined in section org.quic.camera2.PDNetControl
+    0x80850000 (InSensorZoomState) with type 1 (int32) defined in section org.quic.camera.inSensorZoom
+    0x80850001 (SensorSwitched) with type 0 (byte) defined in section org.quic.camera.inSensorZoom
+    0x80860000 (SFEAlignmentSize) with type 0 (byte) defined in section g_VendorTagSectionSFEAlignment
+    0x80860001 (SFEAlignmentOffset) with type 0 (byte) defined in section g_VendorTagSectionSFEAlignment
+    0x80870000 (SkipGPUprocessingbasedonFD) with type 0 (byte) defined in section org.quic.camera.skipgpuprocessingbasedonfd
+    0x80880000 (HEICEnabled) with type 0 (byte) defined in section org.quic.camera.HEICSupport
+    0x80890000 (ADRCParams) with type 0 (byte) defined in section org.quic.camera.ADRCParam
+    0x808a0000 (GeoLibIpeFrameCfgMetadataPerPort) with type 0 (byte) defined in section org.quic.camera.geoLibFrameConfig
+    0x808b0000 (QCFASnapshot) with type 0 (byte) defined in section org.quic.camera.QCFASnapshot
+    0x808c0000 (CDSSnapshot) with type 0 (byte) defined in section org.quic.camera.CDSSnapshot
+    0x808d0000 (maxLivePendingRequests) with type 0 (byte) defined in section com.qti.chi.maxlivependingrequests
+    0x808e0000 (isReprocess) with type 1 (int32) defined in section org.quic.camera.isReprocess
+    0x808f0000 (FOVCMargin) with type 2 (float) defined in section org.quic.camera.FOVCMetaData
+    0x80900000 (TfiInformation) with type 0 (byte) defined in section org.quic.camera.tfiInformation
+    0x80910000 (TfiInformationAggregated) with type 0 (byte) defined in section org.quic.camera.aggregatedTfiInformation
+    0x80920000 (QLLInputs) with type 0 (byte) defined in section org.quic.camera.qllinputipe
+    0x80930000 (ForceFullFOV) with type 0 (byte) defined in section org.quic.camera.forceFullFOV
+    0x80940000 (isQLLEnabled) with type 1 (int32) defined in section org.quic.camera.qll
+    0x80950000 (isGeoLibNeeded) with type 1 (int32) defined in section org.quic.camera.geolib
+    0x80960000 (isSWMFEnabled) with type 0 (byte) defined in section org.quic.camera.SWMFandAIDenoiser
+    0x80960001 (isAIDEEnabled) with type 0 (byte) defined in section org.quic.camera.SWMFandAIDenoiser
+    0x80960002 (SWMFandAIDETuningParams) with type 0 (byte) defined in section org.quic.camera.SWMFandAIDenoiser
+    0x80970000 (HDROfflinePipeline) with type 1 (int32) defined in section org.quic.camera.hdrofflinepipeline
+    0x80980000 (isAIDESupported) with type 0 (byte) defined in section org.quic.camera.AIDESupported
+    0x80990000 (PipelineSyncEnabled) with type 1 (int32) defined in section org.quic.camera.pipelineControl
+    0x80990001 (isDisableSinkNoBuffer) with type 0 (byte) defined in section org.quic.camera.pipelineControl
+    0x809a0000 (multiFrameData) with type 1 (int32) defined in section org.quic.camera.multiFrameData
+    0x809b0000 (FrameDelay) with type 1 (int32) defined in section org.quic.camera.hdr10p
+    0x809b0001 (HDR10pSEI) with type 0 (byte) defined in section org.quic.camera.hdr10p
+    0x809c0000 (isHDRContent) with type 1 (int32) defined in section org.codeaurora.qcamera3.HDRContent
+    0x809c0001 (SFECompandInfo) with type 0 (byte) defined in section org.codeaurora.qcamera3.HDRContent
+    0x809c0002 (HDRBinningFactor) with type 1 (int32) defined in section org.codeaurora.qcamera3.HDRContent
+    0x809d0000 (NumberOfVisibleBands) with type 2 (float) defined in section org.quic.camera.afdData
+    0x809d0001 (RowSumTime) with type 2 (float) defined in section org.quic.camera.afdData
+    0x809d0002 (AntiBandingMode) with type 1 (int32) defined in section org.quic.camera.afdData
+    0x809d0003 (HNum) with type 1 (int32) defined in section org.quic.camera.afdData
+    0x809d0004 (VNum) with type 1 (int32) defined in section org.quic.camera.afdData
+    0x809d0005 (NumberOfLinesPerFrame) with type 1 (int32) defined in section org.quic.camera.afdData
+    0x809d0006 (AvgRollingEnergyRatio) with type 2 (float) defined in section org.quic.camera.afdData
+    0x809d0007 (AvgRollingConfidenceScore) with type 2 (float) defined in section org.quic.camera.afdData
+    0x809d0008 (AvgStaticEnergyRatio) with type 2 (float) defined in section org.quic.camera.afdData
+    0x809d0009 (AvgStaticConfidenceScore) with type 2 (float) defined in section org.quic.camera.afdData
+    0x809e0000 (ChromatixMetadata) with type 0 (byte) defined in section com.qti.chi.ChromatixTuningTool
+    0x809f0000 (WBandGTMInfoForTMC) with type 0 (byte) defined in section org.quic.camera.wbandgtminfofortmc
+    0x80a00000 (SFEAlignmentMargin) with type 2 (float) defined in section com.qti.node.gyrornn
+    0x80a00001 (SFEAlignmentGrid) with type 0 (byte) defined in section com.qti.node.gyrornn
+    0x80a00002 (SFEAlignmentShiftOffset) with type 0 (byte) defined in section com.qti.node.gyrornn
+    0x80a10000 (enableJPEGThumbRetry) with type 0 (byte) defined in section org.quic.camera.nodeRetry
+    0x80a20000 (GyroInfo) with type 0 (byte) defined in section org.quic.camera2.imageStabilization
+    0x80a20001 (EISv3MetaOutput) with type 0 (byte) defined in section org.quic.camera2.imageStabilization
+    0x80a30000 (exposure_metering_mode) with type 1 (int32) defined in section org.codeaurora.qcamera3.exposure_metering
+    0x80a30001 (available_modes) with type 1 (int32) defined in section org.codeaurora.qcamera3.exposure_metering
+    0x80a40000 (mode_index) with type 1 (int32) defined in section com.qti.sensorbps
+    0x80a40001 (gain) with type 2 (float) defined in section com.qti.sensorbps
+    0x80a50000 (reprocess_flags) with type 0 (byte) defined in section org.codeaurora.qcamera3.hal_private_data
+    0x80a50001 (reprocess_data_blob) with type 0 (byte) defined in section org.codeaurora.qcamera3.hal_private_data
+    0x80a50002 (exif_debug_data_blob) with type 0 (byte) defined in section org.codeaurora.qcamera3.hal_private_data
+    0x80a50003 (debug_image_dump) with type 0 (byte) defined in section org.codeaurora.qcamera3.hal_private_data
+    0x80a50004 (debug_image_dump_mask) with type 1 (int32) defined in section org.codeaurora.qcamera3.hal_private_data
+    0x80a60000 (is_flash_snapshot) with type 1 (int32) defined in section com.qti.stats_control
+    0x80a60001 (is_lls_needed) with type 1 (int32) defined in section com.qti.stats_control
+    0x80a60002 (ExposureCount) with type 1 (int32) defined in section com.qti.stats_control
+    0x80a70000 (seamless_insensor_state) with type 1 (int32) defined in section com.qti.insensor_control
+    0x80a80000 (SupportedFeature) with type 1 (int32) defined in section com.qti.node.fcv
+    0x80a80001 (CurrentMode) with type 0 (byte) defined in section com.qti.node.fcv
+    0x80a80002 (ProcessedFrameNumber) with type 3 (int64) defined in section com.qti.node.fcv
+    0x80a80003 (FrameDimension) with type 1 (int32) defined in section com.qti.node.fcv
+    0x80a80004 (BypassCameraId) with type 1 (int32) defined in section com.qti.node.fcv
+    0x80a90000 (SupportedFeature) with type 1 (int32) defined in section com.tct.node.scenedetect
+    0x80a90001 (CurrentMode) with type 1 (int32) defined in section com.tct.node.scenedetect
+    0x80a90002 (ProcessedFrameNumber) with type 3 (int64) defined in section com.tct.node.scenedetect
+    0x80a90003 (FrameDimension) with type 3 (int64) defined in section com.tct.node.scenedetect
+    0x80a90004 (OriginShortGain) with type 2 (float) defined in section com.tct.node.scenedetect
+    0x80a90005 (OriginShortExposure) with type 3 (int64) defined in section com.tct.node.scenedetect
+    0x80a90006 (MotionDetectGain) with type 2 (float) defined in section com.tct.node.scenedetect
+    0x80a90007 (MotionDetectExposure) with type 3 (int64) defined in section com.tct.node.scenedetect
+    0x80aa0000 (SupportedFeature) with type 1 (int32) defined in section com.qti.node.dummystich
+    0x80aa0001 (CurrentMode) with type 0 (byte) defined in section com.qti.node.dummystich
+    0x80aa0002 (ProcessedFrameNumber) with type 3 (int64) defined in section com.qti.node.dummystich
+    0x80aa0003 (FrameDimension) with type 1 (int32) defined in section com.qti.node.dummystich
+    0x80ab0000 (AlgoComplete) with type 0 (byte) defined in section com.qti.node.eisv2
+    0x80ac0000 (RegisterComplete) with type 0 (byte) defined in section com.qti.node.swmctf
+    0x80ac0001 (ProcessComplete) with type 0 (byte) defined in section com.qti.node.swmctf
+    0x80ac0002 (MaintainSequence) with type 0 (byte) defined in section com.qti.node.swmctf
+    0x80ac0003 (ExtraHALBuffers) with type 0 (byte) defined in section com.qti.node.swmctf
+    0x80ad0000 (PerspectiveGridTransform) with type 0 (byte) defined in section com.qti.node.eisv3
+    0x80ad0001 (EIS3Handle) with type 0 (byte) defined in section com.qti.node.eisv3
+    0x80ad0002 (EISv3TimeIntervalSync) with type 0 (byte) defined in section com.qti.node.eisv3
+    0x80ae0000 (SupportedFeature) with type 1 (int32) defined in section com.qti.node.gpu
+    0x80ae0001 (CurrentMode) with type 0 (byte) defined in section com.qti.node.gpu
+    0x80ae0002 (ProcessedFrameNumber) with type 3 (int64) defined in section com.qti.node.gpu
+    0x80ae0003 (FrameDimension) with type 1 (int32) defined in section com.qti.node.gpu
+    0x80ae0004 (BypassCameraId) with type 1 (int32) defined in section com.qti.node.gpu
+    0x80af0000 (Depth2LUT) with type 1 (int32) defined in section com.qti.node.dummydepth
+    0x80b00000 (SupportedFeature) with type 1 (int32) defined in section com.qti.node.remosaic
+    0x80b00001 (CurrentMode) with type 0 (byte) defined in section com.qti.node.remosaic
+    0x80b00002 (ProcessedFrameNumber) with type 3 (int64) defined in section com.qti.node.remosaic
+    0x80b00003 (FrameDimension) with type 1 (int32) defined in section com.qti.node.remosaic
+    0x80b10000 (SupportedFeature) with type 1 (int32) defined in section com.qti.node.memcpy
+    0x80b10001 (CurrentMode) with type 0 (byte) defined in section com.qti.node.memcpy
+    0x80b10002 (ProcessedFrameNumber) with type 3 (int64) defined in section com.qti.node.memcpy
+    0x80b10003 (FrameDimension) with type 1 (int32) defined in section com.qti.node.memcpy
+    0x80b20000 (PerspectiveGridTransform) with type 0 (byte) defined in section com.qti.node.eisv3
+    0x80b20001 (EIS3Handle) with type 0 (byte) defined in section com.qti.node.eisv3
+    0x80b20002 (EISv3TimeIntervalSync) with type 0 (byte) defined in section com.qti.node.eisv3
+    0x80b30000 (PDLibTag1) with type 4 (double) defined in section com.qtistatic.stats.pdlib
+    0x80b30001 (PDLibTag2) with type 1 (int32) defined in section com.qtistatic.stats.pdlib
+    0x80b40000 (VendorTag1) with type 4 (double) defined in section com.qtistatic.stats.aec
+    0x80b40001 (VendorTag2) with type 1 (int32) defined in section com.qtistatic.stats.aec
+    0x80b50000 (AWBGains) with type 2 (float) defined in section com.qti.stats.awbwrapper
+    0x80b50001 (AWBCCT) with type 1 (int32) defined in section com.qti.stats.awbwrapper
+    0x80b60000 (AFAlgoTag1) with type 4 (double) defined in section com.qtistatic.stats.af
+    0x80b60001 (AFAlgoTag2) with type 1 (int32) defined in section com.qtistatic.stats.af
+    0x80b70000 (AWBAlgoTag1) with type 4 (double) defined in section com.qtistatic.stats.awb
+    0x80b70001 (AWBAlgoTag2) with type 1 (int32) defined in section com.qtistatic.stats.awb
+    0x80b80000 (use_saturation) with type 1 (int32) defined in section org.codeaurora.qcamera3.saturation
+    0x80b80001 (range) with type 1 (int32) defined in section org.codeaurora.qcamera3.saturation
+    0x80b90000 (override_tag1) with type 1 (int32) defined in section com.qti.chi.override
+    0x80b90001 (override_tag2) with type 0 (byte) defined in section com.qti.chi.override
+    0x80b90002 (override_tag3) with type 3 (int64) defined in section com.qti.chi.override
+    0x80b90003 (override_tag4) with type 3 (int64) defined in section com.qti.chi.override
+    0x80ba0000 (sensorsyncmodeconfig) with type 0 (byte) defined in section com.qti.chi.multicamerasensorconfig
+    0x80bb0000 (InputMetadataOpticalZoom) with type 0 (byte) defined in section com.qti.chi.multicamerainputmetadata
+    0x80bb0001 (RealtimeMetadataOpticalZoom) with type 0 (byte) defined in section com.qti.chi.multicamerainputmetadata
+    0x80bb0002 (InputMetadataBokeh) with type 0 (byte) defined in section com.qti.chi.multicamerainputmetadata
+    0x80bb0003 (InputMetadataForSwitchController) with type 0 (byte) defined in section com.qti.chi.multicamerainputmetadata
+    0x80bc0000 (OutputMetadataOpticalZoom) with type 0 (byte) defined in section com.qti.chi.multicameraoutputmetadata
+    0x80bc0001 (OutputMetadataBokeh) with type 0 (byte) defined in section com.qti.chi.multicameraoutputmetadata
+    0x80bd0000 (MultiCameraIds) with type 0 (byte) defined in section com.qti.chi.multicamerainfo
+    0x80bd0001 (MasterCamera) with type 0 (byte) defined in section com.qti.chi.multicamerainfo
+    0x80bd0002 (LowPowerMode) with type 0 (byte) defined in section com.qti.chi.multicamerainfo
+    0x80bd0003 (SyncMode) with type 0 (byte) defined in section com.qti.chi.multicamerainfo
+    0x80bd0004 (FPSMatch) with type 0 (byte) defined in section com.qti.chi.multicamerainfo
+    0x80bd0005 (ActiveCameraMask) with type 1 (int32) defined in section com.qti.chi.multicamerainfo
+    0x80bd0006 (ActiveCameraInfo) with type 0 (byte) defined in section com.qti.chi.multicamerainfo
+    0x80be0000 (AuxFPS) with type 1 (int32) defined in section com.qti.chi.auxcamerainfo
+    0x80be0001 (PrimaryPipelinesActiveInAuxSessionMask) with type 1 (int32) defined in section com.qti.chi.auxcamerainfo
+    0x80be0002 (ActiveAuxCameraInfo) with type 0 (byte) defined in section com.qti.chi.auxcamerainfo
+    0x80be0003 (IsAuxSession) with type 0 (byte) defined in section com.qti.chi.auxcamerainfo
+    0x80bf0000 (NumPhysicalCameras) with type 0 (byte) defined in section com.qti.chi.logicalcamerainfo
+    0x80bf0001 (OutputMetadataStreamMask) with type 3 (int64) defined in section com.qti.chi.logicalcamerainfo
+    0x80c00000 (crop_regions) with type 0 (byte) defined in section com.qti.cropregions
+    0x80c00001 (ChiNodeResidualCrop) with type 0 (byte) defined in section com.qti.cropregions
+    0x80c10000 (SWMFNRBlendConfidence) with type 2 (float) defined in section com.qti.camera.swmfnrBlendConfidence
+    0x80c10001 (SWMFNRBlendedFrames) with type 1 (int32) defined in section com.qti.camera.swmfnrBlendConfidence
+    0x80c10002 (SWMFNRAdjustmentFactor) with type 2 (float) defined in section com.qti.camera.swmfnrBlendConfidence
+    0x80c20000 (SWBEStatsConfig) with type 0 (byte) defined in section org.quic.camera.swbestatsdata
+    0x80c20001 (SWBEStatsGenData) with type 0 (byte) defined in section org.quic.camera.swbestatsdata
+    0x80c30000 (AecLux) with type 2 (float) defined in section com.qti.chi.statsaec
+    0x80c40000 (skipFrame) with type 1 (int32) defined in section com.qti.chi.statsSkip
+    0x80c50000 (MetadataOwner) with type 0 (byte) defined in section com.qti.chi.metadataOwnerInfo
+    0x80c60000 (IsSnapshot) with type 0 (byte) defined in section com.qti.chi.feature2RequestInfo
+    0x80c60001 (Feature2MccResult) with type 0 (byte) defined in section com.qti.chi.feature2RequestInfo
+    0x80c70000 (PhysicalCameraConfigs) with type 0 (byte) defined in section com.qti.chi.cameraconfiguration
+    0x80c70001 (PhysicalCameraInputConfig) with type 0 (byte) defined in section com.qti.chi.cameraconfiguration
+    0x80c70002 (PhysicalDifferentDimensionMap) with type 0 (byte) defined in section com.qti.chi.cameraconfiguration
+    0x80c80000 (CaptureStart) with type 1 (int32) defined in section com.qti.chi.superslowmotionfrc
+    0x80c80001 (CaptureComplete) with type 1 (int32) defined in section com.qti.chi.superslowmotionfrc
+    0x80c80002 (ProcessingComplete) with type 1 (int32) defined in section com.qti.chi.superslowmotionfrc
+    0x80c80003 (InterpolationFactor) with type 1 (int32) defined in section com.qti.chi.superslowmotionfrc
+    0x80c90000 (cameraRunningOnBPS) with type 0 (byte) defined in section com.qti.chi.bpsrealtimecam
+    0x80c90001 (imageStabilizationMode) with type 0 (byte) defined in section com.qti.chi.bpsrealtimecam
+    0x80ca0000 (ZSLTimeRange) with type 3 (int64) defined in section com.qti.chi.ZSLSettings
+    0x80ca0001 (lastZSLframe) with type 1 (int32) defined in section com.qti.chi.ZSLSettings
+    0x80ca0002 (lastDebugZSLframe) with type 1 (int32) defined in section com.qti.chi.ZSLSettings
+    0x80cb0000 (enable) with type 1 (int32) defined in section com.qti.chi.livePreview
+    0x80cc0000 (snapshotframeexposuretype) with type 1 (int32) defined in section com.qti.chi.snapshotframeexposuretype
+    0x80cd0000 (DebugDumpConfig) with type 0 (byte) defined in section org.quic.camera.debugDumpConfig
+    0x80ce0000 (MetaBufferDelay) with type 1 (int32) defined in section com.qti.chi.offlinepipelineinfo
+    0x80cf0000 (PixelShift) with type 0 (byte) defined in section com.qti.chi.pixelshift
+    0x80d00000 (AnchorFrame) with type 1 (int32) defined in section org.quic.camera.AnchorSync
+    0x80d10000 (MultiframeBurstLimit) with type 0 (byte) defined in section org.quic.camera.MultiFrame
+    0x80d10001 (MultiframeBurstEnable) with type 0 (byte) defined in section org.quic.camera.MultiFrame
+    0x80d20000 (InduceSleep) with type 1 (int32) defined in section org.quic.camera.induceSleepInChiNode
+    0x80d30000 (IdealRaw) with type 0 (byte) defined in section com.qti.chi.rawcbinfo
+    0x80d30001 (RawSize) with type 0 (byte) defined in section com.qti.chi.rawcbinfo
+    0x80d40000 (QLLConfiguration) with type 0 (byte) defined in section com.qti.chi.qllControl
+    0x80d50000 (scenedetect.available) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50001 (motiondetect.enable) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50002 (motiondetect.result) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50003 (autozoom.available) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50004 (eis.available) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50005 (supereis.available) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50006 (denoise.available) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50007 (videohdr.available) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50008 (distortion.enable) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50009 (hdr.enable) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d5000a (scenedetect.ev) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d5000b (scenedetect.framecnt) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d5000c (showmulti.enable) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d5000d (scenedetect.available) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d5000e (scenedetect.enable) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d5000f (scenedetect.result) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50010 (scenedetect.status) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50011 (refine) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50012 (scenedetect.suggesteddarkshotexp) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50013 (torch.mode) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50014 (hdrchecker.ev) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50015 (hdrchecker.result) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50016 (hdrchecker.enabled) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50017 (hdrchecker.frameCount) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50018 (mmi.calibrationFlag) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d50019 (datahub.isnight) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d5001a (slam.skipAwb) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d5001b (slam.skipChecker) with type 1 (int32) defined in section com.leiniao.feature.stream
+    0x80d60000 (distortion.enable) with type 1 (int32) defined in section com.leiniao.feature.capture
+    0x80d60001 (watermark.enable) with type 1 (int32) defined in section com.leiniao.feature.capture
+    0x80d60002 (selfiemirror.mode) with type 0 (byte) defined in section com.leiniao.feature.capture
+    0x80d60003 (darkshot.enable) with type 1 (int32) defined in section com.leiniao.feature.capture
+    0x80d60004 (refine) with type 1 (int32) defined in section com.leiniao.feature.capture
+    0x80d60005 (mfnr.enable) with type 1 (int32) defined in section com.leiniao.feature.capture
+    0x80d60006 (supernight.enable) with type 1 (int32) defined in section com.leiniao.feature.capture
+    0x80d60007 (superres.enable) with type 1 (int32) defined in section com.leiniao.feature.capture
+    0x80d60008 (cbcrinvert.enable) with type 1 (int32) defined in section com.leiniao.feature.capture
+    0x80d60009 (mmi.calibrationData) with type 0 (byte) defined in section com.leiniao.feature.capture
+    0x80d70000 (DeviceOrientation) with type 1 (int32) defined in section com.leiniao.hal
+    0x80d70001 (current_id) with type 1 (int32) defined in section com.leiniao.hal
+    0x80d70002 (sensorAnalogGain) with type 2 (float) defined in section com.leiniao.hal
+    0x80d70003 (sensorDigitalGain) with type 2 (float) defined in section com.leiniao.hal
+    0x80d70004 (ispDigitalGain) with type 2 (float) defined in section com.leiniao.hal
+    0x80d70005 (eis.enable) with type 1 (int32) defined in section com.leiniao.hal
+    0x80d70006 (eis.crop_factor) with type 2 (float) defined in section com.leiniao.hal
+    0x80d70007 (featureGraphType) with type 1 (int32) defined in section com.leiniao.hal
+    0x80d70008 (cameraId) with type 1 (int32) defined in section com.leiniao.hal
+    0x80d70009 (sensorName) with type 0 (byte) defined in section com.leiniao.hal
+    0x80d80000 (caminfo.cameraId) with type 1 (int32) defined in section com.leiniao.config
+    0x80d80001 (caminfo.cameraType) with type 0 (byte) defined in section com.leiniao.config
+    0x80d80002 (caminfo.numOfDevices) with type 1 (int32) defined in section com.leiniao.config
+    0x80d80003 (caminfo.supportedSizes) with type 1 (int32) defined in section com.leiniao.config
+    0x80d80004 (caminfo.auxSize) with type 1 (int32) defined in section com.leiniao.config
+    0x80d80005 (caminfo.subCameraIds) with type 1 (int32) defined in section com.leiniao.config
+    0x80d80006 (caminfo.reserved) with type 1 (int32) defined in section com.leiniao.config
+    0x80d80007 (video.af.enable) with type 0 (byte) defined in section com.leiniao.config
+    0x80d80008 (mmi.calibrationSize) with type 1 (int32) defined in section com.leiniao.config
+    0x80d80009 (mmi.calibrationCameraId) with type 1 (int32) defined in section com.leiniao.config
+    0x80d90000 (sensor.highresolution) with type 1 (int32) defined in section com.leiniao.device.capabilities
+    0x80da0000 (IFETestGenCapability) with type 0 (byte) defined in section org.quic.camera.IFETestGenCapability
+    0x80db0000 (IFETestGenConfig) with type 0 (byte) defined in section org.quic.camera.IFETestGenConfig
+    0x80dc0000 (MultiFrameData) with type 0 (byte) defined in section com.qti.chi.multiFrameData
+    0x80dd0000 (StackedFrame) with type 0 (byte) defined in section com.qti.chi.stackedFrame
+    0x80de0000 (InducerFeatureGraphName) with type 0 (byte) defined in section com.qti.chi.Feature2ErrorInduceFramework
+    0x80de0001 (InducerFeatureName) with type 0 (byte) defined in section com.qti.chi.Feature2ErrorInduceFramework
+    0x80de0002 (InducerFROProcessSeqId) with type 1 (int32) defined in section com.qti.chi.Feature2ErrorInduceFramework
+    0x80de0003 (InducerFeaturePortName) with type 0 (byte) defined in section com.qti.chi.Feature2ErrorInduceFramework
+    0x80de0004 (InduceFeature2ErrorType) with type 1 (int32) defined in section com.qti.chi.Feature2ErrorInduceFramework
+    0x80df0000 (TransitionMode) with type 0 (byte) defined in section com.qti.chi.transitionMode
+    0x80e00000 (NumOfBayerMerge) with type 1 (int32) defined in section org.quic.camera.NumOfBayerMerge
+    0x80e10000 (SFEAlignmentSize) with type 0 (byte) defined in section org.quic.camera.sfeAlignment
+    0x80e10001 (SFEAlignmentOffset) with type 0 (byte) defined in section org.quic.camera.sfeAlignment
+    0x80e20000 (enableADRCPath) with type 1 (int32) defined in section com.qti.chi.enableadrcpath
+
+== Camera error traces (0): ==
+  No camera traces collected.
+
+**********Dumpsys from previous open session**********
+== Camera device 0 dynamic info: ==
+  Device 0 is open. Client instance dump:
+    Client priority score: 0 state: 2
+    Client PID: 2575
+    Client package: com.eg.android.AlipayGGlasses
+  CameraDeviceClient[0] (0xb400007111322680) dump:
+    Current client UID 10051
+    State:
+      Request ID counter: 2
+      No input stream configured.
+      Current output stream/surface IDs:
+        Stream 0 Surface 0
+    Latest received frame:
+      Dumping camera metadata array: 14 / 14 entries, 16 / 16 bytes of extra data.
+        Version: 1, Flags: 00000000
+        android.control.awbLock (1000a): byte[1]
+          [OFF ]
+        android.control.aeTargetFpsRange (10005): int32[2]
+          [15 30 ]
+        android.control.awbState (10022): byte[1]
+          [CONVERGED ]
+        android.control.awbMode (1000b): byte[1]
+          [AUTO ]
+        android.control.aeAntibandingMode (10000): byte[1]
+          [AUTO ]
+        android.control.aeCompensationStep (10016): rational[1]
+          [(1 / 6) ]
+        android.control.mode (1000f): byte[1]
+          [AUTO ]
+        android.control.aeMode (10003): byte[1]
+          [ON ]
+        android.control.aeLock (10002): byte[1]
+          [OFF ]
+        android.control.aePrecaptureTrigger (10006): byte[1]
+          [IDLE ]
+        android.control.aeState (1001f): byte[1]
+          [CONVERGED ]
+        android.control.aeExposureCompensation (10001): int32[1]
+          [0 ]
+        android.request.frameCount (c0000): int32[1]
+          [151 ]
+        android.request.id (c0001): int32[1]
+          [1 ]
+  Device dump:
+    Device status: CONFIGURED
+    Stream configuration:
+    Operation mode: NORMAL (0) 
+      No input stream.
+    Stream[0]: Output
+      Consumer name: ImageReader-2048x1536f23m2-2575-2
+      State: 4
+      Dims: 2048 x 1536, format 0x23, dataspace 0x8c20000
+      Max size: 0
+      Combined usage: 131075, max HAL buffers: 8
+      Frames produced: 153, last timestamp: 0 ns
+      Total buffers: 10, currently dequeued: 0
+      DequeueBuffer latency histogram: (153) samples
+        5     10     15     20     25     30     35     40     45    inf (max ms)
+     89.54   5.88   3.27   0.00   0.00   0.00   0.00   0.00   0.00   1.31 (%)
+    Camera3 Buffer Manager:
+      Total stream sets: 0
+    In-flight requests:
+      None
+    ProcessCaptureRequest latency histogram: (154) samples
+       40     80    120    160    200    240    280    320    360    inf (max ms)
+     83.12   14.94   0.65   0.65   0.00   0.00   0.00   0.00   0.00   0.65 (%)
+    Last request sent:
+      Dumping camera metadata array: 88 / 88 entries, 1440 / 1440 bytes of extra data.
+        Version: 1, Flags: 00000001
+        android.colorCorrection.mode (00000): byte[1]
+          [FAST ]
+        android.colorCorrection.transform (00001): rational[9]
+          [(1 / 1) (0 / 1) ]
+          [(0 / 1) (0 / 1) ]
+          [(1 / 1) (0 / 1) ]
+          [(0 / 1) (0 / 1) ]
+          [(1 / 1) ]
+        android.colorCorrection.gains (00002): float[4]
+          [1.00000000 1.00000000 1.00000000 1.00000000 ]
+        android.colorCorrection.aberrationMode (00003): byte[1]
+          [FAST ]
+        android.control.aeAntibandingMode (10000): byte[1]
+          [AUTO ]
+        android.control.aeExposureCompensation (10001): int32[1]
+          [0 ]
+        android.control.aeLock (10002): byte[1]
+          [OFF ]
+        android.control.aeMode (10003): byte[1]
+          [ON ]
+        android.control.aeRegions (10004): int32[5]
+          [0 0 4032 3024 ]
+          [0 ]
+        android.control.aeTargetFpsRange (10005): int32[2]
+          [15 30 ]
+        android.control.aePrecaptureTrigger (10006): byte[1]
+          [IDLE ]
+        android.control.afMode (10007): byte[1]
+          [OFF ]
+        android.control.afRegions (10008): int32[5]
+          [0 0 4032 3024 ]
+          [0 ]
+        android.control.afTrigger (10009): byte[1]
+          [IDLE ]
+        android.control.awbLock (1000a): byte[1]
+          [OFF ]
+        android.control.awbMode (1000b): byte[1]
+          [AUTO ]
+        android.control.captureIntent (1000d): byte[1]
+          [PREVIEW ]
+        android.control.effectMode (1000e): byte[1]
+          [OFF ]
+        android.control.mode (1000f): byte[1]
+          [AUTO ]
+        android.control.sceneMode (10010): byte[1]
+          [DISABLED ]
+        android.control.videoStabilizationMode (10011): byte[1]
+          [OFF ]
+        android.control.afState (10020): byte[1]
+          [INACTIVE ]
+        android.control.postRawSensitivityBoost (10028): int32[1]
+          [100 ]
+        android.control.enableZsl (10029): byte[1]
+          [FALSE ]
+        android.control.zoomRatio (1002f): float[1]
+          [2.00000000 ]
+        android.edge.mode (30000): byte[1]
+          [FAST ]
+        android.flash.mode (40002): byte[1]
+          [OFF ]
+        android.hotPixel.mode (60000): byte[1]
+          [FAST ]
+        android.jpeg.quality (70004): byte[1]
+          [100 ]
+        android.jpeg.thumbnailQuality (70005): byte[1]
+          [85 ]
+        android.jpeg.thumbnailSize (70006): int32[2]
+          [0 0 ]
+        android.lens.aperture (80000): float[1]
+          [2.25000000 ]
+        android.lens.filterDensity (80001): float[1]
+          [0.00000000 ]
+        android.lens.focalLength (80002): float[1]
+          [1.89999998 ]
+        android.lens.focusDistance (80003): float[1]
+          [10.00000000 ]
+        android.lens.opticalStabilizationMode (80004): byte[1]
+          [OFF ]
+        android.lens.poseRotation (80006): float[4]
+          [0.00000000 0.00000000 0.00000000 1.00000000 ]
+        android.lens.poseTranslation (80007): float[3]
+          [0.00000000 0.00000000 0.00000000 ]
+        android.lens.intrinsicCalibration (8000a): float[5]
+          [1899.99987793 1899.99987793 0.00000000 0.00000000 0.00000000 ]
+        android.lens.distortion (8000d): float[5]
+          [0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 ]
+        android.lens.distortionMaximumResolution (8000e): float[5]
+          [0.00000000 0.00000000 0.00000000 0.00000000 0.00000000 ]
+        android.lens.intrinsicCalibrationMaximumResolution (8000f): float[5]
+          [1899.99987793 1899.99987793 0.00000000 0.00000000 0.00000000 ]
+        android.noiseReduction.mode (a0000): byte[1]
+          [OFF ]
+        android.request.id (c0001): int32[1]
+          [1 ]
+        android.scaler.cropRegion (d0000): int32[4]
+          [1 1 4031 3023 ]
+        android.sensor.exposureTime (e0000): int64[1]
+          [37512 ]
+        android.sensor.frameDuration (e0001): int64[1]
+          [0 ]
+        android.sensor.sensitivity (e0002): int32[1]
+          [100 ]
+        android.sensor.testPatternData (e0017): int32[1]
+          [0 ]
+        android.sensor.testPatternMode (e0018): int32[1]
+          [OFF ]
+        android.shading.mode (100000): byte[1]
+          [FAST ]
+        android.statistics.faceDetectMode (110000): byte[1]
+          [OFF ]
+        android.statistics.hotPixelMapMode (110003): byte[1]
+          [OFF ]
+        android.statistics.lensShadingMapMode (110010): byte[1]
+          [OFF ]
+        android.tonemap.mode (130003): byte[1]
+          [FAST ]
+        android.blackLevel.lock (160000): byte[1]
+          [OFF ]
+        org.codeaurora.qcamera3.sharpness.strength (80020000): int32[1]
+          [2 ]
+        org.codeaurora.qcamera3.ae_bracket.mode (800a0000): byte[1]
+          [0 ]
+        org.quic.camera2.jpegquantizationtables.OEMJPEGLumaQuantizationTable (80160000): byte[128]
+          [16 0 11 0 10 0 16 0 24 0 40 0 51 0 61 0 ]
+          [12 0 12 0 14 0 19 0 26 0 58 0 60 0 55 0 ]
+          [14 0 13 0 16 0 24 0 40 0 57 0 69 0 56 0 ]
+          [14 0 17 0 22 0 29 0 51 0 87 0 80 0 62 0 ]
+          [18 0 22 0 37 0 56 0 68 0 109 0 103 0 77 0 ]
+          [24 0 35 0 55 0 64 0 81 0 104 0 113 0 92 0 ]
+          [49 0 64 0 78 0 87 0 103 0 121 0 120 0 101 0 ]
+          [72 0 92 0 95 0 98 0 112 0 100 0 103 0 99 0 ]
+        org.quic.camera2.jpegquantizationtables.OEMJPEGChromaQuantizationTable (80160001): byte[128]
+          [17 0 18 0 24 0 47 0 99 0 99 0 99 0 99 0 ]
+          [18 0 21 0 26 0 66 0 99 0 99 0 99 0 99 0 ]
+          [24 0 26 0 56 0 99 0 99 0 99 0 99 0 99 0 ]
+          [47 0 66 0 99 0 99 0 99 0 99 0 99 0 99 0 ]
+          [99 0 99 0 99 0 99 0 99 0 99 0 99 0 99 0 ]
+          [99 0 99 0 99 0 99 0 99 0 99 0 99 0 99 0 ]
+          [99 0 99 0 99 0 99 0 99 0 99 0 99 0 99 0 ]
+          [99 0 99 0 99 0 99 0 99 0 99 0 99 0 99 0 ]
+        org.quic.camera2.tuning.feature.Feature1Mode (80210000): byte[1]
+          [0 ]
+        org.quic.camera2.tuning.feature.Feature2Mode (80210001): byte[1]
+          [0 ]
+        org.quic.camera2.ref.cropsize.RefCropSize (80260000): byte[8]
+          [192 15 0 0 208 11 0 0 ]
+        org.quic.camera.manualExposure.disableFPSLimits (80460000): byte[1]
+          [0 ]
+        org.quic.camera.manualExposure.overrideSensorFrameDuration (80460001): int64[1]
+          [0 ]
+        org.quic.camera.strobeControl.strobeControl (80470000): byte[24]
+          [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ]
+          [0 0 0 0 0 0 0 0 ]
+        org.quic.camera.EarlyPCRenable.EarlyPCRenable (80480000): byte[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.availableStreamMap (805e0000): int32[208]
+          [0 0 35 0 ]
+          [1 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 35 0 ]
+          [2 0 1 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 35 1 ]
+          [2 1 1 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 35 2 ]
+          [2 2 1 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [640 480 35 0 ]
+          [2 0 0 1 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [640 480 35 1 ]
+          [2 1 0 1 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [640 480 35 2 ]
+          [2 2 0 1 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 37 0 ]
+          [2 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 37 1 ]
+          [2 1 0 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 37 2 ]
+          [2 2 0 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 32 0 ]
+          [2 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 32 1 ]
+          [2 1 0 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+          [0 0 32 2 ]
+          [2 2 0 0 ]
+          [0 0 0 0 ]
+          [0 0 0 0 ]
+        org.codeaurora.qcamera3.sessionParameters.overrideResourceCostValidation (805e0001): byte[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.enableMFNR (805e0002): int32[1]
+          [1 ]
+        org.codeaurora.qcamera3.sessionParameters.EnableSHDR (805e0003): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.EnableMFHDR (805e0004): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.enableQLL (805e000f): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.enableStatsVisualizer (805e0013): byte[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.EnableQHDR (805e0017): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.EnableAutoHDR (805e0018): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.numHDRexposure (805e0019): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.HDRModePreference (805e001a): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.EnableAFBracketing (805e001b): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.EnableXR (805e0020): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.Use16BitRaw (805e0025): byte[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.EnableIPEPreviewInStill (805e0026): byte[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.UseBPSIdealRawHDR (805e0027): byte[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.IsRayNeoRuntime (805e0028): byte[1]
+          [0 ]
+        org.codeaurora.qcamera3.sessionParameters.RayNeoRuntimeStreamConfig (805e0029): int32[1]
+          [0 ]
+        org.quic.camera2.statsNNControl.Enable (80830000): byte[1]
+          [0 ]
+        com.qti.stats_control.ExposureCount (80a60002): int32[1]
+          [0 ]
+        org.codeaurora.qcamera3.saturation.use_saturation (80b80000): int32[1]
+          [5 ]
+     Tag monitoring disabled (enable with -m <name1,..,nameN>)
+     HAL device dump:
+
+**********End of Dumpsys from previous open session**********

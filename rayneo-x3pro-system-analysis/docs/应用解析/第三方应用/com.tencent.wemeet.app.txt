@@ -1,0 +1,700 @@
+Activity Resolver Table:
+  Schemes:
+      wemeet:
+        57445c4 com.tencent.wemeet.app/.ExternalLinkActivity filter 95b9cad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "wemeet"
+          Scheme: "wemeet2"
+          Scheme: "tencentmeet"
+          Scheme: "wwauth3rdca2b0d866939bfde"
+          Scheme: "wwauth3rd4806d2ddf553eb8b"
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "relay_kit": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "auth": -1
+          Authority: "action": -1
+          Authority: "uploadLog": -1
+          Authority: "start_meeting": -1
+        8c9be2 com.tencent.wemeet.app/.push.ExternalPushActivity filter 6296b73
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "wemeet"
+          Authority: "push": -1
+      tpns:
+        c51fa30 com.tencent.wemeet.app/com.tencent.android.tpush.TpnsActivity filter 45c942e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "tpns"
+          Authority: "com.tencent.wemeet.app": -1
+      https:
+        70bd056 com.tencent.wemeet.app/.ExternalAppLinkActivity filter 20618d7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Authority: "ulink.meeting.tencent.com": -1
+          Path: "PatternMatcher{PREFIX: /ulink/}"
+          AutoVerify=true
+      tencent101828163:
+        b21c53a com.tencent.wemeet.app/com.tencent.tauth.AuthActivity filter c54d5eb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent101828163"
+      stpns:
+        80edf48 com.tencent.wemeet.app/com.tencent.android.tpush.InnerTpnsActivity filter fd6fb06
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "stpns"
+          Authority: "com.tencent.wemeet.app": -1
+      wwauth3rdca2b0d866939bfde:
+        57445c4 com.tencent.wemeet.app/.ExternalLinkActivity filter 95b9cad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "wemeet"
+          Scheme: "wemeet2"
+          Scheme: "tencentmeet"
+          Scheme: "wwauth3rdca2b0d866939bfde"
+          Scheme: "wwauth3rd4806d2ddf553eb8b"
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "relay_kit": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "auth": -1
+          Authority: "action": -1
+          Authority: "uploadLog": -1
+          Authority: "start_meeting": -1
+      wwauth3rd4806d2ddf553eb8b:
+        57445c4 com.tencent.wemeet.app/.ExternalLinkActivity filter 95b9cad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "wemeet"
+          Scheme: "wemeet2"
+          Scheme: "tencentmeet"
+          Scheme: "wwauth3rdca2b0d866939bfde"
+          Scheme: "wwauth3rd4806d2ddf553eb8b"
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "relay_kit": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "auth": -1
+          Authority: "action": -1
+          Authority: "uploadLog": -1
+          Authority: "start_meeting": -1
+      wemeet2:
+        57445c4 com.tencent.wemeet.app/.ExternalLinkActivity filter 95b9cad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "wemeet"
+          Scheme: "wemeet2"
+          Scheme: "tencentmeet"
+          Scheme: "wwauth3rdca2b0d866939bfde"
+          Scheme: "wwauth3rd4806d2ddf553eb8b"
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "relay_kit": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "auth": -1
+          Authority: "action": -1
+          Authority: "uploadLog": -1
+          Authority: "start_meeting": -1
+      tencentmeet:
+        57445c4 com.tencent.wemeet.app/.ExternalLinkActivity filter 95b9cad
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "wemeet"
+          Scheme: "wemeet2"
+          Scheme: "tencentmeet"
+          Scheme: "wwauth3rdca2b0d866939bfde"
+          Scheme: "wwauth3rd4806d2ddf553eb8b"
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "page": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "relay_kit": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "launch": -1
+          Authority: "auth": -1
+          Authority: "action": -1
+          Authority: "uploadLog": -1
+          Authority: "start_meeting": -1
+      qwallet100703379:
+        14895c com.tencent.wemeet.app/com.tencent.midas.qq.APMidasQQWalletActivity filter 3c0b465
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "qwallet100703379"
+
+  Non-Data Actions:
+      com.tencent.wemeet.sdk.INIT:
+        e19f7fb com.tencent.wemeet.app/.StartupActivity filter e85ca71
+          Action: "com.tencent.wemeet.sdk.INIT"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        e19f7fb com.tencent.wemeet.app/.StartupActivity filter 1bf4018
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.tencent.wemeet.app.OPEN_TPNS_ACTIVITY_V2:
+        80edf48 com.tencent.wemeet.app/com.tencent.android.tpush.InnerTpnsActivity filter d31e1
+          Action: "com.tencent.wemeet.app.OPEN_TPNS_ACTIVITY_V2"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action:
+        c51fa30 com.tencent.wemeet.app/com.tencent.android.tpush.TpnsActivity filter a254bcf
+          Action: "android.intent.action"
+        80edf48 com.tencent.wemeet.app/com.tencent.android.tpush.InnerTpnsActivity filter ba8e5c7
+          Action: "android.intent.action"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        bd6a7f4 com.tencent.wemeet.app/com.sina.weibo.sdk.share.ShareTransActivity filter c4a0b1d
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      com.tencent.wemeet.app.OPEN_TPNS_ACTIVITY:
+        c51fa30 com.tencent.wemeet.app/com.tencent.android.tpush.TpnsActivity filter a4256a9
+          Action: "com.tencent.wemeet.app.OPEN_TPNS_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        bc7e5bc com.tencent.wemeet.app/com.tencent.android.mipush.XMPushMessageReceiver filter 204689a
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      com.tencent.android.xg.vip.action.FEEDBACK:
+        315f0ea com.tencent.wemeet.app/.push.MessageReceiver filter ebb0fdb
+          Action: "com.tencent.android.xg.vip.action.PUSH_MESSAGE"
+          Action: "com.tencent.android.xg.vip.action.FEEDBACK"
+      com.xiaomi.mipush.ERROR:
+        bc7e5bc com.tencent.wemeet.app/com.tencent.android.mipush.XMPushMessageReceiver filter 4dba5cb
+          Action: "com.xiaomi.mipush.ERROR"
+      com.huawei.android.push.intent.REGISTRATION:
+        5a65090 com.tencent.wemeet.app/com.huawei.hms.support.api.push.PushReceiver filter 3bc5d89
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.tencent.android.xg.vip.action.PUSH_MESSAGE:
+        315f0ea com.tencent.wemeet.app/.push.MessageReceiver filter ebb0fdb
+          Action: "com.tencent.android.xg.vip.action.PUSH_MESSAGE"
+          Action: "com.tencent.android.xg.vip.action.FEEDBACK"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        fcfb342 com.tencent.wemeet.app/com.huawei.hms.support.api.push.PushMsgReceiver filter b199f53
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE:
+        2dcaa78 com.tencent.wemeet.app/com.tencent.android.tpush.XGPushReceiver filter 4b55551
+          Action: "com.tencent.android.xg.vip.action.SDK"
+          Action: "com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE"
+          Action: "com.tencent.android.xg.vip.action.ACTION_SDK_KEEPALIVE"
+          mPriority=2147483647, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.tencent.rmonitor.natmem.USAGE_DUMP:
+        eda31b6 com.tencent.wemeet.app/com.tencent.rmonitor.natmem.NatMemReceiver filter 6d0ceb7
+          Action: "com.tencent.rmonitor.natmem.USAGE_DUMP"
+          Action: "com.tencent.rmonitor.natmem.LEAK_DUMP"
+      com.huawei.android.push.intent.RECEIVE:
+        5a65090 com.tencent.wemeet.app/com.huawei.hms.support.api.push.PushReceiver filter 3bc5d89
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.vivo.pushclient.action.RECEIVE:
+        57c192 com.tencent.wemeet.app/com.tencent.android.vivopush.VivoPushMessageReceiver filter b441763
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.oplus.synergy.action.data_relay:
+        e6df624 com.tencent.wemeet.app/com.oplus.ocs.relaykit.sdk.broadcastreceiver.RelayReceiver filter 9a8f58d
+          Action: "com.oplus.synergy.action.data_relay"
+      com.tencent.wemeet.package_notification.action.click:
+        9bb018c com.tencent.wemeet.app/com.tencent.wemeet.sdk.notification.CommonNotificationReceiver filter d6080d5
+          Action: "com.tencent.wemeet.package_notification.action.click"
+      com.tencent.wemeet.package_upgrade.action.cancel_download:
+        aac64de com.tencent.wemeet.app/com.tencent.wemeet.sdk.upgrade.PackageNotificationReceiver filter 3d6c6bf
+          Action: "com.tencent.wemeet.package_upgrade.action.click"
+          Action: "com.tencent.wemeet.package_upgrade.action.cancel_download"
+      com.xiaomi.push.PING_TIMER:
+        ca9c18e com.tencent.wemeet.app/com.xiaomi.push.service.receivers.PingReceiver filter f14ddaf
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.tencent.wemeet.ring.action.decline:
+        4b04f60 com.tencent.wemeet.app/com.tencent.wemeet.module.ring.broadcast.RingNotificationBroadcastReceiver filter b813c19
+          Action: "com.tencent.wemeet.ring.action.decline"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        bc7e5bc com.tencent.wemeet.app/com.tencent.android.mipush.XMPushMessageReceiver filter 7844945
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.tencent.wemeet.package_upgrade.action.click:
+        aac64de com.tencent.wemeet.app/com.tencent.wemeet.sdk.upgrade.PackageNotificationReceiver filter 3d6c6bf
+          Action: "com.tencent.wemeet.package_upgrade.action.click"
+          Action: "com.tencent.wemeet.package_upgrade.action.cancel_download"
+      com.huawei.intent.action.PUSH:
+        fcfb342 com.tencent.wemeet.app/com.huawei.hms.support.api.push.PushMsgReceiver filter b199f53
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      com.tencent.android.xg.vip.action.ACTION_SDK_KEEPALIVE:
+        2dcaa78 com.tencent.wemeet.app/com.tencent.android.tpush.XGPushReceiver filter 4b55551
+          Action: "com.tencent.android.xg.vip.action.SDK"
+          Action: "com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE"
+          Action: "com.tencent.android.xg.vip.action.ACTION_SDK_KEEPALIVE"
+          mPriority=2147483647, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.tencent.android.xg.vip.action.SDK:
+        2dcaa78 com.tencent.wemeet.app/com.tencent.android.tpush.XGPushReceiver filter 4b55551
+          Action: "com.tencent.android.xg.vip.action.SDK"
+          Action: "com.tencent.android.xg.vip.action.INTERNAL_PUSH_MESSAGE"
+          Action: "com.tencent.android.xg.vip.action.ACTION_SDK_KEEPALIVE"
+          mPriority=2147483647, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.tencent.rmonitor.natmem.LEAK_DUMP:
+        eda31b6 com.tencent.wemeet.app/com.tencent.rmonitor.natmem.NatMemReceiver filter 6d0ceb7
+          Action: "com.tencent.rmonitor.natmem.USAGE_DUMP"
+          Action: "com.tencent.rmonitor.natmem.LEAK_DUMP"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.tencent.wemeet.app.XGVIP_PUSH_ACTION:
+        a4d3054 com.tencent.wemeet.app/com.tencent.android.tpush.rpc.XGRemoteService filter c8f5bfd
+          Action: "com.tencent.wemeet.app.XGVIP_PUSH_ACTION"
+      com.huawei.push.msg.NOTIFY_MSG:
+        a76fdc0 com.tencent.wemeet.app/com.huawei.hms.support.api.push.service.HmsMsgService filter 87abaf9
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        8307466 com.tencent.wemeet.app/com.heytap.msp.push.service.DataMessageCallbackService filter cfcd3a7 permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.heytap.msp.push.RECEIVE_MCS_MESSAGE:
+        8307466 com.tencent.wemeet.app/com.heytap.msp.push.service.DataMessageCallbackService filter cfcd3a7 permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        40ba1a8 com.tencent.wemeet.app/com.heytap.msp.push.service.CompatibleDataMessageCallbackService filter 42534c1 permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.huawei.push.msg.PASSBY_MSG:
+        a76fdc0 com.tencent.wemeet.app/com.huawei.hms.support.api.push.service.HmsMsgService filter 87abaf9
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.hihonor.push.action.MESSAGING_EVENT:
+        6cfaa3e com.tencent.wemeet.app/com.tencent.android.tpush.honor.HonorMessageService filter 63e909f
+          Action: "com.hihonor.push.action.MESSAGING_EVENT"
+      com.huawei.push.action.MESSAGING_EVENT:
+        9bf70f2 com.tencent.wemeet.app/com.huawei.android.hms.tpns.HWHmsMessageService filter 8190343
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+
+Domain verification status:
+  com.tencent.wemeet.app:
+    ID: f7f1f0a7-5942-4ea6-bffa-33c1549f4038
+    Signatures: [69:5B:56:57:E6:BD:B4:4C:0B:09:D1:92:92:D6:D6:7E:08:CF:7C:4F:FE:CD:B9:E7:2C:F6:61:8D:76:8C:46:91]
+    Domain verification state:
+      ulink.meeting.tencent.com: legacy_failure
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          ulink.meeting.tencent.com
+
+Permissions:
+  Permission [com.tencent.wemeet.app.permission.PUSH_WRITE_PROVIDER] (6a44618):
+    sourcePackage=com.tencent.wemeet.app
+    uid=10093 gids=[] type=0 prot=signature
+    perm=PermissionInfo{fff3eb7 com.tencent.wemeet.app.permission.PUSH_WRITE_PROVIDER}
+
+Permissions:
+  Permission [com.tencent.wemeet.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (fdd5871):
+    sourcePackage=com.tencent.wemeet.app
+    uid=10093 gids=[] type=0 prot=signature
+    perm=PermissionInfo{7fbda9 com.tencent.wemeet.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Permissions:
+  Permission [com.tencent.wemeet.app.permission.PROCESS_PUSH_MSG] (a974656):
+    sourcePackage=com.tencent.wemeet.app
+    uid=10093 gids=[] type=0 prot=signature
+    perm=PermissionInfo{9c2971f com.tencent.wemeet.app.permission.PROCESS_PUSH_MSG}
+
+Permissions:
+  Permission [com.tencent.wemeet.app.permission.XGPUSH_RECEIVE] (65b56d7):
+    sourcePackage=com.tencent.wemeet.app
+    uid=10093 gids=[] type=0 prot=signature
+    perm=PermissionInfo{9972bf com.tencent.wemeet.app.permission.XGPUSH_RECEIVE}
+
+Permissions:
+  Permission [com.tencent.wemeet.app.permission.receiver] (aa3abc4):
+    sourcePackage=com.tencent.wemeet.app
+    uid=10093 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{20fd545 com.tencent.wemeet.app.permission.receiver}
+
+Permissions:
+  Permission [com.tencent.wemeet.app.permission.PUSH_PROVIDER] (39e0aad):
+    sourcePackage=com.tencent.wemeet.app
+    uid=10093 gids=[] type=0 prot=signature
+    perm=PermissionInfo{f3662fb com.tencent.wemeet.app.permission.PUSH_PROVIDER}
+
+Permissions:
+  Permission [com.tencent.wemeet.app.permission.MIPUSH_RECEIVE] (5971e2):
+    sourcePackage=com.tencent.wemeet.app
+    uid=10093 gids=[] type=0 prot=signature
+    perm=PermissionInfo{83b2ea7 com.tencent.wemeet.app.permission.MIPUSH_RECEIVE}
+
+Registered ContentProviders:
+  com.tencent.wemeet.app/com.tencent.android.tpush.XGPushProvider:
+    Provider{a5b0ac com.tencent.wemeet.app/com.tencent.android.tpush.XGPushProvider}
+  com.tencent.wemeet.app/com.tencent.qmethod.pandoraex.provider.PandoraExProvider:
+    Provider{916ba2d com.tencent.wemeet.app/com.tencent.qmethod.pandoraex.provider.PandoraExProvider}
+  com.tencent.wemeet.app/com.tencent.wemeet.sdk.meeting.inmeeting.imagepicker.PictureFileProvider:
+    Provider{a51cc29 com.tencent.wemeet.app/com.tencent.wemeet.sdk.meeting.inmeeting.imagepicker.PictureFileProvider}
+  com.tencent.wemeet.app/com.huawei.hms.support.api.push.PushProvider:
+    Provider{6602e55 com.tencent.wemeet.app/com.huawei.hms.support.api.push.PushProvider}
+  com.tencent.wemeet.app/com.huawei.hms.aaid.InitProvider:
+    Provider{33e9a41 com.tencent.wemeet.app/com.huawei.hms.aaid.InitProvider}
+  com.tencent.wemeet.app/com.tencent.smtt.utils.FileProvider:
+    Provider{cd8a072 com.tencent.wemeet.app/com.tencent.smtt.utils.FileProvider}
+  com.tencent.wemeet.app/com.tencent.wemeet.sdk.fileprovider.WeMeetFileProvider:
+    Provider{2a8dbed com.tencent.wemeet.app/com.tencent.wemeet.sdk.fileprovider.WeMeetFileProvider}
+  com.tencent.wemeet.app/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller:
+    Provider{258859c com.tencent.wemeet.app/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller}
+  com.tencent.wemeet.app/com.tencent.wemeet.sdk.sharing.XhsShareFileProvider:
+    Provider{ee52f2b com.tencent.wemeet.app/com.tencent.wemeet.sdk.sharing.XhsShareFileProvider}
+  com.tencent.wemeet.app/com.sina.weibo.sdk.content.FileProvider:
+    Provider{c37c091 com.tencent.wemeet.app/com.sina.weibo.sdk.content.FileProvider}
+  com.tencent.wemeet.app/com.tencent.tpns.baseapi.base.SettingsContentProvider:
+    Provider{1c8ec7e com.tencent.wemeet.app/com.tencent.tpns.baseapi.base.SettingsContentProvider}
+  com.tencent.wemeet.app/com.tencent.android.tpush.XGVipPushKAProvider:
+    Provider{c12bdad com.tencent.wemeet.app/com.tencent.android.tpush.XGVipPushKAProvider}
+  com.tencent.wemeet.app/androidx.startup.InitializationProvider:
+    Provider{1084f30 com.tencent.wemeet.app/androidx.startup.InitializationProvider}
+  com.tencent.wemeet.app/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{598cc33 com.tencent.wemeet.app/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+  com.tencent.wemeet.app/com.tencent.wemeet.sdk.sharing.ShareFileProvider:
+    Provider{2e20908 com.tencent.wemeet.app/com.tencent.wemeet.sdk.sharing.ShareFileProvider}
+  com.tencent.wemeet.app/androidx.core.content.FileProvider:
+    Provider{efe71d1 com.tencent.wemeet.app/androidx.core.content.FileProvider}
+  com.tencent.wemeet.app/com.tencent.android.tpush.SettingsContentProvider:
+    Provider{fbf7dc2 com.tencent.wemeet.app/com.tencent.android.tpush.SettingsContentProvider}
+
+ContentProvider Authorities:
+  [com.tencent.wemeet.app.AUTH_XGPUSH_KEEPALIVE]:
+    Provider{c12bdad com.tencent.wemeet.app/com.tencent.android.tpush.XGVipPushKAProvider}
+      applicationInfo=ApplicationInfo{d948973 com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.aaidinitprovider]:
+    Provider{33e9a41 com.tencent.wemeet.app/com.huawei.hms.aaid.InitProvider}
+      applicationInfo=ApplicationInfo{c11c030 com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.share_provider]:
+    Provider{2e20908 com.tencent.wemeet.app/com.tencent.wemeet.sdk.sharing.ShareFileProvider}
+      applicationInfo=ApplicationInfo{13da4a9 com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.xhs_provider]:
+    Provider{ee52f2b com.tencent.wemeet.app/com.tencent.wemeet.sdk.sharing.XhsShareFileProvider}
+      applicationInfo=ApplicationInfo{320ca2e com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.androidx-startup]:
+    Provider{1084f30 com.tencent.wemeet.app/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{2449cf com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.XGVIP_PUSH_AUTH]:
+    Provider{a5b0ac com.tencent.wemeet.app/com.tencent.android.tpush.XGPushProvider}
+      applicationInfo=ApplicationInfo{30aaf5c com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.tg_fileprovider]:
+    Provider{efe71d1 com.tencent.wemeet.app/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{a22e265 com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.pandoraprovider]:
+    Provider{916ba2d com.tencent.wemeet.app/com.tencent.qmethod.pandoraex.provider.PandoraExProvider}
+      applicationInfo=ApplicationInfo{f35b3a com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.rmonitor-installer]:
+    Provider{258859c com.tencent.wemeet.app/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller}
+      applicationInfo=ApplicationInfo{645b3eb com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.TPUSH_PROVIDER]:
+    Provider{fbf7dc2 com.tencent.wemeet.app/com.tencent.android.tpush.SettingsContentProvider}
+      applicationInfo=ApplicationInfo{b416548 com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.provider]:
+    Provider{cd8a072 com.tencent.wemeet.app/com.tencent.smtt.utils.FileProvider}
+      applicationInfo=ApplicationInfo{5643fe1 com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.imagepicker.provider]:
+    Provider{a51cc29 com.tencent.wemeet.app/com.tencent.wemeet.sdk.meeting.inmeeting.imagepicker.PictureFileProvider}
+      applicationInfo=ApplicationInfo{2bf106 com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.huawei.push.provider]:
+    Provider{6602e55 com.tencent.wemeet.app/com.huawei.hms.support.api.push.PushProvider}
+      applicationInfo=ApplicationInfo{6c9a3c7 com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.AGCInitializeProvider]:
+    Provider{598cc33 com.tencent.wemeet.app/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{6ab8df4 com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.XG_SETTINGS_PROVIDER]:
+    Provider{1c8ec7e com.tencent.wemeet.app/com.tencent.tpns.baseapi.base.SettingsContentProvider}
+      applicationInfo=ApplicationInfo{b03f91d com.tencent.wemeet.app}
+  [com.tencent.wemeet.app.fileprovider]:
+    Provider{2a8dbed com.tencent.wemeet.app/com.tencent.wemeet.sdk.fileprovider.WeMeetFileProvider}
+      applicationInfo=ApplicationInfo{61792 com.tencent.wemeet.app}
+
+Key Set Manager:
+  [com.tencent.wemeet.app]
+      Signing KeySets: 18
+
+Packages:
+  Package [com.tencent.wemeet.app] (ae6cd48):
+    userId=10093
+    pkg=Package{48187e1 com.tencent.wemeet.app}
+    codePath=/data/app/~~lRCZZAdTqDxoJe50C_gTow==/com.tencent.wemeet.app-G_vgR0ZNihZ3el8GTMV4bw==
+    resourcePath=/data/app/~~lRCZZAdTqDxoJe50C_gTow==/com.tencent.wemeet.app-G_vgR0ZNihZ3el8GTMV4bw==
+    legacyNativeLibraryDir=/data/app/~~lRCZZAdTqDxoJe50C_gTow==/com.tencent.wemeet.app-G_vgR0ZNihZ3el8GTMV4bw==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2023801123 minSdk=21 targetSdk=33
+    minExtensionVersions=[]
+    versionName=3.33.1.444
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=PackageImpl{48187e1 com.tencent.wemeet.app}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.INSERT dat=content://*/* typ=vnd.android.cursor.item/event }, Intent { act=android.intent.action.SEND dat=content://*/* typ=*/* }, Intent { act=android.intent.action.SENDTO dat=mailto:xx }, Intent { act=android.intent.action.SENDTO dat=smsto:xx }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=com.tencent.wemeet.sdk.INIT cat=[android.intent.category.DEFAULT] }, Intent { act=android.view.InputMethod }, Intent { act=com.hihonor.id.HnOaIdService }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=com.huawei.hms.core }]
+    dataDir=/data/user/0/com.tencent.wemeet.app
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      androidx.window.extensions
+      androidx.window.sidecar
+    usesOptionalNativeLibraries:
+      libtflite_mtk.mtk.so
+      libcdsprpc.so
+      libOpenCL.so
+      libGLES_mali.so
+      libPVROCL.so
+      libllvm-a3xx.so
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      libcdsprpc.so
+      libOpenCL.so
+    timeStamp=2026-03-18 18:47:42
+    firstInstallTime=2026-03-18 18:50:38
+    lastUpdateTime=2026-03-18 18:50:38
+    installerPackageName=com.ffalconxr.mercury.launcher
+    signatures=PackageSignatures{b939906 version:2, signatures:[12a0a926], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.tencent.wemeet.app.permission.XGPUSH_RECEIVE: prot=signature, INSTALLED
+      com.tencent.wemeet.app.permission.receiver: prot=signature|privileged, INSTALLED
+      com.tencent.wemeet.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+      com.tencent.wemeet.app.permission.PROCESS_PUSH_MSG: prot=signature, INSTALLED
+      com.tencent.wemeet.app.permission.PUSH_PROVIDER: prot=signature, INSTALLED
+      com.tencent.wemeet.app.permission.PUSH_WRITE_PROVIDER: prot=signature, INSTALLED
+      com.tencent.wemeet.app.permission.MIPUSH_RECEIVE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.FOREGROUND_SERVICE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CALL_PHONE
+      android.permission.INTERNET
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.REORDER_TASKS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.RECORD_AUDIO
+      android.permission.VIBRATE
+      android.permission.CAMERA
+      android.permission.WAKE_LOCK
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_SCAN
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.POST_NOTIFICATIONS
+      android.permission.NEARBY_WIFI_DEVICES
+      READ_PHONE_NUMBERS
+      android.permission.READ_PHONE_STATE
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.GET_TASKS
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.oplus.ocs.permission.third
+      android.permission.USE_FULL_SCREEN_INTENT
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      com.huawei.android.launcher.permission.CHANGE_BADGE 
+      com.hihonor.android.launcher.permission.CHANGE_BADGE
+      com.vivo.notification.permission.BADGE_ICON
+      android.permission.MANAGE_ACTIVITY_STACKS
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.ACCESS_COARSE_LOCATION
+      com.tencent.wemeet.app.permission.XGPUSH_RECEIVE
+      android.permission.RECEIVE_USER_PRESENT
+      android.permission.READ_CONTACTS
+      com.tencent.wemeet.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.RESTART_PACKAGES
+      com.tencent.wemeet.app.permission.PROCESS_PUSH_MSG
+      com.tencent.wemeet.app.permission.PUSH_PROVIDER
+      com.tencent.wemeet.app.permission.MIPUSH_RECEIVE
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+    install permissions:
+      android.permission.RESTART_PACKAGES: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=false
+      com.tencent.wemeet.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      com.tencent.wemeet.app.permission.PROCESS_PUSH_MSG: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.tencent.wemeet.app.permission.XGPUSH_RECEIVE: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      com.tencent.wemeet.app.permission.PUSH_PROVIDER: granted=true
+      com.tencent.wemeet.app.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.MANAGE_ACTIVITY_STACKS: granted=false
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=false
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=7339 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      lastDisabledCaller: com.ffalconxr.mercury.launcher
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CALL_PHONE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.tencent.mm:
+      com.tencent.wemeet.app
+    com.tencent.wemeet.app:
+      com.xingin.xhs
+      com.sina.weibo
+      com.tencent.mm
+  queries via intent:
+    [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+      com.tencent.wemeet.app
+    com.xingin.xhs:
+      com.tencent.wemeet.app
+    com.phoenix.read:
+      com.tencent.wemeet.app
+    com.sina.weibo:
+      com.tencent.wemeet.app
+    com.tencent.mm:
+      com.tencent.wemeet.app
+    com.tencent.wemeet.app:
+      com.sogou.inputmethod.iot
+      com.android.inputmethod.latin
+      com.xingin.xhs
+      com.larus.nova
+      com.sina.weibo
+      com.tencent.mm
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.tencent.wemeet.app]
+    path: /data/app/~~lRCZZAdTqDxoJe50C_gTow==/com.tencent.wemeet.app-G_vgR0ZNihZ3el8GTMV4bw==/base.apk
+      arm64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.tencent.wemeet.app]
+     base.apk - 8351
+Snapshot statistics
+   Unrecorded-hits: 4326  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:23         now           0           0           0           0           0           0           0
+          1:23        0:23           0           0           0           0           0           0           0
+          2:23        1:23           0           0           0           0           0           0           0
+          3:23        2:23           0           0           0           0           0           0           0
+          4:23        3:23           0           0           0           0           0           0           0
+          5:23        4:23           0           0           0           0           0           0           0
+          6:23        5:23           0           0           0           0           0           0           0
+          7:23        6:23           0           0           0           0           0           0           0
+          8:23        7:23           0           0           0           0           0           0           0
+          9:23        8:23           0           0           0           0           0           0           0
+   20513:16:09:07         now         305      413335           0           2          73         241          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:23         now           0           0           0           0           0           0           0           0
+          1:23        0:23           0           0           0           0           0           0           0           0
+          2:23        1:23           0           0           0           0           0           0           0           0
+          3:23        2:23           0           0           0           0           0           0           0           0
+          4:23        3:23           0           0           0           0           0           0           0           0
+          5:23        4:23           0           0           0           0           0           0           0           0
+          6:23        5:23           0           0           0           0           0           0           0           0
+          7:23        6:23           0           0           0           0           0           0           0           0
+          8:23        7:23           0           0           0           0           0           0           0           0
+          9:23        8:23           0           0           0           0           0           0           0           0
+   20513:16:09:07         now         277          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:23         now           0           0           0           0           0           0           0           0
+          1:23        0:23           0           0           0           0           0           0           0           0
+          2:23        1:23           0           0           0           0           0           0           0           0
+          3:23        2:23           0           0           0           0           0           0           0           0
+          4:23        3:23           0           0           0           0           0           0           0           0
+          5:23        4:23           0           0           0           0           0           0           0           0
+          6:23        5:23           0           0           0           0           0           0           0           0
+          7:23        6:23           0           0           0           0           0           0           0           0
+          8:23        7:23           0           0           0           0           0           0           0           0
+          9:23        8:23           0           0           0           0           0           0           0           0
+   20513:16:09:07         now          52          14           6           5           5          26          21         175

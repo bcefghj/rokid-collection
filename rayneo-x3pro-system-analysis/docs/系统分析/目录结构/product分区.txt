@@ -1,0 +1,25 @@
+=== /product ===
+total 56
+drwxr-xr-x 11 root root   4096 2009-01-01 08:00 .
+drwxr-xr-x 27 root root   4096 2009-01-01 08:00 ..
+drwxr-xr-x  6 root root   4096 2009-01-01 08:00 app
+drwxr-x--x  2 root shell  4096 2009-01-01 08:00 bin
+drwxr-xr-x  6 root root   4096 2009-01-01 08:00 etc
+drwxr-xr-x  3 root root   4096 2009-01-01 08:00 framework
+drwxr-xr-x  2 root root   4096 2009-01-01 08:00 lib64
+drwx------  2 root root  16384 2009-01-01 08:00 lost+found
+drwxr-xr-x  3 root root   4096 2009-01-01 08:00 media
+drwxr-xr-x 14 root root   4096 2009-01-01 08:00 overlay
+drwxr-xr-x  8 root root   4096 2009-01-01 08:00 priv-app
+=== /product/app ===
+LatinIME
+ModuleMetadata
+PowerOffAlarm
+webview
+=== /product/priv-app ===
+AlipayGGlasses
+Contacts
+HotwordEnrollmentRayNeo
+OneTimeInitializer
+RayNeoInputMethod
+SettingsIntelligence

@@ -1,0 +1,181 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        7e4bfb com.ffalcon.navigation/com.ffalcon.LBSUnityActivity filter f0418
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+
+Domain verification status:
+
+Key Set Manager:
+  [com.ffalcon.navigation]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.ffalcon.navigation] (3140fda):
+    userId=10063
+    pkg=Package{8fb5c0b com.ffalcon.navigation}
+    codePath=/system_ext/priv-app/RayNeoNavigation
+    resourcePath=/system_ext/priv-app/RayNeoNavigation
+    legacyNativeLibraryDir=/system_ext/priv-app/RayNeoNavigation/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2026012914 minSdk=31 targetSdk=31
+    minExtensionVersions=[]
+    versionName=V2026.01.29.14
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{8fb5c0b com.ffalcon.navigation}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVILEGED SYSTEM_EXT ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=https:///... }]
+    dataDir=/data/user/0/com.ffalcon.navigation
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2009-01-01 08:00:00
+    firstInstallTime=2009-01-01 08:00:00
+    lastUpdateTime=2009-01-01 08:00:00
+    signatures=PackageSignatures{493bae8 version:3, signatures:[e89d297f], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.INTERNET
+      android.permission.CAMERA
+      android.permission.RECORD_AUDIO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.READ_PHONE_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+      android.permission.WRITE_SETTINGS
+      android.permission.WAKE_LOCK
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      com.android.vending.BILLING
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=1707 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      gids=[3003]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|524288]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ USER_SET|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  forceQueryable:
+    com.ffalcon.navigation
+  queries via package name:
+  queries via intent:
+    com.ffalcon.navigation:
+      com.xingin.xhs
+      com.sina.weibo
+  queryable via interaction:
+    User 0:
+      [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+        com.ffalcon.navigation
+      com.sogou.inputmethod.iot:
+        com.ffalcon.navigation
+      com.rayneo.xr.runtime:
+        com.ffalcon.navigation
+      com.android.permissioncontroller:
+        com.ffalcon.navigation
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.ffalcon.navigation]
+    path: /system_ext/priv-app/RayNeoNavigation/RayNeoNavigation.apk
+      arm64: [status=speed] [reason=prebuilt]
+
+
+Compiler stats:
+  [com.ffalcon.navigation]
+    (No recorded stats)
+Snapshot statistics
+   Unrecorded-hits: 9514  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:13         now           0           0           0           0           0           0           0
+          1:13        0:13           0           0           0           0           0           0           0
+          2:13        1:13           4        4469           0           0           2           1           0
+          3:13        2:13           0           0           0           0           0           0           0
+          4:13        3:13           0           0           0           0           0           0           0
+          5:13        4:13           0           0           0           0           0           0           0
+          6:13        5:13           0           0           0           0           0           0           0
+          7:13        6:13           0           0           0           0           0           0           0
+          8:13        7:13           1       21859           0           0           0           0           0
+          9:13        8:13           0           0           0           0           0           0           0
+   20513:16:51:58         now         310      439663           0           2          75         243          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:13         now           0           0           0           0           0           0           0           0
+          1:13        0:13           0           0           0           0           0           0           0           0
+          2:13        1:13           4           0           0           0           0           0           0           0
+          3:13        2:13           0           0           0           0           0           0           0           0
+          4:13        3:13           0           0           0           0           0           0           0           0
+          5:13        4:13           0           0           0           0           0           0           0           0
+          6:13        5:13           0           0           0           0           0           0           0           0
+          7:13        6:13           0           0           0           0           0           0           0           0
+          8:13        7:13           1           0           0           0           0           0           0           0
+          9:13        8:13           0           0           0           0           0           0           0           0
+   20513:16:51:58         now         282          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:13         now           0           0           0           0           0           0           0           0
+          1:13        0:13           0           0           0           0           0           0           0           0
+          2:13        1:13           2           0           0           0           0           0           0           2
+          3:13        2:13           0           0           0           0           0           0           0           0
+          4:13        3:13           0           0           0           0           0           0           0           0
+          5:13        4:13           0           0           0           0           0           0           0           0
+          6:13        5:13           0           0           0           0           0           0           0           0
+          7:13        6:13           0           0           0           0           0           0           0           0
+          8:13        7:13           0           0           0           0           0           0           0           1
+          9:13        8:13           0           0           0           0           0           0           0           0
+   20513:16:51:58         now          54          14           6           5           5          26          21         178

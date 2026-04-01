@@ -1,0 +1,179 @@
+    recentCallingPackage=com.ffalcon.navigation
+    recentCallingUid=10063
+    allowStartForeground=10
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.BOOT_COMPLETED,reason:,reasonCode:BOOT_COMPLETED,duration:20000,callingUid:1000>; targetSdkVersion:32; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=635470713 foregroundNoti=Notification(channel=FFalconXRNotifications shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 category=service vis=PRIVATE)
+    createTime=-9h13m32s259ms startingBgTimeout=--
+    lastActivity=-2m6s402ms restartTime=-4h8m2s313ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+    Bindings:
+    * IntentBindRecord{91785d1 CREATE}:
+--
+      * Client AppBindRecord{f760715 ProcessRecord{251545e 20843:com.ffalcon.navigation/u0a63}}
+        Per-process Connections:
+          ConnectionRecord{ba2dd27 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@7eab3e6}
+      * Client AppBindRecord{d3dae0d ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}}
+        Per-process Connections:
+          ConnectionRecord{9bb2193 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@858d682}
+      * Client AppBindRecord{95941c2 ProcessRecord{bd874f6 3093:com.rayneo.record/1000}}
+        Per-process Connections:
+          ConnectionRecord{8db1594 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@7aa05e7}
+    All Connections:
+      ConnectionRecord{8db1594 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@7aa05e7}
+--
+    recentCallingPackage=com.ffalcon.navigation
+    recentCallingUid=10063
+    allowStartForeground=10
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.rayneo.airuntime; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.rayneo.airuntime/.AiService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.BOOT_COMPLETED,reason:,reasonCode:BOOT_COMPLETED,duration:20000,callingUid:1000>; targetSdkVersion:32; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=-984961954 foregroundNoti=Notification(channel=RayNeoAINotifications shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 category=service vis=PRIVATE)
+    createTime=-9h13m31s440ms startingBgTimeout=--
+    lastActivity=-2m6s50ms restartTime=-4h8m1s625ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{d9cfc3 CREATE}:
+--
+      * Client AppBindRecord{aa79a2a ProcessRecord{251545e 20843:com.ffalcon.navigation/u0a63}}
+        Per-process Connections:
+          ConnectionRecord{1af172b u0 CR com.rayneo.airuntime/.AiService:@8e3437a}
+      * Client AppBindRecord{7ce40be ProcessRecord{6c09489 2784:com.rayneo.media/1000}}
+        Per-process Connections:
+          ConnectionRecord{4eba731 u0 CR com.rayneo.airuntime/.AiService:@5397d8}
+      * Client AppBindRecord{b7fa51f ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}}
+        Per-process Connections:
+          ConnectionRecord{d22d363 u0 CR com.rayneo.airuntime/.AiService:@fcbed92}
+    All Connections:
+      ConnectionRecord{4eba731 u0 CR com.rayneo.airuntime/.AiService:@5397d8}
+--
+    recentCallingPackage=com.ffalcon.navigation
+    recentCallingUid=10063
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.adapter.action.LOCAL_NAME_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-9h13m38s195ms startingBgTimeout=--
+    lastActivity=-2m6s121ms restartTime=-4h8m8s380ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{d83743b CREATE}:
+      intent={cmp=com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService}
+      binder=android.os.BinderProxy@f04a758
+--
+      * Client AppBindRecord{d1a01b ProcessRecord{251545e 20843:com.ffalcon.navigation/u0a63}}
+        Per-process Connections:
+          ConnectionRecord{79e2872 u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@360417d}
+      * Client AppBindRecord{62b1917 ProcessRecord{3eea8d2 3055:com.leiniao.camera/1000}}
+        Per-process Connections:
+          ConnectionRecord{67cb474 u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@5255447}
+      * Client AppBindRecord{c8e104 ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}}
+        Per-process Connections:
+          ConnectionRecord{f8f26a2 u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@f7a9a6d}
+      * Client AppBindRecord{72f36ed ProcessRecord{bd874f6 3093:com.rayneo.record/1000}}
+        Per-process Connections:
+--
+  * ServiceRecord{4a3dc94 u0 com.ffalcon.navigation/com.amap.api.location.APSService}
+    intent={cmp=com.ffalcon.navigation/com.amap.api.location.APSService}
+    packageName=com.ffalcon.navigation
+    processName=com.ffalcon.navigation
+    baseDir=/system_ext/priv-app/RayNeoNavigation/RayNeoNavigation.apk
+    dataDir=/data/user/0/com.ffalcon.navigation
+    app=ProcessRecord{251545e 20843:com.ffalcon.navigation/u0a63}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalcon.navigation
+    recentCallingUid=10063
+    allowStartForeground=12
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalcon.navigation; callingUid: 10063; uidState: TOP ; intent: Intent { cmp=com.ffalcon.navigation/com.amap.api.location.APSService (has extras) }; code:PROC_STATE_TOP; tempAllowListReason:<null>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-2m5s869ms startingBgTimeout=--
+    lastActivity=-2m2s899ms restartTime=-2m5s869ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{7eb95b8 CREATE}:
+      intent={cmp=com.ffalcon.navigation/com.amap.api.location.APSService}
+      binder=android.os.BinderProxy@b3cff91
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{9fd2ef6 ProcessRecord{251545e 20843:com.ffalcon.navigation/u0a63}}
+        Per-process Connections:
+          ConnectionRecord{3a7e2ec u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@f8ed19f}
+          ConnectionRecord{7a641d8 u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@498e8bb}
+          ConnectionRecord{b8d88e7 u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@8e9b6a6}
+    All Connections:
+      ConnectionRecord{7a641d8 u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@498e8bb}
+      ConnectionRecord{b8d88e7 u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@8e9b6a6}
+      ConnectionRecord{3a7e2ec u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@f8ed19f}
+
+  * ServiceRecord{6019d91 u0 com.qti.pasrservice/.PASRService}
+    intent={cmp=com.qti.pasrservice/.PASRService}
+    packageName=com.qti.pasrservice
+    processName=.pasr
+    baseDir=/vendor/app/pasrservice/pasrservice.apk
+    dataDir=/data/user/0/com.qti.pasrservice
+    app=ProcessRecord{b7ac26 2417:.pasr/u0a48}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.qti.pasrservice
+--
+    binding=AppBindRecord{d1a01b com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:com.ffalcon.navigation}
+    activity=ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+    conn=android.os.BinderProxy@360417d flags=0x1
+  * ConnectionRecord{8d8825e u0 CR IMP com.android.networkstack.inprocess/com.android.server.NetworkStackService:@37d5f99}
+    binding=AppBindRecord{9750970 com.android.networkstack.inprocess/com.android.server.NetworkStackService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@37d5f99 flags=0x41
+  * ConnectionRecord{3416d11 u0 CR IMP com.android.bluetooth/.btservice.AdapterService:@3af4938}
+    binding=AppBindRecord{a31d827 com.android.bluetooth/.btservice.AdapterService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@3af4938 flags=0x41
+  * ConnectionRecord{4fef1a4 u0 CR IMP com.android.bluetooth/.gatt.GattService:@3af4938}
+    binding=AppBindRecord{5a9aaca com.android.bluetooth/.gatt.GattService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@3af4938 flags=0x41
+--
+  * ConnectionRecord{7a641d8 u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@498e8bb}
+    binding=AppBindRecord{9fd2ef6 com.ffalcon.navigation/com.amap.api.location.APSService:com.ffalcon.navigation}
+    conn=android.os.BinderProxy@498e8bb flags=0x1
+  * ConnectionRecord{8fc8518 u0 CR com.ffalconxr.mercury.launcher/com.amap.api.location.APSService:@49d30fb}
+    binding=AppBindRecord{628a955 com.ffalconxr.mercury.launcher/com.amap.api.location.APSService:com.ffalconxr.mercury.launcher}
+    conn=android.os.BinderProxy@49d30fb flags=0x1
+  * ConnectionRecord{1fdc33d u0 com.android.bluetooth/.a2dpsink.A2dpSinkService:@4e3ac94}
+    binding=AppBindRecord{64931c4 com.android.bluetooth/.a2dpsink.A2dpSinkService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@4e3ac94 flags=0x0
+  * ConnectionRecord{3cbdbf8 u0 CR IMP com.android.networkstack.tethering.inprocess/com.android.networkstack.tethering.TetheringService:@50a175b}
+    binding=AppBindRecord{f75bb94 com.android.networkstack.tethering.inprocess/com.android.networkstack.tethering.TetheringService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@50a175b flags=0x41
+--
+    binding=AppBindRecord{f760715 com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:com.ffalcon.navigation}
+    activity=ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+    conn=android.os.BinderProxy@7eab3e6 flags=0x1
+  * ConnectionRecord{9bb2193 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@858d682}
+    binding=AppBindRecord{d3dae0d com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:com.rayneo.live.ai}
+    conn=android.os.BinderProxy@858d682 flags=0x1
+  * ConnectionRecord{15e69dd u0 CR FGS CAPS android.ext.services/.autofill.InlineSuggestionRenderServiceImpl:@89a49b4}
+    binding=AppBindRecord{389a630 android.ext.services/.autofill.InlineSuggestionRenderServiceImpl:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@89a49b4 flags=0x4001001
+  * ConnectionRecord{8a7c62b u0 CR FGS android.ext.services/.notification.Assistant:@8a54e7a}
+    binding=AppBindRecord{b241e09 android.ext.services/.notification.Assistant:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@8a54e7a flags=0x5000001
+--
+    binding=AppBindRecord{aa79a2a com.rayneo.airuntime/.AiService:com.ffalcon.navigation}
+    conn=android.os.BinderProxy@8e3437a flags=0x1
+  * ConnectionRecord{b8d88e7 u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@8e9b6a6}
+    binding=AppBindRecord{9fd2ef6 com.ffalcon.navigation/com.amap.api.location.APSService:com.ffalcon.navigation}
+    conn=android.os.BinderProxy@8e9b6a6 flags=0x1
+  * ConnectionRecord{880a8c9 u0 com.android.bluetooth/.hfpclient.HeadsetClientService:@96bc0d0}
+    binding=AppBindRecord{e1c9688 com.android.bluetooth/.hfpclient.HeadsetClientService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@96bc0d0 flags=0x0
+  * ConnectionRecord{a8f1cf5 u0 com.android.bluetooth/.a2dpsink.A2dpSinkService:@98ffa2c}
+    binding=AppBindRecord{7c68671 com.android.bluetooth/.a2dpsink.A2dpSinkService:com.ffalconxr.mercury.launcher}
+    conn=android.os.BinderProxy@98ffa2c flags=0x0
+  * ConnectionRecord{39128b2 u0 CR WPRI com.rayneo.phone/com.ffalconxr.mercury.launcher.telephone.service.PhoneCoreService:@9ba1abd}
+    binding=AppBindRecord{f01ffd0 com.rayneo.phone/com.ffalconxr.mercury.launcher.telephone.service.PhoneCoreService:com.ffalconxr.mercury.launcher}
+    conn=android.os.BinderProxy@9ba1abd flags=0x21
+--
+  * ConnectionRecord{3a7e2ec u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@f8ed19f}
+    binding=AppBindRecord{9fd2ef6 com.ffalcon.navigation/com.amap.api.location.APSService:com.ffalcon.navigation}
+    activity=ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+    conn=android.os.BinderProxy@f8ed19f flags=0x1
+  * ConnectionRecord{d18127f u0 CR CAPS com.android.bluetooth/.avrcpcontroller.BluetoothMediaBrowserService:@fb8879e}
+    binding=AppBindRecord{8f61eff com.android.bluetooth/.avrcpcontroller.BluetoothMediaBrowserService:com.rayneo.media}
+    conn=android.os.BinderProxy@fb8879e flags=0x1001
+  * ConnectionRecord{d22d363 u0 CR com.rayneo.airuntime/.AiService:@fcbed92}
+    binding=AppBindRecord{b7fa51f com.rayneo.airuntime/.AiService:com.rayneo.phone}
+    conn=android.os.BinderProxy@fcbed92 flags=0x1
+
+Active foreground apps - user 0:
+  #4: com.rayneo.airuntime

@@ -1,0 +1,500 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{ec05d29 u0 com.rayneo.aispeech/.SpeechService}
+    intent={cmp=com.rayneo.aispeech/.SpeechService}
+    packageName=com.rayneo.aispeech
+    processName=com.rayneo.aispeech
+    baseDir=/system_ext/priv-app/RayNeoAISpeech/RayNeoAISpeech.apk
+    dataDir=/data/user/0/com.rayneo.aispeech
+    app=ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalconxr.mercury.launcher
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.rayneo.aispeech; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.rayneo.aispeech/.SpeechService (has extras) }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.pbapclient.profile.action.CONNECTION_STATE_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:34; callerTargetSdkVersion:34; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h27m24s784ms startingBgTimeout=--
+    lastActivity=-2h13m5s415ms restartTime=-3h21m54s885ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=32
+
+  * ServiceRecord{f9b3bf3 u0 com.ffalconxr.mercury.launcher/com.rayneo.log.LogService}
+    intent={cmp=com.ffalconxr.mercury.launcher/com.rayneo.log.LogService}
+    packageName=com.ffalconxr.mercury.launcher
+    processName=com.ffalconxr.mercury.launcher
+    baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+    dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalconxr.mercury.launcher
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.ffalconxr.mercury.launcher/com.rayneo.log.LogService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.adapter.action.SCAN_MODE_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h32m0s202ms startingBgTimeout=--
+    lastActivity=-3h26m25s320ms restartTime=-3h26m30s387ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{4f11c0a u0 com.rayneo.media/.MediaCoreService}
+    intent={cmp=com.rayneo.media/.MediaCoreService}
+    packageName=com.rayneo.media
+    processName=com.rayneo.media
+    baseDir=/system_ext/priv-app/RayNeoMusic/RayNeoMusic.apk
+    dataDir=/data/user/0/com.rayneo.media
+    app=ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalconxr.mercury.launcher
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.rayneo.media/.MediaCoreService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:34; callerTargetSdkVersion:-1; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h28m1s520ms startingBgTimeout=--
+    lastActivity=-3h22m31s705ms restartTime=-3h22m31s705ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{73b21e0 CREATE}:
+      intent={cmp=com.rayneo.media/.MediaCoreService}
+      binder=android.os.BinderProxy@bbfdc99
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d3dbb5e ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}}
+        Per-process Connections:
+          ConnectionRecord{38ee475 u0 CR WPRI com.rayneo.media/.MediaCoreService:@e1c2fac}
+    All Connections:
+      ConnectionRecord{38ee475 u0 CR WPRI com.rayneo.media/.MediaCoreService:@e1c2fac}
+
+  * ServiceRecord{ca22b71 u0 com.ffalconxr.mercury.launcher/com.amap.api.location.APSService}
+    intent={cmp=com.ffalconxr.mercury.launcher/com.amap.api.location.APSService}
+    packageName=com.ffalconxr.mercury.launcher
+    processName=com.ffalconxr.mercury.launcher
+    baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+    dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalconxr.mercury.launcher
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.ffalconxr.mercury.launcher/com.amap.api.location.APSService (has extras) }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.a2dp-sink.profile.action.CONNECTION_STATE_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h30m49s689ms startingBgTimeout=--
+    lastActivity=-3h25m19s874ms restartTime=-3h25m19s874ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{b139b3f CREATE}:
+      intent={cmp=com.ffalconxr.mercury.launcher/com.amap.api.location.APSService}
+      binder=android.os.BinderProxy@2607c0c
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{628a955 ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}}
+        Per-process Connections:
+          ConnectionRecord{8fc8518 u0 CR com.ffalconxr.mercury.launcher/com.amap.api.location.APSService:@49d30fb}
+    All Connections:
+      ConnectionRecord{8fc8518 u0 CR com.ffalconxr.mercury.launcher/com.amap.api.location.APSService:@49d30fb}
+
+  * ServiceRecord{88c9d70 u0 com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl}
+    intent={cmp=com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl}
+    packageName=com.android.providers.media.module
+    processName=com.android.providers.media.module
+    permission=android.permission.BIND_EXTERNAL_STORAGE_SERVICE
+    baseDir=/apex/com.android.mediaprovider/priv-app/MediaProvider/MediaProvider.apk
+    dataDir=/data/user/0/com.android.providers.media.module
+    app=ProcessRecord{cc70023 2387:com.android.providers.media.module/u0a76}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=android
+    recentCallingUid=0
+    allowStartForeground=51
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: android; callingUid: 0; uidState: NONE; intent: Intent { cmp=com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl }; code:SYSTEM_UID; tempAllowListReason:<null>; targetSdkVersion:31; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h32m0s261ms startingBgTimeout=--
+    lastActivity=-3h26m30s261ms restartTime=-3h26m30s261ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{fa62f6a CREATE}:
+      intent={cmp=com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl}
+      binder=android.os.BinderProxy@230ac5b
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{c9f4cf8 ProcessRecord{a6190e5 1288:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{765d552 u0 CR IMP com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl:@6b915dd}
+    All Connections:
+      ConnectionRecord{765d552 u0 CR IMP com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl:@6b915dd}
+
+  * ServiceRecord{eea7f5a u0 com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService}
+    intent={cmp=com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService}
+    packageName=com.rayneo.xr.runtime
+    processName=com.rayneo.xr.runtime
+    baseDir=/system_ext/priv-app/RayNeoRuntime/RayNeoRuntime.apk
+    dataDir=/data/user/0/com.rayneo.xr.runtime
+    app=ProcessRecord{c265f9e 2603:com.rayneo.xr.runtime/u0a67}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalcon.navigation
+    recentCallingUid=10063
+    allowStartForeground=10
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.BOOT_COMPLETED,reason:,reasonCode:BOOT_COMPLETED,duration:20000,callingUid:1000>; targetSdkVersion:32; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=635470713 foregroundNoti=Notification(channel=FFalconXRNotifications shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 category=service vis=PRIVATE)
+    createTime=-8h31m59s69ms startingBgTimeout=--
+    lastActivity=-2h13m48s411ms restartTime=-3h26m29s122ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=3
+    Bindings:
+    * IntentBindRecord{91785d1 CREATE}:
+      intent={cmp=com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService}
+      binder=android.os.BinderProxy@a6fd836
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{543b337 ProcessRecord{1413726 2634:com.rayneo.airuntime/1000}}
+        Per-process Connections:
+          ConnectionRecord{c8ae3ad u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@c4848c4}
+      * Client AppBindRecord{1f840a4 ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}}
+        Per-process Connections:
+          ConnectionRecord{e8f69d9 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@d079c20}
+      * Client AppBindRecord{d3dae0d ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}}
+        Per-process Connections:
+          ConnectionRecord{9bb2193 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@858d682}
+      * Client AppBindRecord{95941c2 ProcessRecord{bd874f6 3093:com.rayneo.record/1000}}
+        Per-process Connections:
+          ConnectionRecord{8db1594 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@7aa05e7}
+    All Connections:
+      ConnectionRecord{8db1594 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@7aa05e7}
+      ConnectionRecord{9bb2193 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@858d682}
+      ConnectionRecord{c8ae3ad u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@c4848c4}
+      ConnectionRecord{e8f69d9 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@d079c20}
+
+  * ServiceRecord{e12aa88 u0 android.ext.services/.notification.Assistant}
+    intent={act=android.service.notification.NotificationAssistantService cmp=android.ext.services/.notification.Assistant}
+    packageName=android.ext.services
+    processName=android.ext.services
+    permission=android.permission.BIND_NOTIFICATION_ASSISTANT_SERVICE
+    baseDir=/apex/com.android.extservices/priv-app/ExtServices/ExtServices.apk
+    dataDir=/data/user/0/android.ext.services
+    app=ProcessRecord{664686f 1879:android.ext.services/u0a77}
+    allowlistManager=true
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=android
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: android; callingUid: 1000; uidState: PER ; intent: Intent { act=android.service.notification.NotificationAssistantService cmp=android.ext.services/.notification.Assistant }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.BOOT_COMPLETED,reason:,reasonCode:BOOT_COMPLETED,duration:20000,callingUid:1000>; targetSdkVersion:30; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h32m0s52ms startingBgTimeout=--
+    lastActivity=-3h26m30s238ms restartTime=-3h26m30s238ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{b164bd3 CREATE}:
+      intent={act=android.service.notification.NotificationAssistantService cmp=android.ext.services/.notification.Assistant}
+      binder=android.os.BinderProxy@bcac310
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{b241e09 ProcessRecord{a6190e5 1288:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{8a7c62b u0 CR FGS android.ext.services/.notification.Assistant:@8a54e7a}
+    All Connections:
+      ConnectionRecord{8a7c62b u0 CR FGS android.ext.services/.notification.Assistant:@8a54e7a}
+
+  * ServiceRecord{462d425 u0 com.android.webview/org.chromium.android_webview.services.MetricsBridgeService}
+    intent={cmp=com.android.webview/org.chromium.android_webview.services.MetricsBridgeService}
+    packageName=com.android.webview
+    processName=com.android.webview:webview_service
+    baseDir=/product/app/webview/webview.apk
+    dataDir=/data/user/0/com.android.webview
+    app=ProcessRecord{20bf2a4 8541:com.android.webview:webview_service/u0a58}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.phoenix.read
+    recentCallingUid=10089
+    allowStartForeground=52
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.android.webview; callingUid: 10058; uidState: BTOP; intent: Intent { cmp=com.android.webview/org.chromium.android_webview.services.MetricsBridgeService }; code:ACTIVITY_STARTER; tempAllowListReason:<null>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h11m19s443ms startingBgTimeout=--
+    lastActivity=-2h26m51s508ms restartTime=-3h5m49s629ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{37db80e CREATE}:
+      intent={cmp=com.android.webview/org.chromium.android_webview.services.MetricsBridgeService}
+      binder=android.os.BinderProxy@36fd22f
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{801003c ProcessRecord{1ec6b59 8823:com.android.webview:webview_apk/u0a58}}
+        Per-process Connections:
+          ConnectionRecord{7a62664 u0 CR com.android.webview/org.chromium.android_webview.services.MetricsBridgeService:@c8697f7}
+      * Client AppBindRecord{e791c5 ProcessRecord{20bf2a4 8541:com.android.webview:webview_service/u0a58}}
+        Per-process Connections:
+          ConnectionRecord{4f0501c u0 CR com.android.webview/org.chromium.android_webview.services.MetricsBridgeService:@50cf58f}
+    All Connections:
+      ConnectionRecord{4f0501c u0 CR com.android.webview/org.chromium.android_webview.services.MetricsBridgeService:@50cf58f}
+      ConnectionRecord{7a62664 u0 CR com.android.webview/org.chromium.android_webview.services.MetricsBridgeService:@c8697f7}
+
+  * ServiceRecord{6cee8ab u0 com.ffalconxr.mercury.launcher/.MercuryService}
+    intent={cmp=com.ffalconxr.mercury.launcher/.MercuryService}
+    packageName=com.ffalconxr.mercury.launcher
+    processName=com.ffalconxr.mercury.launcher
+    baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+    dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalconxr.mercury.launcher
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.ffalconxr.mercury.launcher/.MercuryService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.adapter.action.LOCAL_NAME_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h32m5s214ms startingBgTimeout=--
+    lastActivity=-3h26m35s301ms restartTime=-3h26m35s400ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{8476f75 u0 com.rayneo.gallery/.service.CopyAssetService}
+    intent={cmp=com.rayneo.gallery/.service.CopyAssetService}
+    packageName=com.rayneo.gallery
+    processName=com.rayneo.gallery
+    permission=com.rayneo.gallery.copyAsset
+    baseDir=/system_ext/priv-app/RayNeoGallery/RayNeoGallery.apk
+    dataDir=/data/user/0/com.rayneo.gallery
+    app=ProcessRecord{18d5cfe 3744:com.rayneo.gallery/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalconxr.mercury.launcher
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.rayneo.gallery/.service.CopyAssetService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.avrcp-controller.profile.action.CONNECTION_STATE_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:34; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=2 foregroundNoti=Notification(channel=CopyAsset shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-8h30m29s171ms startingBgTimeout=--
+    lastActivity=-3h24m59s285ms restartTime=-3h24m59s285ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{c83d6db u0 com.android.systemui/.keyguard.KeyguardService}
+    intent={cmp=com.android.systemui/.keyguard.KeyguardService}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    baseDir=/system_ext/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=android
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: android; callingUid: 1000; uidState: PER ; intent: Intent { flg=0x100 cmp=com.android.systemui/.keyguard.KeyguardService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:32; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h32m7s70ms startingBgTimeout=--
+    lastActivity=-3h26m37s255ms restartTime=-3h26m37s255ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{461471a CREATE}:
+      intent={flg=0x100 cmp=com.android.systemui/.keyguard.KeyguardService}
+      binder=android.os.BinderProxy@931624b
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{6fbe428 ProcessRecord{a6190e5 1288:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{f973ea u0 CR com.android.systemui/.keyguard.KeyguardService:@c642fd5}
+    All Connections:
+      ConnectionRecord{f973ea u0 CR com.android.systemui/.keyguard.KeyguardService:@c642fd5}
+
+  * ServiceRecord{74d25d5 u0 com.ffalconxr.mercury.launcher/com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService}
+    intent={cmp=com.ffalconxr.mercury.launcher/com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService}
+    packageName=com.ffalconxr.mercury.launcher
+    processName=com.ffalconxr.mercury.launcher
+    baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+    dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalconxr.mercury.launcher
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.ffalconxr.mercury.launcher/com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService (has extras) }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.headsetclient.profile.action.AG_EVENT,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h24m1s893ms startingBgTimeout=--
+    lastActivity=-3h18m32s77ms restartTime=-3h18m32s77ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{f3ec94d u0 com.android.bluetooth/.btservice.AdapterService}
+    intent={act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=ProcessRecord{e3cce76 19809:com.android.bluetooth/1002}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=android
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: android; callingUid: 1000; uidState: PER ; intent: Intent { act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:32; callerTargetSdkVersion:-1; startForegroundCount:0; bindFromPackage:null]
+    createTime=-25m51s121ms startingBgTimeout=--
+    lastActivity=-25m51s46ms restartTime=-25m51s46ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{7b48541 CREATE}:
+      intent={act=android.bluetooth.IBluetooth cmp=com.android.bluetooth/.btservice.AdapterService}
+      binder=android.os.BinderProxy@9bcbae6
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{a31d827 ProcessRecord{a6190e5 1288:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{3416d11 u0 CR IMP com.android.bluetooth/.btservice.AdapterService:@3af4938}
+    All Connections:
+      ConnectionRecord{3416d11 u0 CR IMP com.android.bluetooth/.btservice.AdapterService:@3af4938}
+
+  * ServiceRecord{f6d8421 u0 com.android.systemui/.ImageWallpaper}
+    intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+    packageName=com.android.systemui
+    processName=com.android.systemui
+    permission=android.permission.BIND_WALLPAPER
+    baseDir=/system_ext/priv-app/SystemUI/SystemUI.apk
+    dataDir=/data/user_de/0/com.android.systemui
+    app=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=android
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: android; callingUid: 1000; uidState: PER ; intent: Intent { act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.TIME_SET,reason:,reasonCode:TIME_CHANGED,duration:20000,callingUid:1000>; targetSdkVersion:32; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h32m7s953ms startingBgTimeout=--
+    lastActivity=-3h26m37s939ms restartTime=-3h26m38s83ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{c3f1ad4 CREATE}:
+      intent={act=android.service.wallpaper.WallpaperService cmp=com.android.systemui/.ImageWallpaper}
+      binder=android.os.BinderProxy@503347d
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{2099f72 ProcessRecord{a6190e5 1288:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{2124b05 u0 CR FGSA UI BALFD CAPS com.android.systemui/.ImageWallpaper:@529d67c}
+          ConnectionRecord{f98b436 u0 CR FGSA UI BALFD CAPS com.android.systemui/.ImageWallpaper:@2a51d1}
+    All Connections:
+      ConnectionRecord{f98b436 u0 CR FGSA UI BALFD CAPS com.android.systemui/.ImageWallpaper:@2a51d1}
+      ConnectionRecord{2124b05 u0 CR FGSA UI BALFD CAPS com.android.systemui/.ImageWallpaper:@529d67c}
+
+  * ServiceRecord{1562648 u0 com.ffalconxr.mercury.launcher/com.rayneo.fota.UpdateService}
+    intent={cmp=com.ffalconxr.mercury.launcher/com.rayneo.fota.UpdateService}
+    packageName=com.ffalconxr.mercury.launcher
+    processName=com.ffalconxr.mercury.launcher
+    baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+    dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalconxr.mercury.launcher
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.ffalconxr.mercury.launcher/com.rayneo.fota.UpdateService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.adapter.action.LOCAL_NAME_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h32m5s325ms startingBgTimeout=--
+    lastActivity=-3h22m31s732ms restartTime=-3h26m35s510ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{3438a73 u0 com.rayneo.airuntime/.AiService}
+    intent={cmp=com.rayneo.airuntime/.AiService}
+    packageName=com.rayneo.airuntime
+    processName=com.rayneo.airuntime
+    baseDir=/system_ext/priv-app/RayNeoAIRuntime/RayNeoAIRuntime.apk
+    dataDir=/data/user/0/com.rayneo.airuntime
+    app=ProcessRecord{1413726 2634:com.rayneo.airuntime/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.rayneo.aispeech
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.rayneo.airuntime; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.rayneo.airuntime/.AiService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.BOOT_COMPLETED,reason:,reasonCode:BOOT_COMPLETED,duration:20000,callingUid:1000>; targetSdkVersion:32; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=-984961954 foregroundNoti=Notification(channel=RayNeoAINotifications shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 category=service vis=PRIVATE)
+    createTime=-8h31m58s250ms startingBgTimeout=--
+    lastActivity=-2h13m5s826ms restartTime=-3h26m28s435ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{d9cfc3 CREATE}:
+      intent={cmp=com.rayneo.airuntime/.AiService}
+      binder=android.os.BinderProxy@ddd1040
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{3939b79 ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}}
+        Per-process Connections:
+          ConnectionRecord{8a5595f u0 WPRI com.rayneo.airuntime/.AiService:@6651dfe}
+      * Client AppBindRecord{7ce40be ProcessRecord{6c09489 2784:com.rayneo.media/1000}}
+        Per-process Connections:
+          ConnectionRecord{4eba731 u0 CR com.rayneo.airuntime/.AiService:@5397d8}
+      * Client AppBindRecord{b7fa51f ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}}
+        Per-process Connections:
+          ConnectionRecord{d22d363 u0 CR com.rayneo.airuntime/.AiService:@fcbed92}
+    All Connections:
+      ConnectionRecord{4eba731 u0 CR com.rayneo.airuntime/.AiService:@5397d8}
+      ConnectionRecord{8a5595f u0 WPRI com.rayneo.airuntime/.AiService:@6651dfe}
+      ConnectionRecord{d22d363 u0 CR com.rayneo.airuntime/.AiService:@fcbed92}
+
+  * ServiceRecord{3ba4cec u0 com.ffalconxr.mercury.launcher/com.rayneo.platform.input.InputMonitorService}
+    intent={cmp=com.ffalconxr.mercury.launcher/com.rayneo.platform.input.InputMonitorService}
+    packageName=com.ffalconxr.mercury.launcher
+    processName=com.ffalconxr.mercury.launcher
+    baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+    dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalconxr.mercury.launcher
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.ffalconxr.mercury.launcher/com.rayneo.platform.input.InputMonitorService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.adapter.action.LOCAL_NAME_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h32m5s281ms startingBgTimeout=--
+    lastActivity=-3h26m35s466ms restartTime=-3h26m35s466ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{93888e3 u0 com.android.bluetooth/.gatt.GattService}
+    intent={cmp=com.android.bluetooth/.gatt.GattService}
+    packageName=com.android.bluetooth
+    processName=com.android.bluetooth
+    baseDir=/system/app/Bluetooth/Bluetooth.apk
+    dataDir=/data/user_de/0/com.android.bluetooth
+    app=ProcessRecord{e3cce76 19809:com.android.bluetooth/1002}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=android
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.android.bluetooth; callingUid: 1002; uidState: PER ; intent: Intent { flg=0x10000000 cmp=com.android.bluetooth/.gatt.GattService (has extras) }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.pbapclient.profile.action.CONNECTION_STATE_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:32; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+    createTime=-25m50s627ms startingBgTimeout=--
+    lastActivity=-25m48s524ms restartTime=-25m50s627ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=true callStart=true lastStartId=1
+    Bindings:
+    * IntentBindRecord{ea2f06c CREATE}:
+      intent={act=android.bluetooth.IBluetoothGatt cmp=com.android.bluetooth/.gatt.GattService}
+      binder=android.os.BinderProxy@297635
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{5a9aaca ProcessRecord{a6190e5 1288:system/1000}}
+        Per-process Connections:
+          ConnectionRecord{4fef1a4 u0 CR IMP com.android.bluetooth/.gatt.GattService:@3af4938}
+    All Connections:
+      ConnectionRecord{4fef1a4 u0 CR IMP com.android.bluetooth/.gatt.GattService:@3af4938}
+
+  * ServiceRecord{687213f u0 com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService}
+    intent={cmp=com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService}
+    packageName=com.ffalconxr.mercury.launcher
+    processName=com.ffalconxr.mercury.launcher
+    baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+    dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.ffalcon.navigation
+    recentCallingUid=10063
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.ffalconxr.mercury.launcher; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1002:android.bluetooth.adapter.action.LOCAL_NAME_CHANGED,reason:,reasonCode:BLUETOOTH_BROADCAST,duration:20000,callingUid:1002>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-8h32m5s4ms startingBgTimeout=--
+    lastActivity=-2h13m48s48ms restartTime=-3h26m35s190ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{d83743b CREATE}:
+      intent={cmp=com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService}
+      binder=android.os.BinderProxy@f04a758
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{60840b1 ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}}
+        Per-process Connections:
+          ConnectionRecord{5bd7ede u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@61e7e19}
+      * Client AppBindRecord{f1fa996 ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}}
+        Per-process Connections:
+          ConnectionRecord{3d3995e u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@5aa7299}
+      * Client AppBindRecord{62b1917 ProcessRecord{3eea8d2 3055:com.leiniao.camera/1000}}
+        Per-process Connections:
+          ConnectionRecord{67cb474 u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@5255447}
+      * Client AppBindRecord{c8e104 ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}}
+        Per-process Connections:
+          ConnectionRecord{f8f26a2 u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@f7a9a6d}
+      * Client AppBindRecord{72f36ed ProcessRecord{bd874f6 3093:com.rayneo.record/1000}}
+        Per-process Connections:
+          ConnectionRecord{5b83acc u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@18c1cff}
+    All Connections:
+      ConnectionRecord{5b83acc u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@18c1cff}
+      ConnectionRecord{67cb474 u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@5255447}
+      ConnectionRecord{3d3995e u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@5aa7299}
+      ConnectionRecord{5bd7ede u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@61e7e19}
+      ConnectionRecord{f8f26a2 u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@f7a9a6d}
+
+  * ServiceRecord{e9c563f u0 com.android.networkstack.inprocess/com.android.server.NetworkStackService}
+    intent={act=android.net.INetworkStackConnector.InProcess cmp=com.android.networkstack.inprocess/com.android.server.NetworkStackService}
+    packageName=com.android.networkstack.inprocess
+    processName=system
+    permission=android.permission.MAINLINE_NETWORK_STACK
+    baseDir=/system/priv-app/InProcessNetworkStack/InProcessNetworkStack.apk
+    dataDir=/data/user_de/0/com.android.networkstack.inprocess
+    app=ProcessRecord{a6190e5 1288:system/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=android
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: android; callingUid: 1000; uidState: PER ; intent: Intent { act=android.net.INetworkStackConnector.InProcess cmp=com.android.networkstack.inprocess/com.android.server.NetworkStackService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.TIME_SET,reason:,reasonCode:TIME_CHANGED,duration:20000,callingUid:1000>; targetSdkVersion:32; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]

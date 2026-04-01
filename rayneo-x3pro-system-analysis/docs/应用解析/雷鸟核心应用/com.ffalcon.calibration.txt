@@ -1,0 +1,145 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        ddca139 com.ffalcon.calibration/com.rayneo.activity.UnityXRSupportActivity filter b26337e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+
+Domain verification status:
+
+Key Set Manager:
+  [com.ffalcon.calibration]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.ffalcon.calibration] (fe7b244):
+    userId=10062
+    pkg=Package{28fcf2d com.ffalcon.calibration}
+    codePath=/system_ext/priv-app/RayNeoCalibration
+    resourcePath=/system_ext/priv-app/RayNeoCalibration
+    legacyNativeLibraryDir=/system_ext/priv-app/RayNeoCalibration/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=250730152 minSdk=30 targetSdk=30
+    minExtensionVersions=[]
+    versionName=2025.07.30.15.22
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{28fcf2d com.ffalcon.calibration}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED SYSTEM_EXT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.ffalcon.calibration
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2009-01-01 08:00:00
+    firstInstallTime=2009-01-01 08:00:00
+    lastUpdateTime=2009-01-01 08:00:00
+    signatures=PackageSignatures{2291c62 version:3, signatures:[e89d297f], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.CAMERA
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+    User 0: ceDataInode=1594 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_UPGRADE_EXEMPT]
+
+Queries:
+  system apps queryable: false
+  forceQueryable:
+    com.ffalcon.calibration
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.ffalcon.calibration]
+    path: /system_ext/priv-app/RayNeoCalibration/RayNeoCalibration.apk
+      arm64: [status=verify] [reason=prebuilt]
+
+
+Compiler stats:
+  [com.ffalcon.calibration]
+    (No recorded stats)
+Snapshot statistics
+   Unrecorded-hits: 4287  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:15         now           0           0           0           0           0           0           0
+          1:15        0:15           0           0           0           0           0           0           0
+          2:15        1:15           0           0           0           0           0           0           0
+          3:15        2:15           0           0           0           0           0           0           0
+          4:15        3:15           0           0           0           0           0           0           0
+          5:15        4:15           0           0           0           0           0           0           0
+          6:15        5:15           0           0           0           0           0           0           0
+          7:15        6:15           0           0           0           0           0           0           0
+          8:15        7:15           0           0           0           0           0           0           0
+          9:15        8:15           0           0           0           0           0           0           0
+   20513:16:08:59         now         305      413335           0           2          73         241          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:15         now           0           0           0           0           0           0           0           0
+          1:15        0:15           0           0           0           0           0           0           0           0
+          2:15        1:15           0           0           0           0           0           0           0           0
+          3:15        2:15           0           0           0           0           0           0           0           0
+          4:15        3:15           0           0           0           0           0           0           0           0
+          5:15        4:15           0           0           0           0           0           0           0           0
+          6:15        5:15           0           0           0           0           0           0           0           0
+          7:15        6:15           0           0           0           0           0           0           0           0
+          8:15        7:15           0           0           0           0           0           0           0           0
+          9:15        8:15           0           0           0           0           0           0           0           0
+   20513:16:08:59         now         277          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:15         now           0           0           0           0           0           0           0           0
+          1:15        0:15           0           0           0           0           0           0           0           0
+          2:15        1:15           0           0           0           0           0           0           0           0
+          3:15        2:15           0           0           0           0           0           0           0           0
+          4:15        3:15           0           0           0           0           0           0           0           0
+          5:15        4:15           0           0           0           0           0           0           0           0
+          6:15        5:15           0           0           0           0           0           0           0           0
+          7:15        6:15           0           0           0           0           0           0           0           0
+          8:15        7:15           0           0           0           0           0           0           0           0
+          9:15        8:15           0           0           0           0           0           0           0           0
+   20513:16:08:59         now          52          14           6           5           5          26          21         175

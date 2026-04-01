@@ -1,0 +1,11 @@
+.DS_Store
+*.apk
+*.zip
+*.tar.gz
+*.aar
+*.jar
+*.so
+*.docx
+__pycache__/
+.idea/
+*.iml

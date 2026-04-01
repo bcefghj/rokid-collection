@@ -1,0 +1,103 @@
+  * ReceiverList{3a5076d 20843 com.ffalcon.navigation/10063/u0 remote:e29a384}
+    app=20843:com.ffalcon.navigation/u0a63 pid=20843 uid=10063 user=0
+    Filter #0: BroadcastFilter{d58fa2}
+      Action: "android.intent.action.TIME_TICK"
+      Action: "android.intent.action.TIMEZONE_CHANGED"
+      Action: "android.intent.action.DATE_CHANGED"
+      Action: "android.intent.action.TIME_SET"
+--
+  * ReceiverList{c5f73f0 20843 com.ffalcon.navigation/10063/u0 remote:5fdb433}
+    app=20843:com.ffalcon.navigation/u0a63 pid=20843 uid=10063 user=0
+    Filter #0: BroadcastFilter{597ad69}
+      Action: "android.net.conn.CONNECTIVITY_CHANGE"
+  * ReceiverList{8dbb58 1288 system/1000/u0 local:1f4583b}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{97dc4b1}
+--
+  * ReceiverList{788b6cb 20843 com.ffalcon.navigation/10063/u0 remote:7e71d9a}
+    app=20843:com.ffalcon.navigation/u0a63 pid=20843 uid=10063 user=0
+    Filter #0: BroadcastFilter{8e9dea8}
+      Action: "android.media.VOLUME_CHANGED_ACTION"
+  * ReceiverList{baac1b6 1288 system/1000/u-1 local:72e2551}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{77e1eb7}
+--
+  * ReceiverList{84c52bc 20843 com.ffalcon.navigation/10063/u0 remote:462deaf}
+    app=20843:com.ffalcon.navigation/u0a63 pid=20843 uid=10063 user=0
+    Filter #0: BroadcastFilter{31cb245}
+      Action: "android.hardware.display.action.WIFI_DISPLAY_STATUS_CHANGED"
+  * ReceiverList{aacd716 1705 com.android.systemui/10069/u0 remote:effb431}
+    app=1705:com.android.systemui/u0a69 pid=1705 uid=10069 user=0
+    Filter #0: BroadcastFilter{6247897}
+--
+  * ReceiverList{def870b 20843 com.ffalcon.navigation/10063/u0 remote:de206da}
+    app=20843:com.ffalcon.navigation/u0a63 pid=20843 uid=10063 user=0
+    Filter #0: BroadcastFilter{7a409e8}
+      Action: "android.net.conn.CONNECTIVITY_CHANGE"
+  * ReceiverList{c7401f5 1288 system/1000/u-1 local:415532c}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{e7bab8a}
+--
+          BroadcastFilter{8e9dea8 10063/u0 ReceiverList{788b6cb 20843 com.ffalcon.navigation/10063/u0 remote:7e71d9a}}
+        android.intent.action.USER_STARTING:
+          BroadcastFilter{a9e975d 1000/u-1 ReceiverList{a30bd34 1288 system/1000/u-1 local:1f50807}}
+          BroadcastFilter{87462d4 1000/u-1 ReceiverList{c4f4027 1288 system/1000/u-1 local:5cec2e6}}
+        android.intent.action.EMERGENCY_CALLBACK_MODE_CHANGED:
+          BroadcastFilter{93b02d7 1000/u0 ReceiverList{bba2256 1288 system/1000/u0 local:e922471}}
+--
+          BroadcastFilter{31cb245 10063/u0 ReceiverList{84c52bc 20843 com.ffalcon.navigation/10063/u0 remote:462deaf}}
+        com.android.server.wifi.action.CarrierNetwork.USER_DISMISSED:
+          BroadcastFilter{c7081ad 1000/u0 ReceiverList{7e99ec4 1288 system/1000/u0 local:40535d7}}
+        android.bluetooth.adapter.action.DISCOVERY_FINISHED:
+          BroadcastFilter{bd9b5c9 10069/u-1 ReceiverList{f7ce1d0 1705 com.android.systemui/10069/u-1 remote:b56ad93}}
+        android.net.wifi.p2p.CONNECTION_STATE_CHANGE:
+--
+          BroadcastFilter{d58fa2 10063/u0 ReceiverList{3a5076d 20843 com.ffalcon.navigation/10063/u0 remote:e29a384}}
+        com.android.systemui.statusbar.banner_action_setup:
+          BroadcastFilter{6247897 10069/u0 ReceiverList{aacd716 1705 com.android.systemui/10069/u0 remote:effb431}}
+        android.bluetooth.bc.profile.action.CONNECTION_STATE_CHANGED:
+          BroadcastFilter{bc18144 1002/u0 ReceiverList{39d1257 19809 com.android.bluetooth/1002/u0 remote:c24bfd6}}
+        PolicyWarningUIController.ACTION_A11Y_SETTINGS:
+--
+          BroadcastFilter{7a409e8 10063/u0 ReceiverList{def870b 20843 com.ffalcon.navigation/10063/u0 remote:de206da}}
+          BroadcastFilter{597ad69 10063/u0 ReceiverList{c5f73f0 20843 com.ffalcon.navigation/10063/u0 remote:5fdb433}}
+        android.telephony.action.SIM_APPLICATION_STATE_CHANGED:
+          BroadcastFilter{cb53193 1000/u0 ReceiverList{1b12682 1288 system/1000/u0 local:5a72dcd}}
+        android.service.quicksettings.action.REQUEST_LISTENING:
+          BroadcastFilter{dc153db 10069/u-1 ReceiverList{4fac4ea 1705 com.android.systemui/10069/u-1 remote:f4424d5}}
+        com.rayneo.phone.ACTION_CALL_PHONE_ACTION:
+--
+          BroadcastFilter{d58fa2 10063/u0 ReceiverList{3a5076d 20843 com.ffalcon.navigation/10063/u0 remote:e29a384}}
+        android.intent.action.TIME_SET:
+          BroadcastFilter{c686100 1000/u0 ReceiverList{bb0eb83 1288 system/1000/u0 local:d20d232}}
+          BroadcastFilter{913ad85 1000/u-1 ReceiverList{5d27cce 1288 system/1000/u-1 local:5f1fdc9}}
+          BroadcastFilter{944cc49 1000/u0 ReceiverList{ae44250 1288 system/1000/u0 local:d354013}}
+          BroadcastFilter{8d67fd1 10069/u0 ReceiverList{c75eef8 1705 com.android.systemui/10069/u0 remote:a94965b}}
+--
+          BroadcastFilter{d58fa2 10063/u0 ReceiverList{3a5076d 20843 com.ffalcon.navigation/10063/u0 remote:e29a384}}
+        android.intent.action.PACKAGE_REMOVED:
+          BroadcastFilter{76f0301 10069/u0 ReceiverList{cbec0e8 1705 com.android.systemui/10069/u0 remote:676ba0b}}
+        SYSTEM_ACTION_ACCESSIBILITY_BUTTON_MENU:
+          BroadcastFilter{886923f 10069/u-1 ReceiverList{3562e5e 1705 com.android.systemui/10069/u-1 remote:ff63b99}}
+        android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED:
+--
+          BroadcastFilter{d58fa2 10063/u0 ReceiverList{3a5076d 20843 com.ffalcon.navigation/10063/u0 remote:e29a384}}
+        android.telecom.action.CURRENT_TTY_MODE_CHANGED:
+          BroadcastFilter{4bfb2ee 10069/u0 ReceiverList{757b869 1705 com.android.systemui/10069/u0 remote:a3ccaf0}}
+        android.intent.action.MANAGED_PROFILE_REMOVED:
+          BroadcastFilter{362f97a 1000/u0 ReceiverList{2b111a5 1288 system/1000/u0 local:dc3139c}}
+          BroadcastFilter{28f05c6 1000/u0 ReceiverList{947afa1 1288 system/1000/u0 local:d51bc08}}
+--
+    Deliver 0 #3: BroadcastFilter{d58fa2 10063/u0 ReceiverList{3a5076d 20843 com.ffalcon.navigation/10063/u0 remote:e29a384}}
+  Historical Broadcast foreground #1:
+    BroadcastRecord{1c70fc9 u-1 android.intent.action.TIME_TICK} to user -1
+    Intent { act=android.intent.action.TIME_TICK flg=0x50200010 }
+    caller=android 1288:system/1000 pid=1288 uid=1000
+    enqueueClockTime=2026-03-19 03:45:00.000 dispatchClockTime=2026-03-19 03:45:00.000
+--
+    Deliver 0 #3: BroadcastFilter{d58fa2 10063/u0 ReceiverList{3a5076d 20843 com.ffalcon.navigation/10063/u0 remote:e29a384}}
+  Historical Broadcast foreground #2:
+    BroadcastRecord{bb7f633 u-1 android.intent.action.SCREEN_ON} to user -1
+    Intent { act=android.intent.action.SCREEN_ON flg=0x50200010 }
+    caller=android 1288:system/1000 pid=1288 uid=1000
+    enqueueClockTime=2026-03-19 03:44:00.490 dispatchClockTime=2026-03-19 03:44:00.552

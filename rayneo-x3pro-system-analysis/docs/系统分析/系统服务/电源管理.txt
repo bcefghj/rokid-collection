@@ -1,0 +1,2579 @@
+POWER MANAGER (dumpsys power)
+
+Power Manager State:
+  Settings power_manager_constants:
+    no_cached_wake_locks=true
+  mDirty=0x0
+  mWakefulness=Dozing
+  mWakefulnessChanging=false
+  mIsPowered=true
+  mPlugType=2
+  mBatteryLevel=100
+  mBatteryLevelWhenDreamStarted=100
+  mDockState=0
+  mStayOn=false
+  mProximityPositive=false
+  mBootCompleted=true
+  mSystemReady=true
+  mEnhancedDischargeTimeElapsed=0
+  mLastEnhancedDischargeTimeUpdatedElapsed=0
+  mEnhancedDischargePredictionIsPersonalized=false
+  mHalAutoSuspendModeEnabled=true
+  mHalInteractiveModeEnabled=false
+  mWakeLockSummary=0x40
+  mNotifyLongScheduled=(none)
+  mNotifyLongDispatched=-7m49s146ms
+  mNotifyLongNextCheck=(none)
+  mRequestWaitForNegativeProximity=false
+  mInterceptedPowerKeyForProximity=false
+  mSandmanScheduled=false
+  mBatteryLevelLow=false
+  mLightDeviceIdleMode=false
+  mDeviceIdleMode=false
+  mDeviceIdleWhitelist=[2000, 10025]
+  mDeviceIdleTempWhitelist=[]
+  mLastWakeTime=9597738 (901240 ms ago)
+  mLastSleepTime=9659377 (839601 ms ago)
+  mLastSleepReason=sleep_button
+  mLastInteractivePowerHintTime=9657154 (841824 ms ago)
+  mLastScreenBrightnessBoostTime=0 (10498978 ms ago)
+  mScreenBrightnessBoostInProgress=false
+  mHoldingWakeLockSuspendBlocker=false
+  mHoldingDisplaySuspendBlocker=false
+  mLastFlipTime=0
+  mIsFaceDown=false
+
+Settings and Configuration:
+  mDecoupleHalAutoSuspendModeFromDisplayConfig=false
+  mDecoupleHalInteractiveModeFromDisplayConfig=false
+  mWakeUpWhenPluggedOrUnpluggedConfig=true
+  mWakeUpWhenPluggedOrUnpluggedInTheaterModeConfig=false
+  mTheaterModeEnabled=false
+  mSuspendWhenScreenOffDueToProximityConfig=false
+  mDreamsSupportedConfig=true
+  mDreamsEnabledByDefaultConfig=true
+  mDreamsActivatedOnSleepByDefaultConfig=false
+  mDreamsActivatedOnDockByDefaultConfig=true
+  mDreamsEnabledOnBatteryConfig=false
+  mDreamsBatteryLevelMinimumWhenPoweredConfig=-1
+  mDreamsBatteryLevelMinimumWhenNotPoweredConfig=15
+  mDreamsBatteryLevelDrainCutoffConfig=5
+  mDreamsEnabledSetting=true
+  mDreamsActivateOnSleepSetting=false
+  mDreamsActivateOnDockSetting=true
+  mDozeAfterScreenOff=true
+  mMinimumScreenOffTimeoutConfig=10000
+  mMaximumScreenDimDurationConfig=7000
+  mMaximumScreenDimRatioConfig=0.20000005
+  mAttentiveTimeoutConfig=-1
+  mAttentiveTimeoutSetting=-1
+  mAttentiveWarningDurationConfig=30000
+  mScreenOffTimeoutSetting=15000
+  mSleepTimeoutSetting=-1
+  mMaximumScreenOffTimeoutFromDeviceAdmin=9223372036854775807 (enforced=false)
+  mStayOnWhilePluggedInSetting=0
+  mScreenBrightnessModeSetting=1
+  mScreenBrightnessOverrideFromWindowManager=NaN
+  mUserActivityTimeoutOverrideFromWindowManager=-1
+  mUserInactiveOverrideFromWindowManager=false
+  mDozeScreenStateOverrideFromDreamManager=1
+  mDrawWakeLockOverrideFromSidekick=false
+  mDozeScreenBrightnessOverrideFromDreamManager=17
+  mScreenBrightnessMinimum=0.035433073
+  mScreenBrightnessMaximum=1.0
+  mScreenBrightnessDefault=0.7992126
+  mDoubleTapWakeEnabled=false
+  mIsVrModeEnabled=false
+  mForegroundProfile=0
+  mUserId=0
+
+Attentive timeout: -1 ms
+Sleep timeout: -1 ms
+Screen off timeout: 15000 ms
+Screen dim duration: 3000 ms
+
+UID states (changing=false changed=false):
+  UID 1000:   ACTIVE  count=1 state=0
+  UID 1002:   ACTIVE  count=0 state=0
+  UID u0a24: INACTIVE  count=0 state=19
+  UID u0a25: INACTIVE  count=0 state=10
+  UID u0a35: INACTIVE  count=0 state=19
+  UID u0a48:   ACTIVE  count=0 state=0
+  UID u0a51:   ACTIVE  count=0 state=4
+  UID u0a54:   ACTIVE  count=0 state=7
+  UID u0a58: INACTIVE  count=0 state=19
+  UID u0a67:   ACTIVE  count=0 state=4
+  UID u0a69:   ACTIVE  count=0 state=5
+  UID u0a75: INACTIVE  count=0 state=19
+  UID u0a76:   ACTIVE  count=0 state=0
+  UID u0a77:   ACTIVE  count=0 state=5
+  UID u0i4:   ACTIVE  count=0 state=5
+
+Looper state:
+  Looper (PowerManagerService, tid 44) {a755b9}
+    (Total messages: 0, polling=true, quitting=false)
+
+Wake Locks: size=1
+  DOZE_WAKE_LOCK                 'DreamManagerService' ACQ=-13m59s379ms (uid=1000 pid=1288)
+
+Suspend Blockers: size=4
+  PowerManagerService.WakeLocks: ref count=0
+  PowerManagerService.Display: ref count=0
+  PowerManagerService.Broadcasts: ref count=0
+  PowerManagerService.WirelessChargerDetector: ref count=0
+
+Display Power: com.android.server.power.PowerManagerService$1@9740dfe
+
+Battery saving stats:
+  Battery Saver is currently: OFF
+    Times full enabled: 0
+    Times adaptive enabled: 0
+  
+  Drain stats:
+                     Battery saver OFF                          ON
+  NonDoze NonIntr:    336m      0mAh( 24%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+             Intr:     28m      0mAh( 55%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+  Deep    NonIntr:      0m      0mAh(  0%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+             Intr:      0m      0mAh(  0%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+  Light   NonIntr:      0m      0mAh(  0%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+             Intr:      0m      0mAh(  0%)      0.0mAh/h          0m      0mAh(  0%)      0.0mAh/h
+
+Battery saver policy (*NOTE* they only apply when battery saver is ON):
+  Settings: battery_saver_constants
+    value: 
+  Settings: (overlay)
+    value: 
+  DeviceConfig: battery_saver
+    N/A
+  mAccessibilityEnabled=false
+  mAutomotiveProjectionActive=false
+  mPolicyLevel=0
+  
+  Policy 'default full'
+    advertise_is_enabled=true
+    disable_vibration=true
+    disable_animation=false
+    defer_full_backup=true
+    defer_keyvalue_backup=true
+    enable_firewall=true
+    enable_datasaver=false
+    disable_launch_boost=true
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=0.5
+    location_mode=3
+    force_all_apps_standby=true
+    force_background_check=true
+    disable_optional_sensors=true
+    disable_aod=true
+    soundtrigger_mode=1
+    enable_quick_doze=true
+    enable_night_mode=true
+    Interactive File values:
+      N/A
+    
+    Noninteractive File values:
+      N/A
+  
+  Policy 'current full'
+    advertise_is_enabled=true
+    disable_vibration=true
+    disable_animation=false
+    defer_full_backup=true
+    defer_keyvalue_backup=true
+    enable_firewall=true
+    enable_datasaver=false
+    disable_launch_boost=true
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=0.5
+    location_mode=3
+    force_all_apps_standby=true
+    force_background_check=true
+    disable_optional_sensors=true
+    disable_aod=true
+    soundtrigger_mode=1
+    enable_quick_doze=true
+    enable_night_mode=true
+    Interactive File values:
+      N/A
+    
+    Noninteractive File values:
+      N/A
+  
+  Policy 'default adaptive'
+    advertise_is_enabled=false
+    disable_vibration=false
+    disable_animation=false
+    defer_full_backup=false
+    defer_keyvalue_backup=false
+    enable_firewall=false
+    enable_datasaver=false
+    disable_launch_boost=false
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=1.0
+    location_mode=0
+    force_all_apps_standby=false
+    force_background_check=false
+    disable_optional_sensors=false
+    disable_aod=false
+    soundtrigger_mode=0
+    enable_quick_doze=false
+    enable_night_mode=false
+    Interactive File values:
+      N/A
+    
+    Noninteractive File values:
+      N/A
+  
+  Policy 'current adaptive'
+    advertise_is_enabled=false
+    disable_vibration=false
+    disable_animation=false
+    defer_full_backup=false
+    defer_keyvalue_backup=false
+    enable_firewall=false
+    enable_datasaver=false
+    disable_launch_boost=false
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=1.0
+    location_mode=0
+    force_all_apps_standby=false
+    force_background_check=false
+    disable_optional_sensors=false
+    disable_aod=false
+    soundtrigger_mode=0
+    enable_quick_doze=false
+    enable_night_mode=false
+    Interactive File values:
+      N/A
+    
+    Noninteractive File values:
+      N/A
+  
+  Policy 'effective'
+    advertise_is_enabled=false
+    disable_vibration=false
+    disable_animation=false
+    defer_full_backup=false
+    defer_keyvalue_backup=false
+    enable_firewall=false
+    enable_datasaver=false
+    disable_launch_boost=false
+    enable_brightness_adjustment=false
+    adjust_brightness_factor=1.0
+    location_mode=0
+    force_all_apps_standby=false
+    force_background_check=false
+    disable_optional_sensors=false
+    disable_aod=false
+    soundtrigger_mode=0
+    enable_quick_doze=false
+    enable_night_mode=false
+    Interactive File values:
+      N/A
+    
+    Noninteractive File values:
+      N/A
+
+Battery saver state machine:
+  Enabled=false
+    full=false
+    adaptive=false
+  mState=1
+  mLastChangedIntReason=0
+  mLastChangedStrReason=null
+  mBootCompleted=true
+  mSettingsLoaded=true
+  mBatteryStatusSet=true
+  mIsPowered=true
+  mBatteryLevel=100
+  mIsBatteryLevelLow=false
+  mSettingAutomaticBatterySaver=0
+  mSettingBatterySaverEnabled=false
+  mSettingBatterySaverEnabledSticky=false
+  mSettingBatterySaverStickyAutoDisableEnabled=true
+  mSettingBatterySaverStickyAutoDisableThreshold=90
+  mSettingBatterySaverTriggerThreshold=0
+  mBatterySaverStickyBehaviourDisabled=false
+  mDynamicPowerSavingsDefaultDisableThreshold=80
+  mDynamicPowerSavingsDisableThreshold=80
+  mDynamicPowerSavingsEnableBatterySaver=false
+  mLastAdaptiveBatterySaverChangedExternallyElapsed=0
+AttentionDetector:
+ mIsSettingEnabled=false
+ mMaxExtensionMillis=900000
+ mPreDimCheckDurationMillis=2000
+ mEffectivePostDimTimeout=0
+ mLastUserActivityTime(excludingAttention)=9657154
+ mAttentionServiceSupported=false
+ mRequested=false
+
+Profile power states: size=0
+Display Group User Activity:
+  displayGroupId=0
+  userActivitySummary=0x4
+  lastUserActivityTime=9657154 (841828 ms ago)
+  lastUserActivityTimeNoChangeLights=4428236 (6070746 ms ago)
+  mWakeLockSummary=0x40
+
+Wireless Charger Detector State:
+  mGravitySensor={Sensor name="gravity  Non-wakeup", vendor="QTI", version=1, type=9, maxRange=156.91, resolution=0.01, power=0.515, minDelay=5000}
+  mPoweredWirelessly=false
+  mAtRest=false
+  mRestX=0.0, mRestY=0.0, mRestZ=0.0
+  mDetectionInProgress=false
+  mDetectionStartTime=0 (never)
+  mMustUpdateRestPosition=false
+  mTotalSamples=0
+  mMovingSamples=0
+  mFirstSampleX=0.0, mFirstSampleY=0.0, mFirstSampleZ=0.0
+  mLastSampleX=0.0, mLastSampleY=0.0, mLastSampleZ=0.0
+Wake Lock Log
+  03-18 11:46:33.340 - 1041 - REL AudioMix
+  03-18 11:46:33.340 - 1041 - ACQ AudioMix (partial)
+  03-18 11:46:33.404 - 1041 - REL AudioIn
+  03-18 11:46:33.404 - 1041 - ACQ AudioIn (partial)
+  03-18 11:46:33.454 - 1041 - REL AudioIn
+  03-18 11:46:33.461 - 1041 - ACQ AudioIn (partial)
+  03-18 11:46:33.462 - 1041 - REL AudioIn
+  03-18 11:46:33.524 - 1041 - ACQ AudioIn (partial)
+  03-18 11:46:33.535 - 1041 - REL AudioIn
+  03-18 11:46:34.086 - 1041 - REL AudioMix
+  03-18 11:46:34.086 - 1041 - ACQ AudioMix (partial)
+  03-18 11:46:36.241 - 1041 - REL AudioMix
+  03-18 11:46:47.741 - 1041 - ACQ AudioMix (partial)
+  03-18 11:46:47.742 - 1041 - REL AudioMix
+  03-18 11:46:47.742 - 1041 - ACQ AudioMix (partial)
+  03-18 11:46:48.585 - 1041 - REL AudioMix
+  03-18 11:46:48.585 - 1041 - ACQ AudioMix (partial)
+  03-18 11:46:50.686 - 1041 - REL AudioMix
+  03-18 11:47:00.006 - 1000 - ACQ *alarm* (partial)
+  03-18 11:47:00.006 - 1000 - REL *alarm*
+  03-18 11:47:09.494 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:09.494 - 1041 - REL AudioMix
+  03-18 11:47:09.494 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:10.518 - 1041 - REL AudioMix
+  03-18 11:47:10.519 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:11.756 - 1041 - REL AudioMix
+  03-18 11:47:11.756 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:12.099 - 1041 - REL AudioMix
+  03-18 11:47:12.100 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:14.206 - 1041 - REL AudioMix
+  03-18 11:47:29.019 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:29.020 - 1041 - REL AudioIn
+  03-18 11:47:29.237 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:29.238 - 1041 - REL AudioIn
+  03-18 11:47:29.238 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:37.047 - 1041 - REL AudioIn
+  03-18 11:47:37.048 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:37.093 - 1041 - REL AudioIn
+  03-18 11:47:37.227 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:37.228 - 1041 - REL AudioIn
+  03-18 11:47:41.692 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:41.699 - 1041 - REL AudioMix
+  03-18 11:47:41.699 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:42.445 - 1000 - ACQ *launch* (partial)
+  03-18 11:47:42.504 - 1041 - REL AudioMix
+  03-18 11:47:42.515 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:42.807 - 1041 - REL AudioMix
+  03-18 11:47:42.807 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:44.005 - 1000 - REL WindowManager
+  03-18 11:47:44.606 - 1041 - REL AudioMix
+  03-18 11:47:45.297 - 1041 - REL AudioMix
+  03-18 11:47:46.138 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:46.140 - 1041 - REL AudioIn
+  03-18 11:47:46.146 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:46.147 - 1041 - REL AudioIn
+  03-18 11:47:46.156 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:46.156 - 1041 - REL AudioIn
+  03-18 11:47:46.156 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:48.915 - 1041 - REL AudioIn
+  03-18 11:47:48.915 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:48.921 - 1041 - REL AudioIn
+  03-18 11:47:48.937 - 1041 - ACQ AudioIn (partial)
+  03-18 11:47:48.938 - 1041 - REL AudioIn
+  03-18 11:47:50.436 - 1000 - REL *launch*
+  03-18 11:47:50.570 - 1000 - ACQ WindowManager (screen-bright,on-after-release)
+  03-18 11:47:52.564 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:52.564 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:52.565 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:52.566 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:52.567 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:52.568 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:52.607 - 1041 - REL AudioMix
+  03-18 11:47:52.607 - 1041 - ACQ AudioMix (partial)
+  03-18 11:47:54.562 - 1041 - REL AudioMix
+  03-18 11:47:54.564 - 1041 - REL AudioMix
+  03-18 11:47:54.565 - 1041 - REL AudioMix
+  03-18 11:47:54.573 - 1041 - REL AudioMix
+  03-18 11:47:54.575 - 1041 - REL AudioMix
+  03-18 11:48:00.009 - 1000 - ACQ *alarm* (partial)
+  03-18 11:48:00.010 - 1000 - REL *alarm*
+  03-18 11:48:11.867 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:11.875 - 1041 - REL AudioMix
+  03-18 11:48:11.875 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:12.829 - 1041 - REL AudioMix
+  03-18 11:48:12.830 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:12.988 - 1041 - REL AudioMix
+  03-18 11:48:12.988 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:13.309 - 1041 - REL AudioMix
+  03-18 11:48:13.310 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:13.401 - 1041 - REL AudioMix
+  03-18 11:48:13.401 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:13.766 - 1041 - REL AudioMix
+  03-18 11:48:13.766 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:13.790 - 1041 - REL AudioMix
+  03-18 11:48:13.790 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:14.128 - 1041 - REL AudioMix
+  03-18 11:48:14.129 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:14.494 - 1041 - REL AudioMix
+  03-18 11:48:14.494 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:14.820 - 1041 - REL AudioMix
+  03-18 11:48:14.821 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:16.926 - 1041 - REL AudioMix
+  03-18 11:48:19.374 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:19.377 - 1041 - REL AudioMix
+  03-18 11:48:19.380 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:20.219 - 1041 - REL AudioMix
+  03-18 11:48:20.221 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:22.319 - 1041 - REL AudioMix
+  03-18 11:48:23.548 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:23.549 - 1041 - REL AudioIn
+  03-18 11:48:23.563 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:23.564 - 1041 - REL AudioIn
+  03-18 11:48:23.564 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:26.029 - 1041 - REL AudioIn
+  03-18 11:48:26.037 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:26.041 - 1041 - REL AudioIn
+  03-18 11:48:26.055 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:26.058 - 1041 - REL AudioIn
+  03-18 11:48:26.093 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:26.094 - 1041 - REL AudioIn
+  03-18 11:48:31.987 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:31.987 - 1041 - REL AudioIn
+  03-18 11:48:32.173 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:32.174 - 1041 - REL AudioIn
+  03-18 11:48:32.174 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:34.688 - 1041 - REL AudioIn
+  03-18 11:48:34.689 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:34.733 - 1041 - REL AudioIn
+  03-18 11:48:34.790 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:34.790 - 1041 - REL AudioIn
+  03-18 11:48:40.494 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:40.495 - 1041 - REL AudioMix
+  03-18 11:48:40.495 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:41.072 - 1000 - ACQ *launch* (partial)
+  03-18 11:48:41.296 - 1041 - REL AudioMix
+  03-18 11:48:41.296 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:41.431 - 1041 - REL AudioMix
+  03-18 11:48:41.432 - 1041 - ACQ AudioMix (partial)
+  03-18 11:48:42.674 - 1000 - REL WindowManager
+  03-18 11:48:43.396 - 1041 - REL AudioMix
+  03-18 11:48:43.398 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:43.398 - 1041 - REL AudioIn
+  03-18 11:48:43.413 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:43.414 - 1041 - REL AudioIn
+  03-18 11:48:43.420 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:43.422 - 1041 - REL AudioIn
+  03-18 11:48:43.422 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:43.850 - 1041 - REL AudioMix
+  03-18 11:48:45.901 - 1041 - REL AudioIn
+  03-18 11:48:45.901 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:46.001 - 1041 - REL AudioIn
+  03-18 11:48:46.014 - 1041 - ACQ AudioIn (partial)
+  03-18 11:48:46.015 - 1041 - REL AudioIn
+  03-18 11:48:51.077 - 1000 - REL *launch*
+  03-18 11:48:57.702 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 11:48:57.890 - 1000 - ACQ startDream (partial)
+  03-18 11:48:57.921 - 10069 - ACQ Doze (partial)
+  03-18 11:48:57.968 - 10069 - ACQ Scrims (partial)
+  03-18 11:48:58.033 - 1000 - ACQ DreamManagerService (doze)
+  03-18 11:48:58.056 - 1000 - REL startDream
+  03-18 11:48:58.103 - 1000 - REL ActivityManager-Sleep
+  03-18 11:48:58.265 - 10069 - REL Scrims
+  03-18 11:48:58.281 - 10069 - REL Doze
+  03-18 11:48:58.311 - 1000 - ACQ WifiSuspend (partial)
+  03-18 11:48:58.329 - 1000 - REL WifiSuspend
+  03-18 11:49:02.705 - 1000 - ACQ *alarm* (partial)
+  03-18 11:49:02.749 - 1000 - REL *alarm*
+  03-18 11:49:41.202 - 1000 - ACQ *launch* (partial)
+  03-18 11:49:41.359 - 1000 - REL DreamManagerService
+  03-18 11:49:41.374 - 10069 - ACQ Doze (partial)
+  03-18 11:49:41.477 - 10069 - REL Doze
+  03-18 11:49:41.769 - 1000 - REL *launch*
+  03-18 11:49:41.858 - 1000 - ACQ WindowManager (screen-bright,on-after-release)
+  03-18 11:49:42.724 - 1041 - ACQ AudioMix (partial)
+  03-18 11:49:42.724 - 1041 - ACQ AudioMix (partial)
+  03-18 11:49:42.725 - 1041 - ACQ AudioMix (partial)
+  03-18 11:49:42.726 - 1041 - ACQ AudioMix (partial)
+  03-18 11:49:42.726 - 1041 - ACQ AudioMix (partial)
+  03-18 11:49:42.727 - 1041 - ACQ AudioMix (partial)
+  03-18 11:49:42.752 - 1041 - REL AudioMix
+  03-18 11:49:42.752 - 1041 - ACQ AudioMix (partial)
+  03-18 11:49:43.597 - 1000 - REL WindowManager
+  03-18 11:49:43.945 - 1041 - ACQ AudioIn (partial)
+  03-18 11:49:43.947 - 1041 - REL AudioIn
+  03-18 11:49:43.959 - 1041 - ACQ AudioIn (partial)
+  03-18 11:49:43.959 - 1041 - REL AudioIn
+  03-18 11:49:43.959 - 1041 - ACQ AudioIn (partial)
+  03-18 11:49:44.725 - 1041 - REL AudioMix
+  03-18 11:49:44.726 - 1041 - REL AudioMix
+  03-18 11:49:44.727 - 1041 - REL AudioMix
+  03-18 11:49:44.728 - 1041 - REL AudioMix
+  03-18 11:49:44.738 - 1041 - REL AudioMix
+  03-18 11:49:46.887 - 1041 - REL AudioIn
+  03-18 11:49:46.887 - 1041 - ACQ AudioIn (partial)
+  03-18 11:49:46.892 - 1041 - REL AudioIn
+  03-18 11:49:46.902 - 1041 - ACQ AudioIn (partial)
+  03-18 11:49:46.905 - 1041 - REL AudioIn
+  03-18 11:49:48.326 - 1000 - ACQ WindowManager (screen-bright,on-after-release)
+  03-18 11:50:00.006 - 1000 - ACQ *alarm* (partial)
+  03-18 11:50:00.007 - 1000 - REL *alarm*
+  03-18 11:50:23.139 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:23.139 - 1041 - REL AudioIn
+  03-18 11:50:23.148 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:23.149 - 1041 - REL AudioIn
+  03-18 11:50:23.153 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:23.153 - 1041 - REL AudioIn
+  03-18 11:50:23.153 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:25.646 - 1041 - REL AudioIn
+  03-18 11:50:25.646 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:25.652 - 1041 - REL AudioIn
+  03-18 11:50:25.661 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:25.661 - 1041 - REL AudioIn
+  03-18 11:50:36.754 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:36.761 - 1041 - REL AudioIn
+  03-18 11:50:36.776 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:36.780 - 1041 - REL AudioIn
+  03-18 11:50:36.780 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:39.231 - 1041 - REL AudioIn
+  03-18 11:50:39.231 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:39.241 - 1041 - REL AudioIn
+  03-18 11:50:39.249 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:39.252 - 1041 - REL AudioIn
+  03-18 11:50:39.279 - 1041 - ACQ AudioIn (partial)
+  03-18 11:50:39.280 - 1041 - REL AudioIn
+  03-18 11:51:00.001 - 1000 - ACQ *alarm* (partial)
+  03-18 11:51:00.002 - 1000 - REL *alarm*
+  03-18 11:51:59.844 - 1000 - ACQ *launch* (partial)
+  03-18 11:51:59.986 - 1041 - REL AudioMix
+  03-18 11:51:59.987 - 1041 - ACQ AudioMix (partial)
+  03-18 11:52:00.002 - 1000 - ACQ *alarm* (partial)
+  03-18 11:52:00.011 - 1000 - REL *alarm*
+  03-18 11:52:00.825 - 1000 - ACQ SCREEN_FROZEN (partial)
+  03-18 11:52:00.907 - 1000 - REL SCREEN_FROZEN
+  03-18 11:52:00.922 - 1000 - REL *launch*
+  03-18 11:52:01.237 - 1000 - ACQ *launch* (partial)
+  03-18 11:52:02.536 - 1041 - REL AudioMix
+  03-18 11:52:06.699 - 1000 - REL *launch*
+  03-18 11:52:10.886 - 1041 - ACQ AudioMix (partial)
+  03-18 11:52:10.887 - 1041 - REL AudioMix
+  03-18 11:52:10.887 - 1041 - ACQ AudioMix (partial)
+  03-18 11:52:11.510 - 1041 - REL AudioMix
+  03-18 11:52:11.510 - 1041 - ACQ AudioMix (partial)
+  03-18 11:52:12.576 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:52:12.740 - 1000 - REL NetworkStats
+  03-18 11:52:14.095 - 1041 - REL AudioMix
+  03-18 11:52:21.570 - 1041 - ACQ AudioIn (partial)
+  03-18 11:52:21.576 - 1041 - REL AudioIn
+  03-18 11:52:21.617 - 1041 - ACQ AudioIn (partial)
+  03-18 11:52:21.621 - 1041 - REL AudioIn
+  03-18 11:52:21.758 - 1041 - ACQ AudioIn (partial)
+  03-18 11:52:21.758 - 1041 - REL AudioIn
+  03-18 11:52:21.758 - 1041 - ACQ AudioIn (partial)
+  03-18 11:52:23.554 - 1000 - ACQ *launch* (partial)
+  03-18 11:52:23.598 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:52:23.790 - 1000 - REL NetworkStats
+  03-18 11:52:23.939 - 1041 - REL AudioIn
+  03-18 11:52:23.939 - 1041 - ACQ AudioIn (partial)
+  03-18 11:52:23.944 - 1041 - REL AudioIn
+  03-18 11:52:23.977 - 1041 - ACQ AudioIn (partial)
+  03-18 11:52:23.978 - 1041 - REL AudioIn
+  03-18 11:52:24.080 - 1041 - ACQ AudioIn (partial)
+  03-18 11:52:24.085 - 1041 - REL AudioIn
+  03-18 11:52:33.532 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:52:33.579 - 1000 - REL *launch*
+  03-18 11:52:33.595 - 1000 - REL NetworkStats
+  03-18 11:52:46.398 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:52:46.513 - 1000 - REL NetworkStats
+  03-18 11:53:00.007 - 1000 - ACQ *alarm* (partial)
+  03-18 11:53:00.013 - 1000 - REL *alarm*
+  03-18 11:53:00.445 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:00.490 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:00.490 - 1041 - REL AudioMix
+  03-18 11:53:00.490 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:00.571 - 1000 - REL NetworkStats
+  03-18 11:53:00.860 - 1000 - ACQ *launch* (partial)
+  03-18 11:53:01.171 - 1041 - REL AudioMix
+  03-18 11:53:01.171 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:02.175 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:02.227 - 1000 - REL NetworkStats
+  03-18 11:53:03.820 - 1041 - REL AudioMix
+  03-18 11:53:06.773 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:07.224 - 1000 - REL NetworkStats
+  03-18 11:53:09.985 - 1000 - REL *launch*
+  03-18 11:53:14.017 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:14.234 - 1000 - REL NetworkStats
+  03-18 11:53:14.720 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:14.724 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:14.727 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:14.727 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:14.733 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:14.734 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:14.822 - 1041 - ACQ AudioDirectOut (partial)
+  03-18 11:53:14.824 - 1041 - REL AudioDirectOut
+  03-18 11:53:14.857 - 1041 - ACQ AudioDirectOut (partial)
+  03-18 11:53:15.093 - 1041 - REL AudioDirectOut
+  03-18 11:53:15.093 - 1041 - ACQ AudioDirectOut (partial)
+  03-18 11:53:16.009 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:16.502 - 1000 - REL NetworkStats
+  03-18 11:53:16.721 - 1041 - REL AudioMix
+  03-18 11:53:16.729 - 1041 - REL AudioMix
+  03-18 11:53:16.730 - 1041 - REL AudioMix
+  03-18 11:53:16.730 - 1041 - REL AudioMix
+  03-18 11:53:16.734 - 1041 - REL AudioMix
+  03-18 11:53:16.741 - 1041 - REL AudioMix
+  03-18 11:53:18.026 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:18.126 - 1000 - REL NetworkStats
+  03-18 11:53:23.053 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:23.127 - 1000 - REL NetworkStats
+  03-18 11:53:26.289 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:26.569 - 1000 - REL NetworkStats
+  03-18 11:53:31.071 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:31.214 - 1000 - REL NetworkStats
+  03-18 11:53:33.436 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:33.505 - 1000 - REL NetworkStats
+  03-18 11:53:35.079 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:35.088 - 1041 - REL AudioMix
+  03-18 11:53:35.088 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:35.719 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:35.728 - 1041 - REL AudioMix
+  03-18 11:53:35.729 - 1041 - ACQ AudioMix (partial)
+  03-18 11:53:35.913 - 1000 - REL NetworkStats
+  03-18 11:53:37.836 - 1041 - REL AudioMix
+  03-18 11:53:39.639 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:39.742 - 1000 - REL NetworkStats
+  03-18 11:53:41.726 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:41.977 - 1000 - REL NetworkStats
+  03-18 11:53:45.003 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:45.200 - 1000 - REL NetworkStats
+  03-18 11:53:47.620 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:47.863 - 1000 - REL NetworkStats
+  03-18 11:53:49.466 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:49.557 - 1000 - REL NetworkStats
+  03-18 11:53:51.276 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:51.423 - 1000 - REL NetworkStats
+  03-18 11:53:52.846 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:52.973 - 1000 - REL NetworkStats
+  03-18 11:53:54.715 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:54.754 - 1000 - REL NetworkStats
+  03-18 11:53:56.261 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:56.303 - 1000 - REL NetworkStats
+  03-18 11:53:58.236 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:53:58.364 - 1000 - REL NetworkStats
+  03-18 11:54:00.004 - 1000 - ACQ *alarm* (partial)
+  03-18 11:54:00.006 - 1000 - REL *alarm*
+  03-18 11:54:00.450 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:00.724 - 1000 - REL NetworkStats
+  03-18 11:54:01.723 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:01.833 - 1000 - REL NetworkStats
+  03-18 11:54:02.296 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:02.354 - 1000 - REL NetworkStats
+  03-18 11:54:04.113 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:04.120 - 1041 - REL AudioMix
+  03-18 11:54:04.120 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:04.364 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:04.452 - 1000 - REL NetworkStats
+  03-18 11:54:04.779 - 1041 - REL AudioMix
+  03-18 11:54:04.779 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:06.472 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:06.879 - 1000 - REL NetworkStats
+  03-18 11:54:06.895 - 1041 - REL AudioMix
+  03-18 11:54:07.588 - 1041 - REL AudioDirectOut
+  03-18 11:54:07.589 - 1041 - ACQ AudioDirectOut (partial)
+  03-18 11:54:07.655 - 1041 - REL AudioDirectOut
+  03-18 11:54:07.655 - 1041 - ACQ AudioDirectOut (partial)
+  03-18 11:54:08.498 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:08.681 - 1000 - REL NetworkStats
+  03-18 11:54:11.995 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:12.153 - 1000 - REL NetworkStats
+  03-18 11:54:13.734 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:14.097 - 1000 - REL NetworkStats
+  03-18 11:54:15.672 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:15.943 - 1000 - REL NetworkStats
+  03-18 11:54:17.495 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:17.511 - 1041 - REL AudioMix
+  03-18 11:54:17.511 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:17.863 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:18.115 - 1000 - REL NetworkStats
+  03-18 11:54:18.130 - 1041 - REL AudioMix
+  03-18 11:54:18.132 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:20.242 - 1041 - REL AudioMix
+  03-18 11:54:20.251 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:20.499 - 1000 - REL NetworkStats
+  03-18 11:54:21.763 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:21.766 - 1041 - REL AudioMix
+  03-18 11:54:21.766 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:22.011 - 1041 - REL AudioMix
+  03-18 11:54:22.011 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:22.942 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:23.018 - 1000 - REL NetworkStats
+  03-18 11:54:24.090 - 1041 - REL AudioMix
+  03-18 11:54:25.373 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:25.455 - 1000 - REL NetworkStats
+  03-18 11:54:27.414 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:27.622 - 1000 - REL NetworkStats
+  03-18 11:54:30.015 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:30.096 - 1000 - REL NetworkStats
+  03-18 11:54:32.748 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:32.795 - 1000 - REL NetworkStats
+  03-18 11:54:34.538 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:34.867 - 1000 - REL NetworkStats
+  03-18 11:54:34.933 - 1000 - ACQ *launch* (partial)
+  03-18 11:54:36.260 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:36.318 - 1000 - REL NetworkStats
+  03-18 11:54:37.935 - 1000 - ACQ NetworkStats (partial)
+  03-18 11:54:37.998 - 1000 - REL NetworkStats
+  03-18 11:54:38.156 - 1000 - REL WindowManager
+  03-18 11:54:38.378 - 1041 - REL AudioDirectOut
+  03-18 11:54:38.379 - 1041 - ACQ AudioDirectOut (partial)
+  03-18 11:54:38.394 - 1000 - REL *launch*
+  03-18 11:54:39.565 - 1041 - REL AudioDirectOut
+  03-18 11:54:53.200 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 11:54:53.373 - 1000 - ACQ startDream (partial)
+  03-18 11:54:53.601 - 10069 - ACQ Doze (partial)
+  03-18 11:54:53.670 - 10069 - ACQ Scrims (partial)
+  03-18 11:54:53.783 - 1000 - ACQ DreamManagerService (doze)
+  03-18 11:54:53.796 - 1000 - REL startDream
+  03-18 11:54:53.903 - 1000 - REL ActivityManager-Sleep
+  03-18 11:54:53.916 - 10069 - REL Scrims
+  03-18 11:54:53.964 - 10069 - REL Doze
+  03-18 11:54:54.050 - 1000 - ACQ WifiSuspend (partial)
+  03-18 11:54:54.066 - 1000 - REL WifiSuspend
+  03-18 11:54:55.730 - 1000 - ACQ PhoneWindowManager.mPowerKeyWakeLock (partial)
+  03-18 11:54:55.868 - 1000 - REL PhoneWindowManager.mPowerKeyWakeLock
+  03-18 11:54:56.248 - 1000 - REL DreamManagerService
+  03-18 11:54:56.260 - 10069 - ACQ Doze (partial)
+  03-18 11:54:56.362 - 10069 - REL Doze
+  03-18 11:54:56.597 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:56.597 - 1041 - REL AudioMix
+  03-18 11:54:56.597 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:57.632 - 1041 - REL AudioMix
+  03-18 11:54:57.634 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:58.213 - 1000 - ACQ *alarm* (partial)
+  03-18 11:54:58.217 - 1000 - REL *alarm*
+  03-18 11:54:58.777 - 1000 - ACQ PhoneWindowManager.mPowerKeyWakeLock (partial)
+  03-18 11:54:58.921 - 1000 - REL PhoneWindowManager.mPowerKeyWakeLock
+  03-18 11:54:58.940 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 11:54:58.966 - 1041 - REL AudioMix
+  03-18 11:54:58.966 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:59.127 - 1000 - ACQ startDream (partial)
+  03-18 11:54:59.169 - 10069 - ACQ Doze (partial)
+  03-18 11:54:59.197 - 10069 - ACQ Scrims (partial)
+  03-18 11:54:59.253 - 1000 - ACQ DreamManagerService (doze)
+  03-18 11:54:59.268 - 1000 - REL startDream
+  03-18 11:54:59.396 - 1000 - REL ActivityManager-Sleep
+  03-18 11:54:59.429 - 10069 - REL Scrims
+  03-18 11:54:59.432 - 10069 - REL Doze
+  03-18 11:54:59.521 - 1000 - ACQ WifiSuspend (partial)
+  03-18 11:54:59.536 - 1041 - REL AudioMix
+  03-18 11:54:59.537 - 1041 - ACQ AudioMix (partial)
+  03-18 11:54:59.540 - 1000 - REL WifiSuspend
+  03-18 11:55:02.030 - 1041 - REL AudioMix
+  03-18 11:55:22.625 - 1000 - ACQ *alarm* (partial)
+  03-18 11:55:22.626 - 1000 - REL *alarm*
+  03-18 11:55:22.675 - 1041 - ACQ AudioMix (partial)
+  03-18 11:55:22.675 - 1041 - REL AudioMix
+  03-18 11:55:22.675 - 1041 - ACQ AudioMix (partial)
+  03-18 11:55:23.086 - 1000 - REL DreamManagerService
+  03-18 11:55:23.099 - 10069 - ACQ Doze (partial)
+  03-18 11:55:23.203 - 10069 - REL Doze
+  03-18 11:55:24.396 - 1041 - REL AudioMix
+  03-18 11:55:24.397 - 1041 - ACQ AudioMix (partial)
+  03-18 11:55:25.603 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 11:55:25.766 - 1000 - REL ActivityManager-Sleep
+  03-18 11:55:25.772 - 1000 - ACQ startDream (partial)
+  03-18 11:55:25.794 - 10069 - ACQ Doze (partial)
+  03-18 11:55:25.822 - 10069 - ACQ Scrims (partial)
+  03-18 11:55:25.864 - 1000 - ACQ DreamManagerService (doze)
+  03-18 11:55:25.866 - 1000 - REL startDream
+  03-18 11:55:25.975 - 10069 - REL Scrims
+  03-18 11:55:25.984 - 10069 - REL Doze
+  03-18 11:55:25.989 - 1000 - ACQ WifiSuspend (partial)
+  03-18 11:55:26.005 - 1000 - REL WifiSuspend
+  03-18 11:55:26.880 - 1041 - REL AudioMix
+  03-18 11:55:46.261 - 1041 - ACQ AudioMix (partial)
+  03-18 11:55:46.264 - 1041 - ACQ AudioMix (partial)
+  03-18 11:55:46.264 - 1041 - ACQ AudioMix (partial)
+  03-18 11:55:46.265 - 1041 - ACQ AudioMix (partial)
+  03-18 11:55:46.266 - 1041 - ACQ AudioMix (partial)
+  03-18 11:55:46.267 - 1041 - ACQ AudioMix (partial)
+  03-18 11:55:46.281 - 1041 - ACQ AudioIn (partial)
+  03-18 11:55:46.281 - 1041 - REL AudioIn
+  03-18 11:55:46.292 - 1041 - ACQ AudioIn (partial)
+  03-18 11:55:46.293 - 1041 - REL AudioIn
+  03-18 11:55:46.302 - 1041 - ACQ AudioIn (partial)
+  03-18 11:55:46.302 - 1041 - REL AudioIn
+  03-18 11:55:46.302 - 1041 - ACQ AudioIn (partial)
+  03-18 11:55:48.263 - 1041 - REL AudioMix
+  03-18 11:55:48.266 - 1041 - REL AudioMix
+  03-18 11:55:48.268 - 1041 - REL AudioMix
+  03-18 11:55:48.269 - 1041 - REL AudioMix
+  03-18 11:55:48.269 - 1041 - REL AudioMix
+  03-18 11:55:48.270 - 1041 - REL AudioMix
+  03-18 11:55:48.768 - 1041 - REL AudioIn
+  03-18 11:55:48.768 - 1041 - ACQ AudioIn (partial)
+  03-18 11:55:48.778 - 1041 - REL AudioIn
+  03-18 11:55:48.792 - 1041 - ACQ AudioIn (partial)
+  03-18 11:55:48.793 - 1041 - REL AudioIn
+  03-18 11:57:16.490 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:16.492 - 1041 - REL AudioIn
+  03-18 11:57:16.504 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:16.505 - 1041 - REL AudioIn
+  03-18 11:57:16.514 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:16.514 - 1041 - REL AudioIn
+  03-18 11:57:16.514 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:19.336 - 1041 - REL AudioIn
+  03-18 11:57:19.336 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:19.345 - 1041 - REL AudioIn
+  03-18 11:57:19.358 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:19.359 - 1041 - REL AudioIn
+  03-18 11:57:31.345 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:31.346 - 1041 - REL AudioIn
+  03-18 11:57:31.356 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:31.357 - 1041 - REL AudioIn
+  03-18 11:57:31.363 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:31.363 - 1041 - REL AudioIn
+  03-18 11:57:31.363 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:34.233 - 1041 - REL AudioIn
+  03-18 11:57:34.233 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:34.242 - 1041 - REL AudioIn
+  03-18 11:57:34.262 - 1041 - ACQ AudioIn (partial)
+  03-18 11:57:34.263 - 1041 - REL AudioIn
+  03-18 11:58:07.098 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:07.099 - 1041 - REL AudioIn
+  03-18 11:58:07.109 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:07.111 - 1041 - REL AudioIn
+  03-18 11:58:07.120 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:07.121 - 1041 - REL AudioIn
+  03-18 11:58:07.121 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:09.874 - 1041 - REL AudioIn
+  03-18 11:58:09.874 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:09.883 - 1041 - REL AudioIn
+  03-18 11:58:09.904 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:09.908 - 1041 - REL AudioIn
+  03-18 11:58:46.633 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:46.635 - 1041 - REL AudioIn
+  03-18 11:58:46.647 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:46.647 - 1041 - REL AudioIn
+  03-18 11:58:46.653 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:46.654 - 1041 - REL AudioIn
+  03-18 11:58:46.655 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:49.382 - 1041 - REL AudioIn
+  03-18 11:58:49.382 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:49.390 - 1041 - REL AudioIn
+  03-18 11:58:49.393 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:49.393 - 1041 - REL AudioIn
+  03-18 11:58:49.412 - 1041 - ACQ AudioIn (partial)
+  03-18 11:58:49.413 - 1041 - REL AudioIn
+  03-18 11:59:00.005 - 1000 - ACQ *alarm* (partial)
+  03-18 11:59:00.006 - 1000 - REL *alarm*
+  03-18 11:59:44.401 - 1000 - ACQ *alarm* (partial)
+  03-18 11:59:44.402 - 1000 - REL *alarm*
+  03-18 11:59:52.245 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:52.246 - 1041 - REL AudioIn
+  03-18 11:59:52.277 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:52.277 - 1041 - REL AudioIn
+  03-18 11:59:52.277 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:52.292 - 1000 - REL DreamManagerService
+  03-18 11:59:52.315 - 10069 - ACQ Doze (partial)
+  03-18 11:59:52.381 - 1041 - ACQ AudioMix (partial)
+  03-18 11:59:52.381 - 1041 - REL AudioMix
+  03-18 11:59:52.381 - 1041 - ACQ AudioMix (partial)
+  03-18 11:59:52.420 - 10069 - REL Doze
+  03-18 11:59:52.482 - 1000 - ACQ d9c3eb5c-fee0-4eae-a140-46ba6231b640 (full,acq-causes-wake)
+  03-18 11:59:54.567 - 1000 - REL d9c3eb5c-fee0-4eae-a140-46ba6231b640
+  03-18 11:59:55.035 - 1041 - REL AudioMix
+  03-18 11:59:55.035 - 1041 - ACQ AudioMix (partial)
+  03-18 11:59:55.245 - 1041 - REL AudioIn
+  03-18 11:59:55.245 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:55.364 - 1041 - REL AudioIn
+  03-18 11:59:55.391 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 11:59:55.533 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:55.533 - 1041 - REL AudioIn
+  03-18 11:59:55.553 - 1041 - REL AudioMix
+  03-18 11:59:55.553 - 1041 - ACQ AudioMix (partial)
+  03-18 11:59:55.560 - 1000 - ACQ startDream (partial)
+  03-18 11:59:55.839 - 1000 - REL ActivityManager-Sleep
+  03-18 11:59:55.870 - 10069 - ACQ Doze (partial)
+  03-18 11:59:55.921 - 10069 - ACQ Scrims (partial)
+  03-18 11:59:56.001 - 1000 - ACQ DreamManagerService (doze)
+  03-18 11:59:56.003 - 1000 - REL startDream
+  03-18 11:59:56.175 - 10069 - REL Scrims
+  03-18 11:59:56.187 - 10069 - REL Doze
+  03-18 11:59:56.209 - 1000 - ACQ WifiSuspend (partial)
+  03-18 11:59:56.228 - 1000 - REL WifiSuspend
+  03-18 11:59:57.653 - 1041 - REL AudioMix
+  03-18 11:59:57.655 - 1041 - ACQ AudioMix (partial)
+  03-18 11:59:57.782 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:57.783 - 1041 - REL AudioIn
+  03-18 11:59:57.819 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:57.819 - 1041 - REL AudioIn
+  03-18 11:59:57.819 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:57.888 - 1041 - REL AudioMix
+  03-18 11:59:57.888 - 1041 - ACQ AudioMix (partial)
+  03-18 11:59:57.934 - 1000 - ACQ e85a775c-9ecb-495c-9391-80cbccab7d94 (full,acq-causes-wake)
+  03-18 11:59:57.991 - 1000 - REL DreamManagerService
+  03-18 11:59:58.020 - 10069 - ACQ Doze (partial)
+  03-18 11:59:58.123 - 10069 - REL Doze
+  03-18 11:59:59.301 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:59.302 - 1041 - REL AudioIn
+  03-18 11:59:59.316 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:59.320 - 1041 - REL AudioIn
+  03-18 11:59:59.331 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:59.331 - 1041 - REL AudioIn
+  03-18 11:59:59.331 - 1041 - ACQ AudioIn (partial)
+  03-18 11:59:59.968 - 1000 - REL e85a775c-9ecb-495c-9391-80cbccab7d94
+  03-18 12:00:00.004 - 1000 - ACQ *alarm* (partial)
+  03-18 12:00:00.005 - 1000 - REL *alarm*
+  03-18 12:00:00.520 - 1041 - REL AudioMix
+  03-18 12:00:00.520 - 1041 - ACQ AudioMix (partial)
+  03-18 12:00:00.526 - 1041 - REL AudioIn
+  03-18 12:00:00.526 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:00.569 - 1041 - REL AudioIn
+  03-18 12:00:00.609 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:00.609 - 1041 - REL AudioIn
+  03-18 12:00:00.710 - 1041 - REL AudioMix
+  03-18 12:00:00.710 - 1041 - ACQ AudioMix (partial)
+  03-18 12:00:02.092 - 1041 - REL AudioIn
+  03-18 12:00:02.092 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:02.204 - 1041 - REL AudioIn
+  03-18 12:00:02.209 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:02.209 - 1041 - REL AudioIn
+  03-18 12:00:02.223 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:02.224 - 1041 - REL AudioIn
+  03-18 12:00:02.886 - 1041 - REL AudioMix
+  03-18 12:00:02.886 - 1041 - ACQ AudioMix (partial)
+  03-18 12:00:03.476 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:03.477 - 1041 - REL AudioIn
+  03-18 12:00:03.495 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:03.496 - 1041 - REL AudioIn
+  03-18 12:00:03.504 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:03.504 - 1041 - REL AudioIn
+  03-18 12:00:03.504 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:03.706 - 1041 - REL AudioMix
+  03-18 12:00:03.706 - 1041 - ACQ AudioMix (partial)
+  03-18 12:00:03.773 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 12:00:03.933 - 1000 - ACQ startDream (partial)
+  03-18 12:00:04.024 - 10069 - ACQ Doze (partial)
+  03-18 12:00:04.063 - 10069 - ACQ Scrims (partial)
+  03-18 12:00:04.079 - 1000 - REL ActivityManager-Sleep
+  03-18 12:00:04.144 - 1000 - ACQ DreamManagerService (doze)
+  03-18 12:00:04.146 - 1000 - REL startDream
+  03-18 12:00:04.277 - 10069 - REL Scrims
+  03-18 12:00:04.284 - 10069 - REL Doze
+  03-18 12:00:04.320 - 1000 - ACQ WifiSuspend (partial)
+  03-18 12:00:04.338 - 1000 - REL WifiSuspend
+  03-18 12:00:04.486 - 1041 - REL AudioMix
+  03-18 12:00:04.486 - 1041 - ACQ AudioMix (partial)
+  03-18 12:00:06.227 - 1041 - REL AudioIn
+  03-18 12:00:06.228 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:06.236 - 1041 - REL AudioIn
+  03-18 12:00:06.260 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:06.260 - 1041 - REL AudioIn
+  03-18 12:00:06.976 - 1041 - REL AudioMix
+  03-18 12:00:20.115 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:20.116 - 1041 - REL AudioIn
+  03-18 12:00:20.128 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:20.129 - 1041 - REL AudioIn
+  03-18 12:00:20.136 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:20.136 - 1041 - REL AudioIn
+  03-18 12:00:20.136 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:22.983 - 1041 - REL AudioIn
+  03-18 12:00:22.984 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:22.993 - 1041 - REL AudioIn
+  03-18 12:00:23.031 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:23.032 - 1041 - REL AudioIn
+  03-18 12:00:23.051 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:23.052 - 1041 - REL AudioIn
+  03-18 12:00:23.774 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:23.775 - 1041 - REL AudioIn
+  03-18 12:00:23.786 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:23.788 - 1041 - REL AudioIn
+  03-18 12:00:23.796 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:23.796 - 1041 - REL AudioIn
+  03-18 12:00:23.796 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:26.631 - 1041 - REL AudioIn
+  03-18 12:00:26.631 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:26.757 - 1041 - REL AudioIn
+  03-18 12:00:26.776 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:26.777 - 1041 - REL AudioIn
+  03-18 12:00:40.483 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:40.484 - 1041 - REL AudioIn
+  03-18 12:00:40.495 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:40.497 - 1041 - REL AudioIn
+  03-18 12:00:40.502 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:40.502 - 1041 - REL AudioIn
+  03-18 12:00:40.502 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:43.312 - 1041 - REL AudioIn
+  03-18 12:00:43.312 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:43.320 - 1041 - REL AudioIn
+  03-18 12:00:43.322 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:43.324 - 1041 - REL AudioIn
+  03-18 12:00:43.343 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:43.344 - 1041 - REL AudioIn
+  03-18 12:00:55.770 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:55.771 - 1041 - REL AudioIn
+  03-18 12:00:55.781 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:55.783 - 1041 - REL AudioIn
+  03-18 12:00:55.789 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:55.789 - 1041 - REL AudioIn
+  03-18 12:00:55.789 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:58.620 - 1041 - REL AudioIn
+  03-18 12:00:58.620 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:58.629 - 1041 - REL AudioIn
+  03-18 12:00:58.650 - 1041 - ACQ AudioIn (partial)
+  03-18 12:00:58.651 - 1041 - REL AudioIn
+  03-18 12:01:25.343 - 1000 - ACQ MarsState:Wifi-WakeLock (partial)
+  03-18 12:01:25.471 - 1000 - REL MarsState:Wifi-WakeLock
+  03-18 12:01:25.479 - 1000 - ACQ MarsState:Wifi-WakeLock (partial)
+  03-18 12:01:26.515 - 1000 - REL MarsState:Wifi-WakeLock
+  03-18 12:01:33.179 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:33.180 - 1041 - REL AudioIn
+  03-18 12:01:33.196 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:33.197 - 1041 - REL AudioIn
+  03-18 12:01:33.204 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:33.205 - 1041 - REL AudioIn
+  03-18 12:01:33.205 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:34.431 - 1000 - ACQ *alarm* (partial)
+  03-18 12:01:34.434 - 1000 - REL *alarm*
+  03-18 12:01:34.475 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:34.486 - 1041 - REL AudioIn
+  03-18 12:01:34.560 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:34.602 - 1041 - REL AudioIn
+  03-18 12:01:34.602 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:34.693 - 1000 - ACQ b24ce1bd-ddde-40b4-9ce4-d9dd7bbd5d20 (full,acq-causes-wake)
+  03-18 12:01:35.035 - 1000 - REL DreamManagerService
+  03-18 12:01:35.153 - 10069 - ACQ Doze (partial)
+  03-18 12:01:35.267 - 10069 - REL Doze
+  03-18 12:01:35.301 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:35.304 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:35.324 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:35.325 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:35.326 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:35.331 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:35.331 - 1041 - REL AudioMix
+  03-18 12:01:35.331 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:35.688 - 1041 - REL AudioIn
+  03-18 12:01:35.688 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:35.696 - 1041 - REL AudioIn
+  03-18 12:01:35.718 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:35.719 - 1041 - REL AudioIn
+  03-18 12:01:35.790 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:35.791 - 1041 - REL AudioIn
+  03-18 12:01:36.239 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:36.247 - 1041 - REL AudioIn
+  03-18 12:01:36.312 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:36.320 - 1041 - REL AudioIn
+  03-18 12:01:36.331 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:36.332 - 1041 - REL AudioIn
+  03-18 12:01:36.333 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:37.114 - 1041 - REL AudioMix
+  03-18 12:01:37.115 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:37.304 - 1041 - REL AudioMix
+  03-18 12:01:37.305 - 1041 - REL AudioMix
+  03-18 12:01:37.308 - 1041 - REL AudioMix
+  03-18 12:01:37.310 - 1041 - REL AudioMix
+  03-18 12:01:37.311 - 1041 - REL AudioMix
+  03-18 12:01:38.609 - 1041 - REL AudioIn
+  03-18 12:01:38.614 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:38.616 - 1041 - REL AudioIn
+  03-18 12:01:38.620 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:38.622 - 1041 - REL AudioIn
+  03-18 12:01:38.647 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:38.647 - 1041 - REL AudioIn
+  03-18 12:01:39.631 - 1041 - REL AudioMix
+  03-18 12:01:39.862 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 12:01:40.053 - 1000 - ACQ startDream (partial)
+  03-18 12:01:40.088 - 1000 - ACQ d9a84116-8cbb-4390-a92a-9bb7293a4714 (full,acq-causes-wake)
+  03-18 12:01:40.091 - 1000 - REL ActivityManager-Sleep
+  03-18 12:01:40.128 - 10069 - ACQ Doze (partial)
+  03-18 12:01:40.215 - 1000 - ACQ *launch* (partial)
+  03-18 12:01:40.232 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 12:01:40.233 - 1000 - REL *launch*
+  03-18 12:01:40.233 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:40.237 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:40.237 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:40.238 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:40.239 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:40.239 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:40.262 - 10069 - ACQ Scrims (partial)
+  03-18 12:01:40.263 - 1041 - REL AudioMix
+  03-18 12:01:40.263 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:40.391 - 1000 - ACQ DreamManagerService (doze)
+  03-18 12:01:40.411 - 1000 - REL startDream
+  03-18 12:01:40.526 - 1000 - REL ActivityManager-Sleep
+  03-18 12:01:40.618 - 1000 - REL DreamManagerService
+  03-18 12:01:40.631 - 10069 - REL Scrims
+  03-18 12:01:40.645 - 10069 - REL Doze
+  03-18 12:01:40.658 - 10069 - ACQ Doze (partial)
+  03-18 12:01:40.782 - 10069 - REL Doze
+  03-18 12:01:40.832 - 1000 - REL d9a84116-8cbb-4390-a92a-9bb7293a4714
+  03-18 12:01:42.107 - 1000 - ACQ 27769bfc-43a8-43ee-a2c5-c2ebf2c2d258 (full,acq-causes-wake)
+  03-18 12:01:42.209 - 1000 - ACQ WifiSuspend (partial)
+  03-18 12:01:42.237 - 1000 - REL WifiSuspend
+  03-18 12:01:42.242 - 1041 - REL AudioMix
+  03-18 12:01:42.243 - 1041 - REL AudioMix
+  03-18 12:01:42.244 - 1041 - REL AudioMix
+  03-18 12:01:42.245 - 1041 - REL AudioMix
+  03-18 12:01:42.255 - 1041 - REL AudioMix
+  03-18 12:01:48.102 - 1041 - REL AudioMix
+  03-18 12:01:48.102 - 1041 - ACQ AudioMix (partial)
+  03-18 12:01:50.622 - 1041 - REL AudioMix
+  03-18 12:01:51.430 - 1000 - REL b24ce1bd-ddde-40b4-9ce4-d9dd7bbd5d20
+  03-18 12:01:53.272 - 1041 - REL AudioIn
+  03-18 12:01:53.272 - 1041 - ACQ AudioIn (partial)
+  03-18 12:01:53.294 - 1041 - REL AudioIn
+  03-18 12:02:00.002 - 1000 - ACQ *alarm* (partial)
+  03-18 12:02:00.004 - 1000 - REL *alarm*
+  03-18 12:02:17.131 - 1041 - ACQ AudioMix (partial)
+  03-18 12:02:17.131 - 1041 - REL AudioMix
+  03-18 12:02:17.131 - 1041 - ACQ AudioMix (partial)
+  03-18 12:02:17.684 - 1000 - REL 27769bfc-43a8-43ee-a2c5-c2ebf2c2d258
+  03-18 12:02:17.704 - 1041 - ACQ AudioIn (partial)
+  03-18 12:02:17.706 - 1041 - REL AudioIn
+  03-18 12:02:17.942 - 1041 - REL AudioMix
+  03-18 12:02:17.943 - 1041 - ACQ AudioMix (partial)
+  03-18 12:02:20.041 - 1041 - REL AudioMix
+  03-18 12:02:32.709 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 12:02:32.882 - 1000 - ACQ startDream (partial)
+  03-18 12:02:32.906 - 10069 - ACQ Doze (partial)
+  03-18 12:02:32.938 - 10069 - ACQ Scrims (partial)
+  03-18 12:02:32.996 - 1000 - ACQ DreamManagerService (doze)
+  03-18 12:02:32.998 - 1000 - REL startDream
+  03-18 12:02:33.103 - 1000 - REL ActivityManager-Sleep
+  03-18 12:02:33.168 - 10069 - REL Scrims
+  03-18 12:02:33.176 - 10069 - REL Doze
+  03-18 12:02:33.249 - 1000 - ACQ WifiSuspend (partial)
+  03-18 12:02:33.268 - 1000 - REL WifiSuspend
+  03-18 12:02:37.762 - 1000 - ACQ *alarm* (partial)
+  03-18 12:02:37.770 - 1000 - REL *alarm*
+  03-18 12:04:38.587 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:38.588 - 1041 - REL AudioIn
+  03-18 12:04:38.605 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:38.606 - 1041 - REL AudioIn
+  03-18 12:04:38.614 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:38.614 - 1041 - REL AudioIn
+  03-18 12:04:38.614 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:39.580 - 1000 - ACQ *alarm* (partial)
+  03-18 12:04:39.583 - 1000 - REL *alarm*
+  03-18 12:04:39.655 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:39.659 - 1041 - REL AudioIn
+  03-18 12:04:39.719 - 1000 - ACQ 84a334a6-3a21-4cbf-b3e6-555813978c41 (full,acq-causes-wake)
+  03-18 12:04:39.732 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:39.733 - 1041 - REL AudioIn
+  03-18 12:04:39.733 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:40.289 - 1000 - REL DreamManagerService
+  03-18 12:04:40.371 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:40.380 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:40.381 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:40.387 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:40.415 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:40.416 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:40.416 - 1041 - REL AudioMix
+  03-18 12:04:40.417 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:40.480 - 10069 - ACQ Doze (partial)
+  03-18 12:04:40.604 - 10069 - REL Doze
+  03-18 12:04:41.091 - 1041 - REL AudioIn
+  03-18 12:04:41.104 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:41.104 - 1041 - REL AudioIn
+  03-18 12:04:41.129 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:41.131 - 1041 - REL AudioIn
+  03-18 12:04:41.181 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:41.188 - 1041 - REL AudioIn
+  03-18 12:04:42.293 - 1041 - REL AudioMix
+  03-18 12:04:42.293 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:42.364 - 1041 - REL AudioMix
+  03-18 12:04:42.372 - 1041 - REL AudioMix
+  03-18 12:04:42.374 - 1041 - REL AudioMix
+  03-18 12:04:42.376 - 1041 - REL AudioMix
+  03-18 12:04:42.376 - 1041 - REL AudioMix
+  03-18 12:04:44.005 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 12:04:44.098 - 1000 - ACQ cd2c316a-366f-4c1c-b6ff-6be15517aaea (full,acq-causes-wake)
+  03-18 12:04:44.106 - 1000 - REL ActivityManager-Sleep
+  03-18 12:04:44.168 - 1000 - ACQ *launch* (partial)
+  03-18 12:04:44.379 - 1041 - REL AudioMix
+  03-18 12:04:44.384 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:44.385 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:44.385 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:44.388 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:44.394 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:44.395 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:44.395 - 1041 - REL AudioMix
+  03-18 12:04:44.395 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:44.903 - 1000 - REL cd2c316a-366f-4c1c-b6ff-6be15517aaea
+  03-18 12:04:45.498 - 1000 - REL *launch*
+  03-18 12:04:45.538 - 1000 - ACQ WifiSuspend (partial)
+  03-18 12:04:45.567 - 1000 - REL WifiSuspend
+  03-18 12:04:46.110 - 1000 - ACQ 425dea4c-f9de-4562-9b03-649689d8e05b (full,acq-causes-wake)
+  03-18 12:04:46.389 - 1041 - REL AudioMix
+  03-18 12:04:46.390 - 1041 - REL AudioMix
+  03-18 12:04:46.390 - 1041 - REL AudioMix
+  03-18 12:04:46.391 - 1041 - REL AudioMix
+  03-18 12:04:46.392 - 1041 - REL AudioMix
+  03-18 12:04:46.474 - 1041 - REL AudioMix
+  03-18 12:04:46.475 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:48.101 - 1041 - REL AudioMix
+  03-18 12:04:48.102 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:52.606 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:52.609 - 1041 - REL AudioIn
+  03-18 12:04:52.645 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:52.653 - 1041 - REL AudioIn
+  03-18 12:04:52.653 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:54.060 - 1041 - REL AudioMix
+  03-18 12:04:54.063 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:55.003 - 1041 - REL AudioIn
+  03-18 12:04:55.003 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:55.011 - 1041 - REL AudioIn
+  03-18 12:04:55.021 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:55.022 - 1041 - REL AudioIn
+  03-18 12:04:55.066 - 1041 - ACQ AudioIn (partial)
+  03-18 12:04:55.066 - 1041 - REL AudioIn
+  03-18 12:04:55.415 - 1041 - REL AudioMix
+  03-18 12:04:55.415 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:55.976 - 1041 - REL AudioMix
+  03-18 12:04:55.976 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:57.732 - 1041 - REL AudioMix
+  03-18 12:04:57.732 - 1041 - ACQ AudioMix (partial)
+  03-18 12:04:57.753 - 1000 - REL 84a334a6-3a21-4cbf-b3e6-555813978c41
+  03-18 12:04:59.268 - 1041 - REL AudioMix
+  03-18 12:04:59.268 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:00.005 - 1000 - ACQ *alarm* (partial)
+  03-18 12:05:00.007 - 1000 - REL *alarm*
+  03-18 12:05:00.889 - 1041 - REL AudioMix
+  03-18 12:05:00.889 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:01.368 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:01.371 - 1041 - REL AudioIn
+  03-18 12:05:01.386 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:01.386 - 1041 - REL AudioIn
+  03-18 12:05:01.386 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:03.899 - 1041 - REL AudioIn
+  03-18 12:05:03.899 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:03.905 - 1041 - REL AudioIn
+  03-18 12:05:03.945 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:03.949 - 1041 - REL AudioIn
+  03-18 12:05:04.570 - 1041 - REL AudioMix
+  03-18 12:05:04.571 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:06.662 - 1041 - REL AudioMix
+  03-18 12:05:07.964 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:07.967 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:07.968 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:07.975 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:07.994 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:07.995 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:07.996 - 1041 - REL AudioMix
+  03-18 12:05:07.996 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:09.100 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:09.116 - 1041 - REL AudioIn
+  03-18 12:05:09.120 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:09.120 - 1041 - REL AudioIn
+  03-18 12:05:09.128 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:09.129 - 1041 - REL AudioIn
+  03-18 12:05:09.129 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:09.969 - 1041 - REL AudioMix
+  03-18 12:05:09.978 - 1041 - REL AudioMix
+  03-18 12:05:09.979 - 1041 - REL AudioMix
+  03-18 12:05:09.980 - 1041 - REL AudioMix
+  03-18 12:05:09.982 - 1041 - REL AudioMix
+  03-18 12:05:11.199 - 1041 - REL AudioMix
+  03-18 12:05:11.199 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:13.144 - 1041 - REL AudioMix
+  03-18 12:05:13.145 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:13.299 - 1041 - REL AudioIn
+  03-18 12:05:13.300 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:13.308 - 1041 - REL AudioIn
+  03-18 12:05:13.311 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:13.312 - 1041 - REL AudioIn
+  03-18 12:05:13.343 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:13.344 - 1041 - REL AudioIn
+  03-18 12:05:13.642 - 1041 - REL AudioMix
+  03-18 12:05:13.643 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:15.742 - 1041 - REL AudioMix
+  03-18 12:05:16.296 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:16.296 - 1041 - REL AudioMix
+  03-18 12:05:16.296 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:20.211 - 1041 - REL AudioMix
+  03-18 12:05:20.211 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:22.315 - 1041 - REL AudioMix
+  03-18 12:05:22.755 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:22.763 - 1041 - REL AudioMix
+  03-18 12:05:22.763 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:24.119 - 1041 - REL AudioMix
+  03-18 12:05:24.119 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:26.046 - 1041 - REL AudioMix
+  03-18 12:05:26.047 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:26.968 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:26.975 - 1041 - REL AudioIn
+  03-18 12:05:26.977 - 1041 - REL AudioMix
+  03-18 12:05:26.978 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:27.005 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:27.005 - 1041 - REL AudioIn
+  03-18 12:05:27.005 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:28.619 - 1041 - REL AudioMix
+  03-18 12:05:28.620 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:29.404 - 1041 - REL AudioIn
+  03-18 12:05:29.404 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:29.411 - 1041 - REL AudioIn
+  03-18 12:05:29.441 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:29.443 - 1041 - REL AudioIn
+  03-18 12:05:30.668 - 1041 - REL AudioMix
+  03-18 12:05:30.668 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:30.731 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:30.735 - 1041 - REL AudioIn
+  03-18 12:05:30.744 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:30.744 - 1041 - REL AudioIn
+  03-18 12:05:30.744 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:32.376 - 1041 - REL AudioMix
+  03-18 12:05:32.377 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:33.163 - 1041 - REL AudioIn
+  03-18 12:05:33.163 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:33.170 - 1041 - REL AudioIn
+  03-18 12:05:33.191 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:33.193 - 1041 - REL AudioIn
+  03-18 12:05:34.306 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:34.310 - 1041 - REL AudioIn
+  03-18 12:05:34.330 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:34.331 - 1041 - REL AudioIn
+  03-18 12:05:34.337 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:34.342 - 1041 - REL AudioIn
+  03-18 12:05:34.346 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:34.519 - 1041 - REL AudioMix
+  03-18 12:05:34.519 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:36.207 - 1041 - REL AudioMix
+  03-18 12:05:36.207 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:36.788 - 1041 - REL AudioIn
+  03-18 12:05:36.788 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:36.796 - 1041 - REL AudioIn
+  03-18 12:05:36.796 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:36.798 - 1041 - REL AudioIn
+  03-18 12:05:36.847 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:36.849 - 1041 - REL AudioIn
+  03-18 12:05:37.989 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:37.989 - 1041 - REL AudioIn
+  03-18 12:05:37.989 - 1041 - REL AudioMix
+  03-18 12:05:37.989 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:37.990 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:37.992 - 1041 - REL AudioIn
+  03-18 12:05:38.005 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:38.006 - 1041 - REL AudioIn
+  03-18 12:05:38.006 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:39.443 - 1041 - REL AudioMix
+  03-18 12:05:39.444 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:40.476 - 1041 - REL AudioIn
+  03-18 12:05:40.476 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:40.483 - 1041 - REL AudioIn
+  03-18 12:05:40.494 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:40.494 - 1041 - REL AudioIn
+  03-18 12:05:40.516 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:40.516 - 1041 - REL AudioIn
+  03-18 12:05:42.706 - 1041 - REL AudioMix
+  03-18 12:05:42.706 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:42.759 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:42.760 - 1041 - REL AudioIn
+  03-18 12:05:42.774 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:42.777 - 1041 - REL AudioIn
+  03-18 12:05:42.781 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:42.782 - 1041 - REL AudioIn
+  03-18 12:05:42.782 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:44.736 - 1041 - REL AudioMix
+  03-18 12:05:44.736 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:45.282 - 1041 - REL AudioIn
+  03-18 12:05:45.282 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:45.290 - 1041 - REL AudioIn
+  03-18 12:05:45.291 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:45.292 - 1041 - REL AudioIn
+  03-18 12:05:45.310 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:45.310 - 1041 - REL AudioIn
+  03-18 12:05:46.471 - 1041 - REL AudioIn
+  03-18 12:05:46.471 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:46.509 - 1041 - REL AudioIn
+  03-18 12:05:46.933 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:46.933 - 1041 - REL AudioIn
+  03-18 12:05:46.933 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:47.376 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:47.378 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:47.379 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:47.380 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:47.382 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:49.377 - 1041 - REL AudioMix
+  03-18 12:05:49.386 - 1041 - REL AudioMix
+  03-18 12:05:49.389 - 1041 - REL AudioMix
+  03-18 12:05:49.390 - 1041 - REL AudioMix
+  03-18 12:05:49.394 - 1041 - REL AudioMix
+  03-18 12:05:51.361 - 1041 - REL AudioIn
+  03-18 12:05:51.362 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:51.400 - 1041 - REL AudioIn
+  03-18 12:05:52.457 - 1000 - REL 425dea4c-f9de-4562-9b03-649689d8e05b
+  03-18 12:05:52.477 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:52.479 - 1041 - REL AudioIn
+  03-18 12:05:52.766 - 1041 - REL AudioMix
+  03-18 12:05:52.767 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:53.298 - 1041 - REL AudioMix
+  03-18 12:05:53.298 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:53.622 - 1041 - REL AudioMix
+  03-18 12:05:53.623 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:54.324 - 1041 - REL AudioMix
+  03-18 12:05:54.324 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:54.674 - 1041 - REL AudioMix
+  03-18 12:05:54.675 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:54.725 - 1041 - REL AudioMix
+  03-18 12:05:54.725 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:55.664 - 1041 - REL AudioMix
+  03-18 12:05:55.664 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:55.710 - 1041 - REL AudioMix
+  03-18 12:05:55.710 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:56.047 - 1041 - REL AudioMix
+  03-18 12:05:56.047 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:56.089 - 1041 - REL AudioMix
+  03-18 12:05:56.089 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:56.696 - 1041 - REL AudioMix
+  03-18 12:05:56.696 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:56.759 - 1041 - REL AudioMix
+  03-18 12:05:56.759 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:57.096 - 1041 - REL AudioMix
+  03-18 12:05:57.096 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:58.651 - 1041 - REL AudioMix
+  03-18 12:05:58.651 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:59.286 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:59.290 - 1041 - REL AudioIn
+  03-18 12:05:59.303 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:59.304 - 1041 - REL AudioIn
+  03-18 12:05:59.304 - 1041 - ACQ AudioIn (partial)
+  03-18 12:05:59.857 - 1041 - REL AudioMix
+  03-18 12:05:59.858 - 1041 - ACQ AudioMix (partial)
+  03-18 12:05:59.912 - 1041 - REL AudioMix
+  03-18 12:05:59.916 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:00.006 - 1000 - ACQ *alarm* (partial)
+  03-18 12:06:00.010 - 1000 - REL *alarm*
+  03-18 12:06:00.255 - 1041 - REL AudioMix
+  03-18 12:06:00.256 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:00.625 - 1041 - REL AudioMix
+  03-18 12:06:00.625 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:00.955 - 1041 - REL AudioMix
+  03-18 12:06:00.955 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:01.080 - 1000 - ACQ *launch* (partial)
+  03-18 12:06:01.762 - 1041 - REL AudioIn
+  03-18 12:06:01.762 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:01.782 - 1041 - REL AudioIn
+  03-18 12:06:01.787 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:01.788 - 1041 - REL AudioIn
+  03-18 12:06:02.219 - 1000 - ACQ SCREEN_FROZEN (partial)
+  03-18 12:06:02.260 - 1000 - REL SCREEN_FROZEN
+  03-18 12:06:02.645 - 10063 - ACQ autonavi:wakeLockTag (screen-bright)
+  03-18 12:06:03.057 - 1041 - REL AudioMix
+  03-18 12:06:03.345 - 1000 - REL *launch*
+  03-18 12:06:04.150 - 1000 - ACQ WindowManager (screen-bright,on-after-release)
+  03-18 12:06:11.506 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:11.506 - 1041 - REL AudioMix
+  03-18 12:06:11.506 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:12.351 - 1041 - REL AudioMix
+  03-18 12:06:12.352 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:12.667 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:12.680 - 1041 - REL AudioIn
+  03-18 12:06:12.736 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:12.736 - 1041 - REL AudioIn
+  03-18 12:06:12.736 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:14.451 - 1041 - REL AudioMix
+  03-18 12:06:17.606 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:17.609 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:17.609 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:17.611 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:17.612 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:17.613 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:17.620 - 1041 - REL AudioMix
+  03-18 12:06:17.620 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:19.543 - 1041 - REL AudioMix
+  03-18 12:06:19.544 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:19.591 - 1041 - REL AudioMix
+  03-18 12:06:19.594 - 1041 - REL AudioMix
+  03-18 12:06:19.595 - 1041 - REL AudioMix
+  03-18 12:06:19.595 - 1041 - REL AudioMix
+  03-18 12:06:19.606 - 1041 - REL AudioMix
+  03-18 12:06:20.619 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:20.625 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:20.626 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:20.627 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:20.627 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:20.663 - 1041 - REL AudioMix
+  03-18 12:06:20.663 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:22.138 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:06:22.171 - 1000 - REL NetworkStats
+  03-18 12:06:22.614 - 1041 - REL AudioMix
+  03-18 12:06:22.615 - 1041 - REL AudioMix
+  03-18 12:06:22.619 - 1041 - REL AudioMix
+  03-18 12:06:22.622 - 1041 - REL AudioMix
+  03-18 12:06:22.627 - 1041 - REL AudioMix
+  03-18 12:06:22.875 - 1041 - REL AudioMix
+  03-18 12:06:22.877 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:23.884 - 1041 - REL AudioMix
+  03-18 12:06:23.885 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:24.656 - 1041 - REL AudioMix
+  03-18 12:06:24.657 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:26.765 - 1041 - REL AudioMix
+  03-18 12:06:27.319 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:27.321 - 1041 - REL AudioMix
+  03-18 12:06:27.322 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:27.704 - 1041 - REL AudioMix
+  03-18 12:06:27.704 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:27.848 - 1041 - REL AudioIn
+  03-18 12:06:27.848 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:27.878 - 1041 - REL AudioIn
+  03-18 12:06:27.920 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:27.920 - 1041 - REL AudioIn
+  03-18 12:06:28.490 - 1041 - REL AudioMix
+  03-18 12:06:28.503 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:28.817 - 1041 - REL AudioMix
+  03-18 12:06:28.819 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:28.856 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:28.859 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:28.864 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:28.882 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:28.884 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:28.995 - 1041 - REL AudioMix
+  03-18 12:06:28.995 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:30.862 - 1041 - REL AudioMix
+  03-18 12:06:30.867 - 1041 - REL AudioMix
+  03-18 12:06:30.867 - 1041 - REL AudioMix
+  03-18 12:06:30.867 - 1041 - REL AudioMix
+  03-18 12:06:30.868 - 1041 - REL AudioMix
+  03-18 12:06:31.341 - 1041 - REL AudioMix
+  03-18 12:06:31.345 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:33.441 - 1041 - REL AudioMix
+  03-18 12:06:37.973 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:37.973 - 1041 - REL AudioMix
+  03-18 12:06:37.973 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:38.795 - 1041 - REL AudioMix
+  03-18 12:06:38.796 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:39.112 - 1041 - REL AudioMix
+  03-18 12:06:39.112 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:39.644 - 1041 - REL AudioMix
+  03-18 12:06:39.645 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:40.121 - 1041 - REL AudioMix
+  03-18 12:06:40.121 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:40.382 - 1000 - REL WindowManager
+  03-18 12:06:40.516 - 1000 - ACQ *launch* (partial)
+  03-18 12:06:40.630 - 1041 - REL AudioMix
+  03-18 12:06:40.631 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:41.385 - 1041 - REL AudioMix
+  03-18 12:06:41.385 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:41.398 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:41.399 - 1041 - REL AudioIn
+  03-18 12:06:41.411 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:41.411 - 1041 - REL AudioIn
+  03-18 12:06:41.411 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:41.896 - 1041 - REL AudioMix
+  03-18 12:06:41.896 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:42.428 - 1041 - REL AudioMix
+  03-18 12:06:42.428 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:42.950 - 1041 - REL AudioMix
+  03-18 12:06:42.952 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:43.195 - 10063 - REL autonavi:wakeLockTag
+  03-18 12:06:43.899 - 1041 - REL AudioIn
+  03-18 12:06:43.900 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:43.903 - 1041 - REL AudioIn
+  03-18 12:06:43.920 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:43.920 - 1041 - REL AudioIn
+  03-18 12:06:43.936 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:43.936 - 1041 - REL AudioIn
+  03-18 12:06:44.059 - 1041 - REL AudioMix
+  03-18 12:06:44.060 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:44.565 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:44.566 - 1041 - REL AudioIn
+  03-18 12:06:44.630 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:44.630 - 1041 - REL AudioIn
+  03-18 12:06:44.630 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:44.835 - 1041 - REL AudioMix
+  03-18 12:06:44.839 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:45.028 - 1041 - REL AudioMix
+  03-18 12:06:45.028 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:45.163 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:45.164 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:45.165 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:45.173 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:45.179 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:46.580 - 1000 - ACQ PhoneWindowManager.mPowerKeyWakeLock (partial)
+  03-18 12:06:46.716 - 1000 - REL PhoneWindowManager.mPowerKeyWakeLock
+  03-18 12:06:46.739 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 12:06:46.739 - 1000 - REL *launch*
+  03-18 12:06:47.014 - 1000 - ACQ startDream (partial)
+  03-18 12:06:47.069 - 10069 - ACQ Doze (partial)
+  03-18 12:06:47.127 - 10069 - ACQ Scrims (partial)
+  03-18 12:06:47.172 - 1041 - REL AudioMix
+  03-18 12:06:47.195 - 1041 - REL AudioMix
+  03-18 12:06:47.195 - 1041 - REL AudioMix
+  03-18 12:06:47.195 - 1041 - REL AudioMix
+  03-18 12:06:47.196 - 1041 - REL AudioMix
+  03-18 12:06:47.198 - 1000 - ACQ DreamManagerService (doze)
+  03-18 12:06:47.199 - 1000 - REL startDream
+  03-18 12:06:47.269 - 1000 - REL ActivityManager-Sleep
+  03-18 12:06:47.356 - 10069 - REL Scrims
+  03-18 12:06:47.369 - 10069 - REL Doze
+  03-18 12:06:47.475 - 1041 - REL AudioMix
+  03-18 12:06:47.475 - 1041 - ACQ AudioMix (partial)
+  03-18 12:06:47.488 - 1000 - ACQ WifiSuspend (partial)
+  03-18 12:06:47.505 - 1000 - REL WifiSuspend
+  03-18 12:06:49.573 - 1041 - REL AudioMix
+  03-18 12:06:51.227 - 1041 - REL AudioIn
+  03-18 12:06:51.227 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:51.267 - 1041 - REL AudioIn
+  03-18 12:06:51.297 - 1041 - ACQ AudioIn (partial)
+  03-18 12:06:51.299 - 1041 - REL AudioIn
+  03-18 12:07:14.140 - 1000 - ACQ handleAudioDeviceEvent (partial)
+  03-18 12:07:14.253 - 1000 - REL handleAudioDeviceEvent
+  03-18 12:08:13.038 - 1000 - ACQ *alarm* (partial)
+  03-18 12:08:13.042 - 1000 - REL *alarm*
+  03-18 12:08:13.053 - 1000 - ACQ *job*/a/c.a.s.p.WifiDisableJobService (partial)
+  03-18 12:08:13.056 - 1000 - REL *job*/a/c.a.s.p.WifiDisableJobService
+  03-18 12:08:13.284 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:08:13.297 - 1000 - REL NetworkStats
+  03-18 12:08:13.318 - 1000 - ACQ ConnectivityService (partial)
+  03-18 12:08:15.159 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:08:15.194 - 1000 - REL NetworkStats
+  03-18 12:08:15.195 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:08:15.207 - 1000 - REL NetworkStats
+  03-18 12:08:15.208 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:08:15.214 - 1000 - REL NetworkStats
+  03-18 12:08:15.417 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:08:15.428 - 1000 - REL NetworkStats
+  03-18 12:08:15.436 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:08:15.447 - 1000 - REL NetworkStats
+  03-18 12:08:15.450 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 12:08:15.451 - 1000 - REL NetworkTimeUpdateService
+  03-18 12:08:15.459 - 1000 - ACQ time_detector (partial)
+  03-18 12:08:15.459 - 1000 - REL time_detector
+  03-18 12:08:16.448 - 1000 - REL ConnectivityService
+  03-18 12:08:30.790 - 1000 - ACQ *alarm* (partial)
+  03-18 12:08:30.792 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:08:30.807 - 1000 - REL NetworkStats
+  03-18 12:08:30.810 - 1000 - REL *alarm*
+  03-18 12:11:08.998 - 1000 - ACQ *alarm* (partial)
+  03-18 12:11:09.040 - 1000 - REL *alarm*
+  03-18 12:11:09.065 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:09.067 - 1041 - REL AudioMix
+  03-18 12:11:09.067 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:09.095 - 1000 - ACQ *launch* (partial)
+  03-18 12:11:09.391 - 1000 - REL *launch*
+  03-18 12:11:09.410 - 1000 - REL DreamManagerService
+  03-18 12:11:09.431 - 10069 - ACQ Doze (partial)
+  03-18 12:11:09.533 - 10069 - REL Doze
+  03-18 12:11:10.099 - 1041 - REL AudioMix
+  03-18 12:11:10.099 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:10.774 - 1000 - ACQ handleAudioDeviceEvent (partial)
+  03-18 12:11:10.901 - 1000 - REL handleAudioDeviceEvent
+  03-18 12:11:12.028 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:12.028 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:12.029 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:12.029 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:12.029 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:12.043 - 1041 - REL AudioMix
+  03-18 12:11:12.053 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:12.056 - 1041 - REL AudioMix
+  03-18 12:11:12.056 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:12.173 - 1041 - REL AudioMix
+  03-18 12:11:12.173 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:12.411 - 1041 - REL AudioMix
+  03-18 12:11:12.411 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:12.910 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:11:12.927 - 1000 - REL NetworkStats
+  03-18 12:11:12.971 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:11:12.983 - 1000 - REL NetworkStats
+  03-18 12:11:12.985 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:11:12.994 - 1000 - REL NetworkStats
+  03-18 12:11:13.004 - 1000 - ACQ ConnectivityService (partial)
+  03-18 12:11:13.034 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:11:13.045 - 1000 - REL NetworkStats
+  03-18 12:11:13.058 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:11:13.071 - 1000 - REL NetworkStats
+  03-18 12:11:13.096 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:11:13.106 - 1000 - REL NetworkStats
+  03-18 12:11:13.118 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:11:13.130 - 1000 - REL NetworkStats
+  03-18 12:11:13.138 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 12:11:13.145 - 1000 - REL NetworkTimeUpdateService
+  03-18 12:11:13.146 - 1000 - ACQ time_detector (partial)
+  03-18 12:11:13.146 - 1000 - REL time_detector
+  03-18 12:11:13.185 - 1041 - REL AudioMix
+  03-18 12:11:13.185 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:13.502 - 1041 - REL AudioMix
+  03-18 12:11:13.502 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:13.711 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:11:13.719 - 1000 - REL NetworkStats
+  03-18 12:11:13.837 - 1041 - REL AudioMix
+  03-18 12:11:13.837 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:13.992 - 1000 - ACQ *alarm* (partial)
+  03-18 12:11:13.993 - 1000 - REL *alarm*
+  03-18 12:11:14.033 - 1041 - REL AudioMix
+  03-18 12:11:14.034 - 1041 - REL AudioMix
+  03-18 12:11:14.035 - 1041 - REL AudioMix
+  03-18 12:11:14.037 - 1041 - REL AudioMix
+  03-18 12:11:14.044 - 1041 - REL AudioMix
+  03-18 12:11:14.120 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 12:11:14.131 - 1000 - REL ConnectivityService
+  03-18 12:11:14.267 - 1000 - ACQ startDream (partial)
+  03-18 12:11:14.338 - 1000 - REL ActivityManager-Sleep
+  03-18 12:11:14.353 - 1000 - ACQ DreamManagerService (doze)
+  03-18 12:11:14.354 - 1000 - REL startDream
+  03-18 12:11:14.476 - 1000 - ACQ WifiSuspend (partial)
+  03-18 12:11:14.485 - 1000 - REL WifiSuspend
+  03-18 12:11:15.285 - 1000 - ACQ handleAudioDeviceEvent (partial)
+  03-18 12:11:15.398 - 1000 - REL handleAudioDeviceEvent
+  03-18 12:11:16.316 - 1041 - REL AudioMix
+  03-18 12:11:17.942 - 1000 - ACQ *alarm* (partial)
+  03-18 12:11:17.943 - 1000 - REL *alarm*
+  03-18 12:11:25.983 - 1000 - ACQ *vibrator* (partial)
+  03-18 12:11:26.171 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:26.172 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:26.172 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:26.173 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:26.174 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:26.175 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:26.176 - 1041 - REL AudioMix
+  03-18 12:11:26.176 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:26.646 - 1000 - REL *vibrator*
+  03-18 12:11:26.825 - 1041 - REL AudioMix
+  03-18 12:11:26.825 - 1041 - ACQ AudioMix (partial)
+  03-18 12:11:28.173 - 1041 - REL AudioMix
+  03-18 12:11:28.179 - 1041 - REL AudioMix
+  03-18 12:11:28.179 - 1041 - REL AudioMix
+  03-18 12:11:28.180 - 1041 - REL AudioMix
+  03-18 12:11:28.186 - 1041 - REL AudioMix
+  03-18 12:11:29.310 - 1041 - REL AudioMix
+  03-18 12:12:08.837 - 1041 - ACQ AudioMix (partial)
+  03-18 12:12:10.843 - 1041 - REL AudioMix
+  03-18 12:12:14.119 - 1000 - ACQ *alarm* (partial)
+  03-18 12:12:14.122 - 1000 - REL *alarm*
+  03-18 12:12:14.131 - 1000 - ACQ *job*/a/c.a.s.p.WifiDisableJobService (partial)
+  03-18 12:12:14.132 - 1000 - REL *job*/a/c.a.s.p.WifiDisableJobService
+  03-18 12:12:14.300 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:12:14.339 - 1000 - REL NetworkStats
+  03-18 12:12:14.409 - 1000 - ACQ ConnectivityService (partial)
+  03-18 12:12:16.966 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:12:16.997 - 1000 - REL NetworkStats
+  03-18 12:12:16.997 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:12:17.004 - 1000 - REL NetworkStats
+  03-18 12:12:17.004 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:12:17.010 - 1000 - REL NetworkStats
+  03-18 12:12:17.991 - 1000 - ACQ *alarm* (partial)
+  03-18 12:12:17.993 - 1000 - REL *alarm*
+  03-18 12:12:18.239 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:12:18.249 - 1000 - REL NetworkStats
+  03-18 12:12:18.255 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:12:18.265 - 1000 - REL NetworkStats
+  03-18 12:12:18.270 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 12:12:18.284 - 1000 - REL NetworkTimeUpdateService
+  03-18 12:12:18.287 - 1000 - ACQ time_detector (partial)
+  03-18 12:12:18.287 - 1000 - REL time_detector
+  03-18 12:12:19.267 - 1000 - REL ConnectivityService
+  03-18 12:12:24.301 - 1000 - ACQ *alarm* (partial)
+  03-18 12:12:24.311 - 1000 - REL *alarm*
+  03-18 12:16:00.003 - 1000 - ACQ *alarm* (partial)
+  03-18 12:16:00.005 - 1000 - REL *alarm*
+  03-18 12:31:09.186 - 1000 - ACQ *alarm* (partial)
+  03-18 12:31:09.188 - 1000 - REL *alarm*
+  03-18 12:31:09.198 - 1000 - ACQ *job*/a/c.a.s.p.BleOnlyJobService (partial)
+  03-18 12:31:09.200 - 1000 - REL *job*/a/c.a.s.p.BleOnlyJobService
+  03-18 12:31:09.509 - 1000 - ACQ BluetoothDisableWakeLock (partial)
+  03-18 12:31:09.640 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:09.654 - 1000 - REL NetworkStats
+  03-18 12:31:09.655 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:09.663 - 1000 - REL NetworkStats
+  03-18 12:31:09.671 - 1000 - ACQ ConnectivityService (partial)
+  03-18 12:31:12.134 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:12.159 - 1000 - REL NetworkStats
+  03-18 12:31:12.159 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:12.168 - 1000 - REL NetworkStats
+  03-18 12:31:12.168 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:12.174 - 1000 - REL NetworkStats
+  03-18 12:31:13.253 - 1000 - ACQ *alarm* (partial)
+  03-18 12:31:13.257 - 1000 - REL *alarm*
+  03-18 12:31:13.565 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:13.579 - 1000 - REL NetworkStats
+  03-18 12:31:13.585 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:13.595 - 1000 - REL NetworkStats
+  03-18 12:31:13.597 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 12:31:13.599 - 1000 - REL NetworkTimeUpdateService
+  03-18 12:31:13.603 - 1000 - ACQ time_detector (partial)
+  03-18 12:31:13.604 - 1000 - REL time_detector
+  03-18 12:31:14.213 - 1000 - ACQ *alarm* (partial)
+  03-18 12:31:14.214 - 1000 - REL *alarm*
+  03-18 12:31:14.220 - 1000 - ACQ *job*/a/c.a.s.p.DeepSuspendIdler (partial)
+  03-18 12:31:14.222 - 1000 - REL *job*/a/c.a.s.p.DeepSuspendIdler
+  03-18 12:31:14.225 - 1000 - ACQ RayneoSuspend (partial)
+  03-18 12:31:14.596 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:14.609 - 1000 - REL NetworkStats
+  03-18 12:31:14.609 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:14.612 - 1000 - REL ConnectivityService
+  03-18 12:31:14.623 - 1000 - REL NetworkStats
+  03-18 12:31:14.625 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:14.631 - 1000 - REL NetworkStats
+  03-18 12:31:14.637 - 1000 - ACQ ConnectivityService (partial)
+  03-18 12:31:16.227 - 1000 - REL RayneoSuspend
+  03-18 12:31:20.944 - 1000 - REL BluetoothDisableWakeLock
+  03-18 12:31:21.088 - 1041 - ACQ AudioMix (partial)
+  03-18 12:31:23.090 - 1041 - REL AudioMix
+  03-18 12:31:24.235 - 1041 - ACQ AudioMix (partial)
+  03-18 12:31:24.237 - 1041 - ACQ AudioMix (partial)
+  03-18 12:31:24.237 - 1041 - ACQ AudioMix (partial)
+  03-18 12:31:24.237 - 1041 - ACQ AudioMix (partial)
+  03-18 12:31:24.238 - 1041 - ACQ AudioMix (partial)
+  03-18 12:31:24.238 - 1041 - ACQ AudioMix (partial)
+  03-18 12:31:25.855 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:25.878 - 1000 - REL NetworkStats
+  03-18 12:31:25.879 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:25.885 - 1000 - REL NetworkStats
+  03-18 12:31:25.885 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:25.890 - 1000 - REL NetworkStats
+  03-18 12:31:26.238 - 1041 - REL AudioMix
+  03-18 12:31:26.241 - 1041 - REL AudioMix
+  03-18 12:31:26.241 - 1041 - REL AudioMix
+  03-18 12:31:26.242 - 1041 - REL AudioMix
+  03-18 12:31:26.242 - 1041 - REL AudioMix
+  03-18 12:31:26.247 - 1041 - REL AudioMix
+  03-18 12:31:26.873 - 1000 - ACQ *alarm* (partial)
+  03-18 12:31:26.875 - 1000 - REL *alarm*
+  03-18 12:31:27.119 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:27.131 - 1000 - REL NetworkStats
+  03-18 12:31:27.136 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:31:27.146 - 1000 - REL NetworkStats
+  03-18 12:31:27.149 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 12:31:27.151 - 1000 - REL NetworkTimeUpdateService
+  03-18 12:31:27.151 - 1000 - ACQ time_detector (partial)
+  03-18 12:31:27.151 - 1000 - REL time_detector
+  03-18 12:31:28.148 - 1000 - REL ConnectivityService
+  03-18 12:32:40.304 - 1000 - ACQ *alarm* (partial)
+  03-18 12:32:40.307 - 1000 - REL *alarm*
+  03-18 12:47:14.450 - 1000 - ACQ *alarm* (partial)
+  03-18 12:47:14.452 - 1000 - ACQ NetworkStats (partial)
+  03-18 12:47:14.471 - 1000 - REL NetworkStats
+  03-18 12:47:14.522 - 1000 - REL *alarm*
+  03-18 12:47:14.523 - 1000 - ACQ *job*/c.a.p.m.m/c.a.p.m.IdleService (partial)
+  03-18 12:47:14.524 - 1000 - ACQ *job*/a/c.a.s.s.DiskStatsLoggingService (partial)
+  03-18 12:47:14.524 - 1000 - ACQ *job*/c.a.n.i/c.a.s.c.i.RegularMaintenanceJobService (partial)
+  03-18 12:47:14.557 - 1000 - REL *job*/c.a.n.i/c.a.s.c.i.RegularMaintenanceJobService
+  03-18 12:47:14.604 - 1000 - ACQ *job*/a/c.a.s.p.BackgroundDexOptService (partial)
+  03-18 12:47:14.604 - 1000 - ACQ *job*/a/c.a.s.p.DynamicCodeLoggingService (partial)
+  03-18 12:47:14.604 - 1000 - ACQ *job*/a/c.a.s.p.DynamicCodeLoggingService (partial)
+  03-18 12:47:14.604 - 1000 - ACQ *job*/a/c.a.s.PruneInstantAppsJobService (partial)
+  03-18 12:47:14.604 - 1000 - ACQ *job*/a/c.a.s.n.w.ReportWatchlistJobService (partial)
+  03-18 12:47:14.605 - 1000 - ACQ *job*/a/c.g.a.s.i.IorapForwardingService$IorapdJobServiceProxy (partial)
+  03-18 12:47:14.605 - 1000 - ACQ *job*/a/c.a.s.b.BlobStoreIdleJobService (partial)
+  03-18 12:47:14.605 - 1000 - ACQ *job*/a/c.a.s.p.d.DataMaintenanceService (partial)
+  03-18 12:47:14.616 - 1000 - REL *job*/a/c.a.s.n.w.ReportWatchlistJobService
+  03-18 12:47:14.643 - 1000 - REL *job*/a/c.a.s.p.d.DataMaintenanceService
+  03-18 12:47:14.724 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:14.808 - 1000 - REL *job*/a/c.a.s.p.DynamicCodeLoggingService
+  03-18 12:47:14.909 - 1000 - REL *job*/a/c.a.s.s.DiskStatsLoggingService
+  03-18 12:47:14.916 - 1000 - REL *job*/a/c.a.s.PruneInstantAppsJobService
+  03-18 12:47:14.918 - 1000 - REL *job*/a/c.a.s.b.BlobStoreIdleJobService
+  03-18 12:47:14.920 - 1000 - ACQ *job*/a/c.a.s.p.DynamicCodeLoggingService (partial)
+  03-18 12:47:15.159 - 1000 - REL *job*/a/c.a.s.p.DynamicCodeLoggingService
+  03-18 12:47:15.209 - 1000 - ACQ *job*/c.a.s/a.w.i.b.s.SystemJobService (partial)
+  03-18 12:47:15.210 - 1000 - ACQ *job*/c.a.s/a.w.i.b.s.SystemJobService (partial)
+  03-18 12:47:15.390 - 1000 - REL *dexopt*
+  03-18 12:47:15.398 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:15.409 - 1000 - REL *job*/c.a.s/a.w.i.b.s.SystemJobService
+  03-18 12:47:15.425 - 1000 - REL *job*/c.a.s/a.w.i.b.s.SystemJobService
+  03-18 12:47:15.470 - 1000 - ACQ *job*/c.a.s/a.w.i.b.s.SystemJobService (partial)
+  03-18 12:47:15.471 - 1000 - ACQ *job*/c.a.s/a.w.i.b.s.SystemJobService (partial)
+  03-18 12:47:15.476 - 1000 - REL *job*/c.a.s/a.w.i.b.s.SystemJobService
+  03-18 12:47:15.486 - 1000 - REL *job*/c.a.s/a.w.i.b.s.SystemJobService
+  03-18 12:47:15.493 - 1000 - ACQ *job*/c.a.p.d/.DownloadIdleService (partial)
+  03-18 12:47:15.514 - 1000 - REL *job*/c.a.p.d/.DownloadIdleService
+  03-18 12:47:15.521 - 1000 - REL *job*/a/c.a.s.p.DynamicCodeLoggingService
+  03-18 12:47:16.021 - 1000 - ACQ *job*/c.a.s/.f.b.AnomalyConfigJobService (partial)
+  03-18 12:47:16.023 - 1000 - ACQ *job*/c.a.s/.f.b.AnomalyCleanupJobService (partial)
+  03-18 12:47:16.050 - 1000 - REL *job*/c.a.s/.f.b.AnomalyConfigJobService
+  03-18 12:47:16.233 - 1000 - REL *job*/c.a.p.m.m/c.a.p.m.IdleService
+  03-18 12:47:16.239 - 1000 - ACQ *job*/c.a.s/.f.b.AnomalyConfigJobService (partial)
+  03-18 12:47:16.242 - 1000 - REL *job*/c.a.s/.f.b.AnomalyConfigJobService
+  03-18 12:47:16.269 - 1000 - REL *job*/c.a.s/.f.b.AnomalyCleanupJobService
+  03-18 12:47:16.301 - 1000 - REL *dexopt*
+  03-18 12:47:16.302 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:16.343 - 1000 - REL *dexopt*
+  03-18 12:47:16.343 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:16.376 - 1000 - REL *dexopt*
+  03-18 12:47:16.376 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:16.388 - 1000 - REL *dexopt*
+  03-18 12:47:16.388 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:17.386 - 1000 - REL *dexopt*
+  03-18 12:47:17.387 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:17.419 - 1000 - REL *dexopt*
+  03-18 12:47:17.420 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:17.451 - 1000 - REL *dexopt*
+  03-18 12:47:17.452 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:17.474 - 1000 - REL *dexopt*
+  03-18 12:47:17.475 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:17.503 - 1000 - REL *dexopt*
+  03-18 12:47:17.504 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:17.528 - 1000 - REL *dexopt*
+  03-18 12:47:17.529 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:47:33.888 - 1000 - REL *job*/a/c.g.a.s.i.IorapForwardingService$IorapdJobServiceProxy
+  03-18 12:47:33.943 - 1000 - ACQ *job*/c.a.s/.f.b.AnomalyCleanupJobService (partial)
+  03-18 12:47:33.971 - 1000 - REL *job*/c.a.s/.f.b.AnomalyCleanupJobService
+  03-18 12:48:03.137 - 1000 - REL *dexopt*
+  03-18 12:48:03.138 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:03.190 - 1000 - REL *dexopt*
+  03-18 12:48:03.190 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:03.221 - 1000 - REL *dexopt*
+  03-18 12:48:03.221 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:03.229 - 1000 - REL *dexopt*
+  03-18 12:48:03.230 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:03.237 - 1000 - REL *dexopt*
+  03-18 12:48:03.237 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:07.460 - 1000 - REL *dexopt*
+  03-18 12:48:07.461 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:07.554 - 1000 - REL *dexopt*
+  03-18 12:48:07.554 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:07.585 - 1000 - REL *dexopt*
+  03-18 12:48:07.585 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:07.615 - 1000 - REL *dexopt*
+  03-18 12:48:07.616 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:07.642 - 1000 - REL *dexopt*
+  03-18 12:48:07.643 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:09.465 - 1000 - REL *dexopt*
+  03-18 12:48:09.465 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:09.489 - 1000 - REL *dexopt*
+  03-18 12:48:09.489 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.191 - 1000 - REL *dexopt*
+  03-18 12:48:11.192 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.222 - 1000 - REL *dexopt*
+  03-18 12:48:11.223 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.262 - 1000 - REL *dexopt*
+  03-18 12:48:11.311 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.538 - 1000 - REL *dexopt*
+  03-18 12:48:11.539 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.581 - 1000 - REL *dexopt*
+  03-18 12:48:11.581 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.609 - 1000 - REL *dexopt*
+  03-18 12:48:11.610 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.638 - 1000 - REL *dexopt*
+  03-18 12:48:11.639 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.766 - 1000 - REL *dexopt*
+  03-18 12:48:11.766 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.839 - 1000 - REL *dexopt*
+  03-18 12:48:11.840 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:11.868 - 1000 - REL *dexopt*
+  03-18 12:48:11.869 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:12.793 - 1000 - REL *dexopt*
+  03-18 12:48:12.794 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:12.861 - 1000 - REL *dexopt*
+  03-18 12:48:12.862 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:12.901 - 1000 - REL *dexopt*
+  03-18 12:48:12.902 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:12.976 - 1000 - REL *dexopt*
+  03-18 12:48:12.976 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:12.988 - 1000 - REL *dexopt*
+  03-18 12:48:12.989 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:13.032 - 1000 - REL *dexopt*
+  03-18 12:48:13.033 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:13.871 - 1000 - REL *dexopt*
+  03-18 12:48:13.872 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:13.931 - 1000 - REL *dexopt*
+  03-18 12:48:13.932 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:14.140 - 1000 - REL *dexopt*
+  03-18 12:48:14.140 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:14.183 - 1000 - REL *dexopt*
+  03-18 12:48:14.183 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:14.226 - 1000 - REL *dexopt*
+  03-18 12:48:14.226 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:14.257 - 1000 - REL *dexopt*
+  03-18 12:48:14.257 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:14.287 - 1000 - REL *dexopt*
+  03-18 12:48:14.288 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.045 - 1000 - REL *dexopt*
+  03-18 12:48:19.046 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.091 - 1000 - REL *dexopt*
+  03-18 12:48:19.092 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.188 - 1000 - REL *dexopt*
+  03-18 12:48:19.188 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.285 - 1000 - REL *dexopt*
+  03-18 12:48:19.285 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.329 - 1000 - REL *dexopt*
+  03-18 12:48:19.329 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.371 - 1000 - REL *dexopt*
+  03-18 12:48:19.372 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.404 - 1000 - REL *dexopt*
+  03-18 12:48:19.404 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.454 - 1000 - REL *dexopt*
+  03-18 12:48:19.454 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.484 - 1000 - REL *dexopt*
+  03-18 12:48:19.485 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.521 - 1000 - REL *dexopt*
+  03-18 12:48:19.522 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.560 - 1000 - REL *dexopt*
+  03-18 12:48:19.561 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.595 - 1000 - REL *dexopt*
+  03-18 12:48:19.595 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:19.668 - 1000 - REL *dexopt*
+  03-18 12:48:19.668 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:27.975 - 1000 - REL *dexopt*
+  03-18 12:48:27.976 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:28.020 - 1000 - REL *dexopt*
+  03-18 12:48:28.021 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:28.186 - 1000 - REL *dexopt*
+  03-18 12:48:28.186 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:31.074 - 1000 - REL *dexopt*
+  03-18 12:48:31.074 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:31.187 - 1000 - REL *dexopt*
+  03-18 12:48:31.187 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:34.430 - 1000 - REL *dexopt*
+  03-18 12:48:34.430 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:34.472 - 1000 - REL *dexopt*
+  03-18 12:48:34.473 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:34.534 - 1000 - REL *dexopt*
+  03-18 12:48:34.534 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:35.111 - 1000 - REL *dexopt*
+  03-18 12:48:35.112 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:43.329 - 1000 - REL *dexopt*
+  03-18 12:48:43.330 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:43.432 - 1000 - REL *dexopt*
+  03-18 12:48:43.433 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:43.537 - 1000 - REL *dexopt*
+  03-18 12:48:43.538 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:44.929 - 1000 - REL *dexopt*
+  03-18 12:48:44.930 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:45.041 - 1000 - REL *dexopt*
+  03-18 12:48:45.042 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:45.207 - 1000 - REL *dexopt*
+  03-18 12:48:45.208 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:45.458 - 1000 - REL *dexopt*
+  03-18 12:48:45.459 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:45.470 - 1000 - REL *dexopt*
+  03-18 12:48:45.471 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:45.502 - 1000 - REL *dexopt*
+  03-18 12:48:45.503 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:45.598 - 1000 - REL *dexopt*
+  03-18 12:48:45.598 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:49.245 - 1000 - REL *dexopt*
+  03-18 12:48:49.245 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:50.766 - 1000 - REL *dexopt*
+  03-18 12:48:50.766 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:52.037 - 1000 - REL *dexopt*
+  03-18 12:48:52.038 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:52.080 - 1000 - REL *dexopt*
+  03-18 12:48:52.080 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:54.086 - 1000 - REL *dexopt*
+  03-18 12:48:54.087 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:54.131 - 1000 - REL *dexopt*
+  03-18 12:48:54.132 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:54.171 - 1000 - REL *dexopt*
+  03-18 12:48:54.171 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:54.176 - 1000 - REL *dexopt*
+  03-18 12:48:54.176 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:54.179 - 1000 - REL *dexopt*
+  03-18 12:48:54.180 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:55.451 - 1000 - REL *dexopt*
+  03-18 12:48:55.452 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:55.487 - 1000 - REL *dexopt*
+  03-18 12:48:55.488 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:55.523 - 1000 - REL *dexopt*
+  03-18 12:48:55.523 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:48:55.529 - 1000 - REL *dexopt*
+  03-18 12:48:55.530 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:01.214 - 1000 - REL *dexopt*
+  03-18 12:49:01.215 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:01.253 - 1000 - REL *dexopt*
+  03-18 12:49:01.254 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:01.289 - 1000 - REL *dexopt*
+  03-18 12:49:01.290 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:01.339 - 1000 - REL *dexopt*
+  03-18 12:49:01.339 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:01.475 - 1000 - REL *dexopt*
+  03-18 12:49:01.475 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:01.521 - 1000 - REL *dexopt*
+  03-18 12:49:01.521 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:01.604 - 1000 - REL *dexopt*
+  03-18 12:49:01.605 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:01.664 - 1000 - REL *dexopt*
+  03-18 12:49:01.664 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:02.148 - 1000 - REL *dexopt*
+  03-18 12:49:02.149 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:02.198 - 1000 - REL *dexopt*
+  03-18 12:49:02.199 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:02.242 - 1000 - REL *dexopt*
+  03-18 12:49:02.243 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:03.968 - 1000 - REL *dexopt*
+  03-18 12:49:03.969 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:04.007 - 1000 - REL *dexopt*
+  03-18 12:49:04.007 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:49:04.018 - 1000 - REL *dexopt*
+  03-18 12:49:04.019 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:51:33.505 - 1000 - REL *dexopt*
+  03-18 12:51:33.506 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:51:33.561 - 1000 - REL *dexopt*
+  03-18 12:51:33.561 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:51:33.610 - 1000 - REL *dexopt*
+  03-18 12:51:33.611 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:51:33.639 - 1000 - REL *dexopt*
+  03-18 12:51:33.640 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:51:37.383 - 1000 - REL *dexopt*
+  03-18 12:51:37.383 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:51:38.183 - 1000 - REL *dexopt*
+  03-18 12:51:38.184 - 1000 - ACQ *dexopt* (partial)
+  03-18 12:51:38.408 - 1000 - REL *dexopt*
+  03-18 12:51:38.442 - 1000 - REL *job*/a/c.a.s.p.BackgroundDexOptService
+  03-18 13:01:27.067 - 1000 - ACQ *alarm* (partial)
+  03-18 13:01:27.069 - 1000 - REL *alarm*
+  03-18 13:18:08.204 - 1000 - ACQ NetworkStats (partial)
+  03-18 13:18:08.233 - 1000 - REL NetworkStats
+  03-18 13:18:08.237 - 1000 - ACQ NetworkStats (partial)
+  03-18 13:18:08.242 - 1000 - ACQ ConnectivityService (partial)
+  03-18 13:18:08.246 - 1000 - REL NetworkStats
+  03-18 13:18:42.011 - 1000 - ACQ NetworkStats (partial)
+  03-18 13:18:42.037 - 1000 - REL NetworkStats
+  03-18 13:18:42.038 - 1000 - ACQ NetworkStats (partial)
+  03-18 13:18:42.043 - 1000 - REL NetworkStats
+  03-18 13:18:42.044 - 1000 - ACQ NetworkStats (partial)
+  03-18 13:18:42.049 - 1000 - REL NetworkStats
+  03-18 13:18:42.378 - 1000 - ACQ NetworkStats (partial)
+  03-18 13:18:42.391 - 1000 - REL NetworkStats
+  03-18 13:18:42.398 - 1000 - ACQ NetworkStats (partial)
+  03-18 13:18:42.408 - 1000 - REL NetworkStats
+  03-18 13:18:42.417 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 13:18:42.418 - 1000 - REL NetworkTimeUpdateService
+  03-18 13:18:42.445 - 1000 - ACQ time_detector (partial)
+  03-18 13:18:42.445 - 1000 - REL time_detector
+  03-18 13:18:43.410 - 1000 - REL ConnectivityService
+  03-18 13:48:43.581 - 1000 - ACQ *alarm* (partial)
+  03-18 13:48:43.583 - 1000 - ACQ NetworkStats (partial)
+  03-18 13:48:43.592 - 1000 - REL NetworkStats
+  03-18 13:48:43.593 - 1000 - REL *alarm*
+  03-18 14:00:22.535 - 1000 - ACQ *alarm* (partial)
+  03-18 14:00:22.608 - 1000 - REL *alarm*
+  03-18 14:19:09.690 - 1000 - ACQ *alarm* (partial)
+  03-18 14:19:09.691 - 1000 - REL *alarm*
+  03-18 14:49:10.091 - 1000 - ACQ *alarm* (partial)
+  03-18 14:49:10.092 - 1000 - ACQ NetworkStats (partial)
+  03-18 14:49:10.104 - 1000 - ACQ *job*/a/c.a.s.p.DynamicCodeLoggingService (partial)
+  03-18 14:49:10.112 - 1000 - REL NetworkStats
+  03-18 14:49:10.114 - 1000 - REL *alarm*
+  03-18 14:49:10.136 - 1000 - REL *job*/a/c.a.s.p.DynamicCodeLoggingService
+  03-18 15:20:05.895 - 1000 - ACQ *alarm* (partial)
+  03-18 15:20:05.896 - 1000 - ACQ NetworkStats (partial)
+  03-18 15:20:05.909 - 1000 - REL NetworkStats
+  03-18 15:20:05.912 - 1000 - REL *alarm*
+  03-18 15:45:30.216 - 1000 - ACQ NetworkStats (partial)
+  03-18 15:45:30.252 - 1000 - REL NetworkStats
+  03-18 15:45:30.254 - 1000 - ACQ NetworkStats (partial)
+  03-18 15:45:30.258 - 1000 - ACQ ConnectivityService (partial)
+  03-18 15:45:30.265 - 1000 - REL NetworkStats
+  03-18 15:46:02.935 - 1000 - ACQ NetworkStats (partial)
+  03-18 15:46:02.948 - 1000 - REL NetworkStats
+  03-18 15:46:02.948 - 1000 - ACQ NetworkStats (partial)
+  03-18 15:46:02.953 - 1000 - REL NetworkStats
+  03-18 15:46:02.954 - 1000 - ACQ NetworkStats (partial)
+  03-18 15:46:02.959 - 1000 - REL NetworkStats
+  03-18 15:46:03.413 - 1000 - ACQ NetworkStats (partial)
+  03-18 15:46:03.428 - 1000 - REL NetworkStats
+  03-18 15:46:03.433 - 1000 - ACQ NetworkStats (partial)
+  03-18 15:46:03.446 - 1000 - REL NetworkStats
+  03-18 15:46:03.452 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 15:46:03.455 - 1000 - REL NetworkTimeUpdateService
+  03-18 15:46:03.457 - 1000 - ACQ time_detector (partial)
+  03-18 15:46:03.457 - 1000 - REL time_detector
+  03-18 15:46:03.508 - 1000 - ACQ *job*/c.f.m.l/a.w.i.b.s.SystemJobService (partial)
+  03-18 15:46:03.509 - 1000 - ACQ *job*/c.f.m.l/a.w.i.b.s.SystemJobService (partial)
+  03-18 15:46:04.448 - 1000 - REL ConnectivityService
+  03-18 15:46:11.855 - 1000 - REL *job*/c.f.m.l/a.w.i.b.s.SystemJobService
+  03-18 15:46:12.422 - 1000 - REL *job*/c.f.m.l/a.w.i.b.s.SystemJobService
+  03-18 16:03:42.257 - 1000 - ACQ NetworkStats (partial)
+  03-18 16:03:42.265 - 1000 - REL NetworkStats
+  03-18 16:03:42.265 - 1000 - ACQ NetworkStats (partial)
+  03-18 16:03:42.272 - 1000 - REL NetworkStats
+  03-18 16:03:42.278 - 1000 - ACQ ConnectivityService (partial)
+  03-18 16:04:42.345 - 1000 - REL ConnectivityService
+  03-18 16:33:52.604 - 1000 - ACQ *alarm* (partial)
+  03-18 16:33:52.609 - 1000 - ACQ NetworkStats (partial)
+  03-18 16:33:52.620 - 1000 - ACQ *job*/a/c.a.s.p.DynamicCodeLoggingService (partial)
+  03-18 16:33:52.620 - 1000 - REL NetworkStats
+  03-18 16:33:52.674 - 1000 - REL *job*/a/c.a.s.p.DynamicCodeLoggingService
+  03-18 16:33:52.690 - 1000 - REL *alarm*
+  03-18 18:00:02.694 - 1000 - ACQ *alarm* (partial)
+  03-18 18:00:02.695 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:00:02.702 - 1000 - REL NetworkStats
+  03-18 18:00:02.704 - 1000 - REL *alarm*
+  03-18 18:00:15.989 - 1000 - ACQ *vibrator* (partial)
+  03-18 18:00:16.285 - 1041 - ACQ AudioMix (partial)
+  03-18 18:00:16.286 - 1041 - ACQ AudioMix (partial)
+  03-18 18:00:16.287 - 1041 - ACQ AudioMix (partial)
+  03-18 18:00:16.287 - 1041 - ACQ AudioMix (partial)
+  03-18 18:00:16.288 - 1041 - ACQ AudioMix (partial)
+  03-18 18:00:16.288 - 1041 - ACQ AudioMix (partial)
+  03-18 18:00:16.291 - 1041 - REL AudioMix
+  03-18 18:00:16.291 - 1041 - ACQ AudioMix (partial)
+  03-18 18:00:16.705 - 1000 - REL *vibrator*
+  03-18 18:00:16.988 - 1041 - REL AudioMix
+  03-18 18:00:16.988 - 1041 - ACQ AudioMix (partial)
+  03-18 18:00:18.292 - 1041 - REL AudioMix
+  03-18 18:00:18.293 - 1041 - REL AudioMix
+  03-18 18:00:18.295 - 1041 - REL AudioMix
+  03-18 18:00:18.295 - 1041 - REL AudioMix
+  03-18 18:00:18.303 - 1041 - REL AudioMix
+  03-18 18:00:19.474 - 1041 - REL AudioMix
+  03-18 18:00:52.599 - 1000 - ACQ handleAudioDeviceEvent (partial)
+  03-18 18:00:52.709 - 1000 - REL handleAudioDeviceEvent
+  03-18 18:00:52.711 - 1041 - ACQ AudioMix (partial)
+  03-18 18:00:52.852 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:00:52.865 - 1000 - REL NetworkStats
+  03-18 18:00:52.866 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:00:52.873 - 1000 - REL NetworkStats
+  03-18 18:00:52.873 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:00:52.881 - 1000 - REL NetworkStats
+  03-18 18:00:53.075 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:00:53.081 - 1000 - REL NetworkStats
+  03-18 18:00:53.083 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:00:53.089 - 1000 - REL NetworkStats
+  03-18 18:00:53.092 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 18:00:53.105 - 1000 - REL NetworkTimeUpdateService
+  03-18 18:00:53.107 - 1000 - ACQ time_detector (partial)
+  03-18 18:00:53.107 - 1000 - REL time_detector
+  03-18 18:00:54.333 - 1041 - REL AudioMix
+  03-18 18:01:01.930 - 1000 - ACQ *job*/c.f.m.l/a.w.i.b.s.SystemJobService (partial)
+  03-18 18:01:02.184 - 1000 - REL *job*/c.f.m.l/a.w.i.b.s.SystemJobService
+  03-18 18:01:51.401 - 1000 - ACQ *vibrator* (partial)
+  03-18 18:01:51.521 - 1041 - ACQ AudioMix (partial)
+  03-18 18:01:51.521 - 1041 - ACQ AudioMix (partial)
+  03-18 18:01:51.522 - 1041 - ACQ AudioMix (partial)
+  03-18 18:01:51.522 - 1041 - ACQ AudioMix (partial)
+  03-18 18:01:51.522 - 1041 - ACQ AudioMix (partial)
+  03-18 18:01:51.523 - 1041 - ACQ AudioMix (partial)
+  03-18 18:01:51.523 - 1041 - REL AudioMix
+  03-18 18:01:51.523 - 1041 - ACQ AudioMix (partial)
+  03-18 18:01:52.045 - 1000 - REL *vibrator*
+  03-18 18:01:52.177 - 1041 - REL AudioMix
+  03-18 18:01:52.177 - 1041 - ACQ AudioMix (partial)
+  03-18 18:01:53.522 - 1041 - REL AudioMix
+  03-18 18:01:53.523 - 1041 - REL AudioMix
+  03-18 18:01:53.529 - 1041 - REL AudioMix
+  03-18 18:01:53.529 - 1041 - REL AudioMix
+  03-18 18:01:53.530 - 1041 - REL AudioMix
+  03-18 18:01:54.663 - 1041 - REL AudioMix
+  03-18 18:05:16.068 - 1041 - ACQ AudioMix (partial)
+  03-18 18:05:18.068 - 1041 - REL AudioMix
+  03-18 18:15:37.166 - 1000 - ACQ *vibrator* (partial)
+  03-18 18:15:37.254 - 1041 - ACQ AudioMix (partial)
+  03-18 18:15:37.255 - 1041 - ACQ AudioMix (partial)
+  03-18 18:15:37.255 - 1041 - ACQ AudioMix (partial)
+  03-18 18:15:37.256 - 1041 - ACQ AudioMix (partial)
+  03-18 18:15:37.256 - 1041 - ACQ AudioMix (partial)
+  03-18 18:15:37.256 - 1041 - ACQ AudioMix (partial)
+  03-18 18:15:37.257 - 1041 - REL AudioMix
+  03-18 18:15:37.257 - 1041 - ACQ AudioMix (partial)
+  03-18 18:15:37.809 - 1000 - REL *vibrator*
+  03-18 18:15:37.930 - 1041 - REL AudioMix
+  03-18 18:15:37.931 - 1041 - ACQ AudioMix (partial)
+  03-18 18:15:39.258 - 1041 - REL AudioMix
+  03-18 18:15:39.260 - 1041 - REL AudioMix
+  03-18 18:15:39.261 - 1041 - REL AudioMix
+  03-18 18:15:39.264 - 1041 - REL AudioMix
+  03-18 18:15:39.268 - 1041 - REL AudioMix
+  03-18 18:15:40.411 - 1041 - REL AudioMix
+  03-18 18:17:48.110 - 1000 - ACQ *alarm* (partial)
+  03-18 18:17:48.112 - 1000 - REL *alarm*
+  03-18 18:17:48.119 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:48.120 - 1041 - REL AudioMix
+  03-18 18:17:48.120 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:48.465 - 1000 - REL DreamManagerService
+  03-18 18:17:48.482 - 10069 - ACQ Doze (partial)
+  03-18 18:17:48.586 - 10069 - REL Doze
+  03-18 18:17:49.119 - 1041 - REL AudioMix
+  03-18 18:17:49.119 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:49.575 - 1041 - REL AudioMix
+  03-18 18:17:49.576 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:49.982 - 1000 - ACQ *launch* (partial)
+  03-18 18:17:50.338 - 1041 - REL AudioMix
+  03-18 18:17:50.338 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:50.407 - 1000 - ACQ handleAudioDeviceEvent (partial)
+  03-18 18:17:50.518 - 1000 - REL handleAudioDeviceEvent
+  03-18 18:17:50.778 - 1041 - REL AudioMix
+  03-18 18:17:50.778 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:51.287 - 1041 - REL AudioMix
+  03-18 18:17:51.287 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:52.160 - 1000 - REL *launch*
+  03-18 18:17:52.265 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:17:52.273 - 1000 - REL NetworkStats
+  03-18 18:17:52.280 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:17:52.286 - 1000 - REL NetworkStats
+  03-18 18:17:52.293 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:17:52.299 - 1000 - REL NetworkStats
+  03-18 18:17:52.300 - 1000 - ACQ ConnectivityService (partial)
+  03-18 18:17:52.376 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:17:52.383 - 1000 - REL NetworkStats
+  03-18 18:17:52.398 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:17:52.404 - 1000 - REL NetworkStats
+  03-18 18:17:52.415 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:17:52.424 - 1000 - REL NetworkStats
+  03-18 18:17:52.432 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:17:52.437 - 1000 - REL NetworkStats
+  03-18 18:17:52.439 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 18:17:52.439 - 1000 - REL NetworkTimeUpdateService
+  03-18 18:17:52.440 - 1000 - ACQ time_detector (partial)
+  03-18 18:17:52.440 - 1000 - REL time_detector
+  03-18 18:17:52.462 - 1000 - ACQ *job*/a/c.a.s.b.KeyValueBackupJob (partial)
+  03-18 18:17:52.463 - 1000 - REL *job*/a/c.a.s.b.KeyValueBackupJob
+  03-18 18:17:53.048 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:17:53.054 - 1000 - REL NetworkStats
+  03-18 18:17:53.059 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:17:53.066 - 1000 - REL NetworkStats
+  03-18 18:17:53.393 - 1000 - ACQ *alarm* (partial)
+  03-18 18:17:53.394 - 1000 - REL *alarm*
+  03-18 18:17:53.438 - 1000 - REL ConnectivityService
+  03-18 18:17:53.739 - 1041 - REL AudioMix
+  03-18 18:17:53.743 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:53.744 - 1041 - REL AudioMix
+  03-18 18:17:53.744 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:54.230 - 1041 - REL AudioMix
+  03-18 18:17:54.230 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:56.682 - 1041 - REL AudioMix
+  03-18 18:17:56.696 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:56.696 - 1041 - REL AudioMix
+  03-18 18:17:56.696 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:56.807 - 1000 - ACQ *launch* (partial)
+  03-18 18:17:57.315 - 1000 - ACQ *alarm* (partial)
+  03-18 18:17:57.316 - 1000 - REL *alarm*
+  03-18 18:17:57.507 - 1041 - REL AudioMix
+  03-18 18:17:57.508 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:57.984 - 1041 - REL AudioMix
+  03-18 18:17:57.985 - 1041 - ACQ AudioMix (partial)
+  03-18 18:17:58.360 - 1000 - REL *launch*
+  03-18 18:17:58.469 - 1041 - REL AudioMix
+  03-18 18:17:58.470 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:00.001 - 1000 - ACQ *alarm* (partial)
+  03-18 18:18:00.002 - 1000 - REL *alarm*
+  03-18 18:18:00.933 - 1041 - REL AudioMix
+  03-18 18:18:01.514 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:01.515 - 1041 - REL AudioMix
+  03-18 18:18:01.515 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:02.419 - 1041 - REL AudioMix
+  03-18 18:18:02.419 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:02.600 - 1041 - REL AudioMix
+  03-18 18:18:02.600 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:02.922 - 1041 - REL AudioMix
+  03-18 18:18:02.923 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:02.967 - 1041 - REL AudioMix
+  03-18 18:18:02.967 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:03.296 - 1041 - REL AudioMix
+  03-18 18:18:03.296 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:03.436 - 1041 - REL AudioMix
+  03-18 18:18:03.436 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:03.760 - 1041 - REL AudioMix
+  03-18 18:18:03.760 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:05.450 - 1041 - REL AudioMix
+  03-18 18:18:05.450 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:05.774 - 1041 - REL AudioMix
+  03-18 18:18:05.775 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:05.882 - 1000 - ACQ *launch* (partial)
+  03-18 18:18:06.861 - 1000 - REL *launch*
+  03-18 18:18:07.498 - 1041 - REL AudioMix
+  03-18 18:18:07.498 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:08.263 - 1041 - REL AudioMix
+  03-18 18:18:08.263 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:09.587 - 1041 - REL AudioMix
+  03-18 18:18:09.587 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:09.912 - 1041 - REL AudioMix
+  03-18 18:18:09.914 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:10.400 - 1041 - REL AudioMix
+  03-18 18:18:10.401 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:10.736 - 1041 - REL AudioMix
+  03-18 18:18:10.736 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:11.095 - 1041 - REL AudioMix
+  03-18 18:18:11.095 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:12.559 - 1041 - REL AudioMix
+  03-18 18:18:12.559 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:12.689 - 1041 - REL AudioMix
+  03-18 18:18:12.689 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:13.599 - 1041 - REL AudioMix
+  03-18 18:18:13.599 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:13.758 - 1041 - REL AudioMix
+  03-18 18:18:13.758 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:14.082 - 1041 - REL AudioMix
+  03-18 18:18:14.082 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:14.659 - 1041 - REL AudioMix
+  03-18 18:18:14.659 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:14.989 - 1041 - REL AudioMix
+  03-18 18:18:14.989 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:15.248 - 1041 - REL AudioMix
+  03-18 18:18:15.248 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:15.571 - 1041 - REL AudioMix
+  03-18 18:18:15.572 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:15.630 - 1000 - ACQ *launch* (partial)
+  03-18 18:18:15.821 - 1000 - REL *launch*
+  03-18 18:18:18.075 - 1041 - REL AudioMix
+  03-18 18:18:22.069 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:22.070 - 1041 - REL AudioMix
+  03-18 18:18:22.070 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:22.880 - 1041 - REL AudioMix
+  03-18 18:18:22.881 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:22.916 - 1041 - REL AudioMix
+  03-18 18:18:22.916 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:23.257 - 1041 - REL AudioMix
+  03-18 18:18:23.257 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:23.288 - 1041 - REL AudioMix
+  03-18 18:18:23.288 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:23.616 - 1041 - REL AudioMix
+  03-18 18:18:23.616 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:23.653 - 1041 - REL AudioMix
+  03-18 18:18:23.653 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:23.976 - 1041 - REL AudioMix
+  03-18 18:18:23.977 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:24.076 - 1041 - REL AudioMix
+  03-18 18:18:24.076 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:24.743 - 1041 - REL AudioMix
+  03-18 18:18:24.744 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:24.821 - 1041 - REL AudioMix
+  03-18 18:18:24.821 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:25.144 - 1041 - REL AudioMix
+  03-18 18:18:25.145 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:25.204 - 1041 - REL AudioMix
+  03-18 18:18:25.204 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:25.530 - 1041 - REL AudioMix
+  03-18 18:18:25.530 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:25.583 - 1041 - REL AudioMix
+  03-18 18:18:25.583 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:25.910 - 1041 - REL AudioMix
+  03-18 18:18:25.910 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:25.972 - 1041 - REL AudioMix
+  03-18 18:18:25.972 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:26.300 - 1041 - REL AudioMix
+  03-18 18:18:26.301 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:28.775 - 1041 - REL AudioMix
+  03-18 18:18:30.402 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:30.402 - 1041 - REL AudioMix
+  03-18 18:18:30.402 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:30.842 - 1000 - ACQ *launch* (partial)
+  03-18 18:18:30.916 - 1000 - REL *launch*
+  03-18 18:18:31.203 - 1041 - REL AudioMix
+  03-18 18:18:31.204 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:31.820 - 1041 - REL AudioMix
+  03-18 18:18:31.820 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:32.524 - 1041 - REL AudioMix
+  03-18 18:18:32.525 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:32.642 - 1041 - REL AudioMix
+  03-18 18:18:32.642 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:33.793 - 1041 - REL AudioMix
+  03-18 18:18:33.793 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:33.846 - 1041 - REL AudioMix
+  03-18 18:18:33.846 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:34.390 - 1041 - REL AudioMix
+  03-18 18:18:34.390 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:34.512 - 1041 - REL AudioMix
+  03-18 18:18:34.512 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:34.835 - 1041 - REL AudioMix
+  03-18 18:18:34.835 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:34.917 - 1000 - ACQ *launch* (partial)
+  03-18 18:18:35.065 - 1000 - REL *launch*
+  03-18 18:18:35.814 - 1041 - REL AudioMix
+  03-18 18:18:35.814 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:36.563 - 1041 - REL AudioMix
+  03-18 18:18:36.564 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:36.893 - 1041 - REL AudioMix
+  03-18 18:18:36.893 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:37.499 - 1041 - REL AudioMix
+  03-18 18:18:37.500 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:38.405 - 1041 - REL AudioMix
+  03-18 18:18:38.405 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:38.871 - 1000 - ACQ *launch* (partial)
+  03-18 18:18:38.908 - 1041 - REL AudioMix
+  03-18 18:18:38.908 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:38.935 - 1000 - REL *launch*
+  03-18 18:18:39.985 - 1041 - REL AudioMix
+  03-18 18:18:39.985 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:40.309 - 1041 - REL AudioMix
+  03-18 18:18:40.310 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:40.574 - 1041 - REL AudioMix
+  03-18 18:18:40.574 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:40.904 - 1041 - REL AudioMix
+  03-18 18:18:40.904 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:40.945 - 1041 - REL AudioMix
+  03-18 18:18:40.945 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:41.927 - 1041 - REL AudioMix
+  03-18 18:18:41.928 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:42.092 - 1041 - REL AudioMix
+  03-18 18:18:42.093 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:42.422 - 1041 - REL AudioMix
+  03-18 18:18:42.423 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:42.500 - 1000 - ACQ *launch* (partial)
+  03-18 18:18:42.597 - 1000 - REL *launch*
+  03-18 18:18:43.951 - 1041 - REL AudioMix
+  03-18 18:18:43.951 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:44.404 - 1000 - ACQ *launch* (partial)
+  03-18 18:18:44.435 - 1041 - REL AudioMix
+  03-18 18:18:44.435 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:44.480 - 1000 - REL *launch*
+  03-18 18:18:45.162 - 1041 - REL AudioMix
+  03-18 18:18:45.162 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:45.645 - 1000 - ACQ *launch* (partial)
+  03-18 18:18:45.672 - 1041 - REL AudioMix
+  03-18 18:18:45.672 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:47.285 - 1041 - REL AudioMix
+  03-18 18:18:47.285 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:48.028 - 1041 - REL AudioMix
+  03-18 18:18:48.029 - 1041 - ACQ AudioMix (partial)
+  03-18 18:18:49.620 - 1000 - ACQ ActivityManager-Sleep (partial)
+  03-18 18:18:49.620 - 1000 - REL *launch*
+  03-18 18:18:49.753 - 1000 - ACQ startDream (partial)
+  03-18 18:18:49.815 - 1000 - REL ActivityManager-Sleep
+  03-18 18:18:49.825 - 1000 - ACQ DreamManagerService (doze)
+  03-18 18:18:49.826 - 1000 - REL startDream
+  03-18 18:18:49.950 - 1000 - ACQ WifiSuspend (partial)
+  03-18 18:18:49.961 - 1000 - REL WifiSuspend
+  03-18 18:18:50.510 - 1041 - REL AudioMix
+  03-18 18:18:50.882 - 1000 - ACQ handleAudioDeviceEvent (partial)
+  03-18 18:18:50.998 - 1000 - REL handleAudioDeviceEvent
+  03-18 18:19:49.611 - 1000 - ACQ *alarm* (partial)
+  03-18 18:19:49.614 - 1000 - REL *alarm*
+  03-18 18:19:49.623 - 1000 - ACQ *job*/a/c.a.s.p.WifiDisableJobService (partial)
+  03-18 18:19:49.625 - 1000 - REL *job*/a/c.a.s.p.WifiDisableJobService
+  03-18 18:19:49.890 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:19:49.905 - 1000 - REL NetworkStats
+  03-18 18:19:49.918 - 1000 - ACQ ConnectivityService (partial)
+  03-18 18:19:51.484 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:19:51.512 - 1000 - REL NetworkStats
+  03-18 18:19:51.512 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:19:51.519 - 1000 - REL NetworkStats
+  03-18 18:19:51.520 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:19:51.525 - 1000 - REL NetworkStats
+  03-18 18:19:52.476 - 1000 - ACQ *alarm* (partial)
+  03-18 18:19:52.479 - 1000 - REL *alarm*
+  03-18 18:19:52.705 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:19:52.715 - 1000 - REL NetworkStats
+  03-18 18:19:52.720 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:19:52.729 - 1000 - REL NetworkStats
+  03-18 18:19:52.731 - 1000 - ACQ NetworkTimeUpdateService (partial)
+  03-18 18:19:52.734 - 1000 - REL NetworkTimeUpdateService
+  03-18 18:19:52.736 - 1000 - ACQ time_detector (partial)
+  03-18 18:19:52.736 - 1000 - REL time_detector
+  03-18 18:19:53.732 - 1000 - REL ConnectivityService
+  03-18 18:20:07.395 - 1000 - ACQ *alarm* (partial)
+  03-18 18:20:07.397 - 1000 - ACQ NetworkStats (partial)
+  03-18 18:20:07.412 - 1000 - REL NetworkStats
+  03-18 18:20:07.415 - 1000 - REL *alarm*
+  03-18 18:24:00.003 - 1000 - ACQ *alarm* (partial)
+  03-18 18:24:00.004 - 1000 - REL *alarm*
+  -
+  Events: 2231, Time-Resets: 518
+  Buffer, Bytes used: 10238
+FaceDownDetector:
+  mFaceDown=false
+  mActive=false
+  mLastFlipTime=0
+  mSensorMaxLatencyMicros=2000000
+  mUserInteractionBackoffMillis=60000
+  mPreviousResultTime=0
+  mPreviousResultType=1
+  mMillisSaved=0
+  mZAccelerationThreshold=-9.5
+  mAccelerationThreshold=0.2
+  mTimeThreshold=PT1S
+AmbientDisplaySuppressionController:
+ ambientDisplaySuppressed=false
+ mSuppressionTokens={}

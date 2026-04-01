@@ -1,0 +1,43 @@
+=== /system_ext ===
+total 68
+drwxr-xr-x 11 root root   4096 2009-01-01 08:00 .
+drwxr-xr-x 27 root root   4096 2009-01-01 08:00 ..
+drwxr-xr-x  3 root root   4096 2009-01-01 08:00 apex
+drwxr-xr-x  7 root root   4096 2009-01-01 08:00 app
+drwxr-x--x  2 root shell  4096 2009-01-01 08:00 bin
+drwxr-xr-x 12 root root   4096 2009-01-01 08:00 etc
+drwxr-xr-x  3 root root   4096 2009-01-01 08:00 framework
+drwxr-xr-x  4 root root   8192 2009-01-01 08:00 lib
+drwxr-xr-x  4 root root  12288 2009-01-01 08:00 lib64
+drwx------  2 root root  16384 2009-01-01 08:00 lost+found
+drwxr-xr-x 25 root root   4096 2009-01-01 08:00 priv-app
+=== /system_ext/app ===
+BluetoothDsDaService
+HeadlessLauncher
+QdcmFF
+WigigTetheringRRO
+colorservice
+=== /system_ext/priv-app ===
+AppContainer
+CarrierConfig
+MercuryCamera
+Provision
+RayNeoAIRuntime
+RayNeoAISpeech
+RayNeoCalibration
+RayNeoGallery
+RayNeoLauncher
+RayNeoLiveAI
+RayNeoMusic
+RayNeoNavigation
+RayNeoNotes
+RayNeoPhone
+RayNeoRecord
+RayNeoRuntime
+RayNeoTranslation
+RayNeoWordprompt
+Settings
+StorageManager
+SystemUI
+WallpaperCropper
+seccamservice

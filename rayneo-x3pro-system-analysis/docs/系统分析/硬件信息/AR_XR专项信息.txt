@@ -1,0 +1,8 @@
+=== XR Runtime Info ===
+SERVICE com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService eea7f5a pid=2603 user=0
+  Client:
+    nothing to dump
+=== AI Runtime Info ===
+SERVICE com.rayneo.airuntime/.AiService 3438a73 pid=2634 user=0
+  Client:
+    nothing to dump

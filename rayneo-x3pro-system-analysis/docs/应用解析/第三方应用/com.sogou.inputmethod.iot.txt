@@ -1,0 +1,212 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        8e3b251 com.sogou.inputmethod.iot/com.sogou.keyboard.voice.setting.OfflineSettingActivity filter 4edcab6
+          Action: "android.intent.action.MAIN"
+        bc6f3b7 com.sogou.inputmethod.iot/com.sogou.keyboard.about.activity.SogouAboutActivity filter 881b724
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.DEFAULT"
+        ee0228d com.sogou.inputmethod.iot/com.sogou.settings.activity.SettingsActivity filter 603dc42
+          Action: "android.intent.action.MAIN"
+        9cd1453 com.sogou.inputmethod.iot/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity filter 3b52190
+          Action: "android.intent.action.MAIN"
+        9b95a89 com.sogou.inputmethod.iot/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity filter c777a8e
+          Action: "android.intent.action.MAIN"
+        e0aa2af com.sogou.inputmethod.iot/androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity filter a72c6bc
+          Action: "android.intent.action.MAIN"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.tencent.rmonitor.natmem.USAGE_DUMP:
+        cd41645 com.sogou.inputmethod.iot/com.tencent.rmonitor.natmem.NatMemReceiver filter 374b19a
+          Action: "com.tencent.rmonitor.natmem.USAGE_DUMP"
+          Action: "com.tencent.rmonitor.natmem.LEAK_DUMP"
+      com.tencent.rmonitor.natmem.LEAK_DUMP:
+        cd41645 com.sogou.inputmethod.iot/com.tencent.rmonitor.natmem.NatMemReceiver filter 374b19a
+          Action: "com.tencent.rmonitor.natmem.USAGE_DUMP"
+          Action: "com.tencent.rmonitor.natmem.LEAK_DUMP"
+
+Service Resolver Table:
+  Non-Data Actions:
+      android.view.InputMethod:
+        de8bacb com.sogou.inputmethod.iot/com.sogou.iot.SogouInputMethodService filter 90392a8 permission android.permission.BIND_INPUT_METHOD
+          Action: "android.view.InputMethod"
+          Category: "android.intent.category.DEFAULT"
+          mPriority=100, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Domain verification status:
+
+Registered ContentProviders:
+  com.sogou.inputmethod.iot/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller:
+    Provider{4b78eab com.sogou.inputmethod.iot/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller}
+
+ContentProvider Authorities:
+  [com.sogou.inputmethod.iot.rmonitor-installer]:
+    Provider{4b78eab com.sogou.inputmethod.iot/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller}
+      applicationInfo=ApplicationInfo{3070a21 com.sogou.inputmethod.iot}
+
+Key Set Manager:
+  [com.sogou.inputmethod.iot]
+      Signing KeySets: 6
+
+Packages:
+  Package [com.sogou.inputmethod.iot] (7cc5cb5):
+    userId=10054
+    pkg=Package{f40cf4a com.sogou.inputmethod.iot}
+    codePath=/product/priv-app/RayNeoInputMethod
+    resourcePath=/product/priv-app/RayNeoInputMethod
+    legacyNativeLibraryDir=/product/priv-app/RayNeoInputMethod/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=28305023 minSdk=21 targetSdk=29
+    minExtensionVersions=[]
+    versionName=1.0.andriod_pad_leiniao_base.20231026142328
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=1
+    applicationInfo=PackageImpl{f40cf4a com.sogou.inputmethod.iot}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.sogou.inputmethod.iot
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+    timeStamp=2009-01-01 08:00:00
+    firstInstallTime=2009-01-01 08:00:00
+    lastUpdateTime=2009-01-01 08:00:00
+    signatures=PackageSignatures{afcfebb version:1, signatures:[5048fecc], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    requested permissions:
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_PHONE_STATE
+      android.permission.REORDER_TASKS
+      android.permission.PACKAGE_USAGE_STATS
+      android.permission.INTERNET
+      com.asus.msa.SupplementaryDID.ACCESS
+      android.permission.RECORD_AUDIO
+    install permissions:
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+    User 0: ceDataInode=1522 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ GRANTED_BY_DEFAULT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ GRANTED_BY_DEFAULT]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+      com.sogou.inputmethod.iot
+    com.xingin.xhs:
+      com.sogou.inputmethod.iot
+    com.sina.weibo:
+      com.sogou.inputmethod.iot
+    com.tencent.mm:
+      com.sogou.inputmethod.iot
+    com.tencent.wemeet.app:
+      com.sogou.inputmethod.iot
+  queryable via interaction:
+    User 0:
+      [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+        com.sogou.inputmethod.iot
+      com.sogou.inputmethod.iot:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+        com.eg.android.AlipayGGlasses
+        com.ffalcon.navigation
+        com.rayneo.lifeai
+        com.RayneoGame.ARPet
+        com.Ffalcon.BEATSPACE
+        com.rayneogame.skiing
+        com.rayneo.airscreen
+        tv.danmaku.bili
+        com.phoenix.read
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.sogou.inputmethod.iot]
+    path: /product/priv-app/RayNeoInputMethod/RayNeoInputMethod.apk
+      arm64: [status=speed-profile] [reason=bg-dexopt]
+
+
+Compiler stats:
+  [com.sogou.inputmethod.iot]
+     RayNeoInputMethod.apk - 3497
+Snapshot statistics
+   Unrecorded-hits: 4325  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:23         now           0           0           0           0           0           0           0
+          1:23        0:23           0           0           0           0           0           0           0
+          2:23        1:23           0           0           0           0           0           0           0
+          3:23        2:23           0           0           0           0           0           0           0
+          4:23        3:23           0           0           0           0           0           0           0
+          5:23        4:23           0           0           0           0           0           0           0
+          6:23        5:23           0           0           0           0           0           0           0
+          7:23        6:23           0           0           0           0           0           0           0
+          8:23        7:23           0           0           0           0           0           0           0
+          9:23        8:23           0           0           0           0           0           0           0
+   20513:16:09:07         now         305      413335           0           2          73         241          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:23         now           0           0           0           0           0           0           0           0
+          1:23        0:23           0           0           0           0           0           0           0           0
+          2:23        1:23           0           0           0           0           0           0           0           0
+          3:23        2:23           0           0           0           0           0           0           0           0
+          4:23        3:23           0           0           0           0           0           0           0           0
+          5:23        4:23           0           0           0           0           0           0           0           0
+          6:23        5:23           0           0           0           0           0           0           0           0
+          7:23        6:23           0           0           0           0           0           0           0           0
+          8:23        7:23           0           0           0           0           0           0           0           0
+          9:23        8:23           0           0           0           0           0           0           0           0
+   20513:16:09:07         now         277          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:23         now           0           0           0           0           0           0           0           0
+          1:23        0:23           0           0           0           0           0           0           0           0
+          2:23        1:23           0           0           0           0           0           0           0           0
+          3:23        2:23           0           0           0           0           0           0           0           0
+          4:23        3:23           0           0           0           0           0           0           0           0
+          5:23        4:23           0           0           0           0           0           0           0           0
+          6:23        5:23           0           0           0           0           0           0           0           0
+          7:23        6:23           0           0           0           0           0           0           0           0
+          8:23        7:23           0           0           0           0           0           0           0           0
+          9:23        8:23           0           0           0           0           0           0           0           0
+   20513:16:09:07         now          52          14           6           5           5          26          21         175

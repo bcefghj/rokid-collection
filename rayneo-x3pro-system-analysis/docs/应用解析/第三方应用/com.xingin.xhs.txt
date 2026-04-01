@@ -1,0 +1,1680 @@
+Activity Resolver Table:
+  Full MIME Types:
+      video/*:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 8b39026
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image/*:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 754e768
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 186781
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      image:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 754e768
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 186781
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 8b39026
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      dsl_debug:
+        ba1ad5d com.xingin.xhs/.develop.dsl.DslPlaygroundActivity filter 99756d2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "dsl_debug"
+          Authority: "dsl.debug.com": -1
+          Path: "PatternMatcher{PREFIX: /dsl_playground}"
+      qnpr8hbhw393f9:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 65bfbba
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "qnpr8hbhw393f9"
+      alipaycontainerpopup:
+        ca74ea5 com.xingin.xhs/com.alipay.plus.webview.card.view.H5TransparentActivity filter 5d0f27a
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "alipaycontainerpopup"
+          Authority: "antom.webview.com": -1
+          Path: "PatternMatcher{LITERAL: /path}"
+      alipaycontainerhalflandpopup:
+        8349a2b com.xingin.xhs/com.alipay.plus.webview.card.view.HalfLandPopupActivity filter da0ee88
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "alipaycontainerhalflandpopup"
+          Authority: "antom.webview.com": -1
+          Path: "PatternMatcher{LITERAL: /path}"
+      xhsdiscover:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter dc42467
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "login_page": -1
+          Authority: "welcome_page": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter e451214
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "store": -1
+          Authority: "shop_detail": -1
+          Authority: "messages": -1
+          Authority: "interaction_notification": -1
+          Authority: "profile": -1
+          Authority: "webview": -1
+          Authority: "extweb": -1
+          Authority: "rn": -1
+          Authority: "swan": -1
+          Authority: "miniapp": -1
+          Authority: "miniversion": -1
+          Authority: "search_agent_page": -1
+          Authority: "wechat_miniprogram": -1
+          Authority: "language_translation_setting": -1
+          Authority: "diandian": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter e62fabd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "home": -1
+          Authority: "home": -1
+          Authority: "home": -1
+          Authority: "home": -1
+          Authority: "home": -1
+          Path: "PatternMatcher{LITERAL: /follow}"
+          Path: "PatternMatcher{LITERAL: /explore}"
+          Path: "PatternMatcher{LITERAL: /localfeed}"
+          Path: "PatternMatcher{LITERAL: /note}"
+          Path: "PatternMatcher{LITERAL: /store}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 3b888b2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "mini_goods_detail": -1
+          Authority: "goods_detail": -1
+          Authority: "variants_order_buy": -1
+          Authority: "order_buy": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter ae4a003
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "discovery": -1
+          Authority: "1": -1
+          Authority: "item": -1
+          Authority: "multi_note": -1
+          Authority: "video_feed": -1
+          Authority: "note_mix": -1
+          Authority: "guang": -1
+          Authority: "topic": -1
+          Authority: "homefeed": -1
+          Authority: "comments": -1
+          Authority: "portrait_feed": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /item/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /category}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 16b3b80
+          Action: "com.xingin.xhs.FROMCAPA"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "post": -1
+          Authority: "post_video_album": -1
+          Authority: "post_video": -1
+          Authority: "post_note": -1
+          Authority: "notes_draft_box": -1
+          Authority: "post_new_note": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter bc985b9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "recommend": -1
+          Authority: "recommend": -1
+          Authority: "recommend": -1
+          Authority: "me": -1
+          Path: "PatternMatcher{LITERAL: /user}"
+          Path: "PatternMatcher{LITERAL: /contacts}"
+          Path: "PatternMatcher{LITERAL: /weibo}"
+          Path: "PatternMatcher{LITERAL: /profile}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 1a27dfe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "home": -1
+          Authority: "1": -1
+          Authority: "user": -1
+          Authority: "user": -1
+          Authority: "user": -1
+          Authority: "edit_profile": -1
+          Path: "PatternMatcher{LITERAL: /my}"
+          Path: "PatternMatcher{GLOB: /user/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*/collects}"
+          Path: "PatternMatcher{GLOB: /me/collects}"
+          Path: "PatternMatcher{LITERAL: /school}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 507395f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "message": -1
+          Authority: "message": -1
+          Authority: "message": -1
+          Authority: "message": -1
+          Authority: "message": -1
+          Authority: "message": -1
+          Authority: "message": -1
+          Path: "PatternMatcher{LITERAL: /center}"
+          Path: "PatternMatcher{LITERAL: /collections}"
+          Path: "PatternMatcher{LITERAL: /comments}"
+          Path: "PatternMatcher{LITERAL: /followers}"
+          Path: "PatternMatcher{LITERAL: /notifications}"
+          Path: "PatternMatcher{LITERAL: /group/square}"
+          Path: "PatternMatcher{LITERAL: /userPublicGroupList}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 6088fac
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "face_photo": -1
+          Authority: "ar_skin_detection": -1
+          Authority: "search": -1
+          Authority: "search": -1
+          Authority: "page": -1
+          Authority: "instore_search": -1
+          Authority: "instore_search": -1
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{GLOB: .*}"
+          Path: "PatternMatcher{LITERAL: /recommend}"
+          Path: "PatternMatcher{LITERAL: /result}"
+          Path: "PatternMatcher{GLOB: /goods/.*}"
+          Path: "PatternMatcher{LITERAL: /recommend}"
+          Path: "PatternMatcher{LITERAL: /result}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 873c475
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "poi": -1
+          Authority: "spv": -1
+          Authority: "spu": -1
+          Authority: "spv_skeleton": -1
+          Authority: "spl": -1
+          Authority: "spv_draft": -1
+          Authority: "store": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{LITERAL: /goods_category}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter b900c7b
+          Action: "com.xingin.xhs"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "choose_share_user": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 244fa98
+          Action: "com.xingin.xhs"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "splashshow": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 54932f1
+          Action: "com.xingin.xhs"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "advert": -1
+          Path: "PatternMatcher{LITERAL: /native_template_landingpage}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 5164ed6
+          Action: "com.xingin.xhs"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "pm": -1
+          Authority: "message": -1
+          Authority: "message": -1
+          Authority: "message": -1
+          Authority: "message": -1
+          Authority: "message": -1
+          Path: "PatternMatcher{LITERAL: /chat}"
+          Path: "PatternMatcher{LITERAL: /strangers}"
+          Path: "PatternMatcher{LITERAL: /groupchat}"
+          Path: "PatternMatcher{LITERAL: /interact}"
+          Path: "PatternMatcher{LITERAL: /strangers}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 608f557
+          Action: "com.xingin.xhs"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "1": -1
+          Authority: "list": -1
+          Authority: "scenario": -1
+          Authority: "account": -1
+          Authority: "account": -1
+          Authority: "account": -1
+          Authority: "pois": -1
+          Authority: "general_setting": -1
+          Authority: "dark_mode_setting": -1
+          Authority: "notification_setting": -1
+          Path: "PatternMatcher{GLOB: /list/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{LITERAL: /login}"
+          Path: "PatternMatcher{LITERAL: /bind}"
+          Path: "PatternMatcher{LITERAL: /bind/phone}"
+          Path: "PatternMatcher{GLOB: /report/.*}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 4db2844
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "report": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 2d0d2d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "system_settings": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter b008262
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "config_center": -1
+          Path: "PatternMatcher{LITERAL: /debug/editor}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter bd8ff3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "experiment": -1
+          Path: "PatternMatcher{LITERAL: /debug/editor}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter b8484b0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "swan": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 7fa4f29
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "home": -1
+          Authority: "callback": -1
+          Authority: "post_video": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter c6862ae
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "post_video_album": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 717384f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "post_video": -1
+          Authority: "resource_cache_manage": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 4253bdc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "1": -1
+          Authority: "board": -1
+          Authority: "shared_board": -1
+          Path: "PatternMatcher{GLOB: /board/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 43fb4e5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "collection_note_list": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 7b90a6b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "live_audience": -1
+          Authority: "live_tagfeed": -1
+          Authority: "live_square": -1
+          Authority: "live_live_plan_entrance": -1
+          Authority: "live_good_products": -1
+          Authority: "live_goods_manager": -1
+          Authority: "live_goods_review_page": -1
+          Authority: "live_goods_development_page": -1
+          Authority: "buyer_selection_page": -1
+          Authority: "live_player_page": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 4b839c8
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "hey": -1
+          Authority: "hey_post": -1
+          Authority: "hey_edit": -1
+          Authority: "hey_home_feed": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter cbbba61
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "share_sdk": -1
+          Authority: "js_share_sdk": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 6be1986
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "variant_goods_detail_dp": -1
+          Authority: "vision_dsl_panel": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter e5be247
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "goods_detail_size_chart": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 5fb2a74
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "shop_category": -1
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter c989b9d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "shop_goods_search": -1
+        4d24812 com.xingin.xhs/.develop.download.DownloadDispatcherTestAct filter f6a5be3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "download_dispatcher": -1
+        cda79e0 com.xingin.xhs/.develop.config.multilang.MultiLangTestActivity filter d685499
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "multi_language": -1
+        856fdd1 com.xingin.xhs/com.xingin.outside.activity.SamsungOutsideFeedActivity filter f05f036
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "samsung_outside_card": -1
+        47beb37 com.xingin.xhs/com.xingin.alpha.audience.v2.AlphaAudienceActivityV2 filter df818a4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "audience_new": -1
+        bbb87c3 com.xingin.xhs/.push.VIVOPushEmptyActivity filter 6086840
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "xhsdiscover"
+          Authority: "push": -1
+          Path: "PatternMatcher{LITERAL: /vivopush}"
+      tencent100507190:
+        1ca2eed com.xingin.xhs/com.tencent.tauth.AuthActivity filter 5b06122
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent100507190"
+      yisong:
+        688d35e com.xingin.xhs/com.xingin.outside.activity.OutsideFeedDemoActivity filter 15cd33f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "yisong"
+          Authority: "demo": -1
+      alipaycontainerfullpopup:
+        b633021 com.xingin.xhs/com.alipay.plus.webview.card.view.FullScreenPopupActivity filter c6bbc46
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "alipaycontainerfullpopup"
+          Authority: "antom.webview.com": -1
+          Path: "PatternMatcher{LITERAL: /path}"
+      hera:
+        a770a2f com.xingin.xhs/com.xingin.hera.notification.ZdytzActivity filter a8d89c5
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "hera"
+          Authority: "zdytz": -1
+        3743c28 com.xingin.xhs/com.xingin.hera.notification.ZdytzActivity2 filter c08d2e6
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "hera"
+          Authority: "zdytz2": -1
+      http:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 6a47c0a
+          Action: "com.xingin.xhs"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: ".xiaohongshu.com": -1 WILD
+          Authority: ".xiaohongshu.com": -1 WILD
+          AutoVerify=true
+      https:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 6a47c0a
+          Action: "com.xingin.xhs"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: ".xiaohongshu.com": -1 WILD
+          Authority: ".xiaohongshu.com": -1 WILD
+          AutoVerify=true
+
+  Non-Data Actions:
+      com.xingin.xhs.action.HUAWEI_PUSH:
+        bfde7b3 com.xingin.xhs/.push.HWPushEmptyActivity filter f266170
+          Action: "com.xingin.xhs.action.HUAWEI_PUSH"
+          Category: "android.intent.category.DEFAULT"
+      com.xingin.xhs.FROMCAPA:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter b8b6a8b
+          Action: "com.xingin.xhs"
+          Action: "com.xingin.xhs.FROMCAPA"
+      com.xingin.poi.page.PoiActivityV2:
+        3da9609 com.xingin.xhs/com.xingin.poi.page.PoiActivityV2 filter 1bed00e
+          Action: "com.xingin.poi.page.PoiActivityV2"
+          Category: "android.intent.category.DEFAULT"
+      com.getui.sdk.action:
+        1a7cce9 com.xingin.xhs/com.igexin.sdk.GetuiActivity filter a176d6e
+          Action: "com.getui.sdk.action"
+      cn.jpush.android.ui.PushActivity:
+        a63b8b1 com.xingin.xhs/cn.jpush.android.ui.PushActivity filter 8a1c196
+          Action: "cn.jpush.android.ui.PushActivity"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.xingin.xhs"
+      android.intent.action.MAIN:
+        3544f7c com.xingin.xhs/.index.v2.IndexActivityV2 filter 105d005
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        e9d540c com.xingin.xhs/com.xingin.outside.activity.VivoOutsideFeedActivity filter e8ac76a
+          Action: "android.intent.action.MAIN"
+      android.intent.action.VIEW:
+        e9d540c com.xingin.xhs/com.xingin.outside.activity.VivoOutsideFeedActivity filter 5e0a155
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+        3e81027 com.xingin.xhs/com.xingin.cupid.meizupush.MZEmptyActivity filter 3e4f2d4
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+      com.xingin.xhs:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter b8b6a8b
+          Action: "com.xingin.xhs"
+          Action: "com.xingin.xhs.FROMCAPA"
+      cn.android.service.JTransitActivity:
+        654c0f com.xingin.xhs/cn.android.service.JTransitActivity filter ae8249c
+          Action: "cn.android.service.JTransitActivity"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.xingin.xhs"
+      oplus.intent.action.WIDGET_ENTRY:
+        fd5645b com.xingin.xhs/com.xingin.outside.activity.OppoOutsideFeedActivity filter bd1a4f8
+          Action: "oplus.intent.action.MINI_LAUNCHER_MAIN"
+          Action: "oplus.intent.action.WIDGET_ENTRY"
+          Category: "android.intent.category.SECONDARY_HOME"
+          Category: "oplus.intent.category.MINI_LAUNCHER"
+      com.xingin.xhs.action.JPUSH:
+        5df5117 com.xingin.xhs/.push.JPushEmptyActivity filter 994b904
+          Action: "com.xingin.xhs.action.JPUSH"
+          Category: "android.intent.category.DEFAULT"
+      com.xingin.capa.poi.v2.PoiActivityV2:
+        19a03d3 com.xingin.xhs/com.xingin.capa.poi.v2.PoiActivityV2 filter 3f01b10
+          Action: "com.xingin.capa.poi.v2.PoiActivityV2"
+          Category: "android.intent.category.DEFAULT"
+      com.xingin.mp.LAUNCH:
+        2d81379 com.xingin.xhs/com.xingin.mp.apps.XhsMPLauncherActivity filter 48558be
+          Action: "com.xingin.mp.LAUNCH"
+          Category: "android.intent.category.DEFAULT"
+      cn.jpush.android.intent.JNotifyActivity:
+        be42c3b com.xingin.xhs/cn.jpush.android.service.JNotifyActivity filter 642ff58
+          Action: "cn.jpush.android.intent.JNotifyActivity"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.xingin.xhs"
+      oplus.intent.action.MINI_LAUNCHER_MAIN:
+        fd5645b com.xingin.xhs/com.xingin.outside.activity.OppoOutsideFeedActivity filter bd1a4f8
+          Action: "oplus.intent.action.MINI_LAUNCHER_MAIN"
+          Action: "oplus.intent.action.WIDGET_ENTRY"
+          Category: "android.intent.category.SECONDARY_HOME"
+          Category: "oplus.intent.category.MINI_LAUNCHER"
+      cn.jpush.android.ui.PopWinActivity:
+        b3d6e35 com.xingin.xhs/cn.jpush.android.ui.PopWinActivity filter 2ba42ca
+          Action: "cn.jpush.android.ui.PopWinActivity"
+          Category: "android.intent.category.DEFAULT"
+          Category: "com.xingin.xhs"
+      android.hardware.usb.action.USB_ACCESSORY_ATTACHED:
+        cfca60d com.xingin.xhs/com.xingin.alpha.prepare.revision.game.pc.AlphaGamePcLineScreenActivity filter d38d9c2
+          Action: "android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        160ae07 com.xingin.xhs/com.sina.weibo.sdk.share.ShareTransActivity filter b9a6b34
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      com.xingin.xhs.zdytz:
+        a770a2f com.xingin.xhs/com.xingin.hera.notification.ZdytzActivity filter 923d83c
+          Action: "com.xingin.xhs.zdytz"
+        19bdf1a com.xingin.xhs/com.xingin.hera.notification.ZdytzActivity1 filter 5741a4b
+          Action: "com.xingin.xhs.zdytz"
+        3743c28 com.xingin.xhs/com.xingin.hera.notification.ZdytzActivity2 filter 1c1fd41
+          Action: "com.xingin.xhs.zdytz"
+      com.xingin.xhs.action.OPPO_PUSH:
+        e702c7d com.xingin.xhs/.push.OPPOPushEmptyActivity filter 8ff3772
+          Action: "com.xingin.xhs.action.OPPO_PUSH"
+          Category: "android.intent.category.DEFAULT"
+      cn.jpush.android.intent.DActivity:
+        ec4dd1f com.xingin.xhs/.push.JPushDActivityV2 filter a2bc86c
+          Action: "cn.jpush.android.intent.DActivity"
+          Category: "com.xingin.xhs"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 754e768
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 8b39026
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.SEND_MULTIPLE:
+        db9485a com.xingin.xhs/.routers.RouterPageActivity filter 186781
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.xingin.xhs.hera_receiver_1:
+        73756ff com.xingin.xhs/.push.simple.component.receiver.HeraCl1Receiver filter 74beccc
+          Action: "com.xingin.xhs.hera_receiver_1"
+      com.xingin.xhs.hera_receiver_2:
+        f422b15 com.xingin.xhs/.push.simple.component.receiver.HeraCl2Receiver filter f8aee2a
+          Action: "com.xingin.xhs.hera_receiver_2"
+      com.xingin.xhs.hera_receiver_3:
+        134641b com.xingin.xhs/.push.simple.component.receiver.HeraCl3Receiver filter 1b109b8
+          Action: "com.xingin.xhs.hera_receiver_3"
+      com.xingin.xhs.hera_receiver_4:
+        5a76391 com.xingin.xhs/.push.simple.component.receiver.HeraCl4Receiver filter bc1c2f6
+          Action: "com.xingin.xhs.hera_receiver_4"
+      cn.jpush.android.intent.WakedReceiver:
+        556698d com.xingin.xhs/com.xingin.cupid.jpush.JPushWakeUpReceiver filter a021742
+          Action: "cn.jpush.android.intent.WakedReceiver"
+          Category: "com.xingin.xhs"
+      android.intent.action.BATTERY_OKAY:
+        570f454 com.xingin.xhs/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 881cffd
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        1a02f83 com.xingin.xhs/com.xingin.cupid.mipush.MIPushReceiver filter 20a6139
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        a959866 com.xingin.xhs/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter b0527a7
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.xingin.xhs.action.XIUXIU_WIDGET_UPDATE:
+        63cf019 com.xingin.xhs/.appwidget.xiuxiuwidget.XiuxiuWidgetProvider filter 57008de
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.xingin.xhs.action.XIUXIU_WIDGET_UPDATE"
+      com.xingin.alpha.floatwindow.notification.action.click:
+        a5023a3 com.xingin.xhs/com.xingin.alpha.floatwindow.AlphaNotificationActionBroadcastReceiver filter 20d06a0
+          Action: "com.xingin.alpha.floatwindow.notification.action.click"
+      com.xingin.xhs.SIMPLE_PUSH:
+        750c259 com.xingin.xhs/.push.simple.component.receiver.SimplePushReceiver filter 2700e1e
+          Action: "com.xingin.xhs.SIMPLE_PUSH"
+      cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY:
+        5063353 com.xingin.xhs/cn.jpush.android.service.PushReceiver filter c795490
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY"
+          Category: "com.xingin.xhs"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.xiaomi.mipush.ERROR:
+        1a02f83 com.xingin.xhs/com.xingin.cupid.mipush.MIPushReceiver filter 320f37e
+          Action: "com.xiaomi.mipush.ERROR"
+      com.xingin.xhs.hera_receiver_101:
+        b2b26f7 com.xingin.xhs/.push.simple.component.receiver.HeraCl101Receiver filter 1490964
+          Action: "com.xingin.xhs.hera_receiver_101"
+      com.xingin.xhs.hera_receiver_102:
+        44da7cd com.xingin.xhs/.push.simple.component.receiver.HeraCl102Receiver filter 3bf1882
+          Action: "com.xingin.xhs.hera_receiver_102"
+      com.xingin.xhs.hera_receiver_103:
+        8613b93 com.xingin.xhs/.push.simple.component.receiver.HeraCl103Receiver filter 83f57d0
+          Action: "com.xingin.xhs.hera_receiver_103"
+      com.huawei.android.push.intent.REGISTRATION:
+        314897 com.xingin.xhs/com.huawei.hms.support.api.push.PushReceiver filter 4e41a84
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.xingin.xhs.BROADCAST_POST_ACTION:
+        4a6d7f5 com.xingin.xhs/com.xingin.utils.XHSNotificationBroadcastReceiver filter d54c98a
+          Action: "com.xingin.xhs.BROADCAST_BUTTON_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_DELETE_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SEARCH_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_POST_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SHOP_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SETTING_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_START_WIDGETS"
+          Category: "com.xingin.xhs"
+      cn.jpush.android.intent.CONNECTION:
+        19e658e com.xingin.xhs/com.xingin.cupid.jpush.JPushAliasMessageReceiver filter d36b1af
+          Action: "cn.jpush.android.intent.RECEIVE_MESSAGE"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Category: "com.xingin.xhs"
+      com.xingin.xhs.action.CHAT_MEDAL_WIDGET_UPDATE:
+        3e90aa9 com.xingin.xhs/.appwidget.chatwidget.ChatMedalWidgetProvider filter 32f382e
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.xingin.xhs.action.CHAT_MEDAL_WIDGET_UPDATE"
+      cn.jpush.android.intent.MESSAGE_RECEIVED:
+        19e658e com.xingin.xhs/com.xingin.cupid.jpush.JPushAliasMessageReceiver filter d36b1af
+          Action: "cn.jpush.android.intent.RECEIVE_MESSAGE"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Category: "com.xingin.xhs"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        752d4f2 com.xingin.xhs/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 529743
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        5bdbbe7 com.xingin.xhs/com.xiaomi.push.service.receivers.NetworkStatusReceiver filter cb39394
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+          Category: "android.intent.category.DEFAULT"
+        5063353 com.xingin.xhs/cn.jpush.android.service.PushReceiver filter ecd1189
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+        e1301c0 com.xingin.xhs/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter 3206ef9
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      com.xingin.xhs.HERA_GROTTO_MAIN_RECEIVER:
+        d9fdef com.xingin.xhs/com.xingin.hera.vcl.receiver.GrottoForMainReceiver filter e0a20fc
+          Action: "com.xingin.xhs.HERA_GROTTO_MAIN_RECEIVER"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        b9f4c9a com.xingin.xhs/com.huawei.hms.support.api.push.PushMsgReceiver filter 546b9cb
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      com.xingin.xhs.tripartite:
+        a99f3c9 com.xingin.xhs/.push.simple.component.receiver.HeraTripartiteReceiver filter 24a3ace
+          Action: "com.xingin.xhs.tripartite"
+      com.xingin.xhs.BROADCAST_SHOP_ACTION:
+        4a6d7f5 com.xingin.xhs/com.xingin.utils.XHSNotificationBroadcastReceiver filter d54c98a
+          Action: "com.xingin.xhs.BROADCAST_BUTTON_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_DELETE_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SEARCH_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_POST_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SHOP_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SETTING_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_START_WIDGETS"
+          Category: "com.xingin.xhs"
+      android.intent.action.DEVICE_STORAGE_OK:
+        752d4f2 com.xingin.xhs/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter 529743
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK:
+        1d75301 com.xingin.xhs/com.xingin.cupid.meizupush.MZPushReceiver filter 7bed5a6
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.xingin.xhs"
+      com.meizu.flyme.push.intent.PUSH_SYSTEM:
+        b4bb26d com.xingin.xhs/com.meizu.cloud.pushsdk.MzPushSystemReceiver filter ce65ea2
+          Action: "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      cn.jpush.android.intent.RECEIVE_MESSAGE:
+        19e658e com.xingin.xhs/com.xingin.cupid.jpush.JPushAliasMessageReceiver filter d36b1af
+          Action: "cn.jpush.android.intent.RECEIVE_MESSAGE"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Category: "com.xingin.xhs"
+      com.huawei.android.push.intent.RECEIVE:
+        314897 com.xingin.xhs/com.huawei.hms.support.api.push.PushReceiver filter 4e41a84
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.meizu.c2dm.intent.RECEIVE:
+        1d75301 com.xingin.xhs/com.xingin.cupid.meizupush.MZPushReceiver filter 7bed5a6
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.xingin.xhs"
+      com.vivo.pushclient.action.RECEIVE:
+        ac40df com.xingin.xhs/com.xingin.cupid.vivo.VivoPushReceiver filter 95c12c
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.xingin.xhs.BROADCAST_DELETE_ACTION:
+        4a6d7f5 com.xingin.xhs/com.xingin.utils.XHSNotificationBroadcastReceiver filter d54c98a
+          Action: "com.xingin.xhs.BROADCAST_BUTTON_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_DELETE_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SEARCH_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_POST_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SHOP_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SETTING_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_START_WIDGETS"
+          Category: "com.xingin.xhs"
+      com.meizu.flyme.push.intent.MESSAGE:
+        1d75301 com.xingin.xhs/com.xingin.cupid.meizupush.MZPushReceiver filter 7bed5a6
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.xingin.xhs"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        ed748d8 com.xingin.xhs/androidx.profileinstaller.ProfileInstallReceiver filter 8ec0431
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.meizu.c2dm.intent.REGISTRATION:
+        1d75301 com.xingin.xhs/com.xingin.cupid.meizupush.MZPushReceiver filter 7bed5a6
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.xingin.xhs"
+      android.intent.action.BATTERY_LOW:
+        570f454 com.xingin.xhs/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 881cffd
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        4354e3e com.xingin.xhs/androidx.work.impl.background.systemalarm.RescheduleReceiver filter a7d649f
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        4354e3e com.xingin.xhs/androidx.work.impl.background.systemalarm.RescheduleReceiver filter a7d649f
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        ed748d8 com.xingin.xhs/androidx.profileinstaller.ProfileInstallReceiver filter 4aae716
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      android.intent.action.BOOT_COMPLETED:
+        4354e3e com.xingin.xhs/androidx.work.impl.background.systemalarm.RescheduleReceiver filter a7d649f
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      cn.jpush.android.intent.NOTIFICATION_OPENED:
+        19e658e com.xingin.xhs/com.xingin.cupid.jpush.JPushAliasMessageReceiver filter d36b1af
+          Action: "cn.jpush.android.intent.RECEIVE_MESSAGE"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Category: "com.xingin.xhs"
+      com.xingin.cupid.delaypush.DelayAlarmReceiver.ACTION_DELAY:
+        d3e0bfb com.xingin.xhs/com.xingin.cupid.delaypush.DelayPushService$DelayAlarmReceiver filter a33c418
+          Action: "com.xingin.cupid.delaypush.DelayAlarmReceiver.ACTION_DELAY"
+      com.xingin.xhs.BROADCAST_SETTING_ACTION:
+        4a6d7f5 com.xingin.xhs/com.xingin.utils.XHSNotificationBroadcastReceiver filter d54c98a
+          Action: "com.xingin.xhs.BROADCAST_BUTTON_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_DELETE_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SEARCH_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_POST_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SHOP_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SETTING_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_START_WIDGETS"
+          Category: "com.xingin.xhs"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        a959866 com.xingin.xhs/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter b0527a7
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      miui.appwidget.action.APPWIDGET_UPDATE:
+        63f10ad com.xingin.xhs/.appwidget.lazywidget.LazyWidgetProvider filter 2bcffe2
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        fcd1fcf com.xingin.xhs/.appwidget.photowidget.PhotoWidgetProvider filter 321cd5c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        31ea865 com.xingin.xhs/.appwidget.wearwidget.WearWidgetProvider filter e7aa93a
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        6a5e9eb com.xingin.xhs/.appwidget.outdoor.OutdoorWidgetProvider filter 8ac6348
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        95665e1 com.xingin.xhs/.appwidget.huodong.HuodongWidgetProvider filter 9da1f06
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        bf739c7 com.xingin.xhs/.appwidget.calendarwidget.CalendarWidgetProvider filter 2c86bf4
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        2f27f1d com.xingin.xhs/.appwidget.mixwidget.MixWidgetProvider filter 1692592
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        423ab63 com.xingin.xhs/.appwidget.searchwidget.SearchSmallWidgetProvider filter 2fa5360
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+      com.xiaomi.push.PING_TIMER:
+        7e51e3d com.xingin.xhs/com.xiaomi.push.service.receivers.PingReceiver filter bf2a632
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xingin.xhs.HERA_GROTTO_POLARIS_RECEIVER:
+        f728a0b com.xingin.xhs/com.xingin.hera.vcl.receiver.GrottoPolarisReceiver filter 95650e8
+          Action: "com.xingin.xhs.HERA_GROTTO_POLARIS_RECEIVER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        1a02f83 com.xingin.xhs/com.xingin.cupid.mipush.MIPushReceiver filter 2005500
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.xingin.xhs.BROADCAST_BUTTON_ACTION:
+        4a6d7f5 com.xingin.xhs/com.xingin.utils.XHSNotificationBroadcastReceiver filter d54c98a
+          Action: "com.xingin.xhs.BROADCAST_BUTTON_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_DELETE_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SEARCH_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_POST_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SHOP_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SETTING_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_START_WIDGETS"
+          Category: "com.xingin.xhs"
+      com.meizu.flyme.push.intent.REGISTER.FEEDBACK:
+        1d75301 com.xingin.xhs/com.xingin.cupid.meizupush.MZPushReceiver filter 7bed5a6
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Category: "com.xingin.xhs"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        59fe71 com.xingin.xhs/.appwidget.hotspot.HotListWidgetProvider filter e3df456
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        1576cd7 com.xingin.xhs/.appwidget.honorwidget.HonorHotListWidgetProvider filter aad09c4
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        63f10ad com.xingin.xhs/.appwidget.lazywidget.LazyWidgetProvider filter 2bcffe2
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        b3bff73 com.xingin.xhs/.appwidget.lazywidget.LargeLazyWidgetProvider filter 652fe30
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        3e90aa9 com.xingin.xhs/.appwidget.chatwidget.ChatMedalWidgetProvider filter 32f382e
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.xingin.xhs.action.CHAT_MEDAL_WIDGET_UPDATE"
+        fcd1fcf com.xingin.xhs/.appwidget.photowidget.PhotoWidgetProvider filter 321cd5c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        31ea865 com.xingin.xhs/.appwidget.wearwidget.WearWidgetProvider filter e7aa93a
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        6a5e9eb com.xingin.xhs/.appwidget.outdoor.OutdoorWidgetProvider filter 8ac6348
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        95665e1 com.xingin.xhs/.appwidget.huodong.HuodongWidgetProvider filter 9da1f06
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        bf739c7 com.xingin.xhs/.appwidget.calendarwidget.CalendarWidgetProvider filter 2c86bf4
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        2f27f1d com.xingin.xhs/.appwidget.mixwidget.MixWidgetProvider filter 1692592
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        423ab63 com.xingin.xhs/.appwidget.searchwidget.SearchSmallWidgetProvider filter 2fa5360
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+        63cf019 com.xingin.xhs/.appwidget.xiuxiuwidget.XiuxiuWidgetProvider filter 57008de
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "com.xingin.xhs.action.XIUXIU_WIDGET_UPDATE"
+        d1b9abf com.xingin.xhs/.appwidget.honorwidget.HonorLazyWidgetProvider filter ca1458c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        a2374d5 com.xingin.xhs/.appwidget.honorwidget.HonorLargeLazyWidgetProvider filter 6fd4ea
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        97923db com.xingin.xhs/.appwidget.honorwidget.HonorWearWidgetProvider filter 7e32e78
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        cb38951 com.xingin.xhs/.appwidget.samsungwidget.SamsungWidgetProvider filter 1ee55b6
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        15c22b7 com.xingin.xhs/.appwidget.cl.ClwProvider filter 758ba24
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.xingin.xhs.BROADCAST_SEARCH_ACTION:
+        4a6d7f5 com.xingin.xhs/com.xingin.utils.XHSNotificationBroadcastReceiver filter d54c98a
+          Action: "com.xingin.xhs.BROADCAST_BUTTON_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_DELETE_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SEARCH_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_POST_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SHOP_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SETTING_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_START_WIDGETS"
+          Category: "com.xingin.xhs"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        934104a com.xingin.xhs/androidx.work.impl.diagnostics.DiagnosticsReceiver filter b5dabbb
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      cn.jpush.android.intent.REGISTRATION:
+        19e658e com.xingin.xhs/com.xingin.cupid.jpush.JPushAliasMessageReceiver filter d36b1af
+          Action: "cn.jpush.android.intent.RECEIVE_MESSAGE"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Category: "com.xingin.xhs"
+      com.huawei.intent.action.PUSH:
+        b9f4c9a com.xingin.xhs/com.huawei.hms.support.api.push.PushMsgReceiver filter 546b9cb
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      cn.jpush.android.intent.NOTIFICATION_RECEIVED:
+        19e658e com.xingin.xhs/com.xingin.cupid.jpush.JPushAliasMessageReceiver filter d36b1af
+          Action: "cn.jpush.android.intent.RECEIVE_MESSAGE"
+          Action: "cn.jpush.android.intent.REGISTRATION"
+          Action: "cn.jpush.android.intent.MESSAGE_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_RECEIVED"
+          Action: "cn.jpush.android.intent.NOTIFICATION_OPENED"
+          Action: "cn.jpush.android.intent.CONNECTION"
+          Category: "com.xingin.xhs"
+      com.xingin.xhs.BROADCAST_START_WIDGETS:
+        4a6d7f5 com.xingin.xhs/com.xingin.utils.XHSNotificationBroadcastReceiver filter d54c98a
+          Action: "com.xingin.xhs.BROADCAST_BUTTON_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_DELETE_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SEARCH_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_POST_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SHOP_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_SETTING_ACTION"
+          Action: "com.xingin.xhs.BROADCAST_START_WIDGETS"
+          Category: "com.xingin.xhs"
+      com.xingin.redview.video.backplay:
+        6c729bc com.xingin.xhs/com.xingin.redview.backplay.notification.BackplayNotifyBroadcastReceiver filter 4ec3d45
+          Action: "com.xingin.redview.video.backplay"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        e0679ec com.xingin.xhs/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter a7001b5
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+      com.xingin.xhs.action.GETUI_WAKE:
+        9bb25a8 com.xingin.xhs/com.xingin.pushproxy.VokReceiver filter 21868c1
+          Action: "com.xingin.xhs.action.GETUI_WAKE"
+      com.xingin.xhs.HERA_GROTTO_RECEIVER:
+        f450385 com.xingin.xhs/com.xingin.hera.vcl.receiver.GrottoReceiver filter 55335da
+          Action: "com.xingin.xhs.HERA_GROTTO_RECEIVER"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.huawei.hms.location.action.common.geofence:
+        4b10dd com.xingin.xhs/.push.simple.aware.HuaweiSmartFenceService filter 707b452 permission com.huawei.hms.location.permission.PENDINGINTENT
+          Action: "com.huawei.hms.location.action.common.geofence"
+      com.xingin.hey.post:
+        b7e5367 com.xingin.xhs/com.xingin.hey.heypost.service.HeyPostService filter add1514
+          Action: "com.xingin.hey.post"
+          Category: "android.intent.category.DEFAULT"
+      android.appcard.action.APPCARD_UPDATE:
+        87e0869 com.xingin.xhs/com.xingin.matrix.detail.oppo.OppoRedCardService filter e6fc2ee
+          Action: "android.appcard.action.APPCARD_UPDATE"
+          Action: "oplus.intent.action.CARD_RENDER_SERVICE"
+      android.content.SyncAdapter:
+        3ecddd9 com.xingin.xhs/com.xingin.strategy.account.SyncService filter 648c39e permission android.permission.BIND_SYNC_ADAPTER
+          Action: "android.content.SyncAdapter"
+      com.getui.sdk.action:
+        4453e81 com.xingin.xhs/com.igexin.sdk.GService filter 34d1b26
+          Action: "com.getui.sdk.action"
+      android.app.job.JobService:
+        2c99e7f com.xingin.xhs/com.xingin.strategy.jobscheduler.StrategyJobService filter 35d5e4c permission android.permission.BIND_JOB_SERVICE
+          Action: "android.app.job.JobService"
+      com.xingin.xhs.service.SIMPLE_PUSH_START:
+        5df8587 com.xingin.xhs/.push.simple.component.service.SimplePushService filter 8452cb4
+          Action: "com.xingin.xhs.service.SIMPLE_PUSH_START"
+          Action: "com.xingin.xhs.service.SIMPLE_PUSH_SHOW"
+      cn.jiguang.user.service.action:
+        dd6eb4d com.xingin.xhs/com.xingin.cupid.jpush.JPushJCommonService filter ac1d602
+          Action: "cn.jiguang.user.service.action"
+      android.service.quicksettings.action.QS_TILE:
+        eccf9ab com.xingin.xhs/com.xingin.capa.application.qs.ShootTileService filter 69a9808 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+        8555ba1 com.xingin.xhs/com.xingin.capa.application.qs.SearchTileService filter dc941c6 permission android.permission.BIND_QUICK_SETTINGS_TILE
+          Action: "android.service.quicksettings.action.QS_TILE"
+      com.getui.gtc.sdk.service.action:
+        2b0a98b com.xingin.xhs/com.getui.gtc.GtcService filter 562ba68
+          Action: "com.getui.gtc.sdk.service.action"
+      com.huawei.push.msg.NOTIFY_MSG:
+        1433705 com.xingin.xhs/com.huawei.hms.support.api.push.service.HmsMsgService filter 740235a
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      cn.jpush.android.intent.PUSH_TIME:
+        f3b6f11 com.xingin.xhs/cn.jpush.android.service.PushService filter 4ba876
+          Action: "cn.jpush.android.intent.REGISTER"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+      com.xingin.xhs.service.SIMPLE_PUSH_SHOW:
+        5df8587 com.xingin.xhs/.push.simple.component.service.SimplePushService filter 8452cb4
+          Action: "com.xingin.xhs.service.SIMPLE_PUSH_START"
+          Action: "com.xingin.xhs.service.SIMPLE_PUSH_SHOW"
+      cn.jpush.android.intent.REPORT:
+        f3b6f11 com.xingin.xhs/cn.jpush.android.service.PushService filter 4ba876
+          Action: "cn.jpush.android.intent.REGISTER"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+      cn.jpush.android.intent.DaemonService:
+        ecede77 com.xingin.xhs/cn.jpush.android.service.DaemonService filter ce72ae4
+          Action: "cn.jpush.android.intent.DaemonService"
+          Category: "com.xingin.xhs"
+      com.xingin.petal.core.install.BIND_SPLIT_INSTALL_SERVICE:
+        f4d256f com.xingin.xhs/com.xingin.petal.core.install.remote.SplitInstallService filter 81af27c
+          Action: "com.xingin.petal.core.install.BIND_SPLIT_INSTALL_SERVICE"
+      oplus.intent.action.CARD_RENDER_SERVICE:
+        87e0869 com.xingin.xhs/com.xingin.matrix.detail.oppo.OppoRedCardService filter e6fc2ee
+          Action: "android.appcard.action.APPCARD_UPDATE"
+          Action: "oplus.intent.action.CARD_RENDER_SERVICE"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        c447e95 com.xingin.xhs/com.xingin.cupid.oppo.OppoPushMessageService filter 3f97baa permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.xingin.account.ILoginStateManager:
+        50eb38f com.xingin.xhs/com.xingin.outside.binder.CardLoginStateService filter 192361c
+          Action: "com.xingin.account.ILoginStateManager"
+          Category: "android.intent.category.DEFAULT"
+      com.heytap.msp.push.RECEIVE_MCS_MESSAGE:
+        c447e95 com.xingin.xhs/com.xingin.cupid.oppo.OppoPushMessageService filter 3f97baa permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        463a39b com.xingin.xhs/com.xingin.cupid.oppo.OppoCompatibleDataMessageCallbackService filter f281338 permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      android.accounts.AccountAuthenticator:
+        a4f323 com.xingin.xhs/com.xingin.strategy.account.AccountAuthenticatorService filter 8626020 permission android.permission.BIND_AUTHENTICATOR
+          Action: "android.accounts.AccountAuthenticator"
+      com.huawei.push.msg.PASSBY_MSG:
+        1433705 com.xingin.xhs/com.huawei.hms.support.api.push.service.HmsMsgService filter 740235a
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.hihonor.push.action.MESSAGING_EVENT:
+        a33ef49 com.xingin.xhs/com.xingin.cupid.honor.XYHonorMsgService filter 67b504e
+          Action: "com.hihonor.push.action.MESSAGING_EVENT"
+      android.accessibilityservice.AccessibilityService:
+        d65c225 com.xingin.xhs/com.xingin.alpha.common.access.GameRecordAccessibilityService filter 3191ffa permission android.permission.BIND_ACCESSIBILITY_SERVICE
+          Action: "android.accessibilityservice.AccessibilityService"
+      cn.jpush.android.intent.PushService:
+        f3b6f11 com.xingin.xhs/cn.jpush.android.service.PushService filter 4ba876
+          Action: "cn.jpush.android.intent.REGISTER"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+      com.huawei.push.action.MESSAGING_EVENT:
+        b48eb13 com.xingin.xhs/com.xingin.cupid.hwpush.HWHmsMessageService filter 95e1150
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+      cn.jpush.android.intent.REGISTER:
+        f3b6f11 com.xingin.xhs/cn.jpush.android.service.PushService filter 4ba876
+          Action: "cn.jpush.android.intent.REGISTER"
+          Action: "cn.jpush.android.intent.REPORT"
+          Action: "cn.jpush.android.intent.PushService"
+          Action: "cn.jpush.android.intent.PUSH_TIME"
+
+Provider Resolver Table:
+  Non-Data Actions:
+      com.oplus.seedling.action.SEEDLING_CARD:
+        237d733 com.xingin.xhs/.oppodonationlib.core.OppoCardWidgetProvider filter 9ca5af0
+          Action: "com.oplus.seedling.action.SEEDLING_CARD"
+
+Domain verification status:
+  com.xingin.xhs:
+    ID: bfd8e7c2-7b16-48fa-b3e2-9c6008930039
+    Signatures: [F3:75:F0:F6:AF:7C:94:C3:64:B3:5C:D6:F6:A6:6D:64:AE:FA:E6:6E:32:F9:35:B4:87:73:C0:FA:AD:04:C1:21]
+    Domain verification state:
+      *.xiaohongshu.com: legacy_failure
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          *.xiaohongshu.com
+
+Permissions:
+  Permission [com.xingin.xhs.permission.PUSH_WRITE_PROVIDER] (51a4eb4):
+    sourcePackage=com.xingin.xhs
+    uid=10087 gids=[] type=0 prot=signature
+    perm=PermissionInfo{ad74bfd com.xingin.xhs.permission.PUSH_WRITE_PROVIDER}
+
+Permissions:
+  Permission [com.xingin.xhs.permission.JPUSH_MESSAGE] (3668add):
+    sourcePackage=com.xingin.xhs
+    uid=10087 gids=[] type=0 prot=signature
+    perm=PermissionInfo{1d897e5 com.xingin.xhs.permission.JPUSH_MESSAGE}
+
+Permissions:
+  Permission [com.xingin.xhs.permission.PROCESS_PUSH_MSG] (4e6a652):
+    sourcePackage=com.xingin.xhs
+    uid=10087 gids=[] type=0 prot=signature
+    perm=PermissionInfo{29ffe99 com.xingin.xhs.permission.PROCESS_PUSH_MSG}
+
+Permissions:
+  Permission [com.xingin.xhs.permission.PUSH_PROVIDER] (24dfd23):
+    sourcePackage=com.xingin.xhs
+    uid=10087 gids=[] type=0 prot=signature
+    perm=PermissionInfo{ac46883 com.xingin.xhs.permission.PUSH_PROVIDER}
+
+Permissions:
+  Permission [com.xingin.xhs.permission.C2D_MESSAGE] (a67a220):
+    sourcePackage=com.xingin.xhs
+    uid=10087 gids=[] type=0 prot=signature
+    perm=PermissionInfo{51d2eff com.xingin.xhs.permission.C2D_MESSAGE}
+
+Permissions:
+  Permission [com.xingin.xhs.push.permission.MESSAGE] (645f7d9):
+    sourcePackage=com.xingin.xhs
+    uid=10087 gids=[] type=0 prot=signature
+    perm=PermissionInfo{69e7b91 com.xingin.xhs.push.permission.MESSAGE}
+
+Permissions:
+  Permission [com.xingin.xhs.permission.RECEIVE_VOLLEY_SHARE_RESULT] (824d59e):
+    sourcePackage=com.xingin.xhs
+    uid=10087 gids=[] type=0 prot=normal
+    perm=PermissionInfo{1a4f7cf com.xingin.xhs.permission.RECEIVE_VOLLEY_SHARE_RESULT}
+
+Permissions:
+  Permission [com.xingin.xhs.permission.MIPUSH_RECEIVE] (6f9487f):
+    sourcePackage=com.xingin.xhs
+    uid=10087 gids=[] type=0 prot=signature
+    perm=PermissionInfo{9c8b53 com.xingin.xhs.permission.MIPUSH_RECEIVE}
+
+Permissions:
+  Permission [getui.permission.GetuiService.com.xingin.xhs] (d74c04c):
+    sourcePackage=com.xingin.xhs
+    uid=10087 gids=[] type=0 prot=normal
+    perm=PermissionInfo{f5a50cb getui.permission.GetuiService.com.xingin.xhs}
+
+Registered ContentProviders:
+  com.xingin.xhs/com.oplus.pantanal.seedling.file.provider.FileShareProvider:
+    Provider{9431314 com.xingin.xhs/com.oplus.pantanal.seedling.file.provider.FileShareProvider}
+  com.xingin.xhs/com.getui.gtc.base.GtcProvider:
+    Provider{fdb6944 com.xingin.xhs/com.getui.gtc.base.GtcProvider}
+  com.xingin.xhs/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{ef4aac8 com.xingin.xhs/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+  com.xingin.xhs/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{7827286 com.xingin.xhs/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+  com.xingin.xhs/com.huawei.hms.mlsdk.common.provider.MLInitializerProvider_Decorated_redscanner:
+    Provider{ca5890e com.xingin.xhs/com.huawei.hms.mlsdk.common.provider.MLInitializerProvider_Decorated_redscanner}
+  com.xingin.xhs/com.xingin.strategy.account.StrategyProvider:
+    Provider{111cf2f com.xingin.xhs/com.xingin.strategy.account.StrategyProvider}
+  com.xingin.xhs/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{3eeda96 com.xingin.xhs/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.xingin.xhs/com.imagepicker.ImagePickerProvider:
+    Provider{c059a5d com.xingin.xhs/com.imagepicker.ImagePickerProvider}
+  com.xingin.xhs/androidx.core.content.FileProvider:
+    Provider{e534bf7 com.xingin.xhs/androidx.core.content.FileProvider}
+  com.xingin.xhs/com.xingin.utils.XYUtilsCenter$FileProvider4UtilCode:
+    Provider{e4f6600 com.xingin.xhs/com.xingin.utils.XYUtilsCenter$FileProvider4UtilCode}
+  com.xingin.xhs/com.xingin.mp.apps.process.ipc.agent.provider.MainProcessDelegateProvider:
+    Provider{144e22c com.xingin.xhs/com.xingin.mp.apps.process.ipc.agent.provider.MainProcessDelegateProvider}
+  com.xingin.xhs/cn.jpush.android.service.InitProvider:
+    Provider{17611d7 com.xingin.xhs/cn.jpush.android.service.InitProvider}
+  com.xingin.xhs/com.xingin.smarttracking.process.TrackerContentProvider:
+    Provider{58881de com.xingin.xhs/com.xingin.smarttracking.process.TrackerContentProvider}
+  com.xingin.xhs/com.xingin.security.base.acdd:
+    Provider{174e68c com.xingin.xhs/com.xingin.security.base.acdd}
+  com.xingin.xhs/com.huawei.hms.support.api.push.PushProvider:
+    Provider{79a959a com.xingin.xhs/com.huawei.hms.support.api.push.PushProvider}
+  com.xingin.xhs/com.xingin.mp.api.module.file.XhsMPFileProvider:
+    Provider{85b12c0 com.xingin.xhs/com.xingin.mp.api.module.file.XhsMPFileProvider}
+  com.xingin.xhs/com.xingin.android.xhscomm.dispatcher.DispatcherProvider:
+    Provider{c6ce8fa com.xingin.xhs/com.xingin.android.xhscomm.dispatcher.DispatcherProvider}
+  com.xingin.xhs/com.huawei.hms.aaid.InitProvider:
+    Provider{3109ac6 com.xingin.xhs/com.huawei.hms.aaid.InitProvider}
+  com.xingin.xhs/cn.jpush.android.service.DownloadProvider:
+    Provider{8adc438 com.xingin.xhs/cn.jpush.android.service.DownloadProvider}
+  com.xingin.xhs/com.xingin.process.ipc.agent.provider.MainProcessDelegateProvider:
+    Provider{d34f426 com.xingin.xhs/com.xingin.process.ipc.agent.provider.MainProcessDelegateProvider}
+  com.xingin.xhs/com.sina.weibo.sdk.content.FileProvider:
+    Provider{826a6f1 com.xingin.xhs/com.sina.weibo.sdk.content.FileProvider}
+  com.xingin.xhs/.oppodonationlib.core.OppoCardWidgetProvider:
+    Provider{237d733 com.xingin.xhs/.oppodonationlib.core.OppoCardWidgetProvider}
+  com.xingin.xhs/androidx.startup.InitializationProvider:
+    Provider{814b75e com.xingin.xhs/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [com.xingin.xhs.lifecycle-process]:
+    Provider{3eeda96 com.xingin.xhs/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{4153895 com.xingin.xhs}
+  [com.xingin.xhs.OppoCardWidgetProvider]:
+    Provider{237d733 com.xingin.xhs/.oppodonationlib.core.OppoCardWidgetProvider}
+      applicationInfo=ApplicationInfo{c84adaa com.xingin.xhs}
+  [com.xingin.xhs.utilcode.provider]:
+    Provider{e4f6600 com.xingin.xhs/com.xingin.utils.XYUtilsCenter$FileProvider4UtilCode}
+      applicationInfo=ApplicationInfo{ce3ed9b com.xingin.xhs}
+  [com.xingin.xhs.XhsAppDelegateProvider]:
+    Provider{d34f426 com.xingin.xhs/com.xingin.process.ipc.agent.provider.MainProcessDelegateProvider}
+      applicationInfo=ApplicationInfo{539538 com.xingin.xhs}
+  [com.xingin.xhs.strategy.provider]:
+    Provider{111cf2f com.xingin.xhs/com.xingin.strategy.account.StrategyProvider}
+      applicationInfo=ApplicationInfo{c5dc911 com.xingin.xhs}
+  [com.xingin.xhs.DownloadProvider]:
+    Provider{8adc438 com.xingin.xhs/cn.jpush.android.service.DownloadProvider}
+      applicationInfo=ApplicationInfo{b57fa76 com.xingin.xhs}
+  [com.xingin.xhs.tracker]:
+    Provider{58881de com.xingin.xhs/com.xingin.smarttracking.process.TrackerContentProvider}
+      applicationInfo=ApplicationInfo{9c877 com.xingin.xhs}
+  [com.xingin.xhs.huawei.push.provider]:
+    Provider{79a959a com.xingin.xhs/com.huawei.hms.support.api.push.PushProvider}
+      applicationInfo=ApplicationInfo{248cce4 com.xingin.xhs}
+  [com.xingin.xhs.aaidinitprovider]:
+    Provider{3109ac6 com.xingin.xhs/com.huawei.hms.aaid.InitProvider}
+      applicationInfo=ApplicationInfo{3c4e54d com.xingin.xhs}
+  [com.xingin.xhs.redmp.fileprovider]:
+    Provider{85b12c0 com.xingin.xhs/com.xingin.mp.api.module.file.XhsMPFileProvider}
+      applicationInfo=ApplicationInfo{f414802 com.xingin.xhs}
+  [com.xingin.xhs.imagepickerprovider]:
+    Provider{c059a5d com.xingin.xhs/com.imagepicker.ImagePickerProvider}
+      applicationInfo=ApplicationInfo{6487513 com.xingin.xhs}
+  [com.xingin.xhs.androidx-startup]:
+    Provider{814b75e com.xingin.xhs/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{37d350 com.xingin.xhs}
+  [com.xingin.xhs.a.a.acdd]:
+    Provider{174e68c com.xingin.xhs/com.xingin.security.base.acdd}
+      applicationInfo=ApplicationInfo{a078949 com.xingin.xhs}
+  [com.xingin.xhs.AGCInitializeProvider]:
+    Provider{ef4aac8 com.xingin.xhs/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{87fe24e com.xingin.xhs}
+  [com.xingin.xhs.dispatcher]:
+    Provider{c6ce8fa com.xingin.xhs/com.xingin.android.xhscomm.dispatcher.DispatcherProvider}
+      applicationInfo=ApplicationInfo{bbb4f6f com.xingin.xhs}
+  [com.xingin.xhs.getui.gtc.provider]:
+    Provider{fdb6944 com.xingin.xhs/com.getui.gtc.base.GtcProvider}
+      applicationInfo=ApplicationInfo{fced47c com.xingin.xhs}
+  [com.xingin.xhs.MLInitializerProvider]:
+    Provider{ca5890e com.xingin.xhs/com.huawei.hms.mlsdk.common.provider.MLInitializerProvider_Decorated_redscanner}
+      applicationInfo=ApplicationInfo{3b67105 com.xingin.xhs}
+  [com.xingin.xhs.fileprovider]:
+    Provider{826a6f1 com.xingin.xhs/com.sina.weibo.sdk.content.FileProvider}
+      applicationInfo=ApplicationInfo{9fbd55a com.xingin.xhs}
+  [com.xingin.xhs.jiguang.InitProvider]:
+    Provider{17611d7 com.xingin.xhs/cn.jpush.android.service.InitProvider}
+      applicationInfo=ApplicationInfo{8d7738b com.xingin.xhs}
+  [com.xingin.xhs.provider]:
+    Provider{e534bf7 com.xingin.xhs/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{172bc68 com.xingin.xhs}
+  [com.xingin.xhs.FileShareProvider]:
+    Provider{9431314 com.xingin.xhs/com.oplus.pantanal.seedling.file.provider.FileShareProvider}
+      applicationInfo=ApplicationInfo{3b21881 com.xingin.xhs}
+  [com.xingin.xhs.XhsMPAppDelegateProvider]:
+    Provider{144e22c com.xingin.xhs/com.xingin.mp.apps.process.ipc.agent.provider.MainProcessDelegateProvider}
+      applicationInfo=ApplicationInfo{b11ed26 com.xingin.xhs}
+
+Key Set Manager:
+  [com.xingin.xhs]
+      Signing KeySets: 12
+
+Packages:
+  Package [com.xingin.xhs] (b1d968f):
+    userId=10087
+    pkg=Package{112dd1c com.xingin.xhs}
+    codePath=/data/app/~~EzQhLm70fNuQ0fWNR0gQzA==/com.xingin.xhs-P5Sr9sQEpAL1YWXuqkwBeA==
+    resourcePath=/data/app/~~EzQhLm70fNuQ0fWNR0gQzA==/com.xingin.xhs-P5Sr9sQEpAL1YWXuqkwBeA==
+    legacyNativeLibraryDir=/data/app/~~EzQhLm70fNuQ0fWNR0gQzA==/com.xingin.xhs-P5Sr9sQEpAL1YWXuqkwBeA==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=8781142 minSdk=21 targetSdk=34
+    minExtensionVersions=[]
+    versionName=8.78.1
+    usesNonSdkApi=true
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{112dd1c com.xingin.xhs}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.TTS_SERVICE }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=com.huawei.hms.core }, Intent { act=android.intent.action.MAIN }, Intent { act=* dat=tbopen:/* }]
+    dataDir=/data/user/0/com.xingin.xhs
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+      org.simalliance.openmobileapi
+      org.ifaa.android.manager.permissions
+      androidx.window.extensions
+      androidx.window.sidecar
+      com.huawei.nb.searchmanager
+      com.huawei.searchservice
+      com.huawei.camerakit.impl
+      com.oppo.hyberboost.unit.sdk
+    usesOptionalNativeLibraries:
+      libOpenCL.so
+      libapex_motionphoto_utils_jni.media.samsung.so
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+      libOpenCL.so
+    timeStamp=2026-03-18 18:44:36
+    firstInstallTime=2026-03-18 18:46:05
+    lastUpdateTime=2026-03-18 18:46:05
+    installerPackageName=com.ffalconxr.mercury.launcher
+    signatures=PackageSignatures{40edd25 version:3, signatures:[bf6f07ea], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.xingin.xhs.permission.MIPUSH_RECEIVE: prot=signature, INSTALLED
+      com.xingin.xhs.push.permission.MESSAGE: prot=signature, INSTALLED
+      com.xingin.xhs.permission.C2D_MESSAGE: prot=signature, INSTALLED
+      com.xingin.xhs.permission.JPUSH_MESSAGE: prot=signature, INSTALLED
+      com.xingin.xhs.permission.RECEIVE_VOLLEY_SHARE_RESULT: prot=normal, INSTALLED
+      com.xingin.xhs.permission.PROCESS_PUSH_MSG: prot=signature, INSTALLED
+      getui.permission.GetuiService.com.xingin.xhs: prot=normal, INSTALLED
+      com.xingin.xhs.permission.PUSH_PROVIDER: prot=signature, INSTALLED
+      com.xingin.xhs.permission.PUSH_WRITE_PROVIDER: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.FOREGROUND_SERVICE_LOCATION
+      android.permission.INTERNET
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECEIVE_USER_PRESENT
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.REQUEST_INSTALL_PACKAGES
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.android.launcher.permission.READ_SETTINGS
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.READ_PHONE_STATE
+      android.permission.CAMERA
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.RECORD_AUDIO
+      android.permission.READ_CONTACTS
+      android.permission.FOREGROUND_SERVICE
+      android.permission.POST_NOTIFICATIONS
+      com.google.android.gms.permission.AD_ID
+      cn.org.ifaa.permission.USE_IFAA_MANAGER
+      android.permission.VIBRATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.MANAGE_MEDIA_PROJECTION
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+      android.permission.FLASHLIGHT
+      android.permission.WAKE_LOCK
+      android.permission.ACCESS_MEDIA_LOCATION
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+      android.location.permission.RECEIVE_GEOFENCE_REPORT
+      com.xingin.xhs.permission.MIPUSH_RECEIVE
+      com.vivo.notification.permission.BADGE_ICON
+      com.meizu.flyme.push.permission.RECEIVE
+      com.xingin.xhs.push.permission.MESSAGE
+      com.meizu.c2dm.permission.RECEIVE
+      com.xingin.xhs.permission.C2D_MESSAGE
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      android.permission.EXPAND_STATUS_BAR
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.GET_ACCOUNTS
+      android.permission.USE_CREDENTIALS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      com.miui.home.launcher.permission.INSTALL_WIDGET
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      com.xingin.xhs.permission.JPUSH_MESSAGE
+      android.permission.WRITE_SETTINGS
+      com.xingin.xhs.permission.JOPERATE_MESSAGE
+      android.permission.FOREGROUND_SERVICE_MICROPHONE
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+      ohos.permission.ACCESS_SEARCH_SERVICE
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      com.huawei.meetime.CAAS_SHARE_SERVICE
+      getui.permission.GetuiService.com.xingin.xhs
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.USE_FINGERPRINT
+      android.permission.USE_BIOMETRIC
+      com.asus.msa.SupplementaryDID.ACCESS
+      freemme.permission.msa
+      com.xiaomi.security.permission.ACCESS_XSOF
+      com.hihonor.security.permission.ACCESS_THREAT_DETECTION
+      com.open.gallery.smart.Provider
+      android.permission.WRITE_CLIPBOARD_SERVICE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.xingin.xhs.permission.PROCESS_PUSH_MSG
+      com.xingin.xhs.permission.PUSH_PROVIDER
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+      freemme.permission.msa.SECURITY_ACCESS
+      oplus.permission.settings.LAUNCH_FOR_EXPORT
+      com.vivo.identifier.permission.OAID_STATE_DIALOG
+      com.oplus.permission.safe.AI_APP
+      com.oplus.metis.factdata.permission.DATABASE
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      com.samsung.android.sume.nn.service.permission.ACCESS_SUME_NN_SERVICE
+    install permissions:
+      android.permission.WRITE_SETTINGS: granted=false
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.xingin.xhs.permission.JPUSH_MESSAGE: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=false
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.xingin.xhs.permission.PROCESS_PUSH_MSG: granted=true
+      android.permission.EXPAND_STATUS_BAR: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.xingin.xhs.permission.PUSH_PROVIDER: granted=true
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.xingin.xhs.permission.C2D_MESSAGE: granted=true
+      com.xingin.xhs.push.permission.MESSAGE: granted=true
+      com.xingin.xhs.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.SCHEDULE_EXACT_ALARM: granted=true
+      android.permission.MANAGE_MEDIA_PROJECTION: granted=false
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      getui.permission.GetuiService.com.xingin.xhs: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=false
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=4705 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      lastDisabledCaller: com.ffalconxr.mercury.launcher
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.xingin.xhs:
+      tv.danmaku.bili
+      com.sina.weibo
+      com.tencent.mm
+    com.tencent.mm:
+      com.xingin.xhs
+    com.tencent.wemeet.app:
+      com.xingin.xhs
+  queries via intent:
+    [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+      com.xingin.xhs
+    com.android.contacts:
+      com.xingin.xhs
+    com.ffalcon.navigation:
+      com.xingin.xhs
+    com.xingin.xhs:
+      com.android.traceur
+      com.sogou.inputmethod.iot
+      com.android.contacts
+      com.android.inputmethod.latin
+      com.rayneo.lifeai
+      com.RayneoGame.ARPet
+      com.ffalcon.vision.scanner.maotai
+      com.chatppt.noteshow.release
+      com.Ffalcon.BEATSPACE
+      com.rayneogame.pinball
+      com.rayneogame.skiing
+      com.rayneo.airscreen
+      tv.danmaku.bili
+      com.larus.nova
+      com.phoenix.read
+      com.tencent.qqmusicpad
+      com.sina.weibo
+      com.tencent.mm
+      com.tencent.wemeet.app
+    com.larus.nova:
+      com.xingin.xhs
+    com.phoenix.read:
+      com.xingin.xhs
+    com.sina.weibo:
+      com.xingin.xhs
+    com.tencent.mm:
+      com.xingin.xhs
+    com.tencent.wemeet.app:
+      com.xingin.xhs
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.xingin.xhs]
+    path: /data/app/~~EzQhLm70fNuQ0fWNR0gQzA==/com.xingin.xhs-P5Sr9sQEpAL1YWXuqkwBeA==/base.apk
+      arm64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.xingin.xhs]
+     base.apk - 78624
+Snapshot statistics
+   Unrecorded-hits: 4326  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:24         now           0           0           0           0           0           0           0
+          1:24        0:24           0           0           0           0           0           0           0
+          2:24        1:24           0           0           0           0           0           0           0
+          3:24        2:24           0           0           0           0           0           0           0
+          4:24        3:24           0           0           0           0           0           0           0
+          5:24        4:24           0           0           0           0           0           0           0
+          6:24        5:24           0           0           0           0           0           0           0
+          7:24        6:24           0           0           0           0           0           0           0
+          8:24        7:24           0           0           0           0           0           0           0
+          9:24        8:24           0           0           0           0           0           0           0
+   20513:16:09:08         now         305      413335           0           2          73         241          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:24         now           0           0           0           0           0           0           0           0
+          1:24        0:24           0           0           0           0           0           0           0           0
+          2:24        1:24           0           0           0           0           0           0           0           0
+          3:24        2:24           0           0           0           0           0           0           0           0
+          4:24        3:24           0           0           0           0           0           0           0           0
+          5:24        4:24           0           0           0           0           0           0           0           0
+          6:24        5:24           0           0           0           0           0           0           0           0
+          7:24        6:24           0           0           0           0           0           0           0           0
+          8:24        7:24           0           0           0           0           0           0           0           0
+          9:24        8:24           0           0           0           0           0           0           0           0
+   20513:16:09:08         now         277          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:24         now           0           0           0           0           0           0           0           0
+          1:24        0:24           0           0           0           0           0           0           0           0
+          2:24        1:24           0           0           0           0           0           0           0           0
+          3:24        2:24           0           0           0           0           0           0           0           0
+          4:24        3:24           0           0           0           0           0           0           0           0
+          5:24        4:24           0           0           0           0           0           0           0           0
+          6:24        5:24           0           0           0           0           0           0           0           0
+          7:24        6:24           0           0           0           0           0           0           0           0
+          8:24        7:24           0           0           0           0           0           0           0           0
+          9:24        8:24           0           0           0           0           0           0           0           0
+   20513:16:09:08         now          52          14           6           5           5          26          21         175

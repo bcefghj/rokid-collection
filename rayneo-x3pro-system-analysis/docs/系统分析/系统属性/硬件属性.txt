@@ -1,0 +1,7 @@
+[ro.camera.enableCamera1MaxZsl]: [1]
+[ro.hardware]: [qcom]
+[ro.hardware.egl]: [adreno]
+[ro.hardware.keystore_desede]: [true]
+[ro.hardware.vulkan]: [adreno]
+[ro.sf.lcd_density]: [160]
+[ro.soc.manufacturer]: [QTI]

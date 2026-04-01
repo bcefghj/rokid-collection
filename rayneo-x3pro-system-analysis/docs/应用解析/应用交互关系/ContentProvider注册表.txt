@@ -1,0 +1,300 @@
+ACTIVITY MANAGER CONTENT PROVIDERS (dumpsys activity providers)
+  Published single-user content providers (by class):
+  * ContentProviderRecord{37c6c85 u0 com.android.providers.settings/.SettingsProvider}
+    package=com.android.providers.settings process=system
+    proc=ProcessRecord{a6190e5 1288:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@7014497
+    singleton=true
+    authority=settings
+    isSyncable=false multiprocess=false initOrder=100
+    Connections:
+      -> 1705:com.android.systemui/u0a69 s1/1 u0/0 +8h32m7s387ms
+      -> 1879:android.ext.services/u0a77 s1/1 u0/0 +8h32m6s344ms
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s1/1 u0/0 +8h32m6s212ms
+      -> 2387:com.android.providers.media.module/u0a76 s1/1 u0/0 +8h31m59s690ms
+      -> 2486:android.process.acore/u0a24 s1/1 u0/0 +8h31m59s682ms
+      -> 2437:com.sogou.inputmethod.iot/u0a54 s1/1 u0/0 +8h31m59s561ms
+      -> 2575:com.eg.android.AlipayGGlasses/u0a51 s1/1 u0/0 +8h31m58s750ms
+      -> 2634:com.rayneo.airuntime/1000 s1/1 u0/0 +8h31m58s604ms
+      -> 3055:com.leiniao.camera/1000 s1/1 u0/0 +8h31m55s601ms
+      -> 3330:com.rayneo.phone/1000 s1/1 u0/0 +8h31m29s611ms
+      -> 4785:com.rayneo.aispeech/1000 s1/1 u0/0 +8h27m23s964ms
+      -> 8414:com.ffalcon.appcontainer:floatball/1000 s1/1 u0/0 +8h11m23s482ms
+      -> 3744:com.rayneo.gallery/1000 s1/1 u0/0 +8h5m44s320ms
+      -> 2784:com.rayneo.media/1000 s1/1 u0/0 +7h34m29s441ms
+      -> 18340:android.process.media/u0a25 s1/1 u0/0 +6h17m33s519ms
+      -> 18344:com.android.statementservice/u0a35 s1/1 u0/0 +6h17m33s449ms
+      -> 18348:com.android.settings/1000 s1/1 u0/0 +6h17m32s673ms
+      -> 19809:com.android.bluetooth/1002 s1/1 u0/0 +25m50s892ms
+  * ContentProviderRecord{8e8eada u0 android/com.android.server.textclassifier.IconsContentProvider}
+    package=android process=system
+    proc=ProcessRecord{a6190e5 1288:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@43966f0
+    singleton=true
+    authority=com.android.textclassifier.icons
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{1569b0b u0 com.android.providers.downloads/.DownloadStorageProvider}
+    package=com.android.providers.downloads process=android.process.media
+    proc=ProcessRecord{b185963 18340:android.process.media/u0a25}
+    uid=10025 provider=android.content.ContentProviderProxy@5041151
+    authority=com.android.providers.downloads.documents
+  * ContentProviderRecord{a9f8de8 u0 com.ffalconxr.mercury.launcher/com.google.mlkit.common.internal.MlKitInitProvider}
+    package=com.ffalconxr.mercury.launcher process=com.ffalconxr.mercury.launcher
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@5a83db6
+    authority=com.ffalconxr.mercury.launcher.mlkitinitprovider
+    isSyncable=false multiprocess=false initOrder=99
+  * ContentProviderRecord{c9c4c01 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    uid=10024 provider=android.content.ContentProviderProxy@c33eab7
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{77adaa6 u0 com.rayneo.media/com.blankj.utilcode.util.UtilsFileProvider}
+    package=com.rayneo.media process=com.rayneo.media
+    proc=ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@428e224
+    authority=com.rayneo.media.utilcode.fileprovider
+  * ContentProviderRecord{51dce7 u0 com.android.mtp/.MtpDocumentsProvider}
+    package=com.android.mtp process=android.process.media
+    proc=ProcessRecord{b185963 18340:android.process.media/u0a25}
+    uid=10025 provider=android.content.ContentProviderProxy@627718d
+    authority=com.android.mtp.documents
+  * ContentProviderRecord{5d3a094 u0 com.ffalconxr.mercury.launcher/androidx.startup.InitializationProvider}
+    package=com.ffalconxr.mercury.launcher process=com.ffalconxr.mercury.launcher
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@3727f42
+    authority=com.ffalconxr.mercury.launcher.androidx-startup
+  * ContentProviderRecord{c80a73d u0 com.android.settings/.homepage.contextualcards.CardContentProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@9927b53
+    authority=com.android.settings.homepage.CardContentProvider
+  * ContentProviderRecord{be9fb32 u0 com.rayneo.record/com.blankj.utilcode.util.UtilsFileProvider}
+    package=com.rayneo.record process=com.rayneo.record
+    proc=ProcessRecord{bd874f6 3093:com.rayneo.record/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@a23fc90
+    authority=com.rayneo.record.utilcode.fileprovider
+  * ContentProviderRecord{7d56083 u0 com.sogou.inputmethod.iot/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller}
+    package=com.sogou.inputmethod.iot process=com.sogou.inputmethod.iot
+    proc=ProcessRecord{6cf4be 2437:com.sogou.inputmethod.iot/u0a54}
+    uid=10054 provider=android.content.ContentProviderProxy@fa69989
+    authority=com.sogou.inputmethod.iot.rmonitor-installer
+  * ContentProviderRecord{1943200 u0 com.rayneo.notes/com.microsoft.cognitiveservices.speech.util.InternalContentProvider}
+    package=com.rayneo.notes process=com.rayneo.notes
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@5ad4d8e
+    authority=com.rayneo.notes.MicrosoftCognitiveServicesSpeech.InternalContentProvider
+  * ContentProviderRecord{f557a39 u0 com.android.providers.contacts/.CallComposerLocationProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    uid=10024 provider=android.content.ContentProviderProxy@23f79af
+    authority=call_composer_locations
+  * ContentProviderRecord{3b8987e u0 com.android.settings/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@87451bc
+    authority=com.android.settings.lifecycle-process
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{38381df u0 com.android.webview/org.chromium.android_webview.services.SafeModeContentProvider}
+    package=com.android.webview process=com.android.webview:webview_service
+    proc=ProcessRecord{20bf2a4 8541:com.android.webview:webview_service/u0a58}
+    uid=10058 provider=android.content.ContentProviderProxy@dd64545
+    authority=com.android.webview.SafeModeContentProvider
+  * ContentProviderRecord{20a6e2c u0 com.rayneo.media/androidx.startup.InitializationProvider}
+    package=com.rayneo.media process=com.rayneo.media
+    proc=ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@5b4b49a
+    authority=com.rayneo.media.androidx-startup
+  * ContentProviderRecord{e0a80f5 u0 com.android.settings/androidx.core.content.FileProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@61401cb
+    authority=com.android.settings.files
+  * ContentProviderRecord{41be8a u0 com.rayneo.notes/androidx.startup.InitializationProvider}
+    package=com.rayneo.notes process=com.rayneo.notes
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@d12cda8
+    authority=com.rayneo.notes.androidx-startup
+  * ContentProviderRecord{cc85cfb u0 com.rayneo.notes/.provider.TodoContentProvider}
+    package=com.rayneo.notes process=com.rayneo.notes
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    launchingApp=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@39af0c1
+    authority=com.rayneo.notes.TodoContentProvider
+    Connections:
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +8h31m31s999ms
+  * ContentProviderRecord{2c64118 u0 com.rayneo.record/androidx.startup.InitializationProvider}
+    package=com.rayneo.record process=com.rayneo.record
+    proc=ProcessRecord{bd874f6 3093:com.rayneo.record/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@4998066
+    authority=com.rayneo.record.androidx-startup
+  * ContentProviderRecord{6cf3771 u0 com.android.permissioncontroller/.role.service.RoleSearchIndexablesProvider}
+    package=com.android.permissioncontroller process=com.android.permissioncontroller
+    proc=ProcessRecord{3c0c0f5 15016:com.android.permissioncontroller/u0a75}
+    uid=10075 provider=android.content.ContentProviderProxy@f5eefa7
+    authority=com.android.permissioncontroller.role
+  * ContentProviderRecord{b853956 u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.transfermode.ConnectContentProvider}
+    package=com.ffalconxr.mercury.launcher process=com.ffalconxr.mercury.launcher
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@a9b1c54
+    authority=com.ffalconxr.mercury.transfermode.ConnectContentProvider
+  * ContentProviderRecord{db5cdd7 u0 com.rayneo.airuntime/.provider.AiRuntimeFileProvider}
+    package=com.rayneo.airuntime process=com.rayneo.airuntime
+    proc=ProcessRecord{1413726 2634:com.rayneo.airuntime/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@3a4d7fd
+    authority=com.rayneo.airuntime.airuntimefileprovider
+  * ContentProviderRecord{1ad3cf2 u0 com.android.bluetooth/.opp.BluetoothOppProvider}
+    package=com.android.bluetooth process=com.android.bluetooth
+    proc=ProcessRecord{e3cce76 19809:com.android.bluetooth/1002}
+    uid=1002 provider=android.content.ContentProviderProxy@480df43
+    authority=com.android.bluetooth.opp
+  * ContentProviderRecord{14ed9ad u0 com.rayneo.live.ai/com.blankj.utilcode.util.UtilsFileProvider}
+    package=com.rayneo.live.ai process=com.rayneo.live.ai
+    proc=ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@fb7a9c0
+    authority=com.rayneo.live.ai.utilcode.fileprovider
+  * ContentProviderRecord{db394e2 u0 com.android.providers.media.module/com.android.providers.media.MediaDocumentsProvider}
+    package=com.android.providers.media.module process=com.android.providers.media.module
+    proc=ProcessRecord{cc70023 2387:com.android.providers.media.module/u0a76}
+    uid=10076 provider=android.content.ContentProviderProxy@16bf6f9
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{59f7073 u0 com.android.systemui/androidx.core.content.FileProvider}
+    package=com.android.systemui process=com.android.systemui
+    proc=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    uid=10069 provider=android.content.ContentProviderProxy@dce363e
+    authority=com.android.systemui.fileprovider
+  * ContentProviderRecord{5181b30 u0 com.android.settings/.deviceinfo.legal.ModuleLicenseProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@7482c9f
+    authority=com.android.settings.module_licenses
+  * ContentProviderRecord{aac63a9 u0 com.rayneo.xr.runtime/androidx.startup.InitializationProvider}
+    package=com.rayneo.xr.runtime process=com.rayneo.xr.runtime
+    proc=ProcessRecord{c265f9e 2603:com.rayneo.xr.runtime/u0a67}
+    uid=10067 provider=android.content.ContentProviderProxy@94da1ec
+    authority=com.rayneo.xr.runtime.androidx-startup
+  * ContentProviderRecord{f7a1d2e u0 com.android.webview/org.chromium.android_webview.services.DeveloperModeContentProvider}
+    package=com.android.webview process=com.android.webview:webview_service
+    proc=ProcessRecord{20bf2a4 8541:com.android.webview:webview_service/u0a58}
+    uid=10058 provider=android.content.ContentProviderProxy@5ec09b5
+    authority=com.android.webview.DeveloperModeContentProvider
+  * ContentProviderRecord{b76a0cf u0 com.rayneo.live.ai/androidx.startup.InitializationProvider}
+    package=com.rayneo.live.ai process=com.rayneo.live.ai
+    proc=ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@773784a
+    authority=com.rayneo.live.ai.androidx-startup
+  * ContentProviderRecord{e0cf3bb u0 com.android.bluetooth/.opp.BluetoothOppFileProvider}
+    package=com.android.bluetooth process=com.android.bluetooth
+    proc=ProcessRecord{e3cce76 19809:com.android.bluetooth/1002}
+    uid=1002 provider=android.content.ContentProviderProxy@b68f0d8
+    authority=com.android.bluetooth.opp.fileprovider
+  * ContentProviderRecord{53e9165 u0 com.leiniao.camera/com.blankj.utilcode.util.UtilsFileProvider}
+    package=com.leiniao.camera process=com.leiniao.camera
+    proc=ProcessRecord{3eea8d2 3055:com.leiniao.camera/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@4208c31
+    authority=com.leiniao.camera.utilcode.fileprovider
+  * ContentProviderRecord{50ede3a u0 com.android.statementservice/androidx.work.impl.WorkManagerInitializer}
+    package=com.android.statementservice process=com.android.statementservice
+    proc=ProcessRecord{ebb7ba8 18344:com.android.statementservice/u0a35}
+    uid=10035 provider=android.content.ContentProviderProxy@b78cf16
+    authority=com.android.statementservice.workmanager-init
+    isSyncable=false multiprocess=true initOrder=0
+  * ContentProviderRecord{9e67aeb u0 com.rayneo.aispeech/com.rayneo.appmars.SpeechProvider}
+    package=com.rayneo.aispeech process=com.rayneo.aispeech
+    proc=ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@28d1097
+    authority=com.rayneo.aispeech.mars.ContentProvider
+    Connections:
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +7h31m44s627ms
+  * ContentProviderRecord{d582048 u0 com.rayneo.notes/.ActionButtonProvider}
+    package=com.rayneo.notes process=com.rayneo.notes
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@ce84284
+    authority=com.rayneo.notes.ActionButtonProvider
+  * ContentProviderRecord{80bdee1 u0 com.rayneo.notes/com.blankj.utilcode.util.UtilsFileProvider}
+    package=com.rayneo.notes process=com.rayneo.notes
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@940ba6d
+    authority=com.rayneo.notes.utilcode.fileprovider
+  * ContentProviderRecord{dfca406 u0 com.android.settings/.slices.SettingsSliceProvider}
+    package=com.android.settings process=com.android.settings
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@6aac6a2
+    authority=com.android.settings.slices;android.settings.slices
+  * ContentProviderRecord{12fdac7 u0 com.android.providers.contacts/.CallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    uid=10024 provider=android.content.ContentProviderProxy@2881f33
+    authority=call_log
+  * ContentProviderRecord{2f2f8f4 u0 com.android.permissioncontroller/com.android.car.ui.core.SearchResultsProvider}
+    package=com.android.permissioncontroller process=com.android.permissioncontroller
+    proc=ProcessRecord{3c0c0f5 15016:com.android.permissioncontroller/u0a75}
+    uid=10075 provider=android.content.ContentProviderProxy@1e902f0
+    authority=com.android.permissioncontroller.SearchResultsProvider
+  * ContentProviderRecord{a06881d u0 com.android.webview/org.chromium.android_webview.nonembedded.LicenseContentProvider}
+    package=com.android.webview process=com.android.webview:webview_apk
+    proc=ProcessRecord{1ec6b59 8823:com.android.webview:webview_apk/u0a58}
+    uid=10058 provider=android.content.ContentProviderProxy@4bb9069
+    authority=com.android.webview.LicenseContentProvider
+  * ContentProviderRecord{412aaee u0 com.android.bluetooth/.map.MmsFileProvider}
+    package=com.android.bluetooth process=com.android.bluetooth
+    proc=ProcessRecord{e3cce76 19809:com.android.bluetooth/1002}
+    uid=1002 provider=android.content.ContentProviderProxy@e1b7b8f
+    authority=com.android.bluetooth.map.MmsFileProvider
+  * ContentProviderRecord{ac55c63 u0 com.rayneo.phone/androidx.startup.InitializationProvider}
+    package=com.rayneo.phone process=com.rayneo.phone
+    proc=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@f35e1c
+    authority=com.rayneo.phone.androidx-startup
+  * ContentProviderRecord{fc0b060 u0 com.rayneo.phone/com.ffalconxr.mercury.launcher.telephone.provider.PhoneInteractProvider}
+    package=com.rayneo.phone process=com.rayneo.phone
+    proc=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+    launchingApp=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@3f3ca25
+    authority=com.rayneo.phone.InteractProvider
+    Connections:
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +8h31m30s208ms
+      -> 2392:com.rayneo.aispeech:interactor/1000 s0/0 u1/1 +8h30m55s776ms
+      -> 4785:com.rayneo.aispeech/1000 s0/0 u1/1 +8h27m24s365ms
+      -> 3055:com.leiniao.camera/1000 s0/0 u1/1 +8h4m46s573ms
+  * ContentProviderRecord{5088919 u0 com.android.systemui/.keyguard.KeyguardSliceProvider}
+    package=com.android.systemui process=com.android.systemui
+    proc=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    uid=10069 provider=android.content.ContentProviderProxy@40287fa
+    authority=com.android.systemui.keyguard
+  * ContentProviderRecord{be2dde u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    package=com.android.providers.userdictionary process=android.process.acore
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    launchingApp=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    uid=10024 provider=android.content.ContentProviderProxy@fde41ab
+    authority=user_dictionary
+  * ContentProviderRecord{aa75bbf u0 com.rayneo.live.ai/.LiveAIProvider}
+    package=com.rayneo.live.ai process=com.rayneo.live.ai
+    proc=ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}
+    launchingApp=ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@ee64008
+    authority=com.rayneo.live.ai.provider
+    Connections:
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +8h30m53s130ms
+      -> 3093:com.rayneo.record/1000 s0/0 u1/1 +8h30m52s792ms
+  * ContentProviderRecord{bf0728c u0 com.rayneo.xr.runtime/com.rayneo.xr.provider.XRProvider}
+    package=com.rayneo.xr.runtime process=com.rayneo.xr.runtime
+    proc=ProcessRecord{c265f9e 2603:com.rayneo.xr.runtime/u0a67}
+    uid=10067 provider=android.content.ContentProviderProxy@dbbe3a1
+    authority=com.rayneo.xr.provider
+  * ContentProviderRecord{c8f9dd5 u0 com.rayneo.phone/com.blankj.utilcode.util.UtilsFileProvider}
+    package=com.rayneo.phone process=com.rayneo.phone
+    proc=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@7e129c6
+    authority=com.rayneo.phone.utilcode.fileprovider
+  * ContentProviderRecord{2fb49ea u0 com.rayneo.aispeech/androidx.startup.InitializationProvider}
+    package=com.rayneo.aispeech process=com.rayneo.aispeech
+    proc=ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@abd4d87
+    authority=com.rayneo.aispeech.androidx-startup
+  * ContentProviderRecord{a7ff4db u0 com.leiniao.camera/androidx.startup.InitializationProvider}
+    package=com.leiniao.camera process=com.leiniao.camera
+    proc=ProcessRecord{3eea8d2 3055:com.leiniao.camera/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@da354b4
+    authority=com.leiniao.camera.androidx-startup

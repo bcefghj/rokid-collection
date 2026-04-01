@@ -1,0 +1,200 @@
+ACTIVITY MANAGER BROADCAST STATE (dumpsys activity broadcasts)
+  Registered Receivers:
+  * ReceiverList{8d3ebb1 1288 system/1000/u0 local:2581e58}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{ff17896}
+      Action: "android.intent.action.SCREEN_OFF"
+      Action: "android.intent.action.SCREEN_ON"
+      mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+  * ReceiverList{b6e3ad1 1288 system/1000/u0 local:dfbb5f8}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{280e936}
+      Action: "com.tct.ble_only"
+  * ReceiverList{1ed7c62 1705 com.android.systemui/10069/u-1 remote:f29af2d}
+    app=1705:com.android.systemui/u0a69 pid=1705 uid=10069 user=-1
+    Filter #0: BroadcastFilter{3d001f3}
+      Action: "com.android.systemui.demo"
+      requiredPermission=android.permission.DUMP
+  * ReceiverList{d633c75 1288 system/1000/u-1 local:3aae7ac}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{72a940a}
+      Action: "android.intent.action.PACKAGE_ADDED"
+      Action: "android.intent.action.PACKAGE_REMOVED"
+      Action: "android.intent.action.PACKAGE_REPLACED"
+      Scheme: "package"
+  * ReceiverList{2d8b261 1288 system/1000/u-1 local:dce11c8}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{4a3b186}
+      Action: "android.intent.action.USER_STARTED"
+      Action: "android.intent.action.USER_STOPPED"
+      Action: "android.intent.action.USER_ADDED"
+      Action: "android.intent.action.USER_REMOVED"
+      Action: "android.intent.action.USER_UNLOCKED"
+    Filter #1: BroadcastFilter{7d351e0}
+      Action: "android.intent.action.PACKAGE_REPLACED"
+      Action: "android.intent.action.PACKAGE_REMOVED"
+      Scheme: "package"
+    Filter #2: BroadcastFilter{b2c4c99}
+      Action: "com.android.server.action.LOCKDOWN_RESET"
+      requiredPermission=android.permission.NETWORK_STACK
+  * ReceiverList{ad40bd4 19809 com.android.bluetooth/1002/u0 remote:d2fed27}
+    app=19809:com.android.bluetooth/1002 pid=19809 uid=1002 user=0
+    Filter #0: BroadcastFilter{1dbd17d}
+      Action: "android.intent.action.USER_SWITCHED"
+      Action: "android.intent.action.USER_UNLOCKED"
+  * ReceiverList{1b903da 1288 system/1000/u0 local:5894985}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{f8f400b}
+      Action: "android.telephony.action.NETWORK_COUNTRY_CHANGED"
+  * ReceiverList{55603c8 1705 com.android.systemui/10069/u0 remote:867bc6b}
+    app=1705:com.android.systemui/u0a69 pid=1705 uid=10069 user=0
+    Filter #0: BroadcastFilter{f76bc61}
+      Action: "com.android.systemui.BATTERY_LEVEL_TEST"
+  * ReceiverList{b2fdc58 1288 system/1000/u0 local:1365d3b}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{c93d1b1}
+      Action: "android.hardware.usb.action.USB_STATE"
+      Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      Action: "android.net.wifi.WIFI_AP_STATE_CHANGED"
+      Action: "android.intent.action.CONFIGURATION_CHANGED"
+      Action: "android.net.wifi.p2p.CONNECTION_STATE_CHANGE"
+      Action: "android.os.action.USER_RESTRICTIONS_CHANGED"
+      Action: "android.net.conn.RESTRICT_BACKGROUND_CHANGED"
+    Filter #1: BroadcastFilter{4ba6696}
+      Action: "com.android.server.connectivity.tethering.DISABLE_TETHERING"
+      requiredPermission=android.permission.MAINLINE_NETWORK_STACK
+  * ReceiverList{e955011 1288 system/1000/u0 local:828d838}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{21e7576}
+      Action: "android.location.MODE_CHANGED"
+  * ReceiverList{c4735b9 1288 system/1000/u0 local:391ab80}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{2c66dfe}
+      Action: "android.media.action.SPEAKERPHONE_STATE_CHANGED"
+  * ReceiverList{c42c600 1288 system/1000/u-1 local:491c483}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{4c27e39}
+      Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+      Action: "android.intent.action.PACKAGE_DATA_CLEARED"
+      Scheme: "package"
+      mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+  * ReceiverList{bf14e58 2437 com.sogou.inputmethod.iot/10054/u0 remote:32e573b}
+    app=2437:com.sogou.inputmethod.iot/u0a54 pid=2437 uid=10054 user=0
+    Filter #0: BroadcastFilter{bad5bb1}
+      Action: "android.net.wifi.STATE_CHANGE"
+  * ReceiverList{de1dcbb 1288 system/1000/u-1 local:956654a}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{e0e25d8}
+      Action: "android.intent.action.PACKAGE_CHANGED"
+      Action: "android.intent.action.PACKAGE_REMOVED"
+      Action: "android.intent.action.PACKAGE_ADDED"
+      Scheme: "package"
+    Filter #1: BroadcastFilter{89e1d31}
+      Action: "android.intent.action.BOOT_COMPLETED"
+  * ReceiverList{714b010 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:cfccd3}
+    app=1858:com.ffalconxr.mercury.launcher/1000 pid=1858 uid=1000 user=0
+    Filter #0: BroadcastFilter{dd40709}
+      Action: "android.bluetooth.pan.profile.action.CONNECTION_STATE_CHANGED"
+  * ReceiverList{c0971c0 1705 com.android.systemui/10069/u-1 remote:b5cc743}
+    app=1705:com.android.systemui/u0a69 pid=1705 uid=10069 user=-1
+    Filter #0: BroadcastFilter{b2e1ef9}
+      Action: "android.intent.action.WALLPAPER_CHANGED"
+  * ReceiverList{801aff3 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:2412262}
+    app=1858:com.ffalconxr.mercury.launcher/1000 pid=1858 uid=1000 user=0
+    Filter #0: BroadcastFilter{54624b0}
+      Action: "AIR_COMPUTER_STATE_CHANGED"
+  * ReceiverList{3c0dea9 1288 system/1000/u0 local:a15a230}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{cac7c2e}
+      Action: "android.intent.action.UID_REMOVED"
+  * ReceiverList{20b4722 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:8c8eced}
+    app=1858:com.ffalconxr.mercury.launcher/1000 pid=1858 uid=1000 user=0
+    Filter #0: BroadcastFilter{4c5d5b3}
+      Action: "android.intent.action.SCREEN_ON"
+      Action: "android.intent.action.SCREEN_OFF"
+  * ReceiverList{4fdee65 1288 system/1000/u-1 local:b7a6b5c}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{5df773a}
+      Action: "android.intent.action.PACKAGE_FULLY_REMOVED"
+      Action: "android.intent.action.PACKAGE_ADDED"
+      Action: "android.intent.action.PACKAGE_CHANGED"
+      Action: "android.intent.action.PACKAGE_RESTARTED"
+      Action: "android.intent.action.QUERY_PACKAGE_RESTART"
+      Scheme: "package"
+    Filter #1: BroadcastFilter{7559feb}
+      Action: "android.intent.action.USER_REMOVED"
+      Action: "android.intent.action.USER_ADDED"
+  * ReceiverList{e7bde68 1288 system/1000/u-1 local:1a7dd8b}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{4f19281}
+      Action: "android.intent.action.PACKAGE_ADDED"
+      Action: "android.intent.action.PACKAGE_REMOVED"
+      Action: "android.intent.action.PACKAGE_CHANGED"
+      Action: "android.intent.action.QUERY_PACKAGE_RESTART"
+      Action: "android.intent.action.PACKAGE_RESTARTED"
+      Action: "android.intent.action.PACKAGE_DATA_CLEARED"
+      Scheme: "package"
+    Filter #1: BroadcastFilter{644df26}
+      Action: "android.intent.action.UID_REMOVED"
+      Action: "android.intent.action.USER_STOPPED"
+      Action: "android.intent.action.PACKAGES_SUSPENDED"
+      Action: "android.intent.action.PACKAGES_UNSUSPENDED"
+    Filter #2: BroadcastFilter{4b4c767}
+      Action: "android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"
+      Action: "android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE"
+  * ReceiverList{4e9ed7c 1288 system/1000/u0 local:5f2c6f}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{7de1605}
+      Action: "android.os.action.SETTING_RESTORED"
+  * ReceiverList{73f4dd4 1288 system/1000/u-1 local:b16f727}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{5a2eb7d}
+      Action: "android.bluetooth.a2dp.profile.action.ACTIVE_DEVICE_CHANGED"
+  * ReceiverList{2d6c839 1705 com.android.systemui/10069/u-1 remote:431f800}
+    app=1705:com.android.systemui/u0a69 pid=1705 uid=10069 user=-1
+    Filter #0: BroadcastFilter{b8ace7e}
+      Action: "com.android.internal.intent.action.BUGREPORT_STARTED"
+  * ReceiverList{72fdbda 1705 com.android.systemui/10069/u0 remote:db48185}
+    app=1705:com.android.systemui/u0a69 pid=1705 uid=10069 user=0
+    Filter #0: BroadcastFilter{8f9380b}
+      Action: "android.intent.action.USER_SWITCHED"
+  * ReceiverList{5d27cce 1288 system/1000/u-1 local:5f1fdc9}
+    app=1288:system/1000 pid=1288 uid=1000 user=-1
+    Filter #0: BroadcastFilter{1fa17ef}
+      Action: "android.intent.action.BOOT_COMPLETED"
+      Action: "com.android.server.ACTION_EXPIRED_PASSWORD_NOTIFICATION"
+      Action: "com.android.server.ACTION_TURN_PROFILE_ON_NOTIFICATION"
+      Action: "com.android.server.ACTION_PROFILE_OFF_DEADLINE"
+      Action: "android.intent.action.USER_ADDED"
+      Action: "android.intent.action.USER_REMOVED"
+      Action: "android.intent.action.USER_STARTED"
+      Action: "android.intent.action.USER_STOPPED"
+      Action: "android.intent.action.USER_SWITCHED"
+      Action: "android.intent.action.USER_UNLOCKED"
+      Action: "android.intent.action.MANAGED_PROFILE_UNAVAILABLE"
+      mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+    Filter #1: BroadcastFilter{ca132fc}
+      Action: "android.intent.action.PACKAGE_CHANGED"
+      Action: "android.intent.action.PACKAGE_REMOVED"
+      Action: "android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE"
+      Action: "android.intent.action.PACKAGE_ADDED"
+      Scheme: "package"
+    Filter #2: BroadcastFilter{913ad85}
+      Action: "android.intent.action.MANAGED_PROFILE_ADDED"
+      Action: "android.intent.action.TIME_SET"
+      Action: "android.intent.action.DATE_CHANGED"
+  * ReceiverList{476023c 1705 com.android.systemui/10069/u0 remote:86f9c2f}
+    app=1705:com.android.systemui/u0a69 pid=1705 uid=10069 user=0
+    Filter #0: BroadcastFilter{1556bc5}
+      Action: "android.intent.action.SERVICE_STATE"
+  * ReceiverList{a200db4 1288 system/1000/u0 local:6c54a87}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{10adddd}
+      Action: "android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE"
+      Action: "android.intent.action.EXTERNAL_APPLICATIONS_UNAVAILABLE"
+  * ReceiverList{766a96a 1288 system/1000/u0 local:f16cb55}
+    app=1288:system/1000 pid=1288 uid=1000 user=0
+    Filter #0: BroadcastFilter{509e5b}
+      Action: "android.intent.action.PACKAGE_NEEDS_INTEGRITY_VERIFICATION"
+      StaticType: "application/vnd.android.package-archive"
+  * ReceiverList{e7f5dc6 2486 android.process.acore/10024/u0 remote:7e267a1}

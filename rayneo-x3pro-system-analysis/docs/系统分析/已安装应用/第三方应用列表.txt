@@ -1,0 +1,16 @@
+package:com.ffalcon.vision.scanner.maotai
+package:com.phoenix.read
+package:com.chatppt.noteshow.release
+package:com.xingin.xhs
+package:com.tencent.mm
+package:com.tencent.qqmusicpad
+package:com.rayneo.lifeai
+package:com.Ffalcon.BEATSPACE
+package:com.larus.nova
+package:com.rayneo.airscreen
+package:com.tencent.wemeet.app
+package:com.sina.weibo
+package:com.rayneogame.skiing
+package:com.RayneoGame.ARPet
+package:tv.danmaku.bili
+package:com.rayneogame.pinball

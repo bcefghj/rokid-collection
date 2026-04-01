@@ -1,0 +1,50 @@
+  *APP* UID 1000 ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    class=com.ffalconxr.mercury.launcher.MyApplication
+    dir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk publicDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk data=/data/user_de/0/com.ffalconxr.mercury.launcher
+    packageList={com.ffalconxr.mercury.launcher}
+    packageDependencies={com.rayneo.xr.runtime}
+      - ServiceRecord{1562648 u0 com.ffalconxr.mercury.launcher/com.rayneo.fota.UpdateService}
+      - ServiceRecord{3ba4cec u0 com.ffalconxr.mercury.launcher/com.rayneo.platform.input.InputMonitorService}
+      - ServiceRecord{687213f u0 com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService}
+      - ServiceRecord{6cee8ab u0 com.ffalconxr.mercury.launcher/.MercuryService}
+      - ServiceRecord{74d25d5 u0 com.ffalconxr.mercury.launcher/com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService}
+      - ServiceRecord{ba5605c u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.device.service.XRDeviceManagerService}
+      - ServiceRecord{ca22b71 u0 com.ffalconxr.mercury.launcher/com.amap.api.location.APSService}
+      - ServiceRecord{f9b3bf3 u0 com.ffalconxr.mercury.launcher/com.rayneo.log.LogService}
+      - ConnectionRecord{38ee475 u0 CR WPRI com.rayneo.media/.MediaCoreService:@e1c2fac}
+      - ConnectionRecord{39128b2 u0 CR WPRI com.rayneo.phone/com.ffalconxr.mercury.launcher.telephone.service.PhoneCoreService:@9ba1abd}
+      - ConnectionRecord{3d3995e u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@5aa7299}
+      - ConnectionRecord{8a5595f u0 WPRI com.rayneo.airuntime/.AiService:@6651dfe}
+      - ConnectionRecord{8fc8518 u0 CR com.ffalconxr.mercury.launcher/com.amap.api.location.APSService:@49d30fb}
+      - ConnectionRecord{e8f69d9 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@d079c20}
+        -> ContentProviderRecord{5d3a094 u0 com.ffalconxr.mercury.launcher/androidx.startup.InitializationProvider}
+      - com.ffalconxr.mercury.launcher.provider.MercuryInteractProvider
+        -> ContentProviderRecord{a10f190 u0 com.ffalconxr.mercury.launcher/.provider.MercuryInteractProvider}
+        -> ContentProviderRecord{dac87f9 u0 com.ffalconxr.mercury.launcher/com.blankj.utilcode.util.UtilsFileProvider}
+      - com.ffalconxr.mercury.launcher.record.RecordNotifyProvider
+        -> ContentProviderRecord{a7f03b7 u0 com.ffalconxr.mercury.launcher/.record.RecordNotifyProvider}
+      - com.ffalconxr.mercury.transfermode.ConnectContentProvider
+        -> ContentProviderRecord{b853956 u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.transfermode.ConnectContentProvider}
+      - com.ffalconxr.mercury.launcher.notes.TodoNotifyProvider
+        -> ContentProviderRecord{334a645 u0 com.ffalconxr.mercury.launcher/.notes.TodoNotifyProvider}
+        -> ContentProviderRecord{a9f8de8 u0 com.ffalconxr.mercury.launcher/com.google.mlkit.common.internal.MlKitInitProvider}
+        -> ContentProviderRecord{1782b78 u0 com.ffalconxr.mercury.launcher/com.liulishuo.okdownload.OkDownloadProvider}
+      - 37c6c85/com.android.providers.settings/.SettingsProvider->1858:com.ffalconxr.mercury.launcher/1000 s1/1 u0/0 +8h32m0s600ms
+      - 672019a/com.rayneo.media/.core.MusicContentProvider->1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +8h31m52s136ms
+      - 1feb28d/com.rayneo.record/.provider.RecordContentProvider->1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +8h31m26s442ms
+      - cc85cfb/com.rayneo.notes/.provider.TodoContentProvider->1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +8h31m26s387ms
+      - fc0b060/com.rayneo.phone/com.ffalconxr.mercury.launcher.telephone.provider.PhoneInteractProvider->1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +8h31m24s595ms
+      - aa75bbf/com.rayneo.live.ai/.LiveAIProvider->1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +8h30m47s517ms
+      - 50962a8/com.rayneo.record/.ActionButtonProvider->1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +8h30m47s197ms
+      - 9e67aeb/com.rayneo.aispeech/com.rayneo.appmars.SpeechProvider->1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +7h31m39s15ms
+      - ReceiverList{180bf4 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:44159c7}
+      - ReceiverList{645f17 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:fa4796}
+      - ReceiverList{6e5b3b 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:d63cdca}
+      - ReceiverList{8bf5c3 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:2349d72}
+      - ReceiverList{11d5b41 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:fca5228}
+      - ReceiverList{14f34f7 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:ed548f6}
+      - ReceiverList{15b3d5c 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:6464fcf}
+      - ReceiverList{18abd1d 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:3c2e1f4}
+      - ReceiverList{20b4722 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:8c8eced}
+      - ReceiverList{22ac602 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:e8d9b4d}
+      - ReceiverList{2ab1ebe 1858 com.ffalconxr.mercury.launcher/1000/u0 remote:a813179}

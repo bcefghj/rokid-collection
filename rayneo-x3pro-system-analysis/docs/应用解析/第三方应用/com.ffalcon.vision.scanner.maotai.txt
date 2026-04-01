@@ -1,0 +1,232 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        ce50cff com.ffalcon.vision.scanner.maotai/com.ffalcon.vision.scanner.MainActivity filter 3b66acc
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.ffalocn.vision.mock:
+        ce50cff com.ffalcon.vision.scanner.maotai/com.ffalcon.vision.scanner.MainActivity filter efdd115
+          Action: "com.ffalocn.vision.mock"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        3049c2a com.ffalcon.vision.scanner.maotai/androidx.profileinstaller.ProfileInstallReceiver filter c776991
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        3049c2a com.ffalcon.vision.scanner.maotai/androidx.profileinstaller.ProfileInstallReceiver filter 3077a1b
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        3049c2a com.ffalcon.vision.scanner.maotai/androidx.profileinstaller.ProfileInstallReceiver filter d4567b8
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        3049c2a com.ffalcon.vision.scanner.maotai/androidx.profileinstaller.ProfileInstallReceiver filter 82850f6
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.ffalcon.vision.scanner.maotai.messenger:
+        6199cf7 com.ffalcon.vision.scanner.maotai/com.blankj.utilcode.util.MessengerUtils$ServerService filter 4c54764
+          Action: "com.ffalcon.vision.scanner.maotai.messenger"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.ffalcon.vision.scanner.maotai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (1f752e):
+    sourcePackage=com.ffalcon.vision.scanner.maotai
+    uid=10080 gids=[] type=0 prot=signature
+    perm=PermissionInfo{93dc713 com.ffalcon.vision.scanner.maotai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  com.ffalcon.vision.scanner.maotai/androidx.core.content.FileProvider:
+    Provider{c5ef50c com.ffalcon.vision.scanner.maotai/androidx.core.content.FileProvider}
+  com.ffalcon.vision.scanner.maotai/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{95d7eda com.ffalcon.vision.scanner.maotai/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.ffalcon.vision.scanner.maotai/androidx.startup.InitializationProvider:
+    Provider{5f70f25 com.ffalcon.vision.scanner.maotai/androidx.startup.InitializationProvider}
+  com.ffalcon.vision.scanner.maotai/com.blankj.utilcode.util.UtilsFileProvider:
+    Provider{6652662 com.ffalcon.vision.scanner.maotai/com.blankj.utilcode.util.UtilsFileProvider}
+
+ContentProvider Authorities:
+  [com.ffalcon.vision.scanner.maotai.utilcode.fileprovider]:
+    Provider{6652662 com.ffalcon.vision.scanner.maotai/com.blankj.utilcode.util.UtilsFileProvider}
+      applicationInfo=ApplicationInfo{2ad18cf com.ffalcon.vision.scanner.maotai}
+  [com.ffalcon.vision.scanner.maotai.androidx-startup]:
+    Provider{5f70f25 com.ffalcon.vision.scanner.maotai/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{5cd25c com.ffalcon.vision.scanner.maotai}
+  [com.ffalcon.vision.scanner.maotai.mlkitinitprovider]:
+    Provider{95d7eda com.ffalcon.vision.scanner.maotai/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{ec5c965 com.ffalcon.vision.scanner.maotai}
+  [com.ffalcon.vision.scanner.maotai.fileprovider]:
+    Provider{c5ef50c com.ffalcon.vision.scanner.maotai/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{6b1b63a com.ffalcon.vision.scanner.maotai}
+
+Key Set Manager:
+  [com.ffalcon.vision.scanner.maotai]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.ffalcon.vision.scanner.maotai] (dc102cf):
+    userId=10080
+    pkg=Package{523745c com.ffalcon.vision.scanner.maotai}
+    codePath=/data/app/~~KWFfHv00bbVBFrkXttwUAw==/com.ffalcon.vision.scanner.maotai-FXTPqBnGqCQJuM_6g0A-NA==
+    resourcePath=/data/app/~~KWFfHv00bbVBFrkXttwUAw==/com.ffalcon.vision.scanner.maotai-FXTPqBnGqCQJuM_6g0A-NA==
+    legacyNativeLibraryDir=/data/app/~~KWFfHv00bbVBFrkXttwUAw==/com.ffalcon.vision.scanner.maotai-FXTPqBnGqCQJuM_6g0A-NA==/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2025061315 minSdk=31 targetSdk=31
+    minExtensionVersions=[]
+    versionName=V2025.06.13.15
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{523745c com.ffalcon.vision.scanner.maotai}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.ffalcon.vision.scanner.maotai
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.window.extensions
+      androidx.window.sidecar
+    timeStamp=2026-03-18 18:41:18
+    firstInstallTime=2026-03-18 18:41:19
+    lastUpdateTime=2026-03-18 18:41:19
+    installerPackageName=com.ffalconxr.mercury.launcher
+    signatures=PackageSignatures{8b4c365 version:3, signatures:[e89d297f], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    declared permissions:
+      com.ffalcon.vision.scanner.maotai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.RECORD_AUDIO
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.SYSTEM_OVERLAY_WINDOW
+      android.permission.CONTROL_DEVICE_LIGHTS
+      android.permission.INTERNET
+      android.permission.READ_PHONE_STATE
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.VIBRATE
+      android.permission.FLASHLIGHT
+      com.ffalcon.vision.scanner.maotai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      com.ffalcon.vision.scanner.maotai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      android.permission.CONTROL_DEVICE_LIGHTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+    User 0: ceDataInode=4988 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      lastDisabledCaller: com.ffalconxr.mercury.launcher
+      gids=[3003]
+      runtime permissions:
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+    [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+      com.ffalcon.vision.scanner.maotai
+    com.xingin.xhs:
+      com.ffalcon.vision.scanner.maotai
+    com.sina.weibo:
+      com.ffalcon.vision.scanner.maotai
+    com.tencent.mm:
+      com.ffalcon.vision.scanner.maotai
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.ffalcon.vision.scanner.maotai]
+    path: /data/app/~~KWFfHv00bbVBFrkXttwUAw==/com.ffalcon.vision.scanner.maotai-FXTPqBnGqCQJuM_6g0A-NA==/base.apk
+      arm64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.ffalcon.vision.scanner.maotai]
+     base.apk - 2795
+Snapshot statistics
+   Unrecorded-hits: 4331  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:26         now           0           0           0           0           0           0           0
+          1:26        0:26           0           0           0           0           0           0           0
+          2:26        1:26           0           0           0           0           0           0           0
+          3:26        2:26           0           0           0           0           0           0           0
+          4:26        3:26           0           0           0           0           0           0           0
+          5:26        4:26           0           0           0           0           0           0           0
+          6:26        5:26           0           0           0           0           0           0           0
+          7:26        6:26           0           0           0           0           0           0           0
+          8:26        7:26           0           0           0           0           0           0           0
+          9:26        8:26           0           0           0           0           0           0           0
+   20513:16:09:10         now         305      413335           0           2          73         241          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:26         now           0           0           0           0           0           0           0           0
+          1:26        0:26           0           0           0           0           0           0           0           0
+          2:26        1:26           0           0           0           0           0           0           0           0
+          3:26        2:26           0           0           0           0           0           0           0           0
+          4:26        3:26           0           0           0           0           0           0           0           0
+          5:26        4:26           0           0           0           0           0           0           0           0
+          6:26        5:26           0           0           0           0           0           0           0           0
+          7:26        6:26           0           0           0           0           0           0           0           0
+          8:26        7:26           0           0           0           0           0           0           0           0
+          9:26        8:26           0           0           0           0           0           0           0           0
+   20513:16:09:10         now         277          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:26         now           0           0           0           0           0           0           0           0
+          1:26        0:26           0           0           0           0           0           0           0           0
+          2:26        1:26           0           0           0           0           0           0           0           0
+          3:26        2:26           0           0           0           0           0           0           0           0
+          4:26        3:26           0           0           0           0           0           0           0           0
+          5:26        4:26           0           0           0           0           0           0           0           0
+          6:26        5:26           0           0           0           0           0           0           0           0
+          7:26        6:26           0           0           0           0           0           0           0           0
+          8:26        7:26           0           0           0           0           0           0           0           0
+          9:26        8:26           0           0           0           0           0           0           0           0
+   20513:16:09:10         now          52          14           6           5           5          26          21         175

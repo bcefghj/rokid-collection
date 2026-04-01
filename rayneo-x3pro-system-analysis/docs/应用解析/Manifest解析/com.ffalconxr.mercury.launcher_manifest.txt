@@ -1,0 +1,14 @@
+=========================================
+  包名: com.ffalconxr.mercury.launcher
+=========================================
+
+--- 版本信息 ---
+    codePath=/system_ext/priv-app/RayNeoLauncher
+    versionCode=2026020406 minSdk=31 targetSdk=31
+    versionName=2026.02.04.06
+    firstInstallTime=2009-01-01 08:00:00
+    lastUpdateTime=2009-01-01 08:00:00
+
+--- 申请的权限 ---
+    requested permissions:
+      android.permission.BLUETOOTH

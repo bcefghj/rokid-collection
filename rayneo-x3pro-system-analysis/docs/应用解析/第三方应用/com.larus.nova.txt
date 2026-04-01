@@ -1,0 +1,857 @@
+Activity Resolver Table:
+  Full MIME Types:
+      application/*:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text/*:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio/*:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image/*:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      text:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      audio:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      application:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      doubao:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter 9aec21c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "doubao"
+      http:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter b068bfa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.doubao.com": -1
+          Authority: "inhouse.doubao.com": -1
+          Path: "PatternMatcher{LITERAL: /share}"
+          AutoVerify=true
+        dcbf5ab com.larus.nova/com.larus.bmhome.AppLinkActivity filter 1f3e408
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "doubao.zlinkurl.cn": -1
+          AutoVerify=true
+      https:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter b068bfa
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "www.doubao.com": -1
+          Authority: "inhouse.doubao.com": -1
+          Path: "PatternMatcher{LITERAL: /share}"
+          AutoVerify=true
+        dcbf5ab com.larus.nova/com.larus.bmhome.AppLinkActivity filter 1f3e408
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "doubao.zlinkurl.cn": -1
+          AutoVerify=true
+      tencent1112323716:
+        24be469 com.larus.nova/com.tencent.tauth.AuthActivity filter c1e6eee
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent1112323716"
+      qqmusicapilarus:
+        9d4845f com.larus.nova/com.larus.music.qq.CallbackActivity filter 4b7eac
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "qqmusicapilarus"
+      com.larus.wolf:
+        e7518b9 com.larus.nova/net.openid.appauth.RedirectUriReceiverActivity filter d7a14fe
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "com.larus.wolf"
+
+  Non-Data Actions:
+      com.larus.nova.pushsdk.action:
+        767077b com.larus.nova/com.bytedance.push.notification.PushActivity filter f47d998
+          Action: "com.larus.nova.pushsdk.action"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+      android.intent.action.MAIN:
+        a82b7a1 com.larus.nova/com.larus.home.impl.alias.AliasActivity1 filter 5216dc6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        bd24187 com.larus.nova/com.larus.home.impl.alias.AliasActivity2 filter de738b4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        df22cdd com.larus.nova/com.larus.home.impl.alias.AliasActivity3 filter 9b6a052
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        9076f23 com.larus.nova/com.larus.home.impl.alias.AliasActivity4 filter 4192c20
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ae9b9d9 com.larus.nova/com.larus.home.impl.alias.AliasActivity5 filter 2fa6f9e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4d7da7f com.larus.nova/com.larus.home.impl.alias.AliasActivity6 filter 1b4ea4c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        c331a95 com.larus.nova/com.larus.home.impl.alias.AliasActivity7 filter 819e7aa
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f199f9b com.larus.nova/com.larus.home.impl.alias.AliasActivity8 filter 96c5f38
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        577cb11 com.larus.nova/com.larus.home.impl.alias.AliasActivity9 filter 406d476
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4e89a77 com.larus.nova/com.larus.home.impl.alias.AliasActivity10 filter 52436e4
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        17d074d com.larus.nova/com.larus.home.impl.alias.AliasChatActivity1 filter d03c202
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f426713 com.larus.nova/com.larus.home.impl.alias.AliasChatActivity2 filter 65fdd50
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        81fcb49 com.larus.nova/com.larus.home.impl.alias.AliasChatActivity3 filter 8effc4e
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        f62616f com.larus.nova/com.larus.home.impl.alias.AliasChatActivity4 filter 16d7e7c
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        810d305 com.larus.nova/com.larus.home.impl.alias.AliasChatActivity5 filter a538f5a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        4dda58b com.larus.nova/com.larus.home.impl.alias.AliasChatActivity6 filter f520668
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        509a81 com.larus.nova/com.larus.home.impl.alias.AliasChatActivity7 filter 22b4726
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        97f0f67 com.larus.nova/com.larus.home.impl.alias.AliasChatActivity8 filter 2752114
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        56b5dbd com.larus.nova/com.larus.home.impl.alias.AliasChatActivity9 filter 274afb2
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+        ee33b03 com.larus.nova/com.larus.home.impl.alias.AliasChatActivity10 filter a0d3a80
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+      com.larus.nova.luckydog.tokenunion.dataunion.DataUnionActivity:
+        5c58775 com.larus.nova/com.bytedance.ug.sdk.luckydog.tokenunion.dataunion.DataUnionActivity filter dde830a
+          Action: "com.larus.nova.luckydog.tokenunion.dataunion.DataUnionActivity"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.SEND_MULTIPLE:
+        8d5ef8f com.larus.nova/com.larus.home.impl.MainActivity filter c355e25
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          StaticType: "audio"
+          StaticType: "image"
+          StaticType: "application"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        d276e3 com.larus.nova/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 67f8e0
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        794302d com.larus.nova/com.xiaomi.push.service.receivers.MIPushMessageHandler filter b18eaf3
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+        230a229 com.larus.nova/com.xiaomi.push.service.receivers.SmpMIPushMessageHandler filter b4d434f
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+        70837e5 com.larus.nova/com.xiaomi.push.service.receivers.WidgetProviderMIPushMessageHandler filter c4c56b
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        98e7e9d com.larus.nova/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 6adef12
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.xiaomi.mipush.ERROR:
+        794302d com.larus.nova/com.xiaomi.push.service.receivers.MIPushMessageHandler filter c2443b0
+          Action: "com.xiaomi.mipush.ERROR"
+        230a229 com.larus.nova/com.xiaomi.push.service.receivers.SmpMIPushMessageHandler filter 881eadc
+          Action: "com.xiaomi.mipush.ERROR"
+        70837e5 com.larus.nova/com.xiaomi.push.service.receivers.WidgetProviderMIPushMessageHandler filter 3b0d8c8
+          Action: "com.xiaomi.mipush.ERROR"
+      android.bluetooth.adapter.action.STATE_CHANGED:
+        97425f1 com.larus.nova/com.larus.dora.impl.core.DoraLinkReceiver filter 369c5d6
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+      com.huawei.android.push.intent.REGISTRATION:
+        cc5df5b com.larus.nova/com.huawei.hms.support.api.push.PushReceiver filter 5b003f8
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED:
+        97425f1 com.larus.nova/com.larus.dora.impl.core.DoraLinkReceiver filter 369c5d6
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        94fe455 com.larus.nova/com.huawei.hms.support.api.push.PushMsgReceiver filter d544e6a
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      com.larus.nova.pushsdk.notification.delete.action.smp:
+        be84d47 com.larus.nova/com.bytedance.notification.SmpNotificationDeleteBroadcastReceiver filter 55eb974
+          Action: "com.larus.nova.pushsdk.notification.delete.action.smp"
+      android.bluetooth.device.action.ACL_CONNECTED:
+        97425f1 com.larus.nova/com.larus.dora.impl.core.DoraLinkReceiver filter 369c5d6
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+      com.huawei.android.push.intent.RECEIVE:
+        cc5df5b com.larus.nova/com.huawei.hms.support.api.push.PushReceiver filter 5b003f8
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.vivo.pushclient.action.RECEIVE:
+        6f770d1 com.larus.nova/com.vivo.VivoPushMessageReceiver filter e60e736
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.larus.nova.pushsdk.notification.delete.action:
+        7096d61 com.larus.nova/com.bytedance.notification.NotificationDeleteBroadcastReceiver filter 85d5086
+          Action: "com.larus.nova.pushsdk.notification.delete.action"
+      android.intent.action.BATTERY_LOW:
+        d276e3 com.larus.nova/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 67f8e0
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        98e7e9d com.larus.nova/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 6adef12
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED:
+        97425f1 com.larus.nova/com.larus.dora.impl.core.DoraLinkReceiver filter 369c5d6
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+      android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED:
+        97425f1 com.larus.nova/com.larus.dora.impl.core.DoraLinkReceiver filter 369c5d6
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+      com.xiaomi.push.PING_TIMER:
+        7d4a057 com.larus.nova/com.xiaomi.push.service.receivers.PingReceiver filter 8acf744
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        794302d com.larus.nova/com.xiaomi.push.service.receivers.MIPushMessageHandler filter 946962
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+        230a229 com.larus.nova/com.xiaomi.push.service.receivers.SmpMIPushMessageHandler filter 4d3b9ae
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+        70837e5 com.larus.nova/com.xiaomi.push.service.receivers.WidgetProviderMIPushMessageHandler filter fa5c2ba
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.vivo.pushclient.action.RECEIVE_SMP:
+        f791637 com.larus.nova/com.vivo.SmpVivoPushMessageReceiver filter dd67a4
+          Action: "com.vivo.pushclient.action.RECEIVE_SMP"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        ab9e3f com.larus.nova/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 703c30c
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      com.huawei.intent.action.PUSH:
+        94fe455 com.larus.nova/com.huawei.hms.support.api.push.PushMsgReceiver filter d544e6a
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        97425f1 com.larus.nova/com.larus.dora.impl.core.DoraLinkReceiver filter 369c5d6
+          Action: "android.bluetooth.adapter.action.STATE_CHANGED"
+          Action: "android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED"
+          Action: "android.bluetooth.device.action.ACL_CONNECTED"
+          Action: "android.bluetooth.device.action.ACL_DISCONNECTED"
+          Action: "android.bluetooth.headset.profile.action.AUDIO_STATE_CHANGED"
+          Action: "android.bluetooth.a2dp.profile.action.CONNECTION_STATE_CHANGED"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        7596799 com.larus.nova/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter 7f7ea5e
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.ss.android.message.action.PUSH_SERVICE:
+        a05fb27 com.larus.nova/com.ss.android.message.NotifyService filter e3c01d4
+          Action: "com.ss.android.message.action.PUSH_SERVICE"
+      com.bytedance.luckydog.crossover.token:
+        6beded3 com.larus.nova/com.bytedance.ug.sdk.luckydog.task.CrossoverService filter 15b5a10
+          Action: "com.bytedance.luckydog.crossover.token"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.push.msg.NOTIFY_MSG:
+        755281f com.larus.nova/com.huawei.hms.support.api.push.service.HmsMsgService filter 875b76c
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.flow.action.TEE.VIEW:
+        1b66909 com.larus.nova/com.privacy.azerothprivacy.service.AzerothServiceUtil filter 4a1a70e
+          Action: "com.flow.action.TEE.VIEW"
+          Category: "com.flow.category.TEE"
+          Category: "android.intent.category.DEFAULT"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        c8e952f com.larus.nova/com.heytap.msp.push.service.DataMessageCallbackService filter b84073c permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+        8f9554b com.larus.nova/com.heytap.msp.push.service.SmpDataMessageCallbackService filter d285b28 permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      android.service.notification.NotificationListenerService:
+        b1490d com.larus.nova/com.larus.dora.impl.nl.NLService filter ccc40c2 permission android.permission.BIND_NOTIFICATION_LISTENER_SERVICE
+          Action: "android.service.notification.NotificationListenerService"
+      com.heytap.msp.push.RECEIVE_MCS_MESSAGE:
+        c8e952f com.larus.nova/com.heytap.msp.push.service.DataMessageCallbackService filter b84073c permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+        8f9554b com.larus.nova/com.heytap.msp.push.service.SmpDataMessageCallbackService filter d285b28 permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        5d38cc5 com.larus.nova/com.heytap.msp.push.service.CompatibleDataMessageCallbackService filter 555261a permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+        ee53041 com.larus.nova/com.heytap.msp.push.service.SmpCompatibleDataMessageCallbackService filter f8f89e6 permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.huawei.push.msg.PASSBY_MSG:
+        755281f com.larus.nova/com.huawei.hms.support.api.push.service.HmsMsgService filter 875b76c
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.hihonor.push.action.MESSAGING_EVENT:
+        d4d22c3 com.larus.nova/com.honor.HonorMessageListenerService filter 416740
+          Action: "com.hihonor.push.action.MESSAGING_EVENT"
+      com.ss.android.redbadge.message:
+        6138f7d com.larus.nova/com.ss.android.newmedia.redbadge.RedbadgeHandler filter 3ba5e72
+          Action: "com.ss.android.redbadge.message"
+      com.huawei.push.action.MESSAGING_EVENT:
+        4cea679 com.larus.nova/com.huawei.MessageService filter d4befbe
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+
+Domain verification status:
+  com.larus.nova:
+    ID: fa9d4327-8f63-40e7-843d-9ce08168f9bd
+    Signatures: [FF:04:B4:7E:C9:DD:20:B7:9F:75:8A:F6:7A:18:49:26:DB:00:AC:55:CF:D2:A0:1E:03:FB:A9:A1:DC:A9:DE:2A]
+    Domain verification state:
+      doubao.zlinkurl.cn: verified
+      inhouse.doubao.com: verified
+      www.doubao.com: verified
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          doubao.zlinkurl.cn
+          inhouse.doubao.com
+          www.doubao.com
+
+Permissions:
+  Permission [com.larus.nova.permission.PUSH_PROVIDER] (9ea5fc):
+    sourcePackage=com.larus.nova
+    uid=10088 gids=[] type=0 prot=signature
+    perm=PermissionInfo{d292961 com.larus.nova.permission.PUSH_PROVIDER}
+
+Permissions:
+  Permission [com.larus.nova.permission.PUSH_WRITE_PROVIDER] (707a485):
+    sourcePackage=com.larus.nova
+    uid=10088 gids=[] type=0 prot=signature
+    perm=PermissionInfo{fc91aa3 com.larus.nova.permission.PUSH_WRITE_PROVIDER}
+
+Permissions:
+  Permission [com.larus.nova.permission.MIPUSH_RECEIVE] (63fc2da):
+    sourcePackage=com.larus.nova
+    uid=10088 gids=[] type=0 prot=signature
+    perm=PermissionInfo{b083673 com.larus.nova.permission.MIPUSH_RECEIVE}
+
+Permissions:
+  Permission [com.larus.nova.permission.PRIVACY_BROADCAST] (520930b):
+    sourcePackage=com.larus.nova
+    uid=10088 gids=[] type=0 prot=signature
+    perm=PermissionInfo{af757c1 com.larus.nova.permission.PRIVACY_BROADCAST}
+
+Permissions:
+  Permission [com.larus.nova.permission.PROCESS_PUSH_MSG] (12e25e8):
+    sourcePackage=com.larus.nova
+    uid=10088 gids=[] type=0 prot=signature
+    perm=PermissionInfo{948a991 com.larus.nova.permission.PROCESS_PUSH_MSG}
+
+Registered ContentProviders:
+  com.larus.nova/com.bytedance.ug.sdk.share.impl.provider.ShareSdkProvider:
+    Provider{c976926 com.larus.nova/com.bytedance.ug.sdk.share.impl.provider.ShareSdkProvider}
+  com.larus.nova/com.huawei.hms.support.api.push.PushProvider:
+    Provider{cc7d5b0 com.larus.nova/com.huawei.hms.support.api.push.PushProvider}
+  com.larus.nova/com.larus.bmhome.chat.SendImagesProvider:
+    Provider{5c25ad1 com.larus.nova/com.larus.bmhome.chat.SendImagesProvider}
+  com.larus.nova/com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider:
+    Provider{7a278d3 com.larus.nova/com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider}
+  com.larus.nova/com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider:
+    Provider{3edabe6 com.larus.nova/com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider}
+  com.larus.nova/com.larus.bmhome.bigimg.BigImageShareProvider:
+    Provider{751e96c com.larus.nova/com.larus.bmhome.bigimg.BigImageShareProvider}
+  com.larus.nova/com.bytedance.reparo.provider.ReparoProvider:
+    Provider{ccea66e com.larus.nova/com.bytedance.reparo.provider.ReparoProvider}
+  com.larus.nova/com.bytedance.bdturing.ttnet.BdTuringInitProvider:
+    Provider{d724d21 com.larus.nova/com.bytedance.bdturing.ttnet.BdTuringInitProvider}
+  com.larus.nova/com.ss.android.push.PushFileProvider:
+    Provider{9f3dbff com.larus.nova/com.ss.android.push.PushFileProvider}
+  com.larus.nova/androidx.startup.InitializationProvider:
+    Provider{d38f0c9 com.larus.nova/androidx.startup.InitializationProvider}
+  com.larus.nova/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{7310e89 com.larus.nova/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+  com.larus.nova/com.bytedance.bdinstall.BDInstallProvider:
+    Provider{57c7166 com.larus.nova/com.bytedance.bdinstall.BDInstallProvider}
+  com.larus.nova/com.bytedance.upc.cache.ApiMultiProcessSharedProvider:
+    Provider{7fe473e com.larus.nova/com.bytedance.upc.cache.ApiMultiProcessSharedProvider}
+  com.larus.nova/com.bytedance.apm.battery.dao.MonitorContentProvider:
+    Provider{2b8abf0 com.larus.nova/com.bytedance.apm.battery.dao.MonitorContentProvider}
+  com.larus.nova/com.larus.xbridge.impl.choosemedia.utils.ChooseMediaProvider:
+    Provider{994971c com.larus.nova/com.larus.xbridge.impl.choosemedia.utils.ChooseMediaProvider}
+  com.larus.nova/com.ss.android.token.TokenObjectProvider:
+    Provider{5c8e250 com.larus.nova/com.ss.android.token.TokenObjectProvider}
+  com.larus.nova/com.bytedance.push.settings.storage.SmpProcessSettingsProvider:
+    Provider{55cec49 com.larus.nova/com.bytedance.push.settings.storage.SmpProcessSettingsProvider}
+  com.larus.nova/com.bytedance.android.sdk.bdticketguard.TicketGuardProvider:
+    Provider{205094e com.larus.nova/com.bytedance.android.sdk.bdticketguard.TicketGuardProvider}
+  com.larus.nova/androidx.lifecycle.ProcessLifecycleOwnerInitializer:
+    Provider{789be8b com.larus.nova/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+  com.larus.nova/com.larus.dora.impl.log.DoraLogFileProvider:
+    Provider{74eaebd com.larus.nova/com.larus.dora.impl.log.DoraLogFileProvider}
+  com.larus.nova/com.bytedance.push.settings.storage.MainProcessSettingsProvider:
+    Provider{324c4f com.larus.nova/com.bytedance.push.settings.storage.MainProcessSettingsProvider}
+  com.larus.nova/androidx.core.content.FileProvider:
+    Provider{cc4bfdc com.larus.nova/androidx.core.content.FileProvider}
+  com.larus.nova/com.larus.share.impl.panel.ShareProvider:
+    Provider{5457647 com.larus.nova/com.larus.share.impl.panel.ShareProvider}
+  com.larus.nova/com.ss.android.token.AuthTokenMultiProcessSharedProvider:
+    Provider{6c2f6d4 com.larus.nova/com.ss.android.token.AuthTokenMultiProcessSharedProvider}
+
+ContentProvider Authorities:
+  [com.larus.nova.choosemedia.fileprovider]:
+    Provider{994971c com.larus.nova/com.larus.xbridge.impl.choosemedia.utils.ChooseMediaProvider}
+      applicationInfo=ApplicationInfo{9a30401 com.larus.nova}
+  [com.larus.nova.auth_token.SHARE_PROVIDER_AUTHORITY]:
+    Provider{6c2f6d4 com.larus.nova/com.ss.android.token.AuthTokenMultiProcessSharedProvider}
+      applicationInfo=ApplicationInfo{f6732a6 com.larus.nova}
+  [com.larus.nova.push.settings]:
+    Provider{324c4f com.larus.nova/com.bytedance.push.settings.storage.MainProcessSettingsProvider}
+      applicationInfo=ApplicationInfo{2c354e7 com.larus.nova}
+  [com.larus.nova.provider]:
+    Provider{751e96c com.larus.nova/com.larus.bmhome.bigimg.BigImageShareProvider}
+      applicationInfo=ApplicationInfo{2b3b894 com.larus.nova}
+  [com.larus.nova.push.file_provider]:
+    Provider{9f3dbff com.larus.nova/com.ss.android.push.PushFileProvider}
+      applicationInfo=ApplicationInfo{f3adf3d com.larus.nova}
+  [com.larus.nova.uri.key]:
+    Provider{cc4bfdc com.larus.nova/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{243d332 com.larus.nova}
+  [com.larus.nova.TicketGuardProvider]:
+    Provider{205094e com.larus.nova/com.bytedance.android.sdk.bdticketguard.TicketGuardProvider}
+      applicationInfo=ApplicationInfo{be65883 com.larus.nova}
+  [com.larus.nova.fileprovider]:
+    Provider{5457647 com.larus.nova/com.larus.share.impl.panel.ShareProvider}
+      applicationInfo=ApplicationInfo{85dca00 com.larus.nova}
+  [com.larus.nova.bdinstall.provider]:
+    Provider{57c7166 com.larus.nova/com.bytedance.bdinstall.BDInstallProvider}
+      applicationInfo=ApplicationInfo{f7b3239 com.larus.nova}
+  [com.larus.nova.WsChannelMultiProcessSharedProvider]:
+    Provider{3edabe6 com.larus.nova/com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider}
+      applicationInfo=ApplicationInfo{1d7f07e com.larus.nova}
+  [com.larus.nova.push.SHARE_PROVIDER_AUTHORITY]:
+    Provider{7a278d3 com.larus.nova/com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider}
+      applicationInfo=ApplicationInfo{3abf9df com.larus.nova}
+  [com.larus.nova.androidx-startup]:
+    Provider{d38f0c9 com.larus.nova/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{7d5862c com.larus.nova}
+  [com.larus.nova.ug.sdk.share.fileprovider]:
+    Provider{c976926 com.larus.nova/com.bytedance.ug.sdk.share.impl.provider.ShareSdkProvider}
+      applicationInfo=ApplicationInfo{6d3b8f5 com.larus.nova}
+  [com.larus.nova.AGCInitializeProvider]:
+    Provider{7310e89 com.larus.nova/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{cfe968a com.larus.nova}
+  [com.larus.nova.apm]:
+    Provider{2b8abf0 com.larus.nova/com.bytedance.apm.battery.dao.MonitorContentProvider}
+      applicationInfo=ApplicationInfo{30054fb com.larus.nova}
+  [com.larus.nova.sendimagesprovider]:
+    Provider{5c25ad1 com.larus.nova/com.larus.bmhome.chat.SendImagesProvider}
+      applicationInfo=ApplicationInfo{62ad918 com.larus.nova}
+  [com.larus.nova.TokenObjectProvider]:
+    Provider{5c8e250 com.larus.nova/com.ss.android.token.TokenObjectProvider}
+      applicationInfo=ApplicationInfo{ef3ef71 com.larus.nova}
+  [com.larus.nova.dora.impl.log.fileprovider]:
+    Provider{74eaebd com.larus.nova/com.larus.dora.impl.log.DoraLogFileProvider}
+      applicationInfo=ApplicationInfo{3379156 com.larus.nova}
+  [com.larus.nova.bdturing.InitProvider]:
+    Provider{d724d21 com.larus.nova/com.bytedance.bdturing.ttnet.BdTuringInitProvider}
+      applicationInfo=ApplicationInfo{b7545d7 com.larus.nova}
+  [com.larus.nova.push.settings.smp]:
+    Provider{55cec49 com.larus.nova/com.bytedance.push.settings.storage.SmpProcessSettingsProvider}
+      applicationInfo=ApplicationInfo{7806ec4 com.larus.nova}
+  [com.larus.nova.reparo]:
+    Provider{ccea66e com.larus.nova/com.bytedance.reparo.provider.ReparoProvider}
+      applicationInfo=ApplicationInfo{30711ad com.larus.nova}
+  [com.larus.nova.huawei.push.provider]:
+    Provider{cc7d5b0 com.larus.nova/com.huawei.hms.support.api.push.PushProvider}
+      applicationInfo=ApplicationInfo{a336ce2 com.larus.nova}
+  [com.larus.nova.UPC.SHARE_PROVIDER_AUTHORITY]:
+    Provider{7fe473e com.larus.nova/com.bytedance.upc.cache.ApiMultiProcessSharedProvider}
+      applicationInfo=ApplicationInfo{bde6873 com.larus.nova}
+  [com.larus.nova.lifecycle-process]:
+    Provider{789be8b com.larus.nova/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+      applicationInfo=ApplicationInfo{d77b330 com.larus.nova}
+
+Key Set Manager:
+  [com.larus.nova]
+      Signing KeySets: 13
+
+Packages:
+  Package [com.larus.nova] (beaad7e):
+    userId=10088
+    pkg=Package{13c72df com.larus.nova}
+    codePath=/data/app/~~lr7fL16RM4b2M3t-R8uO4w==/com.larus.nova-nPBAlh-1HvnJ-Xd-IewKSg==
+    resourcePath=/data/app/~~lr7fL16RM4b2M3t-R8uO4w==/com.larus.nova-nPBAlh-1HvnJ-Xd-IewKSg==
+    legacyNativeLibraryDir=/data/app/~~lr7fL16RM4b2M3t-R8uO4w==/com.larus.nova-nPBAlh-1HvnJ-Xd-IewKSg==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=8060001 minSdk=21 targetSdk=34
+    minExtensionVersions=[]
+    versionName=8.6.0
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{13c72df com.larus.nova}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.support.customtabs.action.CustomTabsService }, Intent { act=android.intent.action.SENDTO cat=[android.intent.category.DEFAULT] dat=mailto:xx }, Intent { act=android.media.action.IMAGE_CAPTURE }, Intent { act=android.intent.action.SEND dat=content://*/* typ=*/* }, Intent { act=com.hihonor.push.action.BIND_PUSH_SERVICE }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=com.huawei.hms.core }]
+    dataDir=/data/user/0/com.larus.nova
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalNativeLibraries:
+      libOpenCL.so
+      libGLES_mali.so
+      libmali.so
+      libPVROCL.so
+      libpocl.so
+      libOpenCL-pixel.so
+      libcdsprpc.so
+    usesLibraryFiles:
+      libOpenCL.so
+      libcdsprpc.so
+    timeStamp=2026-03-18 18:44:44
+    firstInstallTime=2026-03-18 18:47:26
+    lastUpdateTime=2026-03-18 18:47:26
+    installerPackageName=com.ffalconxr.mercury.launcher
+    signatures=PackageSignatures{9370b2c version:3, signatures:[845d4953], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.larus.nova.permission.PRIVACY_BROADCAST: prot=signature, INSTALLED
+      com.larus.nova.permission.PROCESS_PUSH_MSG: prot=signature, INSTALLED
+      com.larus.nova.permission.PUSH_PROVIDER: prot=signature, INSTALLED
+      com.larus.nova.permission.PUSH_WRITE_PROVIDER: prot=signature, INSTALLED
+      com.larus.nova.permission.MIPUSH_RECEIVE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.RECORD_AUDIO
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH
+      android.permission.FOREGROUND_SERVICE
+      android.permission.ACCESS_MEDIA_LOCATION
+      android.permission.WAKE_LOCK
+      android.permission.POST_NOTIFICATIONS
+      android.permission.VIBRATE
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CAMERA
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+      android.permission.READ_CALENDAR
+      android.permission.WRITE_CALENDAR
+      com.larus.nova.permission.PRIVACY_BROADCAST
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.FOREGROUND_SERVICE_MICROPHONE
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.FOREGROUND_SERVICE_LOCATION
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      com.larus.nova.permission.MIPUSH_RECEIVE
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      com.hihonor.android.launcher.permission.CHANGE_BADGE
+      android.permission.READ_APP_BADGE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      com.android.launcher.permission.READ_SETTINGS
+      com.android.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.UPDATE_APP_BADGE
+      com.vivo.notification.permission.BADGE_ICON
+      com.vivo.abe.permission.launcher.notification.num
+      com.asus.msa.SupplementaryDID.ACCESS
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_ADVERTISE
+      android.pminermission.WAKE_LOCK
+      android.hardware.usb.host
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+      android.permission.FLASHLIGHT
+      com.larus.nova.permission.PROCESS_PUSH_MSG
+      com.larus.nova.permission.PUSH_PROVIDER
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+      miui.permission.READ_STEPS
+    install permissions:
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.larus.nova.permission.PUSH_PROVIDER: granted=true
+      com.larus.nova.permission.MIPUSH_RECEIVE: granted=true
+      com.larus.nova.permission.PRIVACY_BROADCAST: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.larus.nova.permission.PROCESS_PUSH_MSG: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=false
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=6263 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      lastDisabledCaller: com.ffalconxr.mercury.launcher
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.larus.nova:
+      com.tencent.mm
+  queries via intent:
+    [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+      com.larus.nova
+    com.xingin.xhs:
+      com.larus.nova
+    com.larus.nova:
+      com.xingin.xhs
+      com.sina.weibo
+      com.tencent.mm
+    com.phoenix.read:
+      com.larus.nova
+    com.sina.weibo:
+      com.larus.nova
+    com.tencent.mm:
+      com.larus.nova
+    com.tencent.wemeet.app:
+      com.larus.nova
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.larus.nova]
+    path: /data/app/~~lr7fL16RM4b2M3t-R8uO4w==/com.larus.nova-nPBAlh-1HvnJ-Xd-IewKSg==/base.apk
+      arm64: [status=verify] [reason=install]
+
+
+Compiler stats:
+  [com.larus.nova]
+     base.apk - 17609
+Snapshot statistics
+   Unrecorded-hits: 4331  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:25         now           0           0           0           0           0           0           0
+          1:25        0:25           0           0           0           0           0           0           0
+          2:25        1:25           0           0           0           0           0           0           0
+          3:25        2:25           0           0           0           0           0           0           0
+          4:25        3:25           0           0           0           0           0           0           0
+          5:25        4:25           0           0           0           0           0           0           0
+          6:25        5:25           0           0           0           0           0           0           0
+          7:25        6:25           0           0           0           0           0           0           0
+          8:25        7:25           0           0           0           0           0           0           0
+          9:25        8:25           0           0           0           0           0           0           0
+   20513:16:09:10         now         305      413335           0           2          73         241          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:25         now           0           0           0           0           0           0           0           0
+          1:25        0:25           0           0           0           0           0           0           0           0
+          2:25        1:25           0           0           0           0           0           0           0           0
+          3:25        2:25           0           0           0           0           0           0           0           0
+          4:25        3:25           0           0           0           0           0           0           0           0
+          5:25        4:25           0           0           0           0           0           0           0           0
+          6:25        5:25           0           0           0           0           0           0           0           0
+          7:25        6:25           0           0           0           0           0           0           0           0
+          8:25        7:25           0           0           0           0           0           0           0           0
+          9:25        8:25           0           0           0           0           0           0           0           0
+   20513:16:09:10         now         277          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:25         now           0           0           0           0           0           0           0           0
+          1:25        0:25           0           0           0           0           0           0           0           0
+          2:25        1:25           0           0           0           0           0           0           0           0
+          3:25        2:25           0           0           0           0           0           0           0           0
+          4:25        3:25           0           0           0           0           0           0           0           0
+          5:25        4:25           0           0           0           0           0           0           0           0
+          6:25        5:25           0           0           0           0           0           0           0           0
+          7:25        6:25           0           0           0           0           0           0           0           0
+          8:25        7:25           0           0           0           0           0           0           0           0
+          9:25        8:25           0           0           0           0           0           0           0           0
+   20513:16:09:10         now          52          14           6           5           5          26          21         175

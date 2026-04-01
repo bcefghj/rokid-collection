@@ -1,0 +1,179 @@
+Stable Game Driver: unsupported
+Pre-release Game Driver: unsupported
+
+Memory snapshot for GPU 0:
+Global total: 147247104
+Proc 772 total: 106496
+Proc 812 total: 26566656
+Proc 919 total: 2506752
+Proc 1288 total: 19779584
+Proc 1705 total: 5009408
+Proc 1858 total: 27303936
+Proc 2575 total: 8069120
+Proc 2634 total: 1695744
+Proc 2784 total: 6086656
+Proc 3055 total: 7585792
+Proc 3093 total: 3465216
+Proc 3330 total: 5304320
+Proc 3744 total: 10706944
+Proc 4785 total: 4059136
+
+driverPackageName = system
+driverVersionName = 
+driverVersionCode = 0
+driverBuildTime = 0
+glLoadingCount = 27
+glLoadingFailureCount = 0
+angleLoadingCount = 0
+angleLoadingFailureCount = 0
+vkLoadingCount = 0
+vkLoadingFailureCount = 0
+vulkanVersion = 4198400
+cpuVulkanVersion = 0
+glesVersion = 196610
+
+appPackageName = com.phoenix.read
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.RayneoGame.ARPet
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.rayneo.media
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.rayneo.gallery
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = tv.danmaku.bili
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.ffalcon.appcontainer
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239 59842239 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.leiniao.camera
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.eg.android.AlipayGGlasses
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.rayneo.airscreen
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.rayneo.lifeai
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239 59842239 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.ffalconxr.mercury.launcher
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.rayneo.phone
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.android.permissioncontroller
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239 59842239 59842239 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.rayneogame.skiing
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.Ffalcon.BEATSPACE
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+appPackageName = com.ffalcon.navigation
+driverVersionCode = 0
+cpuVulkanInUse = 0
+falsePrerotation = 0
+gles1InUse = 0
+glDriverLoadingTime: 59842239 59842239 59842239
+angleDriverLoadingTime:
+vkDriverLoadingTime:
+
+

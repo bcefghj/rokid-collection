@@ -1,0 +1,221 @@
+﻿ID	Key
+string	string
+Id	Key
+Meter	m
+MainView_VoiceSearchClick	Use AR navigation within 1 km of your location
+MainView_ClickToEnter	Use AR navigation throughout your city
+MainView_Panorama	Search in the city
+MainView_Nearby	Search nearby
+Kilometer	km
+TTS_PanoramaSearchResult	Which address would you like to choose?
+TTS_PanoramaNavigationHere	Navigate here?
+TTS_DidNotListenClearly	Sorry, I missed your voice message. Please tap the right temple and search again
+Later	later
+Straight	Go straight
+LeftFront	Make a left turn up ahead onto
+Left	Turn left onto
+RightFront	Make a right turn up ahead onto
+Right	Turn right onto
+TurnRight	Turn right and make a U-turn onto
+Arrive	Arrive
+Navigation_Arrive	You have reached the destination
+Navigation_End	Navigation ended
+TTS_WalkOrRide	Do you want to walk or ride?
+TTS_SelectWhichRoute	Which route would you like to choose?
+SchemeOne	Route 1
+SchemeTwo	Route 2
+SchemeThree	Route 3
+Minute	Minutes
+MinuteSimple	min
+Hour	hours
+Ride	Ride
+Walk	Walk
+Tip_ClickRightToSearch	Tap the right temple to search by voice
+Tip_VoiceBall_NearbySearch	"Search for a nearby coffee shop"
+Tip_VoiceBall_FullScreenSearch	Try saying, "Search for a nearby coffee shop"
+Tip_VoiceBall_FindDestination	{0} destinations found
+TTS_VoiceBall_FindDestination	Turn your head to view more results
+Tip_VoiceBall_FindNothing	No results found. Please say again
+TTS_VoiceBall_FindNothing	No results found. Please say again
+Tip_VoiceBall_FindOtherDestination	Found the destination 1 km away
+TTS_VoiceBall_FindOtherDestination	The following location is found. Swipe the right temple to view the address
+Tip_NetworkError	Network error. Please check the network
+Tip_DidNotListenClearly	Sorry, I missed your voice message. Please say again
+Toast_NoMatchResult_PanoramaMapOpen	Tap to start navigation | Double-tap to return to search
+Toast_NoMatchResult_PanoramaMapClose	Tap to navigate | Double-tap to search again
+Toast_ResearchOrExit	Tap to search again | Double-tap to exit
+Toast_DoubleClickToExit	Double-tap to exit
+ElapsedTime	Cost time
+NetworkError	Network error
+NetworkErrorTip	Please check the network connection of the glasses on the RayNeo AR app
+PalmMapUnavailableTip	You cannot use Handheld Maps because you have not been granted camera permissions
+AppUnavailableTitle	Maps is unavailable
+AppUnavailableDeclaration	Before Maps provides you with basic services, it needs to obtain your location permissions
+AppUnavailableBtnText	Settings
+CameraPermissionTitle	Camera Permissions
+CameraPermissionDeclaration	Camera permissions are used to recognize palm information to enable Handheld Maps
+CameraPermissionClickTip	Tap to grant permissions | Double-tap to cancel
+LeftBack	Go rear left
+RightBack	Go rear right
+Second	seconds
+Tip_NavigationOrBack	Tap to start navigation | Double-tap to return
+Tip_VoiceBall_Analyzing	Searching
+Tip_GotoFollowingPlaces	Would you like to go to the following address?
+StartPoint	My Location
+GoThisWay	Go Here
+NavigationHistory	Navigation History
+Tip_ClickToNavigation	Tap to navigate
+GoStraight	Go straight
+TTS_ErrorSayAgain	Network error. Please say again
+Tip_RecordingOccupied	Mic already in use
+Toast_GPSWeak	Weak GPS signal
+Toast_GPSWeakTip	Weak GPS signal. Please wait or enable location permission on the RayNeo AR app
+Destination	Destination
+Tip_TapToResearch	Tap to search again
+Tip_DoubleTapBacktoSearch	Double-tap to return to search
+Tip_TabToNavigation	Tap to start navigation
+TTS_PanoramaAddrList_IndexWrongAnswer	Please choose by saying "the first one" or "the second one"
+TTS_PanoramaAddrList_IndexTimeout	Sorry, I didn't hear you. Which location would you like to go to?
+TTS_PanoramaAddrList_IndexQuestion	Which location would you want to select?
+TTS_PanoramaAddrList_ConfirmQuestion	Do you want to navigate here?
+TTS_PanoramaAddrList_ConfirmTimeout	Sorry, I didn't hear clearly. Do you want to navigate here?
+TTS_PanoramaAddrList_ConfirmWrongAnswer	If you want to navigate here, say "OK"
+TTS_PanoramaRoute_TypeQuestion	Please select between Walk or Ride
+TTS_PanoramaRoute_TypeTimeout	Sorry, I didn't hear clearly. Please select between Walk or Ride
+TTS_PanoramaRoute_TypeWrongAnswer	Please say "Walk" or "Ride"
+TTS_PanoramaRoute_RouteQuestion	Please select a route
+TTS_PanoramaRoute_RouteTimeout	Sorry, I didn't hear clearly. Please select a route
+TTS_PanoramaRoute_RouteWrongAnswer	Please choose by saying "Route 1" or "Route 2"
+Tip_TapToUseMap	Tap to start navigation
+Tip_SearchPlace	Search for destination
+Tip_TrySaying	Try saying
+TTS_NoMatchList_IndexQuestion	Which one is your destination?
+TTS_NoMatchList_IndexTimeout	You can say "the first one" or "the second one"
+Tip_NoMatchList_Title	Found {0} results
+Tip_TapToExpandMap	Tap to expand the map
+TTS_RouteSelect_Question	Please select the travel method and route
+TTS_RouteSelect_Timeout	You can say "Ride" or "Route 1"
+Tip_ConfirmOrCancel	Tap to confirm | Double-tap to cancel
+Tip_MagCalibrate_PopUp_Title	Magnetometer Calibration
+Tip_MagCalibrate_PopUp_Content	An exception has occurred in the glasses magnetometer, which may cause a direction deviation. Please calibrate the magnetometer before navigation
+Tip_MagCalibrate_Start_BtnText	Start Calibration
+Tip_MagCalibrate_Start_Content	Please keep your head horizontally facing forward\nDo not turn your body during calibration
+Tip_MagCalibrate_Failed_Title	Calibration failed
+Tip_MagCalibrate_Failed_BtnText	Calibrate Again
+Tip_MagCalibrate_Failed_Content	Please keep your head horizontally facing forward during calibration\nDo not turn your body
+Tip_MagCalibrate_TurnLeftAndRight	Please turn your head left and right sharply
+Tip_MagCalibrate_TurnRight	Please keep turning your head right
+Tip_MagCalibrate_TurnLeft	Please keep turning your head left
+Tip_MagCalibrate_LeftRightDone	Well done. Please keep your head straight
+Tip_MagCalibrate_TurnUpAndDown	Please turn your head up and down sharply
+Tip_MagCalibrate_TurnUp	Please keep turning your head up
+Tip_MagCalibrate_TurnDown	Please keep turning your head down
+Tip_MagCalibrate_Success	Well done. Calibration succeeded
+Tip_RouteGuide_Left	Look left
+Tip_RouteGuide_Right	Look right
+Tip_RouteGuide_Ahead	Go forward
+Tip_HereDeclaration_Title	Location Service & HERE Terms
+Tip_HereDeclaration_Content	Maps needs to obtain your device's location and may collect information about the nearby Wi-Fi and cellular networks to improve the HERE service used by the app
+AppUnavailableDeclaration_Here	Before Maps can provide basic services, you must agree to the service terms of the map data provider HERE and enable the location permissions
+Tip_HereDeclaration_Tap	Tap to agree | Double-tap to cancel
+Tip_VoiceSearch_Status_Listening	Listening...
+Tip_VoiceSearch_ASR_Example	Try saying, "Nearby coffee shop"
+TTS_VoiceSearch_ListenNotClearly	Sorry, I can't hear you. Please try again
+Tip_VoiceSearch_ASR_NetworkError	Network error. Please check and try again
+Tip_VoiceSearch_ASR_ServiceError	Server error. Please say again
+TTS_VoiceSearch_ASR_ServiceError	Server error. Please say again
+APPName	Maps
+Guide_HomePage_Title	Welcome to use Maps
+Guide_HomePage_Content	Let's understand the main functions of Maps first
+Guide_HomePage_TapTip	Tap to enter | Double-tap to skip
+Guide_SwipeTip	Swipe the right temple backward to view the next step
+Guide_NearbyPage_Title	Nearby location card
+Guide_NearbyPage_Content	The homepage shows the name of your location to help you explore the app quickly
+Guide_VoiceSearchPage_Title	Voice search for destination
+Guide_VoiceSearchPage_Content	Tap on the homepage to search for the destination by using the voice function
+Guide_DestinationSelectPage_Title	Select destination
+Guide_DestinationSelectPage_Content	You can select a destination by using the temple or the voice function
+Guide_RouteSelectPage_Title	Travel mode and route
+Guide_RouteSelectPage_Content	Switch between walking and riding by using the temple or the voice function, and select an appropriate route to start navigation
+Guide_RouteSelectPage_TypeTip	Switch travel modes
+Guide_RouteSelectPage_RouteTip	Select route
+Guide_ArrowPage_Title	Use a 3D arrow to guide your way
+Guide_ArrowPage_Content	After navigation starts, follow the 3D arrow
+Guide_MobileNaviPage_Title	Start navigation by using your phone
+Guide_MobileNaviPage_Content	Go to RayNeo AR Glasses > Maps to start navigation
+Guide_EndPage_Content	You already know all the functions of Maps
+Guide_EndPage_TapTip	Enter Maps
+Guide_NaviTypeTip	Tap to switch
+Guide_SwitchBigMapTip	Tap to switch to a large map
+Guide_SmallMapTip	Keep the outer ring green and ensure the correct orientation
+RouteSelectView_StartNavigation	Start navigation
+Guide_HomePage_Title_Setting	Beginner's guide for Maps
+Guide_HomePage_Content_Setting	Let's understand the main functions of Maps
+Guide_HomePage_TapTip_Setting	Tap to enter | Double-tap to exit
+RouteSelectView_Depart	Let's go
+Tip_VoiceSearch_NetworkUnstable	Unstable network. Please check the network
+TTS_AMap_NavigationStart	{0} started. Departing from the current position toward {1}
+TTS_AMap_NormalTips	Go straight ahead for {0}
+TTS_AMap_IntersectionTips	Go straight ahead for {0} and then {1}
+TTS_AMap_OtherIntersectionTips	{0} at the intersection ahead and then {1}
+TTS_AMap_EndTips	The destination is on your {0}, and the {1} navigation has ended
+TTS_AMap_YawTips	You have deviated, and your route has been re-planned. Please start from your current position toward {0}
+TTS_AMap_ArrivedTips	Go straight ahead for {0} to reach the destination
+TTS_AMap_Direction_Straight	Go straight
+TTS_AMap_Direction_LeftFront	Go ahead to the left
+TTS_AMap_Direction_Left	Turn left
+TTS_AMap_Direction_RightFront	Go ahead to the right
+TTS_AMap_Direction_Right	Turn right
+TTS_AMap_Direction_TurnRight	Make a U-turn
+TTS_AMap_Direction_LeftBack	Turn left and make a U-turn
+TTS_AMap_Direction_RightBack	Turn right and make a U-turn
+TTS_AMap_Orientation_East	East
+TTS_AMap_Orientation_West	West
+TTS_AMap_Orientation_South	South
+TTS_AMap_Orientation_North	North
+TTS_AMap_Orientation_Southeast	Southeast
+TTS_AMap_Orientation_Northeast	Northeast
+TTS_AMap_Orientation_Southwest	Southwest
+TTS_AMap_Orientation_Northwest	Northwest
+TTS_AMap_LeftSide	Left
+TTS_AMap_RightSide	Right
+TTS_AMap_RidingNavigation	Riding navigation
+TTS_AMap_WalkingNavigation	Walking navigation
+Tip_VoiceSearch_Tip1	Search for a nearby "coffee shop"
+Tip_VoiceSearch_Tip2	How to get to the nearest "mall"
+Tip_VoiceSearch_Tip3	Take me to the nearest "subway station"
+VoicePopup_AddressList_Tips_Default	{0} results found, which one do you prefer?
+VoicePopup_AddressList_TTS_IndexError	A total of {0} results found, which one do you prefer?
+VoicePopup_RouteSelect_Tips_TypeAnswer	Okay, which route would you like to choose?
+VoicePopup_RouteSelect_TTS_TypeAnswer	Okay
+VoicePopup_RouteSelect_Tips_IndexError	There is no route {0}. Which route would you like to choose?
+VoicePopup_RouteSelect_TTS_IndexError	There is no route {0}. Please choose a valid route.
+VoicePopup_RouteSelect_Tips_StartError	Which route would you like to choose?
+VoicePopup_RouteSelect_TTS_StartError	Which route would you like to choose?
+BtDisconnect_Title	Go to the RayNeo AR app on your phone and enable Precise Location
+BtDisconnect_Content	To ensure accurate map location service, please set the app to "Always Allow" for "Precise Location"
+Tips_DoubleTapReturn	Double-tap to return
+Tips_Gps_NoData	Weak GPS signal
+Tips_Gps_PoorAccuracy	Inaccurate GPS location. Please set the app to "Always Allow" for "Precise Location"
+Tips_Gps_Disconnect	No GPS signal. Please open the RayNeo AR app on your phone
+X3_Guide_OpenPermissionPage_Title	Use the map
+X3_Guide_OpenPermissionPage_Content	Connect your phone and turn on location access.
+X3_Guide_NearbyLocationCardPage_Title	Nearby location card
+X3_Guide_NearbyLocationCardPage_Content	The home page displays the names of the places around you, helping you explore quickly.
+X3_Guide_SearchThenSelectDestinationPage_Title	Search and select the destination
+X3_Guide_SearchThenSelectDestinationPage_Content	Use the temple or voice to select the destination.
+X3_Guide_ChooseRouteTypePage_Title	Please select your travel mode and route
+X3_Guide_ChooseRouteTypePage_Content	Use the temple or voice to select the mode of travel and route. For example, "Walking Route One"
+X3_Guide_PhoneStartNavigatingPage_Title	Initiate navigation on the mobile phone
+X3_Guide_PhoneStartNavigatingPage_Content	You can also initiate navigation in "Mobile App- Map Application".
+X3_Guide_Swipe_Tip	Slide to contine
+X3_Guide_GuideFinishPage_Tip	All done!
+X3_Guide_GuideFinishPage_TapTip	Enter the map
+X3_VoicePopup_RouteSelect_Next_End_Tips_TypeAnswer	The page has reached the end. Which one are you going to?
+X3_VoicePopup_RouteSelect_Preview_End_Tips_TypeAnswer	The page has reached the top. Which one to go to?
+X3_VoicePopup_AIOSServiceException_Tip	Reconnecting
+X3_VoiceSearchView_AIOSServiceException_Tip	Oops! Something went wrong
+X3_MixInRecord_Tip_TapToConfirm	Tap To Confirm
+X3_MixInRecord_Tip_Title	Warm Reminder
+X3_MixInRecord_Tip_Content	For a better navigation experience, it is not recommended to use screen recording during navigation.
+X3_Toast_CalcRouteFailure	The route calculation failed. Please return and try again.

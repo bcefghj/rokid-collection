@@ -1,0 +1,465 @@
+Captured at: 02:32:58.753
+Sensor Device:
+Total 23 h/w sensors, 23 running 0 disabled clients:
+0x0000000b) active-count = 1; sampling_period(ms) = {200.0}, selected = 200.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+Sensor List:
+0x0000000b) lsm6dsr Accelerometer Non-wakeup | STMicro         | ver: 142918 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000980
+	continuous | minRate=1.00Hz | maxRate=415.97Hz | FIFO (max,reserved) = (10000, 3000) events | non-wakeUp | 
+	highest rate level = 3, support shared mem: gralloc, 
+0x0000000c) lsm6dsr Accelerometer Wakeup | STMicro         | ver: 142918 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000981
+	continuous | minRate=1.00Hz | maxRate=415.97Hz | FIFO (max,reserved) = (10000, 3000) events | wakeUp | 
+	highest rate level = 3, support shared mem: gralloc, 
+0x00000015) mmc56x3x Magnetometer Non-wakeup | memsic          | ver: 20320506 | type: android.sensor.magnetic_field(2) | perm: n/a | flags: 0x00000880
+	continuous | minRate=1.00Hz | maxRate=100.00Hz | FIFO (max,reserved) = (10000, 600) events | non-wakeUp | 
+	highest rate level = 1, support shared mem: gralloc, 
+0x00000016) mmc56x3x Magnetometer Wakeup | memsic          | ver: 20320506 | type: android.sensor.magnetic_field(2) | perm: n/a | flags: 0x00000881
+	continuous | minRate=1.00Hz | maxRate=100.00Hz | FIFO (max,reserved) = (10000, 600) events | wakeUp | 
+	highest rate level = 1, support shared mem: gralloc, 
+0x00000029) lsm6dsr Gyroscope Non-wakeup | STMicro         | ver: 142918 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.00Hz | maxRate=415.97Hz | FIFO (max,reserved) = (10000, 0) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x0000002a) lsm6dsr Gyroscope Wakeup  | STMicro         | ver: 142918 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x000009c1
+	continuous | minRate=1.00Hz | maxRate=415.97Hz | FIFO (max,reserved) = (10000, 0) events | wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x00000033) stk_stk3x3x Ambient Light Sensor Non-wakeup | sensortek       | ver: 319 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000002
+	on-change | maxDelay=0us | minDelay=0us | FIFO (max,reserved) = (10000, 0) events | non-wakeUp | 
+0x00000034) stk_stk3x3x Ambient Light Sensor Wakeup | sensortek       | ver: 319 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000003
+	on-change | maxDelay=0us | minDelay=0us | FIFO (max,reserved) = (10000, 0) events | wakeUp | 
+0x0000005b) gravity  Non-wakeup       | QTI             | ver: 1 | type: android.sensor.gravity(9) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (10000, 300) events | non-wakeUp | 
+0x0000005c) gravity  Wakeup           | QTI             | ver: 1 | type: android.sensor.gravity(9) | perm: n/a | flags: 0x00000001
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (10000, 300) events | wakeUp | 
+0x00000065) linear_acceleration       | QTI             | ver: 1 | type: android.sensor.linear_acceleration(10) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (10000, 300) events | non-wakeUp | 
+0x00000066) linear_acceleration_wakeup | QTI             | ver: 1 | type: android.sensor.linear_acceleration(10) | perm: n/a | flags: 0x00000001
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (10000, 300) events | wakeUp | 
+0x0000006f) Rotation Vector  Non-wakeup | QTI             | ver: 1 | type: android.sensor.rotation_vector(11) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (10000, 0) events | non-wakeUp | 
+0x00000070) Rotation Vector  Wakeup   | QTI             | ver: 1 | type: android.sensor.rotation_vector(11) | perm: n/a | flags: 0x00000001
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (10000, 0) events | wakeUp | 
+0x0000008d) mmc56x3x Magnetometer-Uncalibrated Non-wakeup | memsic          | ver: 20320506 | type: android.sensor.magnetic_field_uncalibrated(14) | perm: n/a | flags: 0x00000880
+	continuous | minRate=1.00Hz | maxRate=100.00Hz | FIFO (max,reserved) = (10000, 600) events | non-wakeUp | 
+	highest rate level = 1, support shared mem: gralloc, 
+0x0000008e) mmc56x3x Magnetometer-Uncalibrated Wakeup | memsic          | ver: 20320506 | type: android.sensor.magnetic_field_uncalibrated(14) | perm: n/a | flags: 0x00000881
+	continuous | minRate=1.00Hz | maxRate=100.00Hz | FIFO (max,reserved) = (10000, 600) events | wakeUp | 
+	highest rate level = 1, support shared mem: gralloc, 
+0x00000097) Game Rotation Vector  Non-wakeup | QTI             | ver: 1 | type: android.sensor.game_rotation_vector(15) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (10000, 300) events | non-wakeUp | 
+0x00000098) Game Rotation Vector  Wakeup | QTI             | ver: 1 | type: android.sensor.game_rotation_vector(15) | perm: n/a | flags: 0x00000001
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (10000, 300) events | wakeUp | 
+0x000000a1) lsm6dsr Gyroscope-Uncalibrated Non-wakeup | STMicro         | ver: 142918 | type: android.sensor.gyroscope_uncalibrated(16) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.00Hz | maxRate=415.97Hz | FIFO (max,reserved) = (10000, 0) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x000000a2) lsm6dsr Gyroscope-Uncalibrated Wakeup | STMicro         | ver: 142918 | type: android.sensor.gyroscope_uncalibrated(16) | perm: n/a | flags: 0x000009c1
+	continuous | minRate=1.00Hz | maxRate=415.97Hz | FIFO (max,reserved) = (10000, 0) events | wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x000000fc) lsm6dsr  Wakeup           | STMicro         | ver: 142918 | type: android.sensor.pick_up_gesture(25) | perm: n/a | flags: 0x00000005
+	one-shot | maxDelay=0us | minDelay=-1us | no batching | wakeUp | 
+0x0000015f) lsm6dsr Accelerometer-Uncalibrated Non-wakeup | STMicro         | ver: 142918 | type: android.sensor.accelerometer_uncalibrated(35) | perm: n/a | flags: 0x00000980
+	continuous | minRate=1.00Hz | maxRate=415.97Hz | FIFO (max,reserved) = (10000, 3000) events | non-wakeUp | 
+	highest rate level = 3, support shared mem: gralloc, 
+0x00000160) lsm6dsr Accelerometer-Uncalibrated Wakeup | STMicro         | ver: 142918 | type: android.sensor.accelerometer_uncalibrated(35) | perm: n/a | flags: 0x00000981
+	continuous | minRate=1.00Hz | maxRate=415.97Hz | FIFO (max,reserved) = (10000, 3000) events | wakeUp | 
+	highest rate level = 3, support shared mem: gralloc, 
+0x5f636779) Corrected Gyroscope Sensor | AOSP            | ver: 1 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=415.97Hz | no batching | non-wakeUp | 
+0x5f676172) Game Rotation Vector Sensor | AOSP            | ver: 3 | type: android.sensor.game_rotation_vector(15) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=415.97Hz | no batching | non-wakeUp | 
+0x5f676273) Gyroscope Bias (debug)    | AOSP            | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=415.97Hz | no batching | non-wakeUp | 
+0x5f67656f) GeoMag Rotation Vector Sensor | AOSP            | ver: 3 | type: android.sensor.geomagnetic_rotation_vector(20) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=415.97Hz | no batching | non-wakeUp | 
+0x5f677276) Gravity Sensor            | AOSP            | ver: 3 | type: android.sensor.gravity(9) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=415.97Hz | no batching | non-wakeUp | 
+0x5f6c696e) Linear Acceleration Sensor | AOSP            | ver: 3 | type: android.sensor.linear_acceleration(10) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=415.97Hz | no batching | non-wakeUp | 
+0x5f726f76) Rotation Vector Sensor    | AOSP            | ver: 3 | type: android.sensor.rotation_vector(11) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=415.97Hz | no batching | non-wakeUp | 
+0x5f797072) Orientation Sensor        | AOSP            | ver: 1 | type: android.sensor.orientation(3) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=415.97Hz | no batching | non-wakeUp | 
+Fusion States:
+9-axis fusion disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+game fusion(no mag) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+geomag fusion (no gyro) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+Recent Sensor events:
+mmc56x3x Magnetometer Non-wakeup: last 10 events
+	 1 (ts=5661.568602164, wall=20:06:42.300) 30.74, -22.58, 25.96, 
+	 2 (ts=5661.588602164, wall=20:06:42.320) 30.82, -22.56, 25.78, 
+	 3 (ts=5661.608602164, wall=20:06:42.341) 30.79, -22.53, 25.67, 
+	 4 (ts=5661.628602164, wall=20:06:42.361) 30.79, -22.59, 25.69, 
+	 5 (ts=5661.738602216, wall=20:06:42.560) 30.77, -22.57, 25.80, 
+	 6 (ts=5661.938602216, wall=20:06:42.761) 30.73, -22.47, 25.97, 
+	 7 (ts=5662.138602558, wall=20:06:42.961) 30.68, -22.37, 26.05, 
+	 8 (ts=5662.338602401, wall=20:06:43.161) 30.67, -22.25, 26.17, 
+	 9 (ts=5662.538602401, wall=20:06:43.361) 30.71, -22.18, 26.27, 
+	10 (ts=5662.738602401, wall=20:06:43.561) 30.71, -22.09, 26.43, 
+lsm6dsr Accelerometer Non-wakeup: last 50 events
+	 1 (ts=28829.432550367, wall=02:32:49.949) 1.26, 9.53, 1.68, 
+	 2 (ts=28829.609419378, wall=02:32:50.126) 1.30, 9.54, 1.69, 
+	 3 (ts=28829.786291774, wall=02:32:50.302) 1.27, 9.50, 1.69, 
+	 4 (ts=28829.963162607, wall=02:32:50.479) 1.28, 9.54, 1.68, 
+	 5 (ts=28830.140032399, wall=02:32:50.656) 1.28, 9.53, 1.68, 
+	 6 (ts=28830.316903753, wall=02:32:50.833) 1.27, 9.52, 1.68, 
+	 7 (ts=28830.493775888, wall=02:32:51.010) 1.26, 9.53, 1.68, 
+	 8 (ts=28830.670647242, wall=02:32:51.187) 1.27, 9.53, 1.68, 
+	 9 (ts=28830.847519378, wall=02:32:51.364) 1.27, 9.52, 1.69, 
+	10 (ts=28831.024394638, wall=02:32:51.542) 1.26, 9.53, 1.69, 
+	11 (ts=28831.201270680, wall=02:32:51.719) 1.26, 9.53, 1.69, 
+	12 (ts=28831.378144378, wall=02:32:51.896) 1.26, 9.52, 1.69, 
+	13 (ts=28831.555017294, wall=02:32:52.073) 1.26, 9.53, 1.68, 
+	14 (ts=28831.731890472, wall=02:32:52.248) 1.27, 9.52, 1.69, 
+	15 (ts=28831.908765732, wall=02:32:52.426) 1.26, 9.53, 1.67, 
+	16 (ts=28832.085642555, wall=02:32:52.602) 1.26, 9.52, 1.69, 
+	17 (ts=28832.262519117, wall=02:32:52.780) 1.26, 9.53, 1.68, 
+	18 (ts=28832.439393597, wall=02:32:52.957) 1.26, 9.52, 1.69, 
+	19 (ts=28832.616265211, wall=02:32:53.134) 1.26, 9.53, 1.69, 
+	20 (ts=28832.793137347, wall=02:32:53.309) 1.26, 9.53, 1.68, 
+	21 (ts=28832.970009482, wall=02:32:53.486) 1.26, 9.52, 1.68, 
+	22 (ts=28833.146885524, wall=02:32:53.663) 1.26, 9.53, 1.69, 
+	23 (ts=28833.323761826, wall=02:32:53.842) 1.26, 9.52, 1.69, 
+	24 (ts=28833.500638909, wall=02:32:54.017) 1.26, 9.52, 1.68, 
+	25 (ts=28833.677513649, wall=02:32:54.195) 1.26, 9.53, 1.69, 
+	26 (ts=28833.854388388, wall=02:32:54.372) 1.26, 9.53, 1.69, 
+	27 (ts=28834.031260524, wall=02:32:54.549) 1.26, 9.53, 1.69, 
+	28 (ts=28834.208130836, wall=02:32:54.724) 1.27, 9.52, 1.69, 
+	29 (ts=28834.385000107, wall=02:32:54.901) 1.27, 9.52, 1.69, 
+	30 (ts=28834.561873284, wall=02:32:55.078) 1.27, 9.52, 1.71, 
+	31 (ts=28834.738743857, wall=02:32:55.256) 1.27, 9.54, 1.68, 
+	32 (ts=28834.915615992, wall=02:32:55.432) 1.27, 9.52, 1.70, 
+	33 (ts=28835.092483701, wall=02:32:55.610) 1.26, 9.52, 1.71, 
+	34 (ts=28835.269351669, wall=02:32:55.786) 1.27, 9.52, 1.70, 
+	35 (ts=28835.446225107, wall=02:32:55.963) 1.26, 9.52, 1.71, 
+	36 (ts=28835.623098544, wall=02:32:56.140) 1.27, 9.55, 1.71, 
+	37 (ts=28835.799969638, wall=02:32:56.318) 1.26, 9.50, 1.68, 
+	38 (ts=28835.976837607, wall=02:32:56.493) 1.25, 9.54, 1.68, 
+	39 (ts=28836.153710524, wall=02:32:56.672) 1.26, 9.52, 1.67, 
+	40 (ts=28836.330582138, wall=02:32:56.847) 1.22, 9.64, 1.60, 
+	41 (ts=28836.507458440, wall=02:32:57.024) 1.32, 9.44, 1.81, 
+	42 (ts=28836.684333440, wall=02:32:57.202) 1.25, 9.48, 1.77, 
+	43 (ts=28836.861204274, wall=02:32:57.378) 1.27, 9.52, 1.77, 
+	44 (ts=28837.038076669, wall=02:32:57.555) 1.27, 9.51, 1.78, 
+	45 (ts=28837.214948024, wall=02:32:57.733) 1.27, 9.51, 1.78, 
+	46 (ts=28837.391822503, wall=02:32:57.910) 1.27, 9.51, 1.78, 
+	47 (ts=28837.568697763, wall=02:32:58.086) 1.27, 9.51, 1.78, 
+	48 (ts=28837.745574326, wall=02:32:58.263) 1.27, 9.51, 1.78, 
+	49 (ts=28837.922451669, wall=02:32:58.439) 1.27, 9.51, 1.78, 
+	50 (ts=28838.099327711, wall=02:32:58.615) 1.27, 9.51, 1.78, 
+mmc56x3x Magnetometer-Uncalibrated Non-wakeup: last 10 events
+	 1 (ts=5659.751177476, wall=20:06:40.483) 43.33, -90.56, 54.88, 14.10, -70.32, 24.90, 
+	 2 (ts=5659.761177476, wall=20:06:40.493) 43.29, -90.55, 54.88, 14.10, -70.32, 24.90, 
+	 3 (ts=5659.771177476, wall=20:06:40.503) 43.31, -90.51, 54.89, 14.10, -70.32, 24.90, 
+	 4 (ts=5659.781177476, wall=20:06:40.513) 43.31, -90.51, 54.90, 14.10, -70.32, 24.90, 
+	 5 (ts=5659.791177476, wall=20:06:40.523) 43.33, -90.40, 54.92, 14.10, -70.32, 24.90, 
+	 6 (ts=5659.801177476, wall=20:06:40.533) 43.25, -90.28, 54.97, 14.10, -70.32, 24.90, 
+	 7 (ts=5659.811177476, wall=20:06:40.543) 43.33, -90.23, 55.02, 14.10, -70.32, 24.90, 
+	 8 (ts=5659.821177476, wall=20:06:40.559) 43.29, -90.16, 55.11, 14.10, -70.32, 24.90, 
+	 9 (ts=5659.831177476, wall=20:06:40.572) 43.33, -90.06, 55.22, 14.10, -70.32, 24.90, 
+	10 (ts=5659.841177476, wall=20:06:40.575) 43.31, -89.90, 55.39, 14.10, -70.32, 24.90, 
+lsm6dsr Gyroscope-Uncalibrated Non-wakeup: last 10 events
+	 1 (ts=5661.459245289, wall=20:06:42.210) -0.14, -0.00, 0.00, 0.01, 0.00, -0.00, 
+	 2 (ts=5661.476936278, wall=20:06:42.228) -0.05, -0.02, 0.03, 0.01, 0.00, -0.00, 
+	 3 (ts=5661.494627268, wall=20:06:42.245) 0.02, -0.03, 0.05, 0.01, 0.00, -0.00, 
+	 4 (ts=5661.512318257, wall=20:06:42.263) 0.03, -0.05, 0.06, 0.01, 0.00, -0.00, 
+	 5 (ts=5661.530009195, wall=20:06:42.282) 0.02, -0.04, 0.04, 0.01, 0.00, -0.00, 
+	 6 (ts=5661.547700184, wall=20:06:42.299) 0.02, -0.04, 0.02, 0.01, 0.00, -0.00, 
+	 7 (ts=5661.565391174, wall=20:06:42.317) 0.02, -0.03, 0.02, 0.01, 0.00, -0.00, 
+	 8 (ts=5661.583082111, wall=20:06:42.334) 0.03, -0.01, 0.00, 0.01, 0.00, -0.00, 
+	 9 (ts=5661.600773101, wall=20:06:42.352) 0.03, 0.01, -0.01, 0.01, 0.00, -0.00, 
+	10 (ts=5661.618464091, wall=20:06:42.369) 0.06, 0.03, -0.01, 0.01, 0.00, -0.00, 
+lsm6dsr  Wakeup: last 10 events
+	 1 (ts=5354.244138007, wall=20:01:34.983) 1.00, 
+	 2 (ts=5354.244752382, wall=20:01:34.983) 1.00, 
+	 3 (ts=5354.245648059, wall=20:01:34.983) 1.00, 
+	 4 (ts=5354.246261861, wall=20:01:34.983) 1.00, 
+	 5 (ts=5354.246877069, wall=20:01:34.983) 1.00, 
+	 6 (ts=5354.247800819, wall=20:01:34.983) 1.00, 
+	 7 (ts=5354.248414986, wall=20:01:34.983) 1.00, 
+	 8 (ts=5354.249027850, wall=20:01:34.983) 1.00, 
+	 9 (ts=5354.249951913, wall=20:01:34.983) 1.00, 
+	10 (ts=5354.250592069, wall=20:01:34.983) 1.00, 
+gravity  Non-wakeup: last 10 events
+	 1 (ts=5690.536909901, wall=20:07:11.385) 5.10, 5.88, 5.97, 
+	 2 (ts=5690.713820057, wall=20:07:11.562) 3.26, 7.71, 5.10, 
+	 3 (ts=5690.890730213, wall=20:07:11.738) 1.34, 9.15, 3.25, 
+	 4 (ts=5691.067640109, wall=20:07:11.916) -0.49, 9.51, 2.33, 
+	 5 (ts=5691.244550265, wall=20:07:12.093) 0.98, 9.51, 2.16, 
+	 6 (ts=5691.421460421, wall=20:07:12.268) 0.98, 9.52, 2.14, 
+	 7 (ts=5691.598370317, wall=20:07:12.445) 0.94, 9.53, 2.12, 
+	 8 (ts=5691.775280474, wall=20:07:12.623) 0.89, 9.54, 2.10, 
+	 9 (ts=5691.952190369, wall=20:07:12.799) 0.85, 9.55, 2.08, 
+	10 (ts=5692.129100526, wall=20:07:12.975) 0.55, 9.63, 1.78, 
+stk_stk3x3x Ambient Light Sensor Non-wakeup: last 50 events
+	 1 (ts=27985.753937720, wall=02:18:46.284) 12.69, 2.00, 0.00, 
+	 2 (ts=27985.820602720, wall=02:18:46.284) 12.69, 2.00, 0.00, 
+	 3 (ts=27985.887268189, wall=02:18:46.484) 12.69, 2.00, 0.00, 
+	 4 (ts=27985.953932304, wall=02:18:46.484) 12.69, 2.00, 0.00, 
+	 5 (ts=27986.020601002, wall=02:18:46.484) 12.42, 2.00, 0.00, 
+	 6 (ts=27986.087266939, wall=02:18:46.684) 12.42, 2.00, 0.00, 
+	 7 (ts=27986.153932773, wall=02:18:46.684) 12.15, 2.00, 0.00, 
+	 8 (ts=27986.220597981, wall=02:18:46.684) 11.88, 2.00, 0.00, 
+	 9 (ts=27986.287264387, wall=02:18:46.884) 11.34, 2.00, 0.00, 
+	10 (ts=27986.353934127, wall=02:18:46.884) 9.65, 2.00, 0.00, 
+	11 (ts=27986.420596679, wall=02:18:46.884) 9.38, 2.00, 0.00, 
+	12 (ts=27986.487263189, wall=02:18:47.083) 9.65, 2.00, 0.00, 
+	13 (ts=27986.553927304, wall=02:18:47.083) 9.65, 2.00, 0.00, 
+	14 (ts=27986.620594648, wall=02:18:47.083) 8.91, 2.00, 0.00, 
+	15 (ts=27986.687259439, wall=02:18:47.284) 8.71, 2.00, 0.00, 
+	16 (ts=27986.753923814, wall=02:18:47.284) 8.71, 2.00, 0.00, 
+	17 (ts=27986.820591835, wall=02:18:47.284) 8.17, 2.00, 0.00, 
+	18 (ts=27986.887261523, wall=02:18:47.484) 8.17, 2.00, 0.00, 
+	19 (ts=27986.953929543, wall=02:18:47.484) 8.17, 2.00, 0.00, 
+	20 (ts=27987.020595689, wall=02:18:47.484) 8.44, 2.00, 0.00, 
+	21 (ts=27987.087260481, wall=02:18:47.684) 8.71, 2.00, 0.00, 
+	22 (ts=27987.153926835, wall=02:18:47.684) 9.38, 2.00, 0.00, 
+	23 (ts=27987.220594960, wall=02:18:47.684) 11.34, 2.00, 0.00, 
+	24 (ts=27987.287258554, wall=02:18:47.884) 11.88, 2.00, 0.00, 
+	25 (ts=27987.353924752, wall=02:18:47.884) 11.88, 2.00, 0.00, 
+	26 (ts=27987.420596731, wall=02:18:47.884) 11.61, 2.00, 0.00, 
+	27 (ts=27987.487261158, wall=02:18:48.084) 11.88, 2.00, 0.00, 
+	28 (ts=27987.553922043, wall=02:18:48.084) 11.88, 2.00, 0.00, 
+	29 (ts=27987.620594127, wall=02:18:48.084) 12.15, 2.00, 0.00, 
+	30 (ts=27987.687253918, wall=02:18:48.294) 12.42, 2.00, 0.00, 
+	31 (ts=27987.753917564, wall=02:18:48.294) 12.15, 2.00, 0.00, 
+	32 (ts=27987.820587148, wall=02:18:48.294) 11.88, 2.00, 0.00, 
+	33 (ts=27987.887246470, wall=02:18:48.484) 11.34, 2.00, 0.00, 
+	34 (ts=27987.953914179, wall=02:18:48.484) 11.34, 2.00, 0.00, 
+	35 (ts=27988.020582981, wall=02:18:48.484) 11.61, 2.00, 0.00, 
+	36 (ts=27988.087245637, wall=02:18:48.684) 12.15, 2.00, 0.00, 
+	37 (ts=27988.153916887, wall=02:18:48.684) 13.23, 2.00, 0.00, 
+	38 (ts=27988.220582408, wall=02:18:48.684) 13.23, 2.00, 0.00, 
+	39 (ts=27988.287245793, wall=02:18:48.884) 13.23, 2.00, 0.00, 
+	40 (ts=27988.353910273, wall=02:18:48.884) 13.23, 2.00, 0.00, 
+	41 (ts=27988.420581679, wall=02:18:48.884) 13.23, 2.00, 0.00, 
+	42 (ts=27988.487241835, wall=02:18:49.084) 13.23, 2.00, 0.00, 
+	43 (ts=27988.553909387, wall=02:18:49.084) 13.23, 2.00, 0.00, 
+	44 (ts=27988.620573085, wall=02:18:49.084) 13.50, 2.00, 0.00, 
+	45 (ts=27988.687240793, wall=02:18:49.284) 13.50, 2.00, 0.00, 
+	46 (ts=27988.753906314, wall=02:18:49.284) 13.50, 2.00, 0.00, 
+	47 (ts=27988.820573554, wall=02:18:49.284) 13.50, 2.00, 0.00, 
+	48 (ts=27988.887238554, wall=02:18:49.484) 13.50, 2.00, 0.00, 
+	49 (ts=27988.953904231, wall=02:18:49.484) 13.50, 2.00, 0.00, 
+	50 (ts=27989.020573554, wall=02:18:49.484) 13.77, 2.00, 0.00, 
+lsm6dsr Gyroscope Non-wakeup: last 10 events
+	 1 (ts=5659.811936174, wall=20:06:40.547) 0.36, -0.03, -0.33, 
+	 2 (ts=5659.814147528, wall=20:06:40.549) 0.38, -0.03, -0.33, 
+	 3 (ts=5659.816358882, wall=20:06:40.551) 0.41, -0.03, -0.31, 
+	 4 (ts=5659.818570289, wall=20:06:40.559) 0.42, -0.04, -0.29, 
+	 5 (ts=5659.820781643, wall=20:06:40.559) 0.44, -0.04, -0.27, 
+	 6 (ts=5659.822992997, wall=20:06:40.559) 0.45, -0.04, -0.23, 
+	 7 (ts=5659.825204351, wall=20:06:40.571) 0.45, -0.03, -0.21, 
+	 8 (ts=5659.827415757, wall=20:06:40.572) 0.45, -0.02, -0.18, 
+	 9 (ts=5659.829627111, wall=20:06:40.572) 0.45, -0.01, -0.15, 
+	10 (ts=5659.831838466, wall=20:06:40.572) 0.45, -0.00, -0.13, 
+Active sensors:
+lsm6dsr Accelerometer Non-wakeup (handle=0x0000000b, connections=1)
+Socket Buffer size = 984 events
+WakeLock Status: not held 
+Mode : NORMAL
+Sensor Privacy: disabled
+1 active connections
+Connection Number: 0 
+	Operating Mode: NORMAL
+	 android.view.OrientationEventListener | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 10000
+	 lsm6dsr Accelerometer Non-wakeup 0x0000000b | status: active | pending flush events 0 
+0 direct connections
+Previous Registrations:
+02:18:49 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+02:17:48 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+20:11:14 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+20:11:08 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+20:07:13 - 0x000000fc pid= 1858 uid= 1000 package=com.ffalconxr.mercury.launcher.lockscreen.HeadTrigger
+20:07:13 - 0x0000005b pid= 1858 uid= 1000 package=com.ffalconxr.mercury.launcher.lockscreen.HeadTrigger
+20:06:46 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+20:06:42 - 0x000000a1 pid=17437 uid=10063 package=com.amap.api.col.3nl.hj
+20:06:42 - 0x00000015 pid=17437 uid=10063 package=com.amap.api.col.3nl.hj
+20:06:42 - 0x0000000b pid=17437 uid=10063 package=com.amap.api.col.3nl.hj
+20:06:40 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+20:06:40 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+20:06:40 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+20:06:08 + 0x00000015 pid=17437 uid=10063 package=com.amap.api.col.3nl.ae samplingPeriod=200000us batchingPeriod=0us
+20:06:08 + 0x0000000b pid=17437 uid=10063 package=com.amap.api.col.3nl.ae samplingPeriod=200000us batchingPeriod=0us
+20:06:08 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+20:06:08 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+20:06:08 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+20:06:08 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+20:06:08 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+20:06:08 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+20:06:07 + 0x0000000b pid=17437 uid=10063 package=unknown_package_pid_17437 samplingPeriod=200000us batchingPeriod=0us
+20:06:06 + 0x0000000b pid=17437 uid=10063 package=unknown_package_pid_17437 samplingPeriod=200000us batchingPeriod=0us
+20:06:02 + 0x000000a1 pid=17437 uid=10063 package=com.amap.api.col.3nl.hj samplingPeriod=20000us batchingPeriod=0us
+20:06:02 + 0x0000000b pid=17437 uid=10063 package=com.amap.api.col.3nl.hj samplingPeriod=20000us batchingPeriod=0us
+20:06:02 + 0x00000015 pid=17437 uid=10063 package=com.amap.api.col.3nl.hj samplingPeriod=20000us batchingPeriod=0us
+20:04:44 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+20:04:44 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+20:04:39 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+20:02:32 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+20:01:40 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+20:01:39 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+20:01:34 + 0x000000fc pid= 1858 uid= 1000 package=com.ffalconxr.mercury.launcher.lockscreen.HeadTrigger samplingPeriod=0us batchingPeriod=0us
+20:01:34 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+20:00:07 + 0x000000fc pid= 1858 uid= 1000 package=com.ffalconxr.mercury.launcher.lockscreen.HeadTrigger samplingPeriod=0us batchingPeriod=0us
+20:00:03 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:59:57 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:59:55 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:59:53 + 0x0000005b pid= 1858 uid= 1000 package=com.ffalconxr.mercury.launcher.lockscreen.HeadTrigger samplingPeriod=200000us batchingPeriod=0us
+19:59:53 + 0x000000fc pid= 1858 uid= 1000 package=com.ffalconxr.mercury.launcher.lockscreen.HeadTrigger samplingPeriod=0us batchingPeriod=0us
+19:59:51 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:55:25 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:55:22 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:54:58 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:54:55 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:54:53 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:53:31 - 0x0000000b pid=14925 uid=10089 package=ms.bd.c.p2
+19:53:30 + 0x0000000b pid=14925 uid=10089 package=ms.bd.c.p2 samplingPeriod=200000us batchingPeriod=0us
+19:53:11 - 0x0000000b pid=14925 uid=10089 package=ms.bd.c.p2
+19:53:10 + 0x0000000b pid=14925 uid=10089 package=ms.bd.c.p2 samplingPeriod=200000us batchingPeriod=0us
+19:51:59 - 0x0000000b pid=14702 uid=10082 package=unknown_package_pid_14702
+19:49:43 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:49:43 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:49:43 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:49:43 + 0x0000000b pid=14702 uid=10082 package=unknown_package_pid_14702 samplingPeriod=200000us batchingPeriod=0us
+19:49:43 + 0x0000000b pid=14702 uid=10082 package=unknown_package_pid_14702 samplingPeriod=200000us batchingPeriod=0us
+19:49:40 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:48:57 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:48:42 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:48:42 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:48:42 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:48:41 - 0x0000000b pid=14479 uid=10079 package=android.view.OrientationEventListener
+19:47:54 - 0x0000008d pid=14479 uid=10079 package=unknown_package_pid_14479
+19:47:53 + 0x0000000b pid=14479 uid=10079 package=android.view.OrientationEventListener samplingPeriod=200000us batchingPeriod=0us
+19:47:50 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:47:50 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:47:50 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:47:50 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:47:50 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:47:50 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:47:50 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:47:50 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:47:50 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:47:44 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:47:44 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:47:44 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:47:42 - 0x0000000b pid=14168 uid=10079 package=android.view.OrientationEventListener
+19:46:33 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:33 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:33 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:27 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:46:27 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:46:27 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:46:26 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:26 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:26 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:19 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:46:19 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:46:19 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:46:17 - 0x0000008d pid=14168 uid=10079 package=unknown_package_pid_14168
+19:46:16 + 0x0000000b pid=14168 uid=10079 package=android.view.OrientationEventListener samplingPeriod=200000us batchingPeriod=0us
+19:46:14 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:14 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:14 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:14 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:46:14 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:46:14 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:46:14 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:14 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:14 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:46:13 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:43:28 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:43:17 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:43:17 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:43:17 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:41:48 + 0x00000015 pid=13760 uid=10078 package=com.amap.api.col.3nsl.ai samplingPeriod=66667us batchingPeriod=0us
+19:41:48 + 0x0000000b pid=13760 uid=10078 package=com.amap.api.col.3nsl.ai samplingPeriod=66667us batchingPeriod=0us
+19:41:48 - 0x00000015 pid=13760 uid=10078 package=com.amap.api.col.3nsl.ai
+19:41:48 - 0x0000000b pid=13760 uid=10078 package=com.amap.api.col.3nsl.ai
+19:41:48 + 0x00000015 pid=13760 uid=10078 package=com.amap.api.col.3nsl.ai samplingPeriod=66667us batchingPeriod=0us
+19:41:48 + 0x0000000b pid=13760 uid=10078 package=com.amap.api.col.3nsl.ai samplingPeriod=66667us batchingPeriod=0us
+19:41:46 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:41:46 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:41:46 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:41:45 + 0x0000000b pid=13760 uid=10078 package=unknown_package_pid_13760 samplingPeriod=200000us batchingPeriod=0us
+19:41:45 - 0x000000a1 pid=13760 uid=10078 package=unknown_package_pid_13760
+19:41:45 + 0x0000000b pid=13760 uid=10078 package=unknown_package_pid_13760 samplingPeriod=200000us batchingPeriod=0us
+19:41:43 + 0x000000a1 pid=13760 uid=10078 package=com.amap.api.col.3nsl.hr samplingPeriod=20000us batchingPeriod=0us
+19:41:43 + 0x0000000b pid=13760 uid=10078 package=com.amap.api.col.3nsl.hr samplingPeriod=20000us batchingPeriod=0us
+19:41:43 + 0x00000015 pid=13760 uid=10078 package=com.amap.api.col.3nsl.hr samplingPeriod=20000us batchingPeriod=0us
+19:41:13 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:41:13 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:41:10 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:34:34 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:34:16 - 0x00000015 pid=13223 uid=10063 package=com.amap.api.col.3nl.ae
+19:34:16 - 0x0000000b pid=13223 uid=10063 package=com.amap.api.col.3nl.ae
+19:34:15 - 0x000000a1 pid=13223 uid=10063 package=com.amap.api.col.3nl.hj
+19:34:15 - 0x00000015 pid=13223 uid=10063 package=com.amap.api.col.3nl.hj
+19:34:15 - 0x0000000b pid=13223 uid=10063 package=com.amap.api.col.3nl.hj
+19:34:14 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:34:14 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:34:14 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:34:05 + 0x00000015 pid=13223 uid=10063 package=com.amap.api.col.3nl.ae samplingPeriod=200000us batchingPeriod=0us
+19:34:05 + 0x0000000b pid=13223 uid=10063 package=com.amap.api.col.3nl.ae samplingPeriod=200000us batchingPeriod=0us
+19:34:05 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:34:05 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:34:05 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:34:04 + 0x0000000b pid=13223 uid=10063 package=unknown_package_pid_13223 samplingPeriod=200000us batchingPeriod=0us
+19:34:04 + 0x0000000b pid=13223 uid=10063 package=unknown_package_pid_13223 samplingPeriod=200000us batchingPeriod=0us
+19:34:02 + 0x000000a1 pid=13223 uid=10063 package=com.amap.api.col.3nl.hj samplingPeriod=20000us batchingPeriod=0us
+19:34:02 + 0x0000000b pid=13223 uid=10063 package=com.amap.api.col.3nl.hj samplingPeriod=20000us batchingPeriod=0us
+19:34:02 + 0x00000015 pid=13223 uid=10063 package=com.amap.api.col.3nl.hj samplingPeriod=20000us batchingPeriod=0us
+19:33:46 - 0x00000029 pid= 2575 uid=10051 package=com.alipay.verifyiotidentity.helper.ImuUtils
+19:33:45 - 0x0000000b pid= 2575 uid=10051 package=com.alipay.verifyiotidentity.helper.ImuUtils
+19:33:35 + 0x00000029 pid= 2575 uid=10051 package=com.alipay.verifyiotidentity.helper.ImuUtils samplingPeriod=20000us batchingPeriod=0us
+19:33:35 + 0x0000000b pid= 2575 uid=10051 package=com.alipay.verifyiotidentity.helper.ImuUtils samplingPeriod=20000us batchingPeriod=0us
+19:33:12 - 0x00000029 pid= 2575 uid=10051 package=com.alipay.verifyiotidentity.helper.ImuUtils
+19:33:12 - 0x0000000b pid= 2575 uid=10051 package=com.alipay.verifyiotidentity.helper.ImuUtils
+19:33:08 + 0x00000029 pid= 2575 uid=10051 package=com.alipay.verifyiotidentity.helper.ImuUtils samplingPeriod=20000us batchingPeriod=0us
+19:33:08 + 0x0000000b pid= 2575 uid=10051 package=com.alipay.verifyiotidentity.helper.ImuUtils samplingPeriod=20000us batchingPeriod=0us
+19:31:59 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:31:57 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:31:31 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:31:01 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:29:29 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:28:54 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:26:04 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:26:04 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:25:57 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:25:44 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:25:10 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:25:07 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:24:44 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:21:40 - 0x000000fc pid= 1858 uid= 1000 package=com.ffalconxr.mercury.launcher.lockscreen.HeadTrigger
+19:21:40 - 0x0000005b pid= 1858 uid= 1000 package=com.ffalconxr.mercury.launcher.lockscreen.HeadTrigger
+19:19:47 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:19:40 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:14:51 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:14:13 - 0x0000000b pid= 3055 uid= 1000 package=android.view.OrientationEventListener
+19:14:12 - 0x0000000b pid= 3055 uid= 1000 package=com.android.camera.utils.GSensorUtil
+19:14:10 + 0x0000000b pid= 3055 uid= 1000 package=com.android.camera.utils.GSensorUtil samplingPeriod=5000us batchingPeriod=0us
+19:14:10 + 0x0000000b pid= 3055 uid= 1000 package=android.view.OrientationEventListener samplingPeriod=200000us batchingPeriod=0us
+19:14:05 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:13:59 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:13:56 + 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController samplingPeriod=250000us batchingPeriod=0us
+19:10:09 - 0x00000033 pid= 1288 uid= 1000 package=com.android.server.display.AutomaticBrightnessController
+19:09:40 - 0x00000015 pid=10880 uid=10078 package=com.amap.api.col.3nsl.ai
+19:09:40 - 0x0000000b pid=10880 uid=10078 package=com.amap.api.col.3nsl.ai
+19:09:39 - 0x000000a1 pid=10880 uid=10078 package=com.amap.api.col.3nsl.hr
+19:09:39 - 0x00000015 pid=10880 uid=10078 package=com.amap.api.col.3nsl.hr
+19:09:39 - 0x0000000b pid=10880 uid=10078 package=com.amap.api.col.3nsl.hr
+19:09:38 - 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:09:38 - 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:09:38 - 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603
+19:06:26 + 0x00000015 pid=10880 uid=10078 package=com.amap.api.col.3nsl.ai samplingPeriod=66667us batchingPeriod=0us
+19:06:26 + 0x0000000b pid=10880 uid=10078 package=com.amap.api.col.3nsl.ai samplingPeriod=66667us batchingPeriod=0us
+19:06:26 - 0x00000015 pid=10880 uid=10078 package=com.amap.api.col.3nsl.ai
+19:06:26 - 0x0000000b pid=10880 uid=10078 package=com.amap.api.col.3nsl.ai
+19:06:26 + 0x00000015 pid=10880 uid=10078 package=com.amap.api.col.3nsl.ai samplingPeriod=66667us batchingPeriod=0us
+19:06:26 + 0x0000000b pid=10880 uid=10078 package=com.amap.api.col.3nsl.ai samplingPeriod=66667us batchingPeriod=0us
+19:06:24 + 0x0000008d pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:06:24 + 0x00000029 pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:06:24 + 0x0000000b pid= 2603 uid=10067 package=unknown_package_pid_2603 samplingPeriod=200000us batchingPeriod=0us
+19:06:24 + 0x0000000b pid=10880 uid=10078 package=unknown_package_pid_10880 samplingPeriod=200000us batchingPeriod=0us
+19:06:23 - 0x000000fc pid=10880 uid=10078 package=unknown_package_pid_10880
+19:06:23 - 0x000000a1 pid=10880 uid=10078 package=unknown_package_pid_10880
+19:06:23 + 0x0000000b pid=10880 uid=10078 package=unknown_package_pid_10880 samplingPeriod=200000us batchingPeriod=0us
+19:06:21 + 0x000000a1 pid=10880 uid=10078 package=com.amap.api.col.3nsl.hr samplingPeriod=20000us batchingPeriod=0us
+19:06:21 + 0x0000000b pid=10880 uid=10078 package=com.amap.api.col.3nsl.hr samplingPeriod=20000us batchingPeriod=0us
+19:06:21 + 0x00000015 pid=10880 uid=10078 package=com.amap.api.col.3nsl.hr samplingPeriod=20000us batchingPeriod=0us

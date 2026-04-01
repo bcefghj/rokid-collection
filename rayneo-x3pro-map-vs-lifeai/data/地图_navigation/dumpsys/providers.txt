@@ -1,0 +1,35 @@
+      -> 20843:com.ffalcon.navigation/u0a63 s1/1 u0/0 +2m6s612ms
+  * ContentProviderRecord{8e8eada u0 android/com.android.server.textclassifier.IconsContentProvider}
+    package=android process=system
+    proc=ProcessRecord{a6190e5 1288:system/1000}
+    uid=1000 provider=android.content.ContentProvider$Transport@43966f0
+    singleton=true
+    authority=com.android.textclassifier.icons
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{1569b0b u0 com.android.providers.downloads/.DownloadStorageProvider}
+    package=com.android.providers.downloads process=android.process.media
+--
+      -> 20843:com.ffalcon.navigation/u0a63 s0/0 u1/1 +2m3s63ms
+  * ContentProviderRecord{9e72c42 u0 com.rayneo.gallery/com.blankj.utilcode.util.UtilsFileProvider}
+    package=com.rayneo.gallery process=com.rayneo.gallery
+    proc=ProcessRecord{18d5cfe 3744:com.rayneo.gallery/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@c98667f
+    authority=com.rayneo.gallery.utilcode.fileprovider
+  * ContentProviderRecord{3f62453 u0 com.android.permissioncontroller/.permission.service.PermissionSearchIndexablesProvider}
+    package=com.android.permissioncontroller process=com.android.permissioncontroller
+    proc=ProcessRecord{3c0c0f5 15016:com.android.permissioncontroller/u0a75}
+    uid=10075 provider=android.content.ContentProviderProxy@158864c
+    authority=com.android.permissioncontroller
+--
+      -> 20843:com.ffalcon.navigation/u0a63 s0/0 u1/1 +2m3s70ms
+  * ContentProviderRecord{830ea89 u0 com.android.providers.contacts/.ShadowCallLogProvider}
+    package=com.android.providers.contacts process=android.process.acore
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    uid=10024 provider=android.content.ContentProviderProxy@60ce3aa
+    authority=call_log_shadow
+  * ContentProviderRecord{33fca8e u0 com.rayneo.aispeech/com.blankj.utilcode.util.UtilsFileProvider}
+    package=com.rayneo.aispeech process=com.rayneo.aispeech
+    proc=ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}
+    uid=1000 provider=android.content.ContentProviderProxy@56eb9b
+    authority=com.rayneo.aispeech.utilcode.fileprovider

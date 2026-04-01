@@ -1,0 +1,1255 @@
+Activity Resolver Table:
+  Full MIME Types:
+      application/epub+zip:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 1bc6ff9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "application/epub+zip"
+          StaticType: "application/x-mobipocket-ebook"
+      application/x-mobipocket-ebook:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 1bc6ff9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "application/epub+zip"
+          StaticType: "application/x-mobipocket-ebook"
+      text/plain:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter f8a66c0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Base MIME Types:
+      text:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter f8a66c0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      application:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 1bc6ff9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "application/epub+zip"
+          StaticType: "application/x-mobipocket-ebook"
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 1bc6ff9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "application/epub+zip"
+          StaticType: "application/x-mobipocket-ebook"
+
+  Schemes:
+      cjsign:
+        eae6f84 com.phoenix.read/com.android.ttcjpaysdk.base.framework.CJPayAlipaySignReturnActivity filter a57e36d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "cjsign"
+          Authority: "com.phoenix.read": -1
+      tencent1107848469:
+        aefbb3e com.phoenix.read/com.tencent.tauth.AuthActivity filter 313cd9f
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent1107848469"
+      dragon8662:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter e3b70a7
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "dragon8662"
+      http:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 3cc0954
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "applink.changdunovel.com": -1
+          AutoVerify=true
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 3afc0fd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "applink.novelquickapp.com": -1
+          AutoVerify=true
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter f5071f2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1
+          Path: "PatternMatcher{PREFIX: /z/}"
+          AutoVerify=true
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter b247043
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1
+          AutoVerify=true
+      https:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 3cc0954
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "applink.changdunovel.com": -1
+          AutoVerify=true
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 3afc0fd
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "applink.novelquickapp.com": -1
+          AutoVerify=true
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter f5071f2
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1
+          Path: "PatternMatcher{PREFIX: /z/}"
+          AutoVerify=true
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter b247043
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "": -1
+          AutoVerify=true
+      cj_pay_alipay_sign:
+        a5f416 com.phoenix.read/com.alipay.sdk.app.AlipayResultActivity filter 60bd197
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "cj_pay_alipay_sign"
+      dragon8662shortcut:
+        5a84d4a com.phoenix.read/com.dragon.read.polaris.shortcut.ShortcutActivity filter 171a4bb
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "dragon8662shortcut"
+
+  Non-Data Actions:
+      com.ss.android.sdk.dragon8662:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 5036566
+          Action: "com.ss.android.sdk.dragon8662"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        67a72cb com.phoenix.read/com.dragon.read.pages.splash.SplashActivity filter 51eeaa8
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+      android.intent.action.VIEW:
+        67a72cb com.phoenix.read/com.dragon.read.pages.splash.SplashActivity filter 51eeaa8
+          Action: "android.intent.action.MAIN"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+      com.phoenix.read.luckydog.tokenunion.dataunion.DataUnionActivity:
+        1364dd8 com.phoenix.read/com.bytedance.ug.sdk.luckydog.tokenunion.dataunion.DataUnionActivity filter ce72531
+          Action: "com.phoenix.read.luckydog.tokenunion.dataunion.DataUnionActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.intent.action.ACTION_STUB_PLUGIN:
+        e64fff0 com.phoenix.read/com.bytedance.mira.stub.p0.StubTranslucentActivity filter a9c4969
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        31f6fee com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity1 filter 8915c8f
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        5b22b1c com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity2 filter 9a71325
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        7969cfa com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity3 filter 25132ab
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        544dd08 com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity4 filter 5dabca1
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        9218ec6 com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity5 filter fee4e87
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        7cec1b4 com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity6 filter 74581dd
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        417d152 com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity7 filter 7574c23
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        f704520 com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity8 filter e9d5ed9
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        bdb09e com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity9 filter 4c8877f
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        de4934c com.phoenix.read/com.bytedance.mira.stub.p0.StubStandardActivity10 filter 7fc0f95
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        55038aa com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTopActivity1 filter 1e81c9b
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        36d9838 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTopActivity2 filter d5b1011
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        cd13576 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTopActivity3 filter 2a1e777
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        7fffe4 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTopActivity4 filter 4cf9c4d
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        e933302 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTopActivity5 filter 3c38413
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        62f3650 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTaskActivity1 filter 686b049
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        2857d4e com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTaskActivity2 filter 7584e6f
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        159677c com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTaskActivity3 filter 6810805
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        e40205a com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTaskActivity4 filter ac5628b
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        c937f68 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleTaskActivity5 filter e0f1f81
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        6cfe826 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleInstanceActivity1 filter 2a59c67
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        4d52a14 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleInstanceActivity2 filter 10d32bd
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        34260b2 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleInstanceActivity3 filter 8659803
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        ce4d380 com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleInstanceActivity4 filter adf3db9
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        bf1d5fe com.phoenix.read/com.bytedance.mira.stub.p0.StubSingleInstanceActivity5 filter 59fb15f
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        b83a7ac com.phoenix.read/com.bytedance.mira.stub.p1.StubTranslucentActivity filter f2cfc75
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        291540a com.phoenix.read/com.bytedance.mira.stub.p1.StubStandardActivity1 filter 938047b
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        599298 com.phoenix.read/com.bytedance.mira.stub.p1.StubStandardActivity2 filter a5deaf1
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        ef8a6d6 com.phoenix.read/com.bytedance.mira.stub.p1.StubStandardActivity3 filter 2386d57
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        ba14044 com.phoenix.read/com.bytedance.mira.stub.p1.StubStandardActivity4 filter dd5452d
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        cb05a62 com.phoenix.read/com.bytedance.mira.stub.p1.StubStandardActivity5 filter c6c87f3
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        4941cb0 com.phoenix.read/com.bytedance.mira.stub.p1.StubSingleTopActivity1 filter 3ee0729
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        53dbaae com.phoenix.read/com.bytedance.mira.stub.p1.StubSingleTopActivity2 filter abdb04f
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        a9653dc com.phoenix.read/com.bytedance.mira.stub.p1.StubSingleTopActivity3 filter 7b6ece5
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        32ed3ba com.phoenix.read/com.bytedance.mira.stub.p1.StubSingleTaskActivity1 filter b4f026b
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        d22d1c8 com.phoenix.read/com.bytedance.mira.stub.p1.StubSingleTaskActivity2 filter c6e7261
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        9e67186 com.phoenix.read/com.bytedance.mira.stub.p1.StubSingleTaskActivity3 filter 1595a47
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        6774274 com.phoenix.read/com.bytedance.mira.stub.p1.StubSingleInstanceActivity1 filter bed39d
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        e282012 com.phoenix.read/com.bytedance.mira.stub.p1.StubSingleInstanceActivity2 filter c753e3
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        50011e0 com.phoenix.read/com.bytedance.mira.stub.p1.StubSingleInstanceActivity3 filter 9ba0c99
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        f2eec com.phoenix.read/com.sina.weibo.sdk.share.ShareTransActivity filter d4b12b5
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      com.phoenix.read.pushsdk.action:
+        2053ba2 com.phoenix.read/com.bytedance.push.notification.PushActivity filter 5b1f033
+          Action: "com.phoenix.read.pushsdk.action"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+
+  MIME Typed Actions:
+      android.intent.action.VIEW:
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter f8a66c0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        f9949c1 com.phoenix.read/com.dragon.read.push.AppSdkActivity filter 1bc6ff9
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "application/epub+zip"
+          StaticType: "application/x-mobipocket-ebook"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        2210f72 com.phoenix.read/com.xiaomi.push.service.receivers.MIPushMessageHandler filter da0040
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+        9ecb0be com.phoenix.read/com.xiaomi.push.service.receivers.SmpMIPushMessageHandler filter c7ee06c
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+        33f1aca com.phoenix.read/com.xiaomi.push.service.receivers.WidgetProviderMIPushMessageHandler filter 6af9758
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      com.xiaomi.mipush.ERROR:
+        2210f72 com.phoenix.read/com.xiaomi.push.service.receivers.MIPushMessageHandler filter a65cb79
+          Action: "com.xiaomi.mipush.ERROR"
+        9ecb0be com.phoenix.read/com.xiaomi.push.service.receivers.SmpMIPushMessageHandler filter 9eea635
+          Action: "com.xiaomi.mipush.ERROR"
+        33f1aca com.phoenix.read/com.xiaomi.push.service.receivers.WidgetProviderMIPushMessageHandler filter ef070b1
+          Action: "com.xiaomi.mipush.ERROR"
+      com.huawei.android.push.intent.REGISTRATION:
+        41384e9 com.phoenix.read/com.huawei.hms.support.api.push.PushReceiver filter 404c56e
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        89c1996 com.phoenix.read/androidx.profileinstaller.ProfileInstallReceiver filter e6a66ed
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        b64dfb3 com.phoenix.read/com.huawei.hms.support.api.push.PushMsgReceiver filter d8df970
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      com.phoenix.read.pushsdk.notification.delete.action.smp:
+        a3d2ae6 com.phoenix.read/com.bytedance.notification.SmpNotificationDeleteBroadcastReceiver filter 3018827
+          Action: "com.phoenix.read.pushsdk.notification.delete.action.smp"
+      com.huawei.android.push.intent.RECEIVE:
+        41384e9 com.phoenix.read/com.huawei.hms.support.api.push.PushReceiver filter 404c56e
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.vivo.pushclient.action.RECEIVE:
+        b43c40f com.phoenix.read/com.vivo.VivoPushMessageReceiver filter 4313c9c
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        89c1996 com.phoenix.read/androidx.profileinstaller.ProfileInstallReceiver filter a46c917
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      android.appwidget.action.APPWIDGET_DELETED:
+        bab71a com.phoenix.read/com.bytedance.shoppingIconwidget.ShoppingIconWidgetProvider filter b66124b
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        89c1996 com.phoenix.read/androidx.profileinstaller.ProfileInstallReceiver filter 32d104
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      android.appwidget.action.APPWIDGET_DISABLED:
+        bab71a com.phoenix.read/com.bytedance.shoppingIconwidget.ShoppingIconWidgetProvider filter b66124b
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        89c1996 com.phoenix.read/androidx.profileinstaller.ProfileInstallReceiver filter 6f83922
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      com.xiaomi.push.PING_TIMER:
+        44d0ad4 com.phoenix.read/com.xiaomi.push.service.receivers.PingReceiver filter 212647d
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        2210f72 com.phoenix.read/com.xiaomi.push.service.receivers.MIPushMessageHandler filter ef47fc3
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+        9ecb0be com.phoenix.read/com.xiaomi.push.service.receivers.SmpMIPushMessageHandler filter 895551f
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+        33f1aca com.phoenix.read/com.xiaomi.push.service.receivers.WidgetProviderMIPushMessageHandler filter e44243b
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.vivo.pushclient.action.RECEIVE_SMP:
+        61686a5 com.phoenix.read/com.vivo.SmpVivoPushMessageReceiver filter d3bca7a
+          Action: "com.vivo.pushclient.action.RECEIVE_SMP"
+      com.phoenix.read.pushsdk.notification.delete.action:
+        50ad428 com.phoenix.read/com.bytedance.notification.NotificationDeleteBroadcastReceiver filter 130b541
+          Action: "com.phoenix.read.pushsdk.notification.delete.action"
+      android.appwidget.action.APPWIDGET_ENABLED:
+        bab71a com.phoenix.read/com.bytedance.shoppingIconwidget.ShoppingIconWidgetProvider filter b66124b
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        b642b5e com.phoenix.read/com.dragon.read.appwidget.shortvideorecommend.ShortVideoRecommendAppWidgetProvider filter 7914b3f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        f846c0c com.phoenix.read/com.dragon.read.appwidget.shortvideorecent.ShortVideoRecentAppWidgetProvider filter 195d955
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        1c39f6a com.phoenix.read/com.dragon.read.appwidget.search.SearchAppWidgetProvider filter d95c5b
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        123cf8 com.phoenix.read/com.dragon.read.appwidget.multigenre.MultiGenreNovelAppWidgetProvider filter 627b5d1
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        8f44836 com.phoenix.read/com.dragon.read.appwidget.multigenre.MultiGenreAudioAppWidgetProvider filter dc76337
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        1aa30a4 com.phoenix.read/com.dragon.read.appwidget.multigenre.MultiGenreComicAppWidgetProvider filter 320de0d
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        3b4b1c2 com.phoenix.read/com.dragon.read.appwidget.multigenre.MultiGenreShortVideoAppWidgetProvider filter 24fbd3
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        cabb310 com.phoenix.read/com.dragon.read.appwidget.multigenre.MultiGenreMovieAppWidgetProvider filter 40a4e09
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        20280e com.phoenix.read/com.dragon.read.appwidget.multigenre.MultiGenreTelePlayAppWidgetProvider filter 2b9822f
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        e00f03c com.phoenix.read/com.dragon.read.appwidget.welfaretask.WelfareTaskAppWidgetProvider filter a00c1c5
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        bab71a com.phoenix.read/com.bytedance.shoppingIconwidget.ShoppingIconWidgetProvider filter b66124b
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_DELETED"
+          Action: "android.appwidget.action.APPWIDGET_DISABLED"
+          Action: "android.appwidget.action.APPWIDGET_ENABLED"
+      com.huawei.intent.action.PUSH:
+        b64dfb3 com.phoenix.read/com.huawei.hms.support.api.push.PushMsgReceiver filter d8df970
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.ss.android.vivo.message:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter 8852ed2
+          Action: "com.ss.android.vivo.message"
+      com.ss.android.newmedia.message.notify.delete.action:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter 81a7a59
+          Action: "com.ss.android.newmedia.message.notify.delete.action"
+      com.ss.android.message.action.PUSH_SERVICE:
+        d32164 com.phoenix.read/com.ss.android.message.NotifyService filter 569dfcd
+          Action: "com.ss.android.message.action.PUSH_SERVICE"
+      com.ss.android.hw.message:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter a962607
+          Action: "com.ss.android.hw.message"
+      com.ss.android.oppo.message:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter cbfe55d
+          Action: "com.ss.android.oppo.message"
+      com.bytedance.luckydog.crossover.token:
+        449a1b8 com.phoenix.read/com.bytedance.ug.sdk.luckydog.task.CrossoverService filter ef01b91
+          Action: "com.bytedance.luckydog.crossover.token"
+          Category: "android.intent.category.DEFAULT"
+      com.huawei.push.msg.NOTIFY_MSG:
+        c504c56 com.phoenix.read/com.huawei.hms.support.api.push.service.HmsMsgService filter 5f6e4d7
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.ss.android.socialbase.downloader.remote:
+        dc392ce com.phoenix.read/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService filter c5475ef
+          Action: "com.ss.android.socialbase.downloader.remote"
+      com.ss.android.xiaomi.message:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter 88de821
+          Action: "com.ss.android.xiaomi.message"
+      com.ss.android.aliyun.message:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter d651ba3
+          Action: "com.ss.android.aliyun.message"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        35bc62a com.phoenix.read/com.heytap.msp.push.service.DataMessageCallbackService filter 2f05c1b permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+        b0a0dda com.phoenix.read/com.heytap.msp.push.service.SmpDataMessageCallbackService filter 41c820b permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.ss.android.umeng.message:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter bac1446
+          Action: "com.ss.android.umeng.message"
+      com.ss.android.mz.message:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter 1ee8334
+          Action: "com.ss.android.mz.message"
+      com.intent.action.ACTION_STUB_PLUGIN:
+        e0b2da6 com.phoenix.read/com.bytedance.mira.stub.p0.StubService1 filter 70f33e7
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        ef3ab94 com.phoenix.read/com.bytedance.mira.stub.p0.StubService2 filter 47f563d
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        6ac7e32 com.phoenix.read/com.bytedance.mira.stub.p0.StubService3 filter 2912783
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        429ed00 com.phoenix.read/com.bytedance.mira.stub.p0.StubService4 filter a101939
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        ba04b7e com.phoenix.read/com.bytedance.mira.stub.p1.StubService1 filter bb4b8df
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+        7c0d92c com.phoenix.read/com.bytedance.mira.stub.p1.StubService2 filter 3500ff5
+          Action: "com.intent.action.ACTION_STUB_PLUGIN"
+          Category: "com.intent.category.PLUGIN_DEFAULT"
+      com.ss.android.newmedia.message.cache.action:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter 58a9ea0
+          Action: "com.ss.android.newmedia.message.cache.action"
+      com.heytap.msp.push.RECEIVE_MCS_MESSAGE:
+        35bc62a com.phoenix.read/com.heytap.msp.push.service.DataMessageCallbackService filter 2f05c1b permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+        b0a0dda com.phoenix.read/com.heytap.msp.push.service.SmpDataMessageCallbackService filter 41c820b permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        1bf38fc com.phoenix.read/com.heytap.msp.push.service.CompatibleDataMessageCallbackService filter b03b85 permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+        f44e8e8 com.phoenix.read/com.heytap.msp.push.service.SmpCompatibleDataMessageCallbackService filter abe0b01 permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      android.accounts.AccountAuthenticator:
+        e63661e com.phoenix.read/com.dragon.read.misc.AuthenticatorService filter 2a3ceff
+          Action: "android.accounts.AccountAuthenticator"
+      com.huawei.push.msg.PASSBY_MSG:
+        c504c56 com.phoenix.read/com.huawei.hms.support.api.push.service.HmsMsgService filter 5f6e4d7
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.hihonor.push.action.MESSAGING_EVENT:
+        a71a18a com.phoenix.read/com.honor.HonorMessageListenerService filter c5603fb
+          Action: "com.hihonor.push.action.MESSAGING_EVENT"
+      com.ss.android.redbadge.message:
+        5d2f082 com.phoenix.read/com.ss.android.newmedia.redbadge.RedbadgeHandler filter 6a43393
+          Action: "com.ss.android.redbadge.message"
+      android.media.browse.MediaBrowserService:
+        10b04cc com.phoenix.read/com.xs.fm.player.sdk.component.service.FMPlayService filter eef6315
+          Action: "android.media.browse.MediaBrowserService"
+        7c81af6 com.phoenix.read/com.xs.fm.player.base.component.service.FMPlayService filter 8ae9ef7
+          Action: "android.media.browse.MediaBrowserService"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      com.ss.android.message:
+        e82922b com.phoenix.read/com.dragon.read.push.PushMessageHandler filter e638688
+          Action: "com.ss.android.message"
+      com.bytedance.push.alliance.action.ALLIANCE_SERVICE:
+        252efd0 com.phoenix.read/com.bytedance.push.alliance.partner.Service1 filter d41abc9
+          Action: "com.bytedance.push.alliance.action.ALLIANCE_SERVICE"
+      com.huawei.push.action.MESSAGING_EVENT:
+        4f85c18 com.phoenix.read/com.huawei.MessageService filter c5eb671
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+
+Domain verification status:
+  com.phoenix.read:
+    ID: e52aac43-e531-4c0b-989e-e4a739ec525d
+    Signatures: [1F:E0:1F:14:25:C7:2D:C1:CD:15:8E:05:CB:69:6C:B9:FC:17:25:9A:70:F9:D2:33:FC:48:E8:E4:2E:65:10:EC]
+    Invalid autoVerify domains:
+      
+    Domain verification state:
+      applink.changdunovel.com: verified
+      applink.novelquickapp.com: verified
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          applink.changdunovel.com
+          applink.novelquickapp.com
+
+Permissions:
+  Permission [com.phoenix.read.permission.PUSH_PROVIDER] (9878d0e):
+    sourcePackage=com.phoenix.read
+    uid=10089 gids=[] type=0 prot=signature
+    perm=PermissionInfo{1cdcd85 com.phoenix.read.permission.PUSH_PROVIDER}
+
+Permissions:
+  Permission [com.phoenix.read.permission.SELF_WRITE_DATABASE] (285832f):
+    sourcePackage=com.phoenix.read
+    uid=10089 gids=[] type=0 prot=signature
+    perm=PermissionInfo{5a63d1b com.phoenix.read.permission.SELF_WRITE_DATABASE}
+
+Permissions:
+  Permission [com.phoenix.read.permission.PROCESS_PUSH_MSG] (62b5d3c):
+    sourcePackage=com.phoenix.read
+    uid=10089 gids=[] type=0 prot=signature
+    perm=PermissionInfo{328bc5b com.phoenix.read.permission.PROCESS_PUSH_MSG}
+
+Permissions:
+  Permission [com.phoenix.read.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (f472ac5):
+    sourcePackage=com.phoenix.read
+    uid=10089 gids=[] type=0 prot=signature
+    perm=PermissionInfo{4d724b com.phoenix.read.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Permissions:
+  Permission [com.phoenix.read.permission.MIPUSH_RECEIVE] (9b36c1a):
+    sourcePackage=com.phoenix.read
+    uid=10089 gids=[] type=0 prot=signature
+    perm=PermissionInfo{a2eef43 com.phoenix.read.permission.MIPUSH_RECEIVE}
+
+Permissions:
+  Permission [com.phoenix.read.openadsdk.permission.TT_PANGOLIN] (271234b):
+    sourcePackage=com.phoenix.read
+    uid=10089 gids=[] type=0 prot=signature
+    perm=PermissionInfo{7da2f33 com.phoenix.read.openadsdk.permission.TT_PANGOLIN}
+
+Permissions:
+  Permission [com.phoenix.read.permission.MINIAPP_PROCESS_COMMUNICATION] (9ef1128):
+    sourcePackage=com.phoenix.read
+    uid=10089 gids=[] type=0 prot=signature
+    perm=PermissionInfo{22a1695 com.phoenix.read.permission.MINIAPP_PROCESS_COMMUNICATION}
+
+Permissions:
+  Permission [com.phoenix.read.permission.PUSH_WRITE_PROVIDER] (ef4ae41):
+    sourcePackage=com.phoenix.read
+    uid=10089 gids=[] type=0 prot=signature
+    perm=PermissionInfo{55cd9bd com.phoenix.read.permission.PUSH_WRITE_PROVIDER}
+
+Permissions:
+  Permission [com.phoenix.read.minigame.PROCESS_COMMUNICATION] (28c2fe6):
+    sourcePackage=com.phoenix.read
+    uid=10089 gids=[] type=0 prot=signature
+    perm=PermissionInfo{6725ad5 com.phoenix.read.minigame.PROCESS_COMMUNICATION}
+
+Registered ContentProviders:
+  com.phoenix.read/com.bytedance.upc.cache.ApiMultiProcessSharedProvider:
+    Provider{7e58967 com.phoenix.read/com.bytedance.upc.cache.ApiMultiProcessSharedProvider}
+  com.phoenix.read/com.bytedance.push.alliance.partner.MainProvider1:
+    Provider{4c84c80 com.phoenix.read/com.bytedance.push.alliance.partner.MainProvider1}
+  com.phoenix.read/com.bytedance.push.alliance.partner.MainProvider2:
+    Provider{b97c2b9 com.phoenix.read/com.bytedance.push.alliance.partner.MainProvider2}
+  com.phoenix.read/com.bytedance.push.alliance.partner.MainProvider3:
+    Provider{10876fe com.phoenix.read/com.bytedance.push.alliance.partner.MainProvider3}
+  com.phoenix.read/com.bytedance.apm.battery.dao.MonitorContentProvider:
+    Provider{368d175 com.phoenix.read/com.bytedance.apm.battery.dao.MonitorContentProvider}
+  com.phoenix.read/com.bytedance.alliance.base.component.PreLoadMainProcessProvider:
+    Provider{de4617b com.phoenix.read/com.bytedance.alliance.base.component.PreLoadMainProcessProvider}
+  com.phoenix.read/com.bytedance.pangle.FileProvider:
+    Provider{60dab74 com.phoenix.read/com.bytedance.pangle.FileProvider}
+  com.phoenix.read/com.ss.android.token.TokenObjectProvider:
+    Provider{2140ae0 com.phoenix.read/com.ss.android.token.TokenObjectProvider}
+  com.phoenix.read/com.bytedance.push.settings.storage.SmpProcessSettingsProvider:
+    Provider{7191199 com.phoenix.read/com.bytedance.push.settings.storage.SmpProcessSettingsProvider}
+  com.phoenix.read/com.bytedance.push.settings.storage.MainProcessSettingsProvider:
+    Provider{b762f4b com.phoenix.read/com.bytedance.push.settings.storage.MainProcessSettingsProvider}
+  com.phoenix.read/com.bytedance.mira.pm.PluginPackageManagerProvider:
+    Provider{767527 com.phoenix.read/com.bytedance.mira.pm.PluginPackageManagerProvider}
+  com.phoenix.read/androidx.core.content.FileProvider:
+    Provider{d4bf3d4 com.phoenix.read/androidx.core.content.FileProvider}
+  com.phoenix.read/com.bytedance.pangle.provider.MainProcessProviderProxy:
+    Provider{180f72a com.phoenix.read/com.bytedance.pangle.provider.MainProcessProviderProxy}
+  com.phoenix.read/com.bytedance.sdk.openadsdk.stub.server.MainServerManager:
+    Provider{3b4391b com.phoenix.read/com.bytedance.sdk.openadsdk.stub.server.MainServerManager}
+  com.phoenix.read/com.bytedance.sdk.openadsdk.TTFileProvider:
+    Provider{b4d4182 com.phoenix.read/com.bytedance.sdk.openadsdk.TTFileProvider}
+  com.phoenix.read/com.dragon.reader.lib.context.ReaderContentProvider:
+    Provider{956d085 com.phoenix.read/com.dragon.reader.lib.context.ReaderContentProvider}
+  com.phoenix.read/com.ss.android.token.AuthTokenMultiProcessSharedProvider:
+    Provider{fb8f001 com.phoenix.read/com.ss.android.token.AuthTokenMultiProcessSharedProvider}
+  com.phoenix.read/com.bytedance.ug.sdk.share.impl.provider.ShareSdkProvider:
+    Provider{9b920e7 com.phoenix.read/com.bytedance.ug.sdk.share.impl.provider.ShareSdkProvider}
+  com.phoenix.read/com.huawei.hms.support.api.push.PushProvider:
+    Provider{7ca87a9 com.phoenix.read/com.huawei.hms.support.api.push.PushProvider}
+  com.phoenix.read/com.ss.android.downloadlib.addownload.TTDownloaderProvider:
+    Provider{c47712e com.phoenix.read/com.ss.android.downloadlib.addownload.TTDownloaderProvider}
+  com.phoenix.read/com.bytedance.push.alliance.partner.Provider1:
+    Provider{4bc0e92 com.phoenix.read/com.bytedance.push.alliance.partner.Provider1}
+  com.phoenix.read/com.bytedance.push.alliance.partner.Provider2:
+    Provider{76ee063 com.phoenix.read/com.bytedance.push.alliance.partner.Provider2}
+  com.phoenix.read/com.bytedance.push.alliance.partner.Provider3:
+    Provider{225e460 com.phoenix.read/com.bytedance.push.alliance.partner.Provider3}
+  com.phoenix.read/com.bytedance.push.alliance.partner.Provider4:
+    Provider{7f7ad19 com.phoenix.read/com.bytedance.push.alliance.partner.Provider4}
+  com.phoenix.read/com.bytedance.mira.am.PluginActivityManagerProvider:
+    Provider{bb147b7 com.phoenix.read/com.bytedance.mira.am.PluginActivityManagerProvider}
+  com.phoenix.read/com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider:
+    Provider{c130a45 com.phoenix.read/com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider}
+  com.phoenix.read/com.bytedance.mira.stub.p0.StubContentProvider:
+    Provider{582cecb com.phoenix.read/com.bytedance.mira.stub.p0.StubContentProvider}
+  com.phoenix.read/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider:
+    Provider{b6d8ca7 com.phoenix.read/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+  com.phoenix.read/com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider:
+    Provider{5f079d8 com.phoenix.read/com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider}
+  com.phoenix.read/com.bytedance.mira.stub.p1.StubContentProvider:
+    Provider{1fced97 com.phoenix.read/com.bytedance.mira.stub.p1.StubContentProvider}
+  com.phoenix.read/com.dragon.reader.simple.SimpleContentProvider:
+    Provider{3145f6d com.phoenix.read/com.dragon.reader.simple.SimpleContentProvider}
+  com.phoenix.read/com.sina.weibo.sdk.content.FileProvider:
+    Provider{12adb4 com.phoenix.read/com.sina.weibo.sdk.content.FileProvider}
+  com.phoenix.read/com.bytedance.reparo.provider.ReparoProvider:
+    Provider{cad2823 com.phoenix.read/com.bytedance.reparo.provider.ReparoProvider}
+  com.phoenix.read/com.bytedance.bdturing.ttnet.BdTuringInitProvider:
+    Provider{25184aa com.phoenix.read/com.bytedance.bdturing.ttnet.BdTuringInitProvider}
+  com.phoenix.read/android.support.v4.content.FileProvider:
+    Provider{69b4176 com.phoenix.read/android.support.v4.content.FileProvider}
+  com.phoenix.read/com.ss.android.push.PushFileProvider:
+    Provider{8486013 com.phoenix.read/com.ss.android.push.PushFileProvider}
+  com.phoenix.read/com.dragon.read.push.opt.PushRunningStatusProvider:
+    Provider{54eea6f com.phoenix.read/com.dragon.read.push.opt.PushRunningStatusProvider}
+  com.phoenix.read/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager:
+    Provider{836ab68 com.phoenix.read/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager}
+  com.phoenix.read/androidx.startup.InitializationProvider:
+    Provider{57f1614 com.phoenix.read/androidx.startup.InitializationProvider}
+  com.phoenix.read/com.bytedance.dataplatform.ABExtraProvider:
+    Provider{2a58957 com.phoenix.read/com.bytedance.dataplatform.ABExtraProvider}
+  com.phoenix.read/com.bytedance.timon.permission.storage.model.TimonMediaFileProvider:
+    Provider{56dc12d com.phoenix.read/com.bytedance.timon.permission.storage.model.TimonMediaFileProvider}
+  com.phoenix.read/com.android.ttcjpaysdk.base.h5.provider.CJPayFileProvider:
+    Provider{d311fba com.phoenix.read/com.android.ttcjpaysdk.base.h5.provider.CJPayFileProvider}
+  com.phoenix.read/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{3d15f10 com.phoenix.read/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+  com.phoenix.read/com.bytedance.bdinstall.BDInstallProvider:
+    Provider{dba0028 com.phoenix.read/com.bytedance.bdinstall.BDInstallProvider}
+
+ContentProvider Authorities:
+  [com.phoenix.read.AGCInitializeProvider]:
+    Provider{3d15f10 com.phoenix.read/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{e2ca927 com.phoenix.read}
+  [com.phoenix.read.push.status]:
+    Provider{54eea6f com.phoenix.read/com.dragon.read.push.opt.PushRunningStatusProvider}
+      applicationInfo=ApplicationInfo{fb817d4 com.phoenix.read}
+  [com.phoenix.read.pangle.fileprovider]:
+    Provider{60dab74 com.phoenix.read/com.bytedance.pangle.FileProvider}
+      applicationInfo=ApplicationInfo{a9ced7d com.phoenix.read}
+  [com.phoenix.read.alliance.provider1]:
+    Provider{4bc0e92 com.phoenix.read/com.bytedance.push.alliance.partner.Provider1}
+      applicationInfo=ApplicationInfo{db6472 com.phoenix.read}
+  [com.phoenix.read.alliance.provider2]:
+    Provider{76ee063 com.phoenix.read/com.bytedance.push.alliance.partner.Provider2}
+      applicationInfo=ApplicationInfo{830b0c3 com.phoenix.read}
+  [com.phoenix.read.alliance.provider3]:
+    Provider{225e460 com.phoenix.read/com.bytedance.push.alliance.partner.Provider3}
+      applicationInfo=ApplicationInfo{c68dd40 com.phoenix.read}
+  [com.phoenix.read.alliance.provider4]:
+    Provider{7f7ad19 com.phoenix.read/com.bytedance.push.alliance.partner.Provider4}
+      applicationInfo=ApplicationInfo{b8fe479 com.phoenix.read}
+  [com.phoenix.read.am.PAMP]:
+    Provider{bb147b7 com.phoenix.read/com.bytedance.mira.am.PluginActivityManagerProvider}
+      applicationInfo=ApplicationInfo{27755be com.phoenix.read}
+  [com.phoenix.read.timon.media.file.provider.authority]:
+    Provider{56dc12d com.phoenix.read/com.bytedance.timon.permission.storage.model.TimonMediaFileProvider}
+      applicationInfo=ApplicationInfo{7e3961f com.phoenix.read}
+  [com.phoenix.read.bdturing.InitProvider]:
+    Provider{25184aa com.phoenix.read/com.bytedance.bdturing.ttnet.BdTuringInitProvider}
+      applicationInfo=ApplicationInfo{e9e8d6c com.phoenix.read}
+  [com.phoenix.read.ttcjpay.fileprovider]:
+    Provider{d311fba com.phoenix.read/com.android.ttcjpaysdk.base.h5.provider.CJPayFileProvider}
+      applicationInfo=ApplicationInfo{6214f35 com.phoenix.read}
+  [com.phoenix.read.pm.PPMP]:
+    Provider{767527 com.phoenix.read/com.bytedance.mira.pm.PluginPackageManagerProvider}
+      applicationInfo=ApplicationInfo{a4f0fca com.phoenix.read}
+  [com.phoenix.read.downloadlib.addownload.TTDownloaderProvider]:
+    Provider{c47712e com.phoenix.read/com.ss.android.downloadlib.addownload.TTDownloaderProvider}
+      applicationInfo=ApplicationInfo{ab5753b com.phoenix.read}
+  [com.phoenix.read.TTMultiProvider]:
+    Provider{b6d8ca7 com.phoenix.read/com.bytedance.sdk.openadsdk.multipro.TTMultiProvider}
+      applicationInfo=ApplicationInfo{f9d1458 com.phoenix.read}
+  [com.phoenix.read.TokenObjectProvider]:
+    Provider{2140ae0 com.phoenix.read/com.ss.android.token.TokenObjectProvider}
+      applicationInfo=ApplicationInfo{624a9b1 com.phoenix.read}
+  [com.phoenix.read.ug.sdk.share.fileprovider]:
+    Provider{9b920e7 com.phoenix.read/com.bytedance.ug.sdk.share.impl.provider.ShareSdkProvider}
+      applicationInfo=ApplicationInfo{9365e96 com.phoenix.read}
+  [com.phoenix.read.alliance.fileprovider]:
+    Provider{69b4176 com.phoenix.read/android.support.v4.content.FileProvider}
+      applicationInfo=ApplicationInfo{afc2a17 com.phoenix.read}
+  [com.phoenix.read.reader.simple.SimpleContentProvider]:
+    Provider{3145f6d com.phoenix.read/com.dragon.reader.simple.SimpleContentProvider}
+      applicationInfo=ApplicationInfo{6fb1e04 com.phoenix.read}
+  [com.phoenix.read.reparo]:
+    Provider{cad2823 com.phoenix.read/com.bytedance.reparo.provider.ReparoProvider}
+      applicationInfo=ApplicationInfo{7292fed com.phoenix.read}
+  [com.phoenix.read.push.settings]:
+    Provider{b762f4b com.phoenix.read/com.bytedance.push.settings.storage.MainProcessSettingsProvider}
+      applicationInfo=ApplicationInfo{771ce22 com.phoenix.read}
+  [com.phoenix.read.stub.p1.STUB_AUTHORITY]:
+    Provider{1fced97 com.phoenix.read/com.bytedance.mira.stub.p1.StubContentProvider}
+      applicationInfo=ApplicationInfo{88f50b3 com.phoenix.read}
+  [com.phoenix.read.push.file_provider]:
+    Provider{8486013 com.phoenix.read/com.ss.android.push.PushFileProvider}
+      applicationInfo=ApplicationInfo{d0e1670 com.phoenix.read}
+  [com.phoenix.read.auth_token.SHARE_PROVIDER_AUTHORITY]:
+    Provider{fb8f001 com.phoenix.read/com.ss.android.token.AuthTokenMultiProcessSharedProvider}
+      applicationInfo=ApplicationInfo{475dde9 com.phoenix.read}
+  [com.phoenix.read.push.SHARE_PROVIDER_AUTHORITY]:
+    Provider{c130a45 com.phoenix.read/com.ss.android.pushmanager.setting.PushMultiProcessSharedProvider}
+      applicationInfo=ApplicationInfo{b02aa6e com.phoenix.read}
+  [com.phoenix.read.stub.p0.STUB_AUTHORITY]:
+    Provider{582cecb com.phoenix.read/com.bytedance.mira.stub.p0.StubContentProvider}
+      applicationInfo=ApplicationInfo{f24450f com.phoenix.read}
+  [com.phoenix.read.pangle.servermanager.main]:
+    Provider{3b4391b com.phoenix.read/com.bytedance.sdk.openadsdk.stub.server.MainServerManager}
+      applicationInfo=ApplicationInfo{816299c com.phoenix.read}
+  [com.phoenix.read.reader.context.ReaderContentProvider]:
+    Provider{956d085 com.phoenix.read/com.dragon.reader.lib.context.ReaderContentProvider}
+      applicationInfo=ApplicationInfo{cc56fa5 com.phoenix.read}
+  [com.phoenix.read.androidx-startup]:
+    Provider{57f1614 com.phoenix.read/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{6b2ff7a com.phoenix.read}
+  [com.phoenix.read.fileprovider]:
+    Provider{12adb4 com.phoenix.read/com.sina.weibo.sdk.content.FileProvider}
+      applicationInfo=ApplicationInfo{66a232b com.phoenix.read}
+  [com.phoenix.read.TTFileProvider]:
+    Provider{b4d4182 com.phoenix.read/com.bytedance.sdk.openadsdk.TTFileProvider}
+      applicationInfo=ApplicationInfo{2a4388 com.phoenix.read}
+  [com.phoenix.read.file_provider]:
+    Provider{d4bf3d4 com.phoenix.read/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{5c26121 com.phoenix.read}
+  [com.phoenix.read.bdinstall.provider]:
+    Provider{dba0028 com.phoenix.read/com.bytedance.bdinstall.BDInstallProvider}
+      applicationInfo=ApplicationInfo{de19946 com.phoenix.read}
+  [com.phoenix.read.UPC.SHARE_PROVIDER_AUTHORITY]:
+    Provider{7e58967 com.phoenix.read/com.bytedance.upc.cache.ApiMultiProcessSharedProvider}
+      applicationInfo=ApplicationInfo{7e5c707 com.phoenix.read}
+  [com.phoenix.read.pangle.servermanager.downloader.com.bytedance.sdk.openadsdk.adhost]:
+    Provider{836ab68 com.phoenix.read/com.bytedance.sdk.openadsdk.stub.server.DownloaderServerManager}
+      applicationInfo=ApplicationInfo{5e41034 com.phoenix.read}
+  [com.phoenix.read.push.settings.smp]:
+    Provider{7191199 com.phoenix.read/com.bytedance.push.settings.storage.SmpProcessSettingsProvider}
+      applicationInfo=ApplicationInfo{b42ee5d com.phoenix.read}
+  [com.phoenix.read.pangle.provider.proxy.main]:
+    Provider{180f72a com.phoenix.read/com.bytedance.pangle.provider.MainProcessProviderProxy}
+      applicationInfo=ApplicationInfo{90e03d2 com.phoenix.read}
+  [com.phoenix.read.huawei.push.provider]:
+    Provider{7ca87a9 com.phoenix.read/com.huawei.hms.support.api.push.PushProvider}
+      applicationInfo=ApplicationInfo{68dcca3 com.phoenix.read}
+  [com.phoenix.read.dataplatform.abtest]:
+    Provider{2a58957 com.phoenix.read/com.bytedance.dataplatform.ABExtraProvider}
+      applicationInfo=ApplicationInfo{7cbfba0 com.phoenix.read}
+  [com.phoenix.read.WsChannelMultiProcessSharedProvider]:
+    Provider{5f079d8 com.phoenix.read/com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider}
+      applicationInfo=ApplicationInfo{6451359 com.phoenix.read}
+  [com.phoenix.read.alliance.mainprovider1]:
+    Provider{4c84c80 com.phoenix.read/com.bytedance.push.alliance.partner.MainProvider1}
+      applicationInfo=ApplicationInfo{7248b1e com.phoenix.read}
+  [com.phoenix.read.alliance.mainprovider2]:
+    Provider{b97c2b9 com.phoenix.read/com.bytedance.push.alliance.partner.MainProvider2}
+      applicationInfo=ApplicationInfo{4268fff com.phoenix.read}
+  [com.phoenix.read.alliance.mainprovider3]:
+    Provider{10876fe com.phoenix.read/com.bytedance.push.alliance.partner.MainProvider3}
+      applicationInfo=ApplicationInfo{28531cc com.phoenix.read}
+  [com.phoenix.read.depths.pre.load]:
+    Provider{de4617b com.phoenix.read/com.bytedance.alliance.base.component.PreLoadMainProcessProvider}
+      applicationInfo=ApplicationInfo{7aa8c15 com.phoenix.read}
+  [com.phoenix.read.apm]:
+    Provider{368d175 com.phoenix.read/com.bytedance.apm.battery.dao.MonitorContentProvider}
+      applicationInfo=ApplicationInfo{78a3b2a com.phoenix.read}
+
+Key Set Manager:
+  [com.phoenix.read]
+      Signing KeySets: 14
+
+Packages:
+  Package [com.phoenix.read] (9abd845):
+    userId=10089
+    pkg=Package{46e4b9a com.phoenix.read}
+    codePath=/data/app/~~BjPPO31I8leBqzRpn6J5-g==/com.phoenix.read-cnlsV9GGRb9bUhtIJ_8X5w==
+    resourcePath=/data/app/~~BjPPO31I8leBqzRpn6J5-g==/com.phoenix.read-cnlsV9GGRb9bUhtIJ_8X5w==
+    legacyNativeLibraryDir=/data/app/~~BjPPO31I8leBqzRpn6J5-g==/com.phoenix.read-cnlsV9GGRb9bUhtIJ_8X5w==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=67132 minSdk=21 targetSdk=30
+    minExtensionVersions=[]
+    versionName=6.7.1.32
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{46e4b9a com.phoenix.read}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=com.ss.android.message.action.PUSH_SERVICE }, Intent { act=com.bytedance.push.alliance.action.ALLIANCE_SERVICE }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=android.intent.action.VIEW cat=[android.intent.category.BROWSABLE] dat=https:///... }, Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] dat=file:/* }, Intent { act=* dat=*:/* }, Intent { act=android.intent.action.SEND dat=content://*/* typ=*/* }, Intent { act=com.hihonor.push.action.BIND_PUSH_SERVICE }, Intent { act=* dat=tbopen:/* }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=com.huawei.hms.core }]
+    dataDir=/data/user/0/com.phoenix.read
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2026-03-18 18:46:36
+    firstInstallTime=2026-03-18 18:47:47
+    lastUpdateTime=2026-03-18 18:47:47
+    installerPackageName=com.ffalconxr.mercury.launcher
+    signatures=PackageSignatures{11b4ccb version:3, signatures:[6aaeb8fc], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.phoenix.read.permission.SELF_WRITE_DATABASE: prot=signature, INSTALLED
+      com.phoenix.read.permission.MINIAPP_PROCESS_COMMUNICATION: prot=signature, INSTALLED
+      com.phoenix.read.minigame.PROCESS_COMMUNICATION: prot=signature, INSTALLED
+      com.phoenix.read.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+      com.phoenix.read.openadsdk.permission.TT_PANGOLIN: prot=signature, INSTALLED
+      com.phoenix.read.permission.PROCESS_PUSH_MSG: prot=signature, INSTALLED
+      com.phoenix.read.permission.PUSH_PROVIDER: prot=signature, INSTALLED
+      com.phoenix.read.permission.PUSH_WRITE_PROVIDER: prot=signature, INSTALLED
+      com.phoenix.read.permission.MIPUSH_RECEIVE: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.WAKE_LOCK
+      android.permission.READ_PHONE_STATE
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.GET_ACCOUNTS
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.USE_FULL_SCREEN_INTENT
+      android.permission.FOREGROUND_SERVICE
+      android.permission.CHANGE_NETWORK_STATE
+      android.hardware.sensor.accelerometer
+      android.permission.CAMERA
+      android.permission.REQUEST_INSTALL_PACKAGES
+      com.phoenix.read.permission.MIPUSH_RECEIVE
+      com.phoenix.read.permission.MESSAGE
+      com.phoenix.read.permission.C2D_MESSAGE
+      com.android.launcher.permission.READ_SETTINGS
+      com.android.launcher.permission.WRITE_SETTINGS
+      com.android.launcher3.permission.READ_SETTINGS
+      com.android.launcher3.permission.WRITE_SETTINGS
+      com.google.android.launcher.permission.READ_SETTINGS
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.READ_APP_BADGE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.INSTALL_SHORTCUT
+      android.permission.UNINSTALL_SHORTCUT
+      android.permission.VIBRATE
+      android.permission.INTERNET
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+      android.permission.BROADCAST_STICKY
+      com.phoenix.read.permission.SELF_WRITE_DATABASE
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_CALENDAR
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.HIGH_SAMPLING_RATE_SENSORS
+      com.vivo.aiengine.permission.READ_AWARE_PROVIDER
+      com.vivo.aiengine.permission.WRITE_AWARE_PROVIDER
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.RECORD_AUDIO
+      com.phoenix.read.permission.MINIAPP_PROCESS_COMMUNICATION
+      android.permission.REORDER_TASKS
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.aliyun.homeshell.permission.WRITE_SETTINGS
+      com.aliyun.homeshell.permission.READ_SETTINGS
+      com.lenovo.launcher.permission.READ_SETTINGS
+      com.lenovo.launcher.permission.WRITE_SETTINGS
+      com.iLoong.permission.WRITE_SETTINGS
+      com.iLoong.permission.READ_SETTINGS
+      cn.nubia.launcher.permission.WRITE_SETTINGS
+      cn.nubia.launcher.permission.READ_SETTINGS
+      com.smartisanos.launcher.WRITE_DATABASE
+      com.smartisanos.launcher.READ_DATABASE
+      com.smartisanos.launcher.data.ExportDataProvider
+      com.teslacoilsw.launcher.permission.WRITE_SETTINGS
+      com.teslacoilsw.launcher.permission.READ_SETTINGS
+      com.meizu.flyme.launcher.permission.READ_SETTINGS
+      com.meizu.flyme.launcher.permission.WRITE_SETTINGS
+      com.ztemt.launcher.permission.WRITE_SETTINGS
+      com.ztemt.launcher.permission.READ_SETTINGS
+      com.zte.lqsoft.launcher.permission.READ_SETTINGS
+      com.zte.lqsoft.launcher.permission.WRITE_SETTINGS
+      com.baoruan.launcher2.permission.WRITE_SETTINGS
+      com.baoruan.launcher2.permission.READ_SETTINGS
+      com.fineos.launcher.permission.READ_SETTINGS
+      com.fineos.launcher.permission.WRITE_SETTINGS
+      com.ibingo.launcher.permission.WRITE_SETTINGS
+      com.ibingo.launcher.permission.READ_SETTINGS
+      com.zui.launcher.permission.WRITE_SETTINGS
+      com.zui.launcher.permission.READ_SETTINGS
+      com.zte.mifavor.launcher.permission.WRITE_SETTINGS
+      com.zte.mifavor.launcher.permission.READ_SETTINGS
+      com.lo.launcher.permission.READ_SETTINGS
+      com.lo.launcher.permission.WRITE_SETTINGS
+      com.android.tpwlauncher2.permission.WRITE_SETTINGS
+      com.android.tpwlauncher2.permission.READ_SETTINGS
+      com.android.sprdlauncher1.permission.READ_SETTINGS
+      com.android.sprdlauncher1.permission.WRITE_SETTINGS
+      com.s.launcher.permission.WRITE_SETTINGS
+      com.s.launcher.permission.READ_SETTINGS
+      com.zte.mobile.ZteLauncher3D.permission.READ_SETTINGS
+      com.zte.mobile.ZteLauncher3D.permission.WRITE_SETTINGS
+      com.android.launcher23.permission.READ_SETTINGS
+      com.android.launcher23.permission.WRITE_SETTINGS
+      com.mgyun.permission.READ_SETTINGS
+      com.mgyun.permission.WRITE_SETTINGS
+      com.asus.launcher3.permission.READ_SETTINGS
+      com.asus.launcher3.permission.WRITE_SETTINGS
+      com.hola.launcher.permission.READ_SETTINGS
+      com.hola.launcher.permission.WRITE_SETTINGS
+      com.qihoo360.home.permission.WRITE_SETTINGS
+      com.qihoo360.home.permission.READ_SETTINGS
+      com.slim.slimlauncher.permission.READ_SETTINGS
+      com.slim.slimlauncher.permission.WRITE_SETTINGS
+      com.huaqin.launcherEx.permission.WRITE_SETTINGS
+      com.huaqin.launcherEx.permission.READ_SETTINGS
+      com.epic.launcher.tw.permission.WRITE_SETTINGS
+      com.epic.launcher.tw.permission.READ_SETTINGS
+      com.android.lewalauncher.permission.READ_SETTINGS
+      com.android.lewalauncher.permission.WRITE_SETTINGS
+      com.Dean.launcher.permission.READ_SETTINGS
+      com.Dean.launcher.permission.WRITE_SETTINGS
+      app.cobo.launcher.permission.WRITE_SETTINGS
+      app.cobo.launcher.permission.READ_SETTINGS
+      com.alphalp.launcher.permission.WRITE_SETTINGS
+      com.alphalp.launcher.permission.READ_SETTINGS
+      com.lollipop.launcher.permission.READ_SETTINGS
+      com.lollipop.launcher.permission.WRITE_SETTINGS
+      com.l.launcher.permission.READ_SETTINGS
+      com.l.launcher.permission.WRITE_SETTINGS
+      com.dlto.atom.launcher.permission.READ_SETTINGS
+      com.dlto.atom.launcher.permission.WRITE_SETTINGS
+      com.android.sprdlauncher2.permission.WRITE_SETTINGS
+      com.android.sprdlauncher2.permission.READ_SETTINGS
+      com.konka.launcher2.permission.READ_SETTINGS
+      com.konka.launcher2.permission.WRITE_SETTINGS
+      com.mycheering.launcher.permission.WRITE_SETTINGS
+      com.mycheering.launcher.permission.READ_SETTINGS
+      com.microsoft.launcher.permission.READ_SETTINGS
+      com.microsoft.launcher.permission.WRITE_SETTINGS
+      com.nicelauncher.lolauncher.permission.READ_SETTINGS
+      com.nicelauncher.lolauncher.permission.WRITE_SETTINGS
+      com.jui.launcher3.permission.READ_SETTINGS
+      com.jui.launcher3.permission.WRITE_SETTINGS
+      com.android.launcher2.permission.READ_SETTINGS
+      com.android.launcher2.permission.WRITE_SETTINGS
+      com.qihoo360.launcher.permission.READ_SETTINGS
+      com.qihoo360.launcher.permission.WRITE_SETTINGS
+      com.lge.launcher.permission.READ_SETTINGS
+      com.lge.launcher.permission.WRITE_SETTINGS
+      net.qihoo.launcher.permission.READ_SETTINGS
+      net.qihoo.launcher.permission.WRITE_SETTINGS
+      org.adw.launcher_donut.permission.READ_SETTINGS
+      org.adw.launcher_donut.permission.WRITE_SETTINGS
+      com.huawei.launcher3.permission.READ_SETTINGS
+      com.huawei.launcher3.permission.WRITE_SETTINGS
+      com.sec.android.app.twlauncher.settings.READ_SETTINGS
+      com.sec.android.app.twlauncher.settings.WRITE_SETTINGS
+      com.anddoes.launcher.permission.READ_SETTINGS
+      com.anddoes.launcher.permission.WRITE_SETTINGS
+      com.tencent.qqlauncher.permission.READ_SETTINGS
+      com.tencent.qqlauncher.permission.WRITE_SETTINGS
+      com.huawei.launcher2.permission.READ_SETTINGS
+      com.huawei.launcher2.permission.WRITE_SETTINGS
+      com.ebproductions.android.launcher.permission.READ_SETTINGS
+      com.ebproductions.android.launcher.permission.WRITE_SETTINGS
+      telecom.mdesk.permission.READ_SETTINGS
+      telecom.mdesk.permission.WRITE_SETTINGS
+      com.modaco.android.launchergb.permission.READ_SETTINGS
+      com.modaco.android.launchergb.permission.WRITE_SETTINGS
+      com.sec.android.app.launcher.permission.READ_SETTINGS
+      com.sec.android.app.launcher.permission.WRITE_SETTINGS
+      com.bbk.launcher2.permission.READ_SETTINGS
+      com.bbk.launcher2.permission.WRITE_SETTINGS
+      com.htc.launcher.permission.WRITE_SETTINGS
+      com.sec.android.app.twlauncher.WRITE_SETTINGS
+      com.sec.android.app.twlauncher.READ_SETTINGS
+      org.adw.launcher.permission.READ_SETTINGS
+      org.adw.launcher.permission.WRITE_SETTINGS
+      org.adwfreak.launcher.permission.READ_SETTINGS
+      org.adwfreak.launcher.permission.WRITE_SETTINGS
+      com.gau.go.launcherex.permission.READ_SETTINGS
+      com.gau.go.launcherex.permission.WRITE_SETTINGS
+      com.fede.launcher.permission.READ_SETTINGS
+      com.fede.launcher.permission.WRITE_SETTINGS
+      com.nd.android.launcher.permission.READ_SETTINGS
+      com.nd.android.launcher.permission.WRITE_SETTINGS
+      com.android.mylauncher.permission.READ_SETTINGS
+      com.android.mylauncher.permission.WRITE_SETTINGS
+      com.huawei.launcher.permission.READ_SETTINGS
+      com.huawei.launcher.permission.WRITE_SETTINGS
+      com.mx.launcher.permission.READ_SETTINGS
+      com.mx.launcher.permission.WRITE_SETTINGS
+      com.google.android.launcher.permission.WRITE_SETTINGS
+      android.permission.POST_NOTIFICATIONS
+      android.permission.FLASHLIGHT
+      android.permission.USE_FINGERPRINT
+      com.asus.msa.SupplementaryDID.ACCESS
+      com.hihonor.android.launcher.permission.CHANGE_BADGE
+      me.everything.badger.permission.BADGE_COUNT_READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      android.permission.UPDATE_APP_BADGE
+      com.vivo.notification.permission.BADGE_ICON
+      com.vivo.abe.permission.launcher.notification.num
+      com.phoenix.read.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+      com.phoenix.read.openadsdk.permission.TT_PANGOLIN
+      miui.permission.READ_STEPS
+      com.phoenix.read.permission.PROCESS_PUSH_MSG
+      com.phoenix.read.permission.PUSH_PROVIDER
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+      android.permission.BLUETOOTH_SCAN
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.BLUETOOTH_ADVERTISE
+    install permissions:
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=false
+      android.permission.SYSTEM_ALERT_WINDOW: granted=false
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.HIGH_SAMPLING_RATE_SENSORS: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS: granted=true
+      android.permission.BLUETOOTH: granted=true
+      com.phoenix.read.permission.PUSH_PROVIDER: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.phoenix.read.permission.SELF_WRITE_DATABASE: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.BROADCAST_STICKY: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      com.phoenix.read.permission.PROCESS_PUSH_MSG: granted=true
+      com.phoenix.read.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.phoenix.read.permission.MIPUSH_RECEIVE: granted=true
+      com.phoenix.read.openadsdk.permission.TT_PANGOLIN: granted=true
+      com.phoenix.read.permission.MINIAPP_PROCESS_COMMUNICATION: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.REQUEST_INSTALL_PACKAGES: granted=false
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=6690 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=false enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      lastDisabledCaller: com.ffalconxr.mercury.launcher
+      gids=[3002, 3003, 3001]
+      runtime permissions:
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CALENDAR: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ REVOKE_WHEN_REQUESTED|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+      disabledComponents:
+        com.heytap.msp.push.service.SmpCompatibleDataMessageCallbackService
+        com.ss.android.deviceregister.AActivity
+        com.xiaomi.push.service.receivers.WidgetProviderMIPushMessageHandler
+        com.xiaomi.push.service.receivers.SmpMIPushMessageHandler
+        com.heytap.msp.push.service.SmpDataMessageCallbackService
+      enabledComponents:
+        com.heytap.msp.push.service.CompatibleDataMessageCallbackService
+        com.heytap.msp.push.service.DataMessageCallbackService
+        com.xiaomi.push.service.receivers.MIPushMessageHandler
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    com.phoenix.read:
+      com.sina.weibo
+      com.tencent.mm
+  queries via intent:
+    [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+      com.phoenix.read
+    com.xingin.xhs:
+      com.phoenix.read
+    com.phoenix.read:
+      com.android.contacts
+      tv.danmaku.bili
+      com.xingin.xhs
+      com.larus.nova
+      com.tencent.qqmusicpad
+      com.sina.weibo
+      com.tencent.mm
+      com.tencent.wemeet.app
+    com.sina.weibo:
+      com.phoenix.read
+    com.tencent.mm:
+      com.phoenix.read
+  queryable via interaction:
+    User 0:
+      [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+        com.phoenix.read
+      com.sogou.inputmethod.iot:
+        com.phoenix.read
+      com.android.webview:
+        com.phoenix.read
+      com.phoenix.read:
+        com.android.webview
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.phoenix.read]
+    path: /data/app/~~BjPPO31I8leBqzRpn6J5-g==/com.phoenix.read-cnlsV9GGRb9bUhtIJ_8X5w==/base.apk
+      arm64: [status=speed-profile] [reason=bg-dexopt]
+
+
+Compiler stats:
+  [com.phoenix.read]
+     base.apk - 44975
+Snapshot statistics
+   Unrecorded-hits: 4329  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:24         now           0           0           0           0           0           0           0
+          1:24        0:24           0           0           0           0           0           0           0
+          2:24        1:24           0           0           0           0           0           0           0
+          3:24        2:24           0           0           0           0           0           0           0
+          4:24        3:24           0           0           0           0           0           0           0
+          5:24        4:24           0           0           0           0           0           0           0
+          6:24        5:24           0           0           0           0           0           0           0
+          7:24        6:24           0           0           0           0           0           0           0
+          8:24        7:24           0           0           0           0           0           0           0
+          9:24        8:24           0           0           0           0           0           0           0
+   20513:16:09:09         now         305      413335           0           2          73         241          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:24         now           0           0           0           0           0           0           0           0
+          1:24        0:24           0           0           0           0           0           0           0           0
+          2:24        1:24           0           0           0           0           0           0           0           0
+          3:24        2:24           0           0           0           0           0           0           0           0
+          4:24        3:24           0           0           0           0           0           0           0           0
+          5:24        4:24           0           0           0           0           0           0           0           0
+          6:24        5:24           0           0           0           0           0           0           0           0
+          7:24        6:24           0           0           0           0           0           0           0           0
+          8:24        7:24           0           0           0           0           0           0           0           0
+          9:24        8:24           0           0           0           0           0           0           0           0
+   20513:16:09:09         now         277          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:24         now           0           0           0           0           0           0           0           0
+          1:24        0:24           0           0           0           0           0           0           0           0
+          2:24        1:24           0           0           0           0           0           0           0           0
+          3:24        2:24           0           0           0           0           0           0           0           0
+          4:24        3:24           0           0           0           0           0           0           0           0
+          5:24        4:24           0           0           0           0           0           0           0           0
+          6:24        5:24           0           0           0           0           0           0           0           0
+          7:24        6:24           0           0           0           0           0           0           0           0
+          8:24        7:24           0           0           0           0           0           0           0           0
+          9:24        8:24           0           0           0           0           0           0           0           0
+   20513:16:09:09         now          52          14           6           5           5          26          21         175

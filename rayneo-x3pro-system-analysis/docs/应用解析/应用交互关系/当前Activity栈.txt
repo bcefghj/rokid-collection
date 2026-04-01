@@ -1,0 +1,100 @@
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+  * Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+    mLastPausedActivity: ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67}
+    isSleeping=true
+    * Hist  #0: ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67}
+      packageName=com.ffalconxr.mercury.launcher processName=com.ffalconxr.mercury.launcher
+      launchedFromUid=1000 launchedFromPackage=com.ffalconxr.mercury.launcher launchedFromFeature=null userId=0
+      app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+      Intent { flg=0x10000000 cmp=com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity (has extras) }
+      rootOfTask=true task=Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+      taskAffinity=1000:com.ffalconxr.mercury.launcher
+      mActivityComponent=com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity
+      baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+      dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+      stateNotNeeded=false componentSpecified=false mActivityType=standard
+      compat={160dpi always-compat} labelRes=0x7f100098 icon=0x7f0801a7 theme=0x7f1102ff
+      mLastReportedConfigurations:
+        mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.12 fontWeightAdjustment=0}
+        mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      taskDescription: label="null" icon=null iconResource=/0 iconFilename=null primaryColor=fff5f5f5
+        backgroundColor=fffafafa statusBarColor=ff757575 navigationBarColor=0
+       backgroundColorFloating=ffffffff
+      launchFailed=false launchCount=0 lastLaunchTime=-45m58s484ms
+      mHaveState=true mIcicle=Bundle[mParcelledData.dataSize=3348]
+      state=STOPPED stopped=true delayedResume=false finishing=false
+      keysPaused=false inHistory=true idle=true
+      occludesParent=true noDisplay=false immersive=false launchMode=3
+      frozenBeforeDestroy=false forceNewConfig=false
+      mActivityType=standard
+      mImeInsetsFrozenUntilStartInput=true
+      windows=[Window{3ee95b4 u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity}]
+      windowType=2 hasVisible=false
+      mOccludesParent=true
+      mOrientation=SCREEN_ORIENTATION_LANDSCAPE
+      mVisibleRequested=false mVisible=false mClientVisible=false reportedDrawn=false reportedVisible=false
+      mAppStopped=true
+      resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+      mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+      supportsSizeChanges=SIZE_CHANGES_UNSUPPORTED_METADATA
+      configChanges=0x4a3
+      neverSandboxDisplayApis=false
+      alwaysSandboxDisplayApis=false
+      areBoundsLetterboxed=false
+
+  * Task{6ab0deb #9 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    mLastPausedActivity: ActivityRecord{2379843 u0 com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity t9}
+    isSleeping=true
+    * Hist  #0: ActivityRecord{2379843 u0 com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity t9}
+      packageName=com.ffalconxr.mercury.launcher processName=com.ffalconxr.mercury.launcher
+      launchedFromUid=1000 launchedFromPackage=com.ffalconxr.mercury.launcher launchedFromFeature=null userId=0
+      app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+      Intent { flg=0x10000000 cmp=com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity (has extras) }
+      rootOfTask=true task=Task{6ab0deb #9 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+      taskAffinity=1000:com.ffalconxr.mercury.launcher
+      mActivityComponent=com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity
+      baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+      dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+      stateNotNeeded=false componentSpecified=false mActivityType=standard
+      compat={160dpi always-compat} labelRes=0x7f100098 icon=0x7f0801a7 theme=0x7f1101fc
+      mLastReportedConfigurations:
+        mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.12 fontWeightAdjustment=0}
+        mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      taskDescription: label="null" icon=null iconResource=/0 iconFilename=null primaryColor=ff000000
+        backgroundColor=ff121212 statusBarColor=ff3700b3 navigationBarColor=0
+       backgroundColorFloating=ff424242
+      launchFailed=false launchCount=0 lastLaunchTime=-3h22m31s846ms
+      mHaveState=true mIcicle=Bundle[mParcelledData.dataSize=12524]
+      state=STOPPED stopped=true delayedResume=false finishing=false
+      keysPaused=false inHistory=true idle=true
+      occludesParent=true noDisplay=false immersive=false launchMode=2
+      frozenBeforeDestroy=false forceNewConfig=false
+      mActivityType=standard
+      mImeInsetsFrozenUntilStartInput=true
+      windows=[Window{519d82e u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.home.LauncherHomeActivity}]
+      windowType=2 hasVisible=true
+      mOccludesParent=true
+      mOrientation=SCREEN_ORIENTATION_LANDSCAPE
+      mVisibleRequested=false mVisible=false mClientVisible=false reportedDrawn=false reportedVisible=false
+      mAppStopped=true
+      mNumInterestingWindows=1 mNumDrawnWindows=1 allDrawn=true lastAllDrawn=true)
+      nowVisible=false lastVisibleTime=-46m1s932ms
+      resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+      mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+      supportsSizeChanges=SIZE_CHANGES_UNSUPPORTED_METADATA
+      configChanges=0x3
+      neverSandboxDisplayApis=false
+      alwaysSandboxDisplayApis=false
+      areBoundsLetterboxed=false
+
+  * Task{ca293e8 #2 type=undefined ?? U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+    mCreatedByOrganizer=true
+    isSleeping=true
+
+  Resumed activities in task display areas (from top to bottom):
+    Resumed: ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67}
+
+  ResumedActivity: ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67}

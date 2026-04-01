@@ -1,0 +1,274 @@
+  * Task{aa71730 #70 type=standard A=10063:com.ffalcon.navigation U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+    isSleeping=false
+    topResumedActivity=ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+    * Hist  #0: ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+      packageName=com.ffalcon.navigation processName=com.ffalcon.navigation
+      launchedFromUid=1000 launchedFromPackage=com.ffalconxr.mercury.launcher launchedFromFeature=null userId=0
+      app=ProcessRecord{251545e 20843:com.ffalcon.navigation/u0a63}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ffalcon.navigation/com.ffalcon.LBSUnityActivity (has extras) }
+      rootOfTask=true task=Task{aa71730 #70 type=standard A=10063:com.ffalcon.navigation U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+      taskAffinity=10063:com.ffalcon.navigation
+      mActivityComponent=com.ffalcon.navigation/com.ffalcon.LBSUnityActivity
+      baseDir=/system_ext/priv-app/RayNeoNavigation/RayNeoNavigation.apk
+      dataDir=/data/user/0/com.ffalcon.navigation
+      stateNotNeeded=false componentSpecified=false mActivityType=standard
+      compat={160dpi always-compat} labelRes=0x7f0b000d icon=0x7f0a0000 theme=0x7f0c0018
+      mLastReportedConfigurations:
+        mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.10 fontWeightAdjustment=0}
+        mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      taskDescription: label="null" icon=null iconResource=/0 iconFilename=null primaryColor=fff5f5f5
+        backgroundColor=fffafafa statusBarColor=ff757575 navigationBarColor=0
+       backgroundColorFloating=ffffffff
+      launchFailed=false launchCount=1 lastLaunchTime=-2m6s704ms
+      mHaveState=false mIcicle=null
+      state=RESUMED stopped=false delayedResume=false finishing=false
+      keysPaused=false inHistory=true idle=true
+      occludesParent=true noDisplay=false immersive=false launchMode=2
+      frozenBeforeDestroy=false forceNewConfig=false
+      mActivityType=standard
+      mImeInsetsFrozenUntilStartInput=false
+      windows=[Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}]
+      windowType=2 hasVisible=true
+      mOccludesParent=true
+      mOrientation=SCREEN_ORIENTATION_LANDSCAPE
+      mVisibleRequested=true mVisible=true mClientVisible=true reportedDrawn=true reportedVisible=true
+      mNumInterestingWindows=1 mNumDrawnWindows=1 allDrawn=true lastAllDrawn=true)
+      startingData=null firstWindowDrawn=true mIsExiting=false
+      nowVisible=true lastVisibleTime=-2m4s744ms
+      connections={ConnectionRecord{3a7e2ec u0 CR com.ffalcon.navigation/com.amap.api.location.APSService:@f8ed19f}, ConnectionRecord{79e2872 u0 CR com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService:@360417d}, ConnectionRecord{ba2dd27 u0 CR com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService:@7eab3e6}}
+      resizeMode=RESIZE_MODE_UNRESIZEABLE
+      mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+      supportsSizeChanges=SIZE_CHANGES_UNSUPPORTED_METADATA
+      configChanges=0x40003fff
+      neverSandboxDisplayApis=false
+      alwaysSandboxDisplayApis=false
+      areBoundsLetterboxed=false
+
+  * Task{6ab0deb #9 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    mLastPausedActivity: ActivityRecord{2379843 u0 com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity t9}
+    isSleeping=false
+    * Hist  #0: ActivityRecord{2379843 u0 com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity t9}
+      packageName=com.ffalconxr.mercury.launcher processName=com.ffalconxr.mercury.launcher
+      launchedFromUid=1000 launchedFromPackage=com.ffalconxr.mercury.launcher launchedFromFeature=null userId=0
+      app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+      Intent { flg=0x10000000 cmp=com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity (has extras) }
+      rootOfTask=true task=Task{6ab0deb #9 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+      taskAffinity=1000:com.ffalconxr.mercury.launcher
+      mActivityComponent=com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity
+      baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+      dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+      stateNotNeeded=false componentSpecified=false mActivityType=standard
+      compat={160dpi always-compat} labelRes=0x7f100098 icon=0x7f0801a7 theme=0x7f1101fc
+      mLastReportedConfigurations:
+        mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.12 fontWeightAdjustment=0}
+        mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      taskDescription: label="null" icon=null iconResource=/0 iconFilename=null primaryColor=ff000000
+        backgroundColor=ff121212 statusBarColor=ff3700b3 navigationBarColor=0
+       backgroundColorFloating=ff424242
+--
+    Resumed: ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+
+Display #10 (activities from top to bottom):
+
+  ResumedActivity: ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+
+ActivityTaskSupervisor state:
+  topDisplayFocusedRootTask=Task{aa71730 #70 type=standard A=10063:com.ffalcon.navigation U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+  mLastOrientationSource=WindowedMagnification:0:31@1825729
+  deepestLastOrientationSource=ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+  overrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.10 fontWeightAdjustment=0}
+  Display: mDisplayId=0 rootTasks=3
+    init=1280x480 160dpi cur=1280x480 app=1280x480 rng=480x480-1280x1280
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion((0,0,1280,480))
+
+  mLayoutSeq=2736
+  mCurrentFocus=Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+  mFocusedApp=ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+
+  displayId=0
+  mWallpaperTarget=null
+  mLastWallpaperX=-1.0 mLastWallpaperY=-1.0
+
+  Display areas in top down Z order:
+    * Leaf:36:36
+    * HideDisplayCutout:32:35
+      * OneHanded:32:35
+        * FullscreenMagnification:33:35
+          * Leaf:33:35
+        * Leaf:32:32
+    * WindowedMagnification:0:31
+      * HideDisplayCutout:26:31
+        * OneHanded:26:31
+          * FullscreenMagnification:29:31
+            * Leaf:29:31
+          * Leaf:28:28
+          * FullscreenMagnification:26:27
+            * Leaf:26:27
+      * Leaf:24:25
+      * HideDisplayCutout:20:23
+        * OneHanded:20:23
+          * FullscreenMagnification:20:23
+            * Leaf:20:23
+      * OneHanded:19:19
+        * FullscreenMagnification:19:19
+          * Leaf:19:19
+      * HideDisplayCutout:18:18
+        * OneHanded:18:18
+--
+      mPreferredTopFocusableRootTask=Task{aa71730 #70 type=standard A=10063:com.ffalcon.navigation U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+      mLastFocusedRootTask=Task{aa71730 #70 type=standard A=10063:com.ffalcon.navigation U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+      Application tokens in top down Z order:
+      * Task{aa71730 #70 type=standard A=10063:com.ffalcon.navigation U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+        bounds=[0,0][1280,480]
+        * ActivityRecord{4fee54f u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity t70}
+      * Task{6ab0deb #9 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+        bounds=[0,0][1280,480]
+        * ActivityRecord{2379843 u0 com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity t9}
+      * Task{ca293e8 #2 type=undefined ?? U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+        bounds=[0,0][1280,480]
+
+  no ScreenRotationAnimation 
+
+
+  PinnedTaskController
+    mIsImeShowing=false
+    mImeHeight=0
+    mAspectRatio=-1.0
+    mMinAspectRatio=0.41841003
+    mMaxAspectRatio=2.39
+    mActions=[]
+
+  DisplayFrames w=1280 h=480 r=0
+
+  DisplayPolicy
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mDockMode=EXTRA_DOCK_STATE_UNDOCKED mLidState=LID_ABSENT
+    mAwake=true mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=true mWindowManagerDrawComplete=true
+    mHdmiPlugged=false
+    mLastAppearance=LOW_PROFILE_BARS
+    mLastBehavior=SHOW_TRANSIENT_BARS_BY_SWIPE
+    mShowingDream=false mDreamingLockscreen=false
+    mStatusBar=Window{2147ffd u0 StatusBar}
+    mExpandedPanel=Window{3fae9cb u0 NotificationShade}
+--
+    mFocusedWindow=Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+    mTopFullscreenOpaqueWindowState=Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+    mTopIsFullscreen=true
+    mForceStatusBar=false mAllowLockscreenWhenOn=false
+    mRemoteInsetsControllerControlsSystemBars=false
+    SystemGestures:
+      mDisplayCutoutTouchableRegionSize=0
+      mSwipeStartThreshold=Rect(-1, -1 - -1, -1)
+      mSwipeDistanceThreshold=-1
+    Looper state:
+      Looper (android.ui, tid 19) {5366784}
+        (Total messages: 0, polling=true, quitting=false)
+
+  DisplayRotation
+    mCurrentAppOrientation=SCREEN_ORIENTATION_LANDSCAPE
+    mLastOrientation=0
+    mRotation=0 mDeferredRotationPauseCount=0
+    mLandscapeRotation=ROTATION_0 mSeascapeRotation=ROTATION_180
+    mPortraitRotation=ROTATION_270 mUpsideDownRotation=ROTATION_90
+    mSupportAutoRotation=true
+    WindowOrientationListener
+      mEnabled=false
+      mCurrentRotation=ROTATION_0
+      mSensorType=null
+      mSensor={Sensor name="lsm6dsr Accelerometer Non-wakeup", vendor="STMicro", version=142918, type=1, maxRange=78.4532, resolution=0.0023928226, power=0.17, minDelay=2404}
+      mRate=2
+      AccelSensorJudge
+        mProposedRotation=0
+        mPredictedRotation=0
+        mLastFilteredX=0.0
+        mLastFilteredY=0.0
+        mLastFilteredZ=0.0
+--
+      ITYPE_IME -> Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+      ITYPE_NAVIGATION_BAR -> Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+      ITYPE_STATUS_BAR -> Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+    InsetsSourceProviders:
+      ImeInsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+        mControl=InsetsSourceControl type=ITYPE_IME mLeash=Surface(name=Surface(name=27fc0bf InputMethod)/@0xb130ad5 - animation-leash of insets_animation)/@0x8bede59 mSurfacePosition=Point(0, 480) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{27fc0bf u0 InputMethod}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=27fc0bf InputMethod)/@0xb130ad5 - animation-leash of insets_animation)/@0x8bede59
+        mControlTarget=Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+        mImeShowing=false
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,480][1280,480] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{48615e1 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1280,0] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{2147ffd u0 StatusBar}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,480][1280,480] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{48615e1 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1280,0] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{2147ffd u0 StatusBar}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_RIGHT_GESTURES frame=[1280,0][1280,480] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{48615e1 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,480] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{48615e1 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,480][1280,480] visible=false
+        mControl=InsetsSourceControl type=ITYPE_NAVIGATION_BAR mLeash=Surface(name=Surface(name=48615e1 NavigationBar0)/@0xde0e059 - animation-leash of insets_animation)/@0x2d9fa1e mSurfacePosition=Point(0, 480) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,480][1280,480]
+        mWin=Window{48615e1 u0 NavigationBar0}
+--
+        mControlTarget=Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1280,0] visible=false
+        mControl=InsetsSourceControl type=ITYPE_STATUS_BAR mLeash=Surface(name=Surface(name=2147ffd StatusBar)/@0x272dca0 - animation-leash of insets_animation)/@0x238d2ff mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{2147ffd u0 StatusBar}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=2147ffd StatusBar)/@0x272dca0 - animation-leash of insets_animation)/@0x238d2ff
+        mControlTarget=Window{4631556 u0 com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+  overrideConfig={0.0 ?mcc?mnc ?localeList ?layoutDir sw240dp w320dp h240dp 320dpi smll land ?uimode ?night -touch -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 640, 480) mAppBounds=Rect(0, 0 - 640, 480) mMaxBounds=Rect(0, 0 - 640, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} ?fontWeightAdjustment}
+  Display: mDisplayId=10 rootTasks=0
+    init=640x480 320dpi cur=640x480 app=640x480 rng=480x480-640x640
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion()
+
+  mLayoutSeq=6
+  mCurrentFocus=null
+  mFocusedApp=null
+
+  displayId=10
+  mWallpaperTarget=null
+  mLastWallpaperX=-1.0 mLastWallpaperY=-1.0
+
+  Display areas in top down Z order:
+    * Leaf:17:36
+    * ImeContainer
+    * Leaf:3:14
+    * DefaultTaskDisplayArea
+    * Leaf:0:1
+
+  Task display areas in top down Z order:
+    TaskDisplayArea DefaultTaskDisplayArea
+      Application tokens in top down Z order:
+
+  no ScreenRotationAnimation 
+
+
+  PinnedTaskController
+    mIsImeShowing=false
+    mImeHeight=0
+--
+        (fullscreen) Task{aa71730 #70 type=standard A=10063:com.ffalcon.navigation U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+
+  VisibleActivityProcess:[ ProcessRecord{251545e 20843:com.ffalcon.navigation/u0a63}]
+  NumNonAppVisibleWindowUidMap:[ 10069:4 1000:1]

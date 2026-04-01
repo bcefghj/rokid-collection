@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Mahjong 管理面板</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .interaction-card {
+            transition: all 0.3s ease;
+        }
+        .interaction-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-4 shadow-md flex justify-between items-center">
+        <h1 class="text-xl font-bold">🀄 ARMahjongAssist 会话监控面板</h1>
+        <div id="status-indicator" class="text-sm bg-blue-700 px-3 py-1 rounded-full">
+            就绪
+        </div>
+    </header>
+
+    <div class="flex-1 flex overflow-hidden">
+        <!-- Sidebar: Sessions List -->
+        <aside class="w-80 bg-white border-r border-gray-200 flex flex-col">
+            <div class="p-4 border-b border-gray-200 bg-gray-50 flex justify-between items-center">
+                <h2 class="font-semibold text-gray-700">对局会话</h2>
+                <button onclick="loadSessions()" class="text-blue-600 hover:text-blue-800 text-sm font-medium">刷新</button>
+            </div>
+            <ul id="sessions-list" class="flex-1 overflow-y-auto">
+                <!-- Session items will be injected here -->
+                <li class="p-8 text-center text-gray-400">正在加载会话...</li>
+            </ul>
+        </aside>
+
+        <!-- Main Content: Session Details -->
+        <main class="flex-1 flex flex-col bg-gray-50 overflow-hidden">
+            <div id="session-header" class="p-4 bg-white border-b border-gray-200 flex justify-between items-center hidden">
+                <div>
+                    <h2 id="current-session-id" class="font-bold text-lg text-gray-800"></h2>
+                    <p id="current-session-time" class="text-sm text-gray-500"></p>
+                </div>
+                <div id="auto-refresh-status" class="text-xs font-medium px-2 py-1 rounded bg-green-100 text-green-800 hidden">
+                    正在实时监控...
+                </div>
+                <button id="btn-end-session" onclick="endSession()" class="ml-2 bg-red-500 hover:bg-red-600 text-white text-xs px-3 py-1 rounded hidden">
+                    结束会话
+                </button>
+            </div>
+
+            <div id="interactions-container" class="flex-1 overflow-y-auto p-6 space-y-6">
+                <div class="flex flex-col items-center justify-center h-full text-gray-400">
+                    <span class="text-5xl mb-4">👈</span>
+                    <p>请从左侧选择一个会话查看详情</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        let currentSessionId = null;
+        let pollInterval = null;
+        let lastInteractionCount = 0;
+
+        async function loadSessions() {
+            try {
+                const response = await fetch('/api/history/sessions');
+                const sessions = await response.json();
+                const list = document.getElementById('sessions-list');
+                list.innerHTML = '';
+
+                if (sessions.length === 0) {
+                    list.innerHTML = '<li class="p-8 text-center text-gray-400">暂无会话记录</li>';
+                    return;
+                }
+
+                sessions.forEach(s => {
+                    const isActive = s.status === 'active';
+                    const li = document.createElement('li');
+                    li.className = `p-4 border-b border-gray-100 cursor-pointer hover:bg-blue-50 transition-colors ${currentSessionId === s.session_id ? 'bg-blue-50 border-l-4 border-l-blue-500' : ''}`;
+                    li.onclick = () => selectSession(s.session_id);
+                    
+                    const time = new Date(s.last_activity_time).toLocaleString();
+                    li.innerHTML = `
+                        <div class="flex justify-between items-start mb-1">
+                            <span class="font-medium text-sm truncate w-40">${s.session_id}</span>
+                            <span class="text-[10px] px-1.5 py-0.5 rounded ${isActive ? 'bg-green-100 text-green-700' : 'bg-gray-100 text-gray-600'}">
+                                ${isActive ? '进行中' : '已结束'}
+                            </span>
+                        </div>
+                        <div class="text-xs text-gray-400">${time}</div>
+                    `;
+                    list.appendChild(li);
+                });
+            } catch (err) {
+                console.error('Failed to load sessions:', err);
+            }
+        }
+
+        async function selectSession(sessionId) {
+            currentSessionId = sessionId;
+            lastInteractionCount = 0;
+            document.getElementById('session-header').classList.remove('hidden');
+            
+            // Clear current view
+            const container = document.getElementById('interactions-container');
+            container.innerHTML = '<div class="flex justify-center p-10"><div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div></div>';
+            
+            // Update UI list selection
+            loadSessions();
+            
+            // Load details
+            await refreshDetails();
+            
+            // Start polling if session is active
+            if (pollInterval) clearInterval(pollInterval);
+            
+            const response = await fetch(`/api/history/details/${sessionId}`);
+            const data = await response.json();
+            
+            if (data.status === 'active') {
+                document.getElementById('auto-refresh-status').classList.remove('hidden');
+                document.getElementById('btn-end-session').classList.remove('hidden');
+                pollInterval = setInterval(refreshDetails, 2000);
+            } else {
+                document.getElementById('auto-refresh-status').classList.add('hidden');
+                document.getElementById('btn-end-session').classList.add('hidden');
+            }
+        }
+
+        async function endSession() {
+            if (!currentSessionId) return;
+            if (!confirm(`确定要结束会话 ${currentSessionId} 吗？`)) return;
+
+            try {
+                const response = await fetch('/api/end-session', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ session_id: currentSessionId })
+                });
+                
+                if (response.ok) {
+                    // Refresh details immediately to update UI
+                    refreshDetails();
+                } else {
+                    alert('结束会话失败');
+                }
+            } catch (err) {
+                console.error('Failed to end session:', err);
+                alert('结束会话出错');
+            }
+        }
+
+        async function refreshDetails() {
+            if (!currentSessionId) return;
+
+            try {
+                const response = await fetch(`/api/history/details/${currentSessionId}`);
+                const data = await response.json();
+                
+                if (data.error) return;
+
+                document.getElementById('current-session-id').innerText = `会话: ${data.session_id}`;
+                document.getElementById('current-session-time').innerText = `开始时间: ${new Date(data.start_time).toLocaleString()}`;
+
+                const container = document.getElementById('interactions-container');
+                
+                // Only update if count changed
+                if (data.interactions.length > lastInteractionCount) {
+                    // If it's the first load, clear the spinner
+                    if (lastInteractionCount === 0) container.innerHTML = '';
+                    
+                    // Add new items
+                    for (let i = lastInteractionCount; i < data.interactions.length; i++) {
+                        const item = data.interactions[i];
+                        const card = createInteractionCard(item);
+                        container.appendChild(card);
+                        // Auto scroll to bottom
+                        container.scrollTop = container.scrollHeight;
+                    }
+                    lastInteractionCount = data.interactions.length;
+                }
+                
+                // Update active status in case it ended
+                if (data.status !== 'active') {
+                    if (pollInterval) {
+                        clearInterval(pollInterval);
+                        pollInterval = null;
+                    }
+                    document.getElementById('auto-refresh-status').classList.add('hidden');
+                    document.getElementById('btn-end-session').classList.add('hidden');
+                    loadSessions(); // refresh list to show "ended"
+                }
+
+            } catch (err) {
+                console.error('Failed to refresh details:', err);
+            }
+        }
+
+        function getTileName(index) {
+            // 0-8: 1m-9m
+            // 9-17: 1p-9p
+            // 18-26: 1s-9s
+            // 27-33: z (东南西北白发中)
+            if (index >= 0 && index <= 8) return (index + 1) + "m";
+            if (index >= 9 && index <= 17) return (index - 9 + 1) + "p";
+            if (index >= 18 && index <= 26) return (index - 18 + 1) + "s";
+            const zNames = ["东", "南", "西", "北", "白", "发", "中"];
+            if (index >= 27 && index <= 33) return zNames[index - 27];
+            return "?";
+        }
+
+        function renderVisibleTilesSnapshot(snapshot) {
+            if (!snapshot || !Array.isArray(snapshot)) return '';
+            
+            // Only show tiles with count > 0
+            let tilesHtml = '';
+            snapshot.forEach((count, idx) => {
+                if (count > 0) {
+                    const name = getTileName(idx);
+                    tilesHtml += `<span class="inline-block bg-white border border-gray-300 rounded px-1.5 py-0.5 text-[10px] font-bold mr-1 mb-1 text-gray-800">${name}:${count}</span>`;
+                }
+            });
+            
+            if (!tilesHtml) return '<div class="text-xs text-gray-400">无可见牌数据</div>';
+            
+            return `
+                <div class="mt-2 pt-2 border-t border-purple-200">
+                    <span class="text-xs text-gray-500 block mb-1">当前场面快照:</span>
+                    <div class="flex flex-wrap">
+                        ${tilesHtml}
+                    </div>
+                </div>
+            `;
+        }
+
+        function createInteractionCard(item) {
+            const div = document.createElement('div');
+            div.className = 'interaction-card bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col md:flex-row';
+            
+            const time = new Date(item.timestamp).toLocaleTimeString();
+            
+            // --- Check if Audio Interaction ---
+            const audioPath = item.response_json && item.response_json.audio_path;
+            
+            if (audioPath) {
+                 // Audio Card Layout
+                 div.innerHTML = `
+                    <div class="w-full md:w-1/4 bg-gray-100 flex flex-col border-b md:border-b-0 md:border-r border-gray-200">
+                        <div class="flex-1 flex flex-col items-center justify-center p-4">
+                             <div class="text-4xl mb-2">🎤</div>
+                             <audio controls src="${audioPath}" class="w-full max-w-[200px]"></audio>
+                        </div>
+                        <div class="bg-gray-200 text-center text-xs text-gray-600 py-1 font-medium">语音记录</div>
+                    </div>
+                    
+                    <div class="flex-1 p-4 flex flex-col">
+                        <div class="flex justify-between items-center mb-3 border-b pb-2">
+                            <span class="text-xs font-bold text-purple-600 uppercase">语音交互 ${time}</span>
+                            <span class="text-[10px] text-gray-400">ID: ${item.id}</span>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 flex-1">
+                             <!-- Transcript & JSON -->
+                             <div class="bg-gray-50 p-3 rounded border border-gray-100 flex flex-col">
+                                <h4 class="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">转录内容</h4>
+                                <div class="text-sm text-gray-800 mb-4 font-serif bg-white p-2 rounded border border-gray-200">
+                                    "${item.response_json.transcript || '(无内容)'}"
+                                </div>
+                                
+                                <h4 class="text-[10px] font-semibold text-gray-400 mb-1 uppercase">LLM Events JSON</h4>
+                                <pre class="text-[10px] font-mono text-gray-600 max-h-40 overflow-y-auto bg-gray-100 p-2 rounded">${JSON.stringify(item.response_json.events, null, 2)}</pre>
+                             </div>
+                             
+                             <!-- Visible Tiles Changes -->
+                             <div class="bg-purple-50 p-3 rounded border border-purple-100">
+                                <h4 class="text-xs font-semibold text-purple-500 mb-2 uppercase tracking-wider">可见牌变化</h4>
+                                
+                                <div class="mb-3">
+                                    <span class="text-xs text-gray-500">变动详情:</span>
+                                    <ul class="list-disc list-inside text-xs text-gray-700 mt-1 font-mono">
+                                        ${(item.response_json.details || []).map(d => `<li>${d}</li>`).join('') || '<li class="text-gray-400">无变动</li>'}
+                                    </ul>
+                                </div>
+
+                                ${renderVisibleTilesSnapshot(item.response_json.visible_tiles_snapshot)}
+                             </div>
+                        </div>
+                    </div>
+                 `;
+                 return div;
+            }
+
+            const stepsHtml = item.steps_log.map(step => `<div class="mb-1">${step}</div>`).join('');
+            
+            // Check for annotated image
+            const annotatedPath = item.response_json && item.response_json.annotated_image_path;
+            
+            let imagesHtml = '';
+            if (annotatedPath) {
+                imagesHtml = `
+                    <div class="w-full md:w-1/4 bg-gray-100 flex flex-col border-b md:border-b-0 md:border-r border-gray-200">
+                        <div class="flex-1 flex items-center justify-center p-2">
+                            <img src="${annotatedPath}" alt="AI Result" class="max-h-64 object-contain cursor-pointer" onclick="window.open(this.src)">
+                        </div>
+                        <div class="bg-gray-200 text-center text-xs text-gray-600 py-1 font-medium">YOLO 识别结果</div>
+                    </div>
+                    <div class="w-full md:w-1/4 bg-gray-100 flex flex-col border-b md:border-b-0 md:border-r border-gray-200">
+                         <div class="flex-1 flex items-center justify-center p-2">
+                            <img src="${item.image_path}" alt="Original" class="max-h-64 object-contain cursor-pointer" onclick="window.open(this.src)">
+                        </div>
+                        <div class="bg-gray-200 text-center text-xs text-gray-600 py-1 font-medium">原始图片</div>
+                    </div>
+                `;
+            } else {
+                imagesHtml = `
+                    <div class="w-full md:w-1/3 bg-gray-200 flex items-center justify-center border-b md:border-b-0 md:border-r border-gray-200">
+                        <img src="${item.image_path}" alt="Captured Image" class="max-h-64 md:max-h-full object-contain" onerror="this.src='https://via.placeholder.com/300x200?text=图片丢失'">
+                    </div>
+                `;
+            }
+            
+            div.innerHTML = `
+                ${imagesHtml}
+                <!-- Content Section -->
+                <div class="flex-1 p-4 flex flex-col">
+                    <div class="flex justify-between items-center mb-3 border-b pb-2">
+                        <span class="text-xs font-bold text-blue-600 uppercase">交互记录 ${time}</span>
+                        <span class="text-[10px] text-gray-400">ID: ${item.id}</span>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 flex-1">
+                        <!-- Steps Log -->
+                        <div class="bg-gray-50 p-3 rounded border border-gray-100">
+                            <h4 class="text-xs font-semibold text-gray-500 mb-2 uppercase tracking-wider">服务端处理步骤</h4>
+                            <div class="text-[11px] font-mono text-gray-700 leading-relaxed max-h-40 overflow-y-auto">
+                                ${stepsHtml}
+                            </div>
+                        </div>
+                        
+                        <!-- Response Data -->
+                        <div class="bg-blue-50 p-3 rounded border border-blue-100 flex flex-col">
+                            <h4 class="text-xs font-semibold text-blue-500 mb-2 uppercase tracking-wider">识别结果</h4>
+                            
+                            <div class="mb-2">
+                                <span class="text-xs text-gray-500">暗牌 (Hand):</span>
+                                <div class="font-mono text-sm font-bold text-gray-800 break-words">
+                                    ${item.response_json.user_hand ? item.response_json.user_hand.join(', ') : 'None'}
+                                </div>
+                            </div>
+                            
+                            <div class="mb-2">
+                                <span class="text-xs text-gray-500">鸣牌 (Melded):</span>
+                                <div class="font-mono text-sm font-bold text-gray-800 break-words">
+                                    ${item.response_json.melded_tiles ? item.response_json.melded_tiles.join(', ') : 'None'}
+                                </div>
+                            </div>
+
+                            <div class="mt-auto">
+                                <h4 class="text-[10px] font-semibold text-blue-400 mb-1 uppercase">完整 JSON</h4>
+                                <pre class="text-[10px] font-mono text-blue-900 max-h-20 overflow-y-auto">${JSON.stringify(item.response_json, null, 2)}</pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            return div;
+        }
+
+        // Initial load
+        loadSessions();
+        // Periodically refresh sessions list
+        setInterval(loadSessions, 10000);
+    </script>
+</body>
+</html>

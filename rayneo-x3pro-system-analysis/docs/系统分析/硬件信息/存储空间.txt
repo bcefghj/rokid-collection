@@ -1,0 +1,13 @@
+Filesystem            Size Used Avail Use% Mounted on
+tmpfs                 1.8G 1.6M  1.8G   1% /dev
+tmpfs                 1.8G    0  1.8G   0% /mnt
+/dev/block/dm-8       931M 928M     0 100% /
+/dev/block/dm-9       1.7G 1.7G     0 100% /system_ext
+/dev/block/dm-10      418M 417M     0 100% /product
+/dev/block/dm-11      619M 617M     0 100% /vendor
+/dev/block/dm-12       44M  44M     0 100% /vendor_dlkm
+/dev/block/dm-13      0.9M 0.9M     0 100% /odm
+tmpfs                 1.8G 8.0K  1.8G   1% /apex
+/dev/block/mmcblk0p74 4.9M 320K  4.6M   7% /dev/logfs
+/dev/block/dm-14       22G 6.8G   15G  31% /data
+/dev/fuse              22G 6.8G   15G  31% /storage/emulated

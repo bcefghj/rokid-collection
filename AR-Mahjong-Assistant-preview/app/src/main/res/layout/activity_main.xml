@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <!-- Header Status -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="已连接"
+        android:textColor="@color/neon_green"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Section 1: User Hand (17%) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_user_hand"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_mahjong_border"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintTop_toBottomOf="@id/tv_status">
+
+        <TextView
+            android:id="@+id/tv_title_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="用户手牌"
+            android:textColor="@color/neon_green"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_content_hand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/neon_green"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_hand" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_suggested"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_mahjong_border"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintTop_toBottomOf="@id/layout_user_hand">
+
+        <TextView
+            android:id="@+id/tv_title_suggested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="副露"
+            android:textColor="@color/neon_green"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_content_suggested"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/neon_green"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_suggested" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Section 3: Waiting Tiles (36%) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_waiting"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_mahjong_border"
+        app:layout_constraintHeight_percent="0.36"
+        app:layout_constraintTop_toBottomOf="@id/layout_suggested">
+
+        <TextView
+            android:id="@+id/tv_title_waiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="操作建议"
+            android:textColor="@color/neon_green"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/sv_content_waiting"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:fillViewport="true"
+            android:scrollbars="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/layout_scroll_buttons"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title_waiting">
+
+            <TextView
+                android:id="@+id/tv_content_waiting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/neon_green"
+                android:textSize="18sp" />
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/layout_scroll_buttons"
+            android:layout_width="30dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/sv_content_waiting">
+
+            <Button
+                android:id="@+id/btn_scroll_up"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="▲"
+                android:textColor="@color/neon_green"
+                android:textSize="12sp"
+                android:padding="0dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp" />
+
+            <Button
+                android:id="@+id/btn_scroll_down"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="▼"
+                android:textColor="@color/neon_green"
+                android:textSize="12sp"
+                android:padding="0dp"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Bottom Area -->
+    <!-- State: IDLE (Triple Click to Start) -->
+    <TextView
+        android:id="@+id/tv_instruction_idle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_capsule_border"
+        android:paddingHorizontal="26dp"
+        android:paddingVertical="10dp"
+        android:text="三击开始"
+        android:textColor="@color/neon_green"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- State: GAMING (Triple Click to End, Double Click to Photo) -->
+    <LinearLayout
+        android:id="@+id/layout_instruction_gaming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_instruction_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_capsule_border"
+            android:paddingHorizontal="19dp"
+            android:paddingVertical="10dp"
+            android:text="三击结束"
+            android:textColor="@color/neon_green"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_instruction_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/bg_capsule_border"
+            android:paddingHorizontal="19dp"
+            android:paddingVertical="10dp"
+            android:text="单击拍照"
+            android:textColor="@color/neon_green"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- Camera Preview Overlay -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_camera_preview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="@android:color/black"
+        app:layout_constraintWidth_percent="0.3"
+        app:layout_constraintDimensionRatio="3:4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextureView
+                android:id="@+id/view_camera_preview"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <!-- Crop Line Top (50%) -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:background="#FF0000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.5" />
+
+            <!-- Crop Line Bottom (75%) -->
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:background="#FF0000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0.75" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+            
+    </androidx.cardview.widget.CardView>
+
+    <!-- Camera Preview Instruction Overlay -->
+    <TextView
+        android:id="@+id/tv_instruction_camera_preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/bg_capsule_border"
+        android:paddingHorizontal="26dp"
+        android:paddingVertical="10dp"
+        android:text="单击拍照 / 后滑取消"
+        android:textColor="@color/neon_green"
+        android:textSize="18sp"
+        android:elevation="12dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Photo Review Container -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_photo_review_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:elevation="11dp"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/image_photo_review"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <!-- Split Line (50%) -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="2dp"
+            android:background="#FF0000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_instruction_review"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_capsule_border"
+            android:paddingHorizontal="26dp"
+            android:paddingVertical="10dp"
+            android:text="前滑发送 / 后滑取消"
+            android:textColor="@color/neon_green"
+            android:textSize="18sp"
+            android:elevation="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Custom Toast Message Overlay -->
+    <TextView
+        android:id="@+id/tv_custom_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_capsule_border_blue"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="6dp"
+        android:text="Toast Message"
+        android:textColor="@color/bright_blue"
+        android:textSize="14sp"
+        android:elevation="20dp"
+        android:visibility="gone"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

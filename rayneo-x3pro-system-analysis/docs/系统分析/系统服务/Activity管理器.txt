@@ -1,0 +1,2846 @@
+ACTIVITY MANAGER SETTINGS (dumpsys activity settings) activity_manager_constants:
+  max_cached_processes=16
+  background_settle_time=60000
+  fgservice_min_shown_time=2000
+  fgservice_min_report_time=3000
+  fgservice_screen_on_before_time=1000
+  fgservice_screen_on_after_time=5000
+  content_provider_retain_time=20000
+  gc_timeout=5000
+  gc_min_interval=60000
+  force_bg_check_on_restricted=true
+  full_pss_min_interval=1200000
+  full_pss_lowered_interval=300000
+  power_check_interval=300000
+  power_check_max_cpu_1=25
+  power_check_max_cpu_2=25
+  power_check_max_cpu_3=10
+  power_check_max_cpu_4=2
+  service_usage_interaction_time=1800000
+  service_usage_interaction_time_post_s=60000
+  usage_stats_interaction_interval=7200000
+  usage_stats_interaction_interval_post_s=600000
+  service_restart_duration=1000
+  service_reset_run_duration=60000
+  service_restart_duration_factor=4
+  service_min_restart_time_between=10000
+  service_max_inactivity=1800000
+  service_bg_start_timeout=15000
+  service_bg_activity_start_timeout=10000
+  service_crash_restart_duration=1800000
+  service_crash_max_retry=16
+  process_start_async=true
+  memory_info_throttle_time=300000
+  top_to_fgs_grace_duration=15000
+  min_crash_interval=120000
+  process_crash_count_reset_interval=43200000
+  process_crash_count_limit=12
+  imperceptible_kill_exempt_proc_states=[0, 1, 2, 4, 12]
+  imperceptible_kill_exempt_packages=[]
+  min_assoc_log_duration=300000
+  binder_heavy_hitter_watcher_enabled=false
+  binder_heavy_hitter_watcher_batchsize=2000
+  binder_heavy_hitter_watcher_threshold=0.333
+  binder_heavy_hitter_auto_sampler_enabled=false
+  binder_heavy_hitter_auto_sampler_batchsize=400
+  binder_heavy_hitter_auto_sampler_threshold=0.333
+  max_phantom_processes=32
+  boot_time_temp_allowlist_duration=20000
+  fg_to_bg_fgs_grace_duration=5000
+  fgs_start_foreground_timeout=10000
+  default_background_activity_starts_enabled=false
+  default_background_fgs_starts_restriction_enabled=true
+  default_fgs_starts_restriction_enabled=true
+  default_fgs_starts_restriction_notification_enabled=false
+  default_fgs_starts_restriction_check_caller_target_sdk=true
+  fgs_atom_sample_rate=1.0
+  fgs_start_allowed_log_sample_rate=0.25
+  fgs_start_denied_log_sample_rate=1.0
+  push_messaging_over_quota_behavior=1
+  fgs_allow_opt_out=false
+
+  mCustomizedMaxCachedProcesses=32
+  CUR_MAX_CACHED_PROCESSES=16
+  CUR_MAX_EMPTY_PROCESSES=8
+  CUR_TRIM_EMPTY_PROCESSES=8
+  CUR_TRIM_CACHED_PROCESSES=16
+  OOMADJ_UPDATE_QUICK=true
+CachedAppOptimizer settings
+  use_compaction=true
+  compaction_priority=0
+  compact_action_1=anon
+  compact_action_2=anon
+  compact_throttle_1=5000
+  compact_throttle_2=10000
+  compact_throttle_3=500
+  compact_throttle_4=10000
+  compact_throttle_5=600000
+  compact_throttle_6=600000
+  compact_throttle_min_oom_adj=900
+  compact_throttle_max_oom_adj=999
+  compact_statsd_sample_rate=0.1
+  compact_full_rss_throttle_kb=12000
+  compact_full_delta_rss_throttle_kb=8000
+  compact_proc_state_throttle=[11]
+  9 some, 45 full, 46 persistent, 61 BFGS compactions.
+  Tracking last compaction stats for 48 processes.
+  use_freezer=true
+  freeze_statsd_sample_rate=0.1
+  freeze_debounce_timeout=600000
+  Apps frozen: 6
+    10320848: 2486 android.process.acore
+    4217017: 8541 com.android.webview:webview_service
+    1887475: 8823 com.android.webview:webview_apk
+    6400133: 15016 com.android.permissioncontroller
+    8284722: 18114 com.qualcomm.qtil.btdsda
+    7335306: 18344 com.android.statementservice
+CacheOomRanker settings
+  use_oom_re_ranking=false
+  oom_re_ranking_number_to_re_rank=8
+  oom_re_ranking_lru_weight=0.35
+  oom_re_ranking_uses_weight=0.5
+  oom_re_ranking_rss_weight=0.15
+
+ACTIVITY MANAGER ALLOWED ASSOCIATION STATE (dumpsys activity allowed-associations)
+  (No association restrictions)
+
+ACTIVITY MANAGER PENDING INTENTS (dumpsys activity intents)
+  * android: 20 items
+    #0: PendingIntentRecord{6907c58 android broadcastIntent}
+    #1: PendingIntentRecord{d764bb0 android startActivity}
+    #2: PendingIntentRecord{577f1b1 android broadcastIntent}
+    #3: PendingIntentRecord{f9c0696 android broadcastIntent}
+    #4: PendingIntentRecord{72e8975 android broadcastIntent}
+    #5: PendingIntentRecord{d665a22 android startActivity}
+    #6: PendingIntentRecord{d74b217 android startActivity}
+    #7: PendingIntentRecord{dbd0604 android broadcastIntent}
+    #8: PendingIntentRecord{c68f7ed android startActivity}
+    #9: PendingIntentRecord{289f622 android broadcastIntent}
+    #10: PendingIntentRecord{aedc939 android broadcastIntent}
+    #11: PendingIntentRecord{e0858b3 android broadcastIntent}
+    #12: PendingIntentRecord{58f48ac android broadcastIntent}
+    #13: PendingIntentRecord{2067e70 android startActivity}
+    #14: PendingIntentRecord{c305d00 android broadcastIntent}
+    #15: PendingIntentRecord{5a43b7e android broadcastIntent}
+    #16: PendingIntentRecord{1ea25e9 android broadcastIntent}
+    #17: PendingIntentRecord{2305d0a android broadcastIntent}
+    #18: PendingIntentRecord{e4287b android startActivity}
+    #19: PendingIntentRecord{375526e android broadcastIntent}
+  * com.android.statementservice: 1 items
+    #0: PendingIntentRecord{725cd0f com.android.statementservice broadcastIntent}
+  * com.android.settings: 1 items
+    #0: PendingIntentRecord{82d119c com.android.settings broadcastIntent}
+  * com.android.systemui: 15 items
+    #0: PendingIntentRecord{13637a5 com.android.systemui broadcastIntent}
+    #1: PendingIntentRecord{7a8277a com.android.systemui startActivity}
+    #2: PendingIntentRecord{fc2b2b com.android.systemui broadcastIntent}
+    #3: PendingIntentRecord{ec7ab88 com.android.systemui broadcastIntent}
+    #4: PendingIntentRecord{477a921 com.android.systemui broadcastIntent}
+    #5: PendingIntentRecord{d014146 com.android.systemui broadcastIntent}
+    #6: PendingIntentRecord{d904f07 com.android.systemui broadcastIntent}
+    #7: PendingIntentRecord{4eff834 com.android.systemui broadcastIntent}
+    #8: PendingIntentRecord{404b65d com.android.systemui broadcastIntent}
+    #9: PendingIntentRecord{e802bd2 com.android.systemui broadcastIntent}
+    #10: PendingIntentRecord{58d4a3 com.android.systemui broadcastIntent}
+    #11: PendingIntentRecord{fae63a0 com.android.systemui broadcastIntent}
+    #12: PendingIntentRecord{d5b5b59 com.android.systemui broadcastIntent}
+    #13: PendingIntentRecord{591331e com.android.systemui broadcastIntent}
+    #14: PendingIntentRecord{39a17ff com.android.systemui broadcastIntent}
+  * com.android.bluetooth: 1 items
+    #0: PendingIntentRecord{a2619cc com.android.bluetooth broadcastIntent}
+  * UID: 1000 total: 21
+  * UID: 1002 total: 1
+  * UID: 10035 total: 1
+  * UID: 10069 total: 15
+
+ACTIVITY MANAGER BROADCAST STATE (dumpsys activity broadcasts)
+
+  Broadcast parameters (key=bcast_fg_constants, observing=true):
+    bcast_timeout = +10s0ms
+    bcast_slow_time = +5s0ms
+    bcast_deferral = +5s0ms
+    bcast_deferral_decay_factor = 0.75
+    bcast_deferral_floor = 0    bcast_allow_bg_activity_start_timeout = +10s0ms
+  Historical broadcasts [foreground]:
+  #0: BroadcastRecord{ddd5415 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50200010
+  #1: BroadcastRecord{419632a u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50200010
+  #2: BroadcastRecord{782351b u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50200010
+  #3: BroadcastRecord{cfc68b u-1 android.intent.action.SCREEN_OFF}
+    act=android.intent.action.SCREEN_OFF flg=0x50200010
+  #4: BroadcastRecord{c14ae40 u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=true}]
+  #5: BroadcastRecord{c8106b8 u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=true}]
+  #6: BroadcastRecord{8d525c3 u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=false}]
+  #7: BroadcastRecord{d4c1c91 u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=false}]
+  #8: BroadcastRecord{adc0b41 u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=true}]
+  #9: BroadcastRecord{34287f6 u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=true}]
+  #10: act=android.intent.action.TIME_TICK flg=0x50200010
+    0 dispatch 0 finish
+    enq=2026-03-19 02:24:00.002 disp=2026-03-19 02:24:00.002 fin=2026-03-19 02:24:00.002
+  #11: act=android.intent.action.TIME_TICK flg=0x50200010
+    0 dispatch +1ms finish
+    enq=2026-03-19 02:20:07.398 disp=2026-03-19 02:20:07.398 fin=2026-03-19 02:20:07.399
+  #12: act=android.intent.action.TIME_TICK flg=0x50200010
+    0 dispatch +1ms finish
+    enq=2026-03-19 02:19:49.610 disp=2026-03-19 02:19:49.610 fin=2026-03-19 02:19:49.611
+  #13: act=android.intent.action.SCREEN_OFF flg=0x50200010
+    0 dispatch +123ms finish
+    enq=2026-03-19 02:18:49.828 disp=2026-03-19 02:18:49.828 fin=2026-03-19 02:18:49.951
+  #14: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    +1ms dispatch +6ms finish
+    enq=2026-03-19 02:18:26.616 disp=2026-03-19 02:18:26.617 fin=2026-03-19 02:18:26.623
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=true}]
+  #15: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    0 dispatch +1ms finish
+    enq=2026-03-19 02:18:26.616 disp=2026-03-19 02:18:26.616 fin=2026-03-19 02:18:26.617
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=true}]
+  #16: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    +1ms dispatch +4ms finish
+    enq=2026-03-19 02:18:26.606 disp=2026-03-19 02:18:26.607 fin=2026-03-19 02:18:26.611
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=false}]
+  #17: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    0 dispatch +1ms finish
+    enq=2026-03-19 02:18:26.606 disp=2026-03-19 02:18:26.606 fin=2026-03-19 02:18:26.607
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=false}]
+  #18: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    0 dispatch +8ms finish
+    enq=2026-03-19 02:18:25.722 disp=2026-03-19 02:18:25.722 fin=2026-03-19 02:18:25.730
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=true}]
+  #19: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    0 dispatch 0 finish
+    enq=2026-03-19 02:18:25.722 disp=2026-03-19 02:18:25.722 fin=2026-03-19 02:18:25.722
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, adb=true, mtp=true, configured=true}]
+  #20: act=android.intent.action.TIME_TICK flg=0x50200010
+    0 dispatch +1ms finish
+    enq=2026-03-19 02:18:00.000 disp=2026-03-19 02:18:00.000 fin=2026-03-19 02:18:00.001
+  #21: act=android.bluetooth.device.action.NAME_CHANGED flg=0x10000010 (has extras)
+    0 dispatch +1ms finish
+    enq=2026-03-19 02:17:53.597 disp=2026-03-19 02:17:53.597 fin=2026-03-19 02:17:53.598
+    extras: Bundle[{STRIPPED=1}]
+  #22: act=android.bluetooth.device.action.NAME_CHANGED flg=0x10000010 (has extras)
+    0 dispatch 0 finish
+    enq=2026-03-19 02:17:52.313 disp=2026-03-19 02:17:52.313 fin=2026-03-19 02:17:52.313
+    extras: Bundle[{STRIPPED=1}]
+  #23: act=android.bluetooth.device.action.NAME_CHANGED flg=0x10000010 (has extras)
+    +1ms dispatch 0 finish
+    enq=2026-03-19 02:17:51.328 disp=2026-03-19 02:17:51.329 fin=2026-03-19 02:17:51.329
+    extras: Bundle[{STRIPPED=1}]
+  #24: act=android.bluetooth.device.action.NAME_CHANGED flg=0x10000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:17:51.074 disp=2026-03-19 02:17:51.074 fin=2026-03-19 02:17:51.076
+    extras: Bundle[{STRIPPED=1}]
+  #25: act=android.bluetooth.device.action.NAME_CHANGED flg=0x10000010 (has extras)
+    0 dispatch +1ms finish
+    enq=2026-03-19 02:17:50.668 disp=2026-03-19 02:17:50.668 fin=2026-03-19 02:17:50.669
+    extras: Bundle[{STRIPPED=1}]
+  #26: act=android.intent.action.SCREEN_ON flg=0x50200010
+    +2ms dispatch +769ms finish
+    enq=2026-03-19 02:17:48.074 disp=2026-03-19 02:17:48.076 fin=2026-03-19 02:17:48.845
+  #27: act=android.intent.action.TIME_TICK flg=0x50200010
+    0 dispatch 0 finish
+    enq=2026-03-19 02:17:48.112 disp=2026-03-19 02:17:48.112 fin=2026-03-19 02:17:48.112
+  #28: act=android.intent.action.TIME_TICK flg=0x50200010
+    0 dispatch 0 finish
+    enq=2026-03-19 02:17:48.112 disp=2026-03-19 02:17:48.112 fin=2026-03-19 02:17:48.112
+  #29: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    +3ms dispatch +8ms finish
+    enq=2026-03-19 02:15:37.390 disp=2026-03-19 02:15:37.393 fin=2026-03-19 02:15:37.401
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, mtp=true, configured=true}]
+  #30: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    +3ms dispatch 0 finish
+    enq=2026-03-19 02:15:37.390 disp=2026-03-19 02:15:37.393 fin=2026-03-19 02:15:37.393
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, mtp=true, configured=true}]
+  #31: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    +1ms dispatch +9ms finish
+    enq=2026-03-19 02:15:37.378 disp=2026-03-19 02:15:37.379 fin=2026-03-19 02:15:37.388
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, mtp=true, configured=false}]
+  #32: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    0 dispatch +1ms finish
+    enq=2026-03-19 02:15:37.378 disp=2026-03-19 02:15:37.378 fin=2026-03-19 02:15:37.379
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, mtp=true, configured=false}]
+  #33: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    +4ms dispatch +8ms finish
+    enq=2026-03-19 02:01:51.645 disp=2026-03-19 02:01:51.649 fin=2026-03-19 02:01:51.657
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, mtp=true, configured=true}]
+  #34: act=android.hardware.usb.action.USB_STATE flg=0x31000010 (has extras)
+    +1ms dispatch +11ms finish
+    enq=2026-03-19 02:01:51.637 disp=2026-03-19 02:01:51.638 fin=2026-03-19 02:01:51.649
+    extras: Bundle[{host_connected=false, connected=true, unlocked=true, mtp=true, configured=false}]
+
+  Broadcast parameters (key=bcast_bg_constants, observing=true):
+    bcast_timeout = +1m0s0ms
+    bcast_slow_time = +5s0ms
+    bcast_deferral = +5s0ms
+    bcast_deferral_decay_factor = 0.75
+    bcast_deferral_floor = 0    bcast_allow_bg_activity_start_timeout = +10s0ms
+
+  Historical broadcasts [background]:
+  #0: BroadcastRecord{70507f7 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2014, charge_counter=0, level=100, scale=100, temperature=165, voltage=4392, invalid_charger=0, battery_low=false}]
+  #1: BroadcastRecord{59bd664 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2013, charge_counter=0, level=100, scale=100, temperature=165, voltage=4393, invalid_charger=0, battery_low=false}]
+  #2: BroadcastRecord{404f0cd u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2012, charge_counter=0, level=100, scale=100, temperature=165, voltage=4392, invalid_charger=0, battery_low=false}]
+  #3: BroadcastRecord{3072d82 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2011, charge_counter=0, level=100, scale=100, temperature=165, voltage=4393, invalid_charger=0, battery_low=false}]
+  #4: BroadcastRecord{e782c93 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2010, charge_counter=0, level=100, scale=100, temperature=165, voltage=4392, invalid_charger=0, battery_low=false}]
+  #5: BroadcastRecord{371f4d0 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2009, charge_counter=0, level=100, scale=100, temperature=165, voltage=4393, invalid_charger=0, battery_low=false}]
+  #6: BroadcastRecord{8fcccc9 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2008, charge_counter=0, level=100, scale=100, temperature=170, voltage=4393, invalid_charger=0, battery_low=false}]
+  #7: BroadcastRecord{67e9fce u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2007, charge_counter=0, level=100, scale=100, temperature=170, voltage=4394, invalid_charger=0, battery_low=false}]
+  #8: BroadcastRecord{feefeef u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2006, charge_counter=0, level=100, scale=100, temperature=170, voltage=4393, invalid_charger=0, battery_low=false}]
+  #9: BroadcastRecord{6498dfc u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2005, charge_counter=0, level=100, scale=100, temperature=170, voltage=4394, invalid_charger=0, battery_low=false}]
+  #10: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    +1ms dispatch 0 finish
+    enq=2026-03-19 02:31:14.105 disp=2026-03-19 02:31:14.106 fin=2026-03-19 02:31:14.106
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2014, charge_counter=0, level=100, scale=100, temperature=165, voltage=4392, invalid_charger=0, battery_low=false}]
+  #11: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +3ms finish
+    enq=2026-03-19 02:30:58.739 disp=2026-03-19 02:30:58.739 fin=2026-03-19 02:30:58.742
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2013, charge_counter=0, level=100, scale=100, temperature=165, voltage=4393, invalid_charger=0, battery_low=false}]
+  #12: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    +1ms dispatch +2ms finish
+    enq=2026-03-19 02:30:48.500 disp=2026-03-19 02:30:48.501 fin=2026-03-19 02:30:48.503
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2012, charge_counter=0, level=100, scale=100, temperature=165, voltage=4392, invalid_charger=0, battery_low=false}]
+  #13: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +6ms finish
+    enq=2026-03-19 02:30:22.898 disp=2026-03-19 02:30:22.898 fin=2026-03-19 02:30:22.904
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2011, charge_counter=0, level=100, scale=100, temperature=165, voltage=4393, invalid_charger=0, battery_low=false}]
+  #14: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:30:17.780 disp=2026-03-19 02:30:17.780 fin=2026-03-19 02:30:17.782
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2010, charge_counter=0, level=100, scale=100, temperature=165, voltage=4392, invalid_charger=0, battery_low=false}]
+  #15: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:29:52.187 disp=2026-03-19 02:29:52.187 fin=2026-03-19 02:29:52.189
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2009, charge_counter=0, level=100, scale=100, temperature=165, voltage=4393, invalid_charger=0, battery_low=false}]
+  #16: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:29:11.223 disp=2026-03-19 02:29:11.223 fin=2026-03-19 02:29:11.225
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2008, charge_counter=0, level=100, scale=100, temperature=170, voltage=4393, invalid_charger=0, battery_low=false}]
+  #17: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:28:55.860 disp=2026-03-19 02:28:55.860 fin=2026-03-19 02:28:55.862
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2007, charge_counter=0, level=100, scale=100, temperature=170, voltage=4394, invalid_charger=0, battery_low=false}]
+  #18: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +3ms finish
+    enq=2026-03-19 02:28:04.666 disp=2026-03-19 02:28:04.666 fin=2026-03-19 02:28:04.669
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2006, charge_counter=0, level=100, scale=100, temperature=170, voltage=4393, invalid_charger=0, battery_low=false}]
+  #19: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +3ms finish
+    enq=2026-03-19 02:27:49.303 disp=2026-03-19 02:27:49.303 fin=2026-03-19 02:27:49.306
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2005, charge_counter=0, level=100, scale=100, temperature=170, voltage=4394, invalid_charger=0, battery_low=false}]
+  #20: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +3ms finish
+    enq=2026-03-19 02:27:39.070 disp=2026-03-19 02:27:39.070 fin=2026-03-19 02:27:39.073
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2004, charge_counter=0, level=100, scale=100, temperature=170, voltage=4393, invalid_charger=0, battery_low=false}]
+  #21: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:27:33.939 disp=2026-03-19 02:27:33.939 fin=2026-03-19 02:27:33.941
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2003, charge_counter=0, level=100, scale=100, temperature=170, voltage=4394, invalid_charger=0, battery_low=false}]
+  #22: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:27:28.818 disp=2026-03-19 02:27:28.818 fin=2026-03-19 02:27:28.820
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2002, charge_counter=0, level=100, scale=100, temperature=170, voltage=4393, invalid_charger=0, battery_low=false}]
+  #23: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:27:18.577 disp=2026-03-19 02:27:18.577 fin=2026-03-19 02:27:18.579
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2001, charge_counter=0, level=100, scale=100, temperature=170, voltage=4394, invalid_charger=0, battery_low=false}]
+  #24: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:27:08.343 disp=2026-03-19 02:27:08.343 fin=2026-03-19 02:27:08.345
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=2000, charge_counter=0, level=100, scale=100, temperature=170, voltage=4393, invalid_charger=0, battery_low=false}]
+  #25: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    +1ms dispatch +1ms finish
+    enq=2026-03-19 02:25:56.663 disp=2026-03-19 02:25:56.664 fin=2026-03-19 02:25:56.665
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1999, charge_counter=0, level=100, scale=100, temperature=175, voltage=4394, invalid_charger=0, battery_low=false}]
+  #26: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    +1ms dispatch +1ms finish
+    enq=2026-03-19 02:25:46.436 disp=2026-03-19 02:25:46.437 fin=2026-03-19 02:25:46.438
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1998, charge_counter=0, level=100, scale=100, temperature=175, voltage=4395, invalid_charger=0, battery_low=false}]
+  #27: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +3ms finish
+    enq=2026-03-19 02:25:25.954 disp=2026-03-19 02:25:25.954 fin=2026-03-19 02:25:25.957
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1997, charge_counter=0, level=100, scale=100, temperature=175, voltage=4394, invalid_charger=0, battery_low=false}]
+  #28: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +4ms finish
+    enq=2026-03-19 02:25:15.701 disp=2026-03-19 02:25:15.701 fin=2026-03-19 02:25:15.705
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1996, charge_counter=0, level=100, scale=100, temperature=175, voltage=4395, invalid_charger=0, battery_low=false}]
+  #29: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:25:10.584 disp=2026-03-19 02:25:10.584 fin=2026-03-19 02:25:10.586
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1995, charge_counter=0, level=100, scale=100, temperature=180, voltage=4395, invalid_charger=0, battery_low=false}]
+  #30: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +3ms finish
+    enq=2026-03-19 02:25:05.463 disp=2026-03-19 02:25:05.463 fin=2026-03-19 02:25:05.466
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1994, charge_counter=0, level=100, scale=100, temperature=175, voltage=4395, invalid_charger=0, battery_low=false}]
+  #31: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +1ms finish
+    enq=2026-03-19 02:25:00.344 disp=2026-03-19 02:25:00.344 fin=2026-03-19 02:25:00.345
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1993, charge_counter=0, level=100, scale=100, temperature=180, voltage=4394, invalid_charger=0, battery_low=false}]
+  #32: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:23:53.796 disp=2026-03-19 02:23:53.796 fin=2026-03-19 02:23:53.798
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1992, charge_counter=0, level=100, scale=100, temperature=180, voltage=4395, invalid_charger=0, battery_low=false}]
+  #33: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +2ms finish
+    enq=2026-03-19 02:23:43.540 disp=2026-03-19 02:23:43.540 fin=2026-03-19 02:23:43.542
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1991, charge_counter=0, level=100, scale=100, temperature=185, voltage=4396, invalid_charger=0, battery_low=false}]
+  #34: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    0 dispatch +4ms finish
+    enq=2026-03-19 02:23:38.427 disp=2026-03-19 02:23:38.427 fin=2026-03-19 02:23:38.431
+    extras: Bundle[{technology=Li-ion, icon-small=17303610, max_charging_voltage=5000000, health=2, max_charging_current=2400000, status=5, plugged=2, present=true, seq=1990, charge_counter=0, level=100, scale=100, temperature=185, voltage=4395, invalid_charger=0, battery_low=false}]
+
+  Broadcast parameters (key=bcast_offload_constants, observing=true):
+    bcast_timeout = +1m0s0ms
+    bcast_slow_time = +24d20h31m23s647ms
+    bcast_deferral = +5s0ms
+    bcast_deferral_decay_factor = 0.75
+    bcast_deferral_floor = 0    bcast_allow_bg_activity_start_timeout = +10s0ms
+
+  Sticky broadcasts for user -1:
+  * Sticky action android.net.wifi.WIFI_STATE_CHANGED
+  * Sticky action android.net.conn.TETHER_STATE_CHANGED
+  * Sticky action android.media.ACTION_SCO_AUDIO_STATE_UPDATED
+  * Sticky action android.intent.action.BATTERY_CHANGED
+  * Sticky action android.net.conn.CONNECTIVITY_CHANGE
+  * Sticky action android.net.nsd.STATE_CHANGED
+  * Sticky action android.hardware.usb.action.USB_STATE
+  * Sticky action android.net.wifi.STATE_CHANGE
+  * Sticky action android.media.INTERNAL_RINGER_MODE_CHANGED_ACTION
+  * Sticky action android.net.wifi.supplicant.STATE_CHANGE
+  * Sticky action android.net.wifi.action.WIFI_SCAN_AVAILABILITY_CHANGED
+  * Sticky action android.net.conn.INET_CONDITION_ACTION
+  * Sticky action android.media.SCO_AUDIO_STATE_CHANGED
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+  * Sticky action android.media.MASTER_MUTE_CHANGED_ACTION
+  * Sticky action android.net.wifi.p2p.STATE_CHANGED
+  * Sticky action android.intent.action.HDMI_PLUGGED
+  * Sticky action android.media.RINGER_MODE_CHANGED
+
+ACTIVITY MANAGER CONTENT PROVIDERS (dumpsys activity providers)
+  Published single-user content providers (by class):
+  * ContentProviderRecord{37c6c85 u0 com.android.providers.settings/.SettingsProvider}
+    proc=ProcessRecord{a6190e5 1288:system/1000}
+    singleton=true
+    authority=settings
+    18 connections, 0 external handles
+      -> 1705:com.android.systemui/u0a69 s1/1 u0/0 +8h0m7s878ms
+      -> 1879:android.ext.services/u0a77 s1/1 u0/0 +8h0m6s835ms
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s1/1 u0/0 +8h0m6s703ms
+      -> 2387:com.android.providers.media.module/u0a76 s1/1 u0/0 +8h0m0s181ms
+      -> 2486:android.process.acore/u0a24 s1/1 u0/0 +8h0m0s173ms
+      -> 2437:com.sogou.inputmethod.iot/u0a54 s1/1 u0/0 +8h0m0s52ms
+      -> 2575:com.eg.android.AlipayGGlasses/u0a51 s1/1 u0/0 +7h59m59s241ms
+      -> 2634:com.rayneo.airuntime/1000 s1/1 u0/0 +7h59m59s95ms
+      -> 3055:com.leiniao.camera/1000 s1/1 u0/0 +7h59m56s92ms
+      -> 3330:com.rayneo.phone/1000 s1/1 u0/0 +7h59m30s102ms
+      -> 4785:com.rayneo.aispeech/1000 s1/1 u0/0 +7h55m24s455ms
+      -> 8414:com.ffalcon.appcontainer:floatball/1000 s1/1 u0/0 +7h39m23s973ms
+      -> 3744:com.rayneo.gallery/1000 s1/1 u0/0 +7h33m44s811ms
+      -> 2784:com.rayneo.media/1000 s1/1 u0/0 +7h2m29s932ms
+      -> 18188:com.android.bluetooth/1002 s1/1 u0/0 +6h1m27s96ms
+      -> 18340:android.process.media/u0a25 s1/1 u0/0 +5h45m34s10ms
+      -> 18344:com.android.statementservice/u0a35 s1/1 u0/0 +5h45m33s940ms
+      -> 18348:com.android.settings/1000 s1/1 u0/0 +5h45m33s164ms
+  * ContentProviderRecord{8e8eada u0 android/com.android.server.textclassifier.IconsContentProvider}
+    proc=ProcessRecord{a6190e5 1288:system/1000}
+    singleton=true
+    authority=com.android.textclassifier.icons
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{1569b0b u0 com.android.providers.downloads/.DownloadStorageProvider}
+    proc=ProcessRecord{b185963 18340:android.process.media/u0a25}
+    authority=com.android.providers.downloads.documents
+  * ContentProviderRecord{a9f8de8 u0 com.ffalconxr.mercury.launcher/com.google.mlkit.common.internal.MlKitInitProvider}
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    authority=com.ffalconxr.mercury.launcher.mlkitinitprovider
+  * ContentProviderRecord{c9c4c01 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{77adaa6 u0 com.rayneo.media/com.blankj.utilcode.util.UtilsFileProvider}
+    proc=ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+    authority=com.rayneo.media.utilcode.fileprovider
+  * ContentProviderRecord{51dce7 u0 com.android.mtp/.MtpDocumentsProvider}
+    proc=ProcessRecord{b185963 18340:android.process.media/u0a25}
+    authority=com.android.mtp.documents
+  * ContentProviderRecord{5d3a094 u0 com.ffalconxr.mercury.launcher/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    authority=com.ffalconxr.mercury.launcher.androidx-startup
+  * ContentProviderRecord{c80a73d u0 com.android.settings/.homepage.contextualcards.CardContentProvider}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings.homepage.CardContentProvider
+  * ContentProviderRecord{be9fb32 u0 com.rayneo.record/com.blankj.utilcode.util.UtilsFileProvider}
+    proc=ProcessRecord{bd874f6 3093:com.rayneo.record/1000}
+    authority=com.rayneo.record.utilcode.fileprovider
+  * ContentProviderRecord{7d56083 u0 com.sogou.inputmethod.iot/com.tencent.rmonitor.launch.AppLaunchMonitorInstaller}
+    proc=ProcessRecord{6cf4be 2437:com.sogou.inputmethod.iot/u0a54}
+    authority=com.sogou.inputmethod.iot.rmonitor-installer
+  * ContentProviderRecord{1943200 u0 com.rayneo.notes/com.microsoft.cognitiveservices.speech.util.InternalContentProvider}
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    authority=com.rayneo.notes.MicrosoftCognitiveServicesSpeech.InternalContentProvider
+  * ContentProviderRecord{f557a39 u0 com.android.providers.contacts/.CallComposerLocationProvider}
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    authority=call_composer_locations
+  * ContentProviderRecord{3b8987e u0 com.android.settings/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings.lifecycle-process
+  * ContentProviderRecord{38381df u0 com.android.webview/org.chromium.android_webview.services.SafeModeContentProvider}
+    proc=ProcessRecord{20bf2a4 8541:com.android.webview:webview_service/u0a58}
+    authority=com.android.webview.SafeModeContentProvider
+  * ContentProviderRecord{20a6e2c u0 com.rayneo.media/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+    authority=com.rayneo.media.androidx-startup
+  * ContentProviderRecord{e0a80f5 u0 com.android.settings/androidx.core.content.FileProvider}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings.files
+  * ContentProviderRecord{41be8a u0 com.rayneo.notes/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    authority=com.rayneo.notes.androidx-startup
+  * ContentProviderRecord{cc85cfb u0 com.rayneo.notes/.provider.TodoContentProvider}
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    launchingApp=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    authority=com.rayneo.notes.TodoContentProvider
+    1 connections, 0 external handles
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +7h59m32s490ms
+  * ContentProviderRecord{2c64118 u0 com.rayneo.record/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{bd874f6 3093:com.rayneo.record/1000}
+    authority=com.rayneo.record.androidx-startup
+  * ContentProviderRecord{6cf3771 u0 com.android.permissioncontroller/.role.service.RoleSearchIndexablesProvider}
+    proc=ProcessRecord{3c0c0f5 15016:com.android.permissioncontroller/u0a75}
+    authority=com.android.permissioncontroller.role
+  * ContentProviderRecord{b853956 u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.transfermode.ConnectContentProvider}
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    authority=com.ffalconxr.mercury.transfermode.ConnectContentProvider
+  * ContentProviderRecord{db5cdd7 u0 com.rayneo.airuntime/.provider.AiRuntimeFileProvider}
+    proc=ProcessRecord{1413726 2634:com.rayneo.airuntime/1000}
+    authority=com.rayneo.airuntime.airuntimefileprovider
+  * ContentProviderRecord{66a56c4 u0 com.android.bluetooth/.opp.BluetoothOppProvider}
+    proc=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    authority=com.android.bluetooth.opp
+  * ContentProviderRecord{14ed9ad u0 com.rayneo.live.ai/com.blankj.utilcode.util.UtilsFileProvider}
+    proc=ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}
+    authority=com.rayneo.live.ai.utilcode.fileprovider
+  * ContentProviderRecord{db394e2 u0 com.android.providers.media.module/com.android.providers.media.MediaDocumentsProvider}
+    proc=ProcessRecord{cc70023 2387:com.android.providers.media.module/u0a76}
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{59f7073 u0 com.android.systemui/androidx.core.content.FileProvider}
+    proc=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    authority=com.android.systemui.fileprovider
+  * ContentProviderRecord{5181b30 u0 com.android.settings/.deviceinfo.legal.ModuleLicenseProvider}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings.module_licenses
+  * ContentProviderRecord{aac63a9 u0 com.rayneo.xr.runtime/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{c265f9e 2603:com.rayneo.xr.runtime/u0a67}
+    authority=com.rayneo.xr.runtime.androidx-startup
+  * ContentProviderRecord{f7a1d2e u0 com.android.webview/org.chromium.android_webview.services.DeveloperModeContentProvider}
+    proc=ProcessRecord{20bf2a4 8541:com.android.webview:webview_service/u0a58}
+    authority=com.android.webview.DeveloperModeContentProvider
+  * ContentProviderRecord{b76a0cf u0 com.rayneo.live.ai/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}
+    authority=com.rayneo.live.ai.androidx-startup
+  * ContentProviderRecord{59bba5c u0 com.android.bluetooth/.opp.BluetoothOppFileProvider}
+    proc=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    authority=com.android.bluetooth.opp.fileprovider
+  * ContentProviderRecord{53e9165 u0 com.leiniao.camera/com.blankj.utilcode.util.UtilsFileProvider}
+    proc=ProcessRecord{3eea8d2 3055:com.leiniao.camera/1000}
+    authority=com.leiniao.camera.utilcode.fileprovider
+  * ContentProviderRecord{50ede3a u0 com.android.statementservice/androidx.work.impl.WorkManagerInitializer}
+    proc=ProcessRecord{ebb7ba8 18344:com.android.statementservice/u0a35}
+    authority=com.android.statementservice.workmanager-init
+  * ContentProviderRecord{9e67aeb u0 com.rayneo.aispeech/com.rayneo.appmars.SpeechProvider}
+    proc=ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}
+    authority=com.rayneo.aispeech.mars.ContentProvider
+    1 connections, 0 external handles
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +6h59m45s119ms
+  * ContentProviderRecord{d582048 u0 com.rayneo.notes/.ActionButtonProvider}
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    authority=com.rayneo.notes.ActionButtonProvider
+  * ContentProviderRecord{80bdee1 u0 com.rayneo.notes/com.blankj.utilcode.util.UtilsFileProvider}
+    proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+    authority=com.rayneo.notes.utilcode.fileprovider
+  * ContentProviderRecord{dfca406 u0 com.android.settings/.slices.SettingsSliceProvider}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings.slices;android.settings.slices
+  * ContentProviderRecord{12fdac7 u0 com.android.providers.contacts/.CallLogProvider}
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    authority=call_log
+  * ContentProviderRecord{2f2f8f4 u0 com.android.permissioncontroller/com.android.car.ui.core.SearchResultsProvider}
+    proc=ProcessRecord{3c0c0f5 15016:com.android.permissioncontroller/u0a75}
+    authority=com.android.permissioncontroller.SearchResultsProvider
+  * ContentProviderRecord{a06881d u0 com.android.webview/org.chromium.android_webview.nonembedded.LicenseContentProvider}
+    proc=ProcessRecord{1ec6b59 8823:com.android.webview:webview_apk/u0a58}
+    authority=com.android.webview.LicenseContentProvider
+  * ContentProviderRecord{5aefa92 u0 com.android.bluetooth/.map.MmsFileProvider}
+    proc=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    authority=com.android.bluetooth.map.MmsFileProvider
+  * ContentProviderRecord{ac55c63 u0 com.rayneo.phone/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+    authority=com.rayneo.phone.androidx-startup
+  * ContentProviderRecord{fc0b060 u0 com.rayneo.phone/com.ffalconxr.mercury.launcher.telephone.provider.PhoneInteractProvider}
+    proc=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+    launchingApp=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+    authority=com.rayneo.phone.InteractProvider
+    4 connections, 0 external handles
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +7h59m30s699ms
+      -> 2392:com.rayneo.aispeech:interactor/1000 s0/0 u1/1 +7h58m56s267ms
+      -> 4785:com.rayneo.aispeech/1000 s0/0 u1/1 +7h55m24s856ms
+      -> 3055:com.leiniao.camera/1000 s0/0 u1/1 +7h32m47s64ms
+  * ContentProviderRecord{5088919 u0 com.android.systemui/.keyguard.KeyguardSliceProvider}
+    proc=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    authority=com.android.systemui.keyguard
+  * ContentProviderRecord{be2dde u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    launchingApp=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    authority=user_dictionary
+  * ContentProviderRecord{aa75bbf u0 com.rayneo.live.ai/.LiveAIProvider}
+    proc=ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}
+    launchingApp=ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}
+    authority=com.rayneo.live.ai.provider
+    2 connections, 0 external handles
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +7h58m53s621ms
+      -> 3093:com.rayneo.record/1000 s0/0 u1/1 +7h58m53s283ms
+  * ContentProviderRecord{bf0728c u0 com.rayneo.xr.runtime/com.rayneo.xr.provider.XRProvider}
+    proc=ProcessRecord{c265f9e 2603:com.rayneo.xr.runtime/u0a67}
+    authority=com.rayneo.xr.provider
+  * ContentProviderRecord{c8f9dd5 u0 com.rayneo.phone/com.blankj.utilcode.util.UtilsFileProvider}
+    proc=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+    authority=com.rayneo.phone.utilcode.fileprovider
+  * ContentProviderRecord{2fb49ea u0 com.rayneo.aispeech/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}
+    authority=com.rayneo.aispeech.androidx-startup
+  * ContentProviderRecord{a7ff4db u0 com.leiniao.camera/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{3eea8d2 3055:com.leiniao.camera/1000}
+    authority=com.leiniao.camera.androidx-startup
+  * ContentProviderRecord{1782b78 u0 com.ffalconxr.mercury.launcher/com.liulishuo.okdownload.OkDownloadProvider}
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    authority=com.ffalconxr.mercury.launcher.com.liulishuo.okdownload
+  * ContentProviderRecord{4394251 u0 com.android.settings/.emergency.EmergencyActionContentProvider}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings.emergency
+  * ContentProviderRecord{a3c1ab6 u0 com.rayneo.gallery/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{18d5cfe 3744:com.rayneo.gallery/1000}
+    authority=com.rayneo.gallery.androidx-startup
+  * ContentProviderRecord{a7f03b7 u0 com.ffalconxr.mercury.launcher/.record.RecordNotifyProvider}
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    authority=com.rayneo.record.RecordNotifyProvider
+    1 connections, 0 external handles
+      -> 3093:com.rayneo.record/1000 s0/0 u1/1 +7h55m59s91ms
+  * ContentProviderRecord{1c08724 u0 com.leiniao.camera/com.android.camera.provider.CameraContentProvider}
+    proc=ProcessRecord{3eea8d2 3055:com.leiniao.camera/1000}
+    authority=com.leiniao.camera.CameraContentProvider
+    1 connections, 0 external handles
+      -> 3093:com.rayneo.record/1000 s0/0 u1/1 +7h58m53s260ms
+  * ContentProviderRecord{1feb28d u0 com.rayneo.record/.provider.RecordContentProvider}
+    proc=ProcessRecord{bd874f6 3093:com.rayneo.record/1000}
+    authority=com.rayneo.record.RecordContentProvider
+    2 connections, 0 external handles
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +7h59m32s546ms
+      -> 3055:com.leiniao.camera/1000 s0/0 u1/1 +7h55m19s197ms
+  * ContentProviderRecord{9e72c42 u0 com.rayneo.gallery/com.blankj.utilcode.util.UtilsFileProvider}
+    proc=ProcessRecord{18d5cfe 3744:com.rayneo.gallery/1000}
+    authority=com.rayneo.gallery.utilcode.fileprovider
+  * ContentProviderRecord{3f62453 u0 com.android.permissioncontroller/.permission.service.PermissionSearchIndexablesProvider}
+    proc=ProcessRecord{3c0c0f5 15016:com.android.permissioncontroller/u0a75}
+    authority=com.android.permissioncontroller
+  * ContentProviderRecord{a10f190 u0 com.ffalconxr.mercury.launcher/.provider.MercuryInteractProvider}
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    authority=com.ffalconxr.mercury.launcher.InteractProvider
+    9 connections, 0 external handles
+      -> 2392:com.rayneo.aispeech:interactor/1000 s0/0 u1/1 +8h0m0s45ms
+      -> 2784:com.rayneo.media/1000 s0/0 u1/1 +7h59m58s313ms
+      -> 3093:com.rayneo.record/1000 s0/0 u1/1 +7h59m55s229ms
+      -> 3303:com.rayneo.notes/1000 s0/0 u2/2 +7h59m31s907ms
+      -> 3330:com.rayneo.phone/1000 s0/0 u1/1 +7h59m30s127ms
+      -> 3744:com.rayneo.gallery/1000 s0/0 u1/1 +7h58m29s330ms
+      -> 4785:com.rayneo.aispeech/1000 s0/0 u1/1 +7h55m24s870ms
+      -> 2634:com.rayneo.airuntime/1000 s0/0 u1/1 +7h55m24s728ms
+      -> 3055:com.leiniao.camera/1000 s0/0 u1/1 +7h55m19s233ms
+  * ContentProviderRecord{830ea89 u0 com.android.providers.contacts/.ShadowCallLogProvider}
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    authority=call_log_shadow
+  * ContentProviderRecord{33fca8e u0 com.rayneo.aispeech/com.blankj.utilcode.util.UtilsFileProvider}
+    proc=ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}
+    authority=com.rayneo.aispeech.utilcode.fileprovider
+  * ContentProviderRecord{9b4b2af u0 com.rayneo.gallery/com.tcl.ff.component.utils.common.UtilsFileProvider}
+    proc=ProcessRecord{18d5cfe 3744:com.rayneo.gallery/1000}
+    authority=com.rayneo.gallery.utils.common.provider
+  * ContentProviderRecord{2bb96bc u0 com.android.providers.media.module/com.android.providers.media.MediaProvider}
+    proc=ProcessRecord{cc70023 2387:com.android.providers.media.module/u0a76}
+    authority=media
+    1 connections, 0 external handles
+      -> 18340:android.process.media/u0a25 s1/4 u0/3 +32m32s895ms
+  * ContentProviderRecord{334a645 u0 com.ffalconxr.mercury.launcher/.notes.TodoNotifyProvider}
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    authority=com.rayneo.notes.TodoNotifyProvider
+  * ContentProviderRecord{672019a u0 com.rayneo.media/.core.MusicContentProvider}
+    proc=ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+    launchingApp=ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+    authority=com.rayneo.media.musicProvider
+    4 connections, 0 external handles
+      -> 2634:com.rayneo.airuntime/1000 s0/0 u1/1 +7h59m58s740ms
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +7h59m58s240ms
+      -> 3093:com.rayneo.record/1000 s0/0 u1/1 +7h58m53s246ms
+      -> 3055:com.leiniao.camera/1000 s0/0 u1/1 +7h32m31s602ms
+  * ContentProviderRecord{223cacb u0 com.android.permissioncontroller/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+    proc=ProcessRecord{3c0c0f5 15016:com.android.permissioncontroller/u0a75}
+    authority=com.android.permissioncontroller.lifecycle-process
+  * ContentProviderRecord{50962a8 u0 com.rayneo.record/.ActionButtonProvider}
+    proc=ProcessRecord{bd874f6 3093:com.rayneo.record/1000}
+    authority=com.rayneo.record.ActionButtonProvider
+    1 connections, 0 external handles
+      -> 1858:com.ffalconxr.mercury.launcher/1000 s0/0 u1/1 +7h58m53s301ms
+  * ContentProviderRecord{6fe61c1 u0 com.android.settings/.dashboard.suggestions.SuggestionStateProvider}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings.suggestions.status
+  * ContentProviderRecord{85e9d66 u0 com.android.systemui/androidx.lifecycle.ProcessLifecycleOwnerInitializer}
+    proc=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    authority=com.android.systemui.lifecycle-process
+  * ContentProviderRecord{72248a7 u0 com.android.providers.downloads/.DownloadProvider}
+    proc=ProcessRecord{b185963 18340:android.process.media/u0a25}
+    authority=downloads
+  * ContentProviderRecord{3e60154 u0 com.rayneo.record/.provider.PlayRecordProvider}
+    proc=ProcessRecord{bd874f6 3093:com.rayneo.record/1000}
+    authority=com.rayneo.record.playRecordProvider
+  * ContentProviderRecord{84e58fd u0 com.android.providers.contacts/.ContactsProvider2}
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    authority=contacts;com.android.contacts
+  * ContentProviderRecord{92729f2 u0 com.android.permissioncontroller/com.android.car.ui.core.CarUiInstaller}
+    proc=ProcessRecord{3c0c0f5 15016:com.android.permissioncontroller/u0a75}
+    authority=com.android.permissioncontroller.CarUiInstaller
+  * ContentProviderRecord{7a0c843 u0 com.android.settings/.homepage.contextualcards.SettingsContextualCardProvider}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings.homepage.contextualcards
+  * ContentProviderRecord{34bdec0 u0 com.rayneo.airuntime/androidx.startup.InitializationProvider}
+    proc=ProcessRecord{1413726 2634:com.rayneo.airuntime/1000}
+    authority=com.rayneo.airuntime.androidx-startup
+  * ContentProviderRecord{dac87f9 u0 com.ffalconxr.mercury.launcher/com.blankj.utilcode.util.UtilsFileProvider}
+    proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    authority=com.ffalconxr.mercury.launcher.utilcode.fileprovider
+  * ContentProviderRecord{779f33e u0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    authority=com.android.blockednumber
+  * ContentProviderRecord{6fda59f u0 com.android.settings/.search.SettingsSearchIndexablesProvider}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings
+  * ContentProviderRecord{a7026ec u0 com.android.settings/.dashboard.SummaryProvider}
+    proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+    authority=com.android.settings.dashboard.SummaryProvider
+  * ContentProviderRecord{424aab5 u0 com.android.providers.media/.LegacyMediaProvider}
+    proc=ProcessRecord{b185963 18340:android.process.media/u0a25}
+    authority=media_legacy
+  * ContentProviderRecord{c9e054a u0 com.android.systemui/.people.PeopleProvider}
+    proc=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    authority=com.android.systemui.people.PeopleProvider
+  * ContentProviderRecord{620fcbb u0 com.android.providers.contacts/.VoicemailContentProvider}
+    proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    authority=com.android.voicemail
+
+ACTIVITY MANAGER URI PERMISSIONS (dumpsys activity permissions)
+  (nothing)
+
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{ec05d29 u0 com.rayneo.aispeech/.SpeechService}
+    app=ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}
+    created=-7h55m25s340ms started=true connections=0
+  * ServiceRecord{f9b3bf3 u0 com.ffalconxr.mercury.launcher/com.rayneo.log.LogService}
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    created=-8h0m0s758ms started=true connections=0
+  * ServiceRecord{4f11c0a u0 com.rayneo.media/.MediaCoreService}
+    app=ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+    created=-7h56m2s76ms started=false connections=1
+    Connections:
+       -> 1858:com.ffalconxr.mercury.launcher/1000
+  * ServiceRecord{ca22b71 u0 com.ffalconxr.mercury.launcher/com.amap.api.location.APSService}
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    created=-7h58m50s245ms started=false connections=1
+    Connections:
+       -> 1858:com.ffalconxr.mercury.launcher/1000
+  * ServiceRecord{88c9d70 u0 com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl}
+    app=ProcessRecord{cc70023 2387:com.android.providers.media.module/u0a76}
+    created=-8h0m0s817ms started=false connections=1
+    Connections:
+       -> 1288:system/1000
+  * ServiceRecord{eea7f5a u0 com.rayneo.xr.runtime/com.rayneo.xr.server.service.MonitorService}
+    app=ProcessRecord{c265f9e 2603:com.rayneo.xr.runtime/u0a67}
+    created=-7h59m59s624ms started=true connections=4
+    Connections:
+       -> 3093:com.rayneo.record/1000
+       -> 3431:com.rayneo.live.ai/1000
+       -> 2634:com.rayneo.airuntime/1000
+       -> 1858:com.ffalconxr.mercury.launcher/1000
+  * ServiceRecord{e12aa88 u0 android.ext.services/.notification.Assistant}
+    app=ProcessRecord{664686f 1879:android.ext.services/u0a77}
+    created=-8h0m0s607ms started=false connections=1
+    Connections:
+      act=android.service.notification.NotificationAssistantService -> 1288:system/1000
+  * ServiceRecord{462d425 u0 com.android.webview/org.chromium.android_webview.services.MetricsBridgeService}
+    app=ProcessRecord{20bf2a4 8541:com.android.webview:webview_service/u0a58}
+    created=-7h39m19s998ms started=false connections=2
+    Connections:
+       -> 8541:com.android.webview:webview_service/u0a58
+       -> 8823:com.android.webview:webview_apk/u0a58
+  * ServiceRecord{6cee8ab u0 com.ffalconxr.mercury.launcher/.MercuryService}
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    created=-8h0m5s769ms started=true connections=0
+  * ServiceRecord{8476f75 u0 com.rayneo.gallery/.service.CopyAssetService}
+    app=ProcessRecord{18d5cfe 3744:com.rayneo.gallery/1000}
+    created=-7h58m29s726ms started=true connections=0
+  * ServiceRecord{c83d6db u0 com.android.systemui/.keyguard.KeyguardService}
+    app=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    created=-8h0m7s624ms started=false connections=1
+    Connections:
+      flg=0x100 -> 1288:system/1000
+  * ServiceRecord{74d25d5 u0 com.ffalconxr.mercury.launcher/com.liulishuo.filedownloader.services.FileDownloadService$SharedMainProcessService}
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    created=-7h52m2s447ms started=true connections=0
+  * ServiceRecord{93e29ec u0 com.android.bluetooth/.btservice.AdapterService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-6h1m27s429ms started=false connections=1
+    Connections:
+      act=android.bluetooth.IBluetooth -> 1288:system/1000
+  * ServiceRecord{f6d8421 u0 com.android.systemui/.ImageWallpaper}
+    app=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    created=-8h0m8s507ms started=false connections=2
+    Connections:
+      act=android.service.wallpaper.WallpaperService -> 1288:system/1000
+      act=android.service.wallpaper.WallpaperService -> 1288:system/1000
+  * ServiceRecord{1562648 u0 com.ffalconxr.mercury.launcher/com.rayneo.fota.UpdateService}
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    created=-8h0m5s879ms started=true connections=0
+  * ServiceRecord{3438a73 u0 com.rayneo.airuntime/.AiService}
+    app=ProcessRecord{1413726 2634:com.rayneo.airuntime/1000}
+    created=-7h59m58s804ms started=true connections=3
+    Connections:
+       -> 2784:com.rayneo.media/1000
+       -> 1858:com.ffalconxr.mercury.launcher/1000
+       -> 3330:com.rayneo.phone/1000
+  * ServiceRecord{3ba4cec u0 com.ffalconxr.mercury.launcher/com.rayneo.platform.input.InputMonitorService}
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    created=-8h0m5s835ms started=true connections=0
+  * ServiceRecord{67b535a u0 com.android.bluetooth/.gatt.GattService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-6h1m26s905ms started=true connections=1
+    Connections:
+      act=android.bluetooth.IBluetoothGatt -> 1288:system/1000
+  * ServiceRecord{687213f u0 com.ffalconxr.mercury.launcher/.ipc.RemoteMultiService}
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    created=-8h0m5s558ms started=false connections=5
+    Connections:
+       -> 3093:com.rayneo.record/1000
+       -> 3055:com.leiniao.camera/1000
+       -> 1858:com.ffalconxr.mercury.launcher/1000
+       -> 4785:com.rayneo.aispeech/1000
+       -> 3330:com.rayneo.phone/1000
+  * ServiceRecord{e9c563f u0 com.android.networkstack.inprocess/com.android.server.NetworkStackService}
+    app=ProcessRecord{a6190e5 1288:system/1000}
+    created=-8h0m8s255ms started=false connections=1
+    Connections:
+      act=android.net.INetworkStackConnector.InProcess -> 1288:system/1000
+  * ServiceRecord{d2cd9e9 u0 com.android.mtp/.MtpService}
+    app=ProcessRecord{b185963 18340:android.process.media/u0a25}
+    created=-32m32s905ms started=true connections=0
+  * ServiceRecord{4435457 u0 com.android.bluetooth/.avrcpcontroller.AvrcpControllerService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-6h1m24s960ms started=true connections=1
+    Connections:
+      act=android.bluetooth.IBluetoothAvrcpController -> 2784:com.rayneo.media/1000
+  * ServiceRecord{e52c9d6 u0 com.android.bluetooth/.hfpclient.HeadsetClientService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-6h1m24s963ms started=true connections=5
+    Connections:
+      act=android.bluetooth.IBluetoothHeadsetClient -> 1705:com.android.systemui/u0a69
+      act=android.bluetooth.IBluetoothHeadsetClient -> 1858:com.ffalconxr.mercury.launcher/1000
+      act=android.bluetooth.IBluetoothHeadsetClient -> 3330:com.rayneo.phone/1000
+      act=android.bluetooth.IBluetoothHeadsetClient -> 3093:com.rayneo.record/1000
+      act=android.bluetooth.IBluetoothHeadsetClient -> 1288:system/1000
+  * ServiceRecord{723ab7f u0 com.android.systemui/.doze.DozeService}
+    app=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    created=-13m59s40ms started=false connections=1
+    Connections:
+      act=android.service.dreams.DreamService flg=0x800000 -> 1288:system/1000
+  * ServiceRecord{55825ab u0 com.eg.android.AlipayGGlasses/com.alipay.android.glass2pay.service.Glass2PayService}
+    app=ProcessRecord{4259469 2575:com.eg.android.AlipayGGlasses/u0a51}
+    created=-7h59m59s899ms started=false connections=1
+    Connections:
+      act=com.alipay.android.glass2pay.service.Glass2PayService pkg=com.eg.android.AlipayGGlasses -> 1858:com.ffalconxr.mercury.launcher/1000
+  * ServiceRecord{deca1aa u0 com.android.bluetooth/.avrcpcontroller.BluetoothMediaBrowserService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-8h0m4s456ms started=true connections=12
+    Connections:
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+      act=android.media.browse.MediaBrowserService -> 2784:com.rayneo.media/1000
+  * ServiceRecord{e60dd96 u0 com.rayneo.aispeech/.wakeup.RayNeoVoiceInteractionService}
+    app=ProcessRecord{71ca368 2392:com.rayneo.aispeech:interactor/1000}
+    created=-8h0m0s799ms started=false connections=1
+    Connections:
+      act=android.service.voice.VoiceInteractionService -> 1288:system/1000
+  * ServiceRecord{a57fb19 u0 com.android.systemui/.SystemUIService}
+    app=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    created=-8h0m7s628ms started=true connections=0
+  * ServiceRecord{ba5605c u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.device.service.XRDeviceManagerService}
+    app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+    created=-8h0m5s883ms started=true connections=0
+  * ServiceRecord{6a79b44 u0 com.android.bluetooth/.pbapclient.PbapClientService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-6h1m24s958ms started=true connections=3
+    Connections:
+      act=android.bluetooth.IBluetoothPbapClient -> 3330:com.rayneo.phone/1000
+      act=android.bluetooth.IBluetoothPbapClient -> 1858:com.ffalconxr.mercury.launcher/1000
+      act=android.bluetooth.IBluetoothPbapClient -> 1705:com.android.systemui/u0a69
+  * ServiceRecord{ae0c003 u0 com.rayneo.phone/com.ffalconxr.mercury.launcher.telephone.service.PhoneCoreService}
+    app=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+    created=-7h56m2s84ms started=false connections=1
+    Connections:
+       -> 1858:com.ffalconxr.mercury.launcher/1000
+  * ServiceRecord{9fb0963 u0 com.leiniao.camera/com.android.camera.quickshot.QuickShotService}
+    app=ProcessRecord{3eea8d2 3055:com.leiniao.camera/1000}
+    created=-7h55m19s365ms started=true connections=0
+  * ServiceRecord{a75dd0d u0 com.android.systemui/.dump.SystemUIAuxiliaryDumpService}
+    app=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    created=-8h0m6s22ms started=true connections=0
+  * ServiceRecord{df4d88f u0 com.android.server.telecom/.components.TelecomService}
+    app=ProcessRecord{a6190e5 1288:system/1000}
+    created=-8h0m8s576ms started=false connections=1
+    Connections:
+      act=com.android.ITelecomService -> 1288:system/1000
+  * ServiceRecord{6019d91 u0 com.qti.pasrservice/.PASRService}
+    app=ProcessRecord{b7ac26 2417:.pasr/u0a48}
+    created=-7h59m55s890ms started=true connections=0
+  * ServiceRecord{d20d9f4 u0 com.sogou.inputmethod.iot/com.sogou.iot.SogouInputMethodService}
+    app=ProcessRecord{6cf4be 2437:com.sogou.inputmethod.iot/u0a54}
+    created=-6h38m10s664ms started=false connections=1
+    Connections:
+      act=android.view.InputMethod -> 1288:system/1000
+  * ServiceRecord{2ce944e u0 com.android.location.fused/.FusedLocationService}
+    app=ProcessRecord{a6190e5 1288:system/1000}
+    created=-8h0m8s317ms started=false connections=1
+    Connections:
+      act=com.android.location.service.FusedLocationProvider -> 1288:system/1000
+  * ServiceRecord{4a268d1 u0 com.android.networkstack.tethering.inprocess/com.android.networkstack.tethering.TetheringService}
+    app=ProcessRecord{a6190e5 1288:system/1000}
+    created=-8h0m8s248ms started=false connections=1
+    Connections:
+      act=android.net.ITetheringConnector.InProcess -> 1288:system/1000
+  * ServiceRecord{746c927 u0 com.rayneo.aispeech/.wakeup.RayNeoHotwordDetectionService:hotword_detector_2}
+    app=ProcessRecord{314b128 18662:com.rayneo.aispeech:rhotword:com.rayneo.aispeech.wakeup.RayNeoHotwordDetectionService:hotword_detector_2/99004}
+    created=-5h37m19s869ms started=false connections=1
+    Connections:
+      act=android.service.voice.HotwordDetectionService -> 1288:system/1000
+  * ServiceRecord{12441d2 u0 com.qualcomm.qtil.btdsda/.BtDsDaService}
+    app=ProcessRecord{1600fd7 18114:com.qualcomm.qtil.btdsda/1002}
+    created=-6h1m24s879ms started=true connections=0
+  * ServiceRecord{1edb75 u0 com.android.bluetooth/.hid.HidHostService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-6h1m24s969ms started=true connections=1
+    Connections:
+      act=android.bluetooth.IBluetoothHidHost -> 1705:com.android.systemui/u0a69
+  * ServiceRecord{144042d u0 com.android.bluetooth/.opp.BluetoothOppService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-6h1m24s956ms started=true connections=0
+  * ServiceRecord{20eb9f1 u0 com.android.bluetooth/.pan.PanService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-6h1m24s966ms started=true connections=5
+    Connections:
+      act=android.bluetooth.IBluetoothPan -> 1705:com.android.systemui/u0a69
+      act=android.bluetooth.IBluetoothPan -> 1858:com.ffalconxr.mercury.launcher/1000
+      act=android.bluetooth.IBluetoothPan -> 1858:com.ffalconxr.mercury.launcher/1000
+      act=android.bluetooth.IBluetoothPan -> 1858:com.ffalconxr.mercury.launcher/1000
+      act=android.bluetooth.IBluetoothPan -> 1858:com.ffalconxr.mercury.launcher/1000
+  * ServiceRecord{9a5a2ac u0 com.android.bluetooth/.a2dpsink.A2dpSinkService}
+    app=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+    created=-6h1m24s972ms started=true connections=5
+    Connections:
+      act=android.bluetooth.IBluetoothA2dpSink -> 3093:com.rayneo.record/1000
+      act=android.bluetooth.IBluetoothA2dpSink -> 2784:com.rayneo.media/1000
+      act=android.bluetooth.IBluetoothA2dpSink -> 1858:com.ffalconxr.mercury.launcher/1000
+      act=android.bluetooth.IBluetoothA2dpSink -> 1705:com.android.systemui/u0a69
+      act=android.bluetooth.IBluetoothA2dpSink -> 1288:system/1000
+  * ServiceRecord{c2a97fe u0 android.ext.services/.autofill.InlineSuggestionRenderServiceImpl}
+    app=ProcessRecord{664686f 1879:android.ext.services/u0a77}
+    created=-8h0m7s544ms started=false connections=6
+    Connections:
+      act=android.service.autofill.InlineSuggestionRenderService -> 1288:system/1000
+      act=android.service.autofill.InlineSuggestionRenderService -> 1288:system/1000
+      act=android.service.autofill.InlineSuggestionRenderService -> 1288:system/1000
+      act=android.service.autofill.InlineSuggestionRenderService -> 1288:system/1000
+      act=android.service.autofill.InlineSuggestionRenderService -> 1288:system/1000
+      act=android.service.autofill.InlineSuggestionRenderService -> 1288:system/1000
+
+Active foreground apps - user 0:
+  #4: com.rayneo.airuntime
+    mNumActive=1 mAppOnTop=true mShownWhileTop=true mShownWhileScreenOn=true
+    mStartTime=-7h59m58s787ms mStartVisibleTime=-7h59m58s787ms
+  #3: com.leiniao.camera
+    mNumActive=1 mAppOnTop=true mShownWhileTop=true mShownWhileScreenOn=true
+    mStartTime=-7h55m19s352ms mStartVisibleTime=-7h55m19s352ms
+  #2: com.eg.android.AlipayGGlasses
+    mNumActive=1 mAppOnTop=false mShownWhileTop=true mShownWhileScreenOn=true
+    mStartTime=-7h59m59s124ms mStartVisibleTime=-7h59m59s124ms
+  #1: com.rayneo.gallery
+    mNumActive=1 mAppOnTop=true mShownWhileTop=true mShownWhileScreenOn=true
+    mStartTime=-7h58m29s312ms mStartVisibleTime=-7h58m29s312ms
+  #0: com.rayneo.xr.runtime
+    mNumActive=1 mAppOnTop=false mShownWhileTop=false mShownWhileScreenOn=true
+    mStartTime=-7h59m59s58ms mStartVisibleTime=-7h59m59s58ms
+
+ACTIVITY MANAGER RECENT TASKS (dumpsys activity recents)
+mRecentsUid=-1
+mRecentsComponent=null
+mFreezeTaskListReordering=false
+mFreezeTaskListReorderingPendingTimeout=false
+mHiddenTasks=[Task{906eb1e #4 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{6fc2d #8 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{ac96fff #7 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{bfc399e #10 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{c8d3c2f #26 type=standard A=1000:com.leiniao.camera U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{34aa3d5 #34 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{b8de1db #36 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{1301709 #38 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{be858c0 #39 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{25a4d76 #40 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{b5ce8e3 #41 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{c6882ae #50 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{39d21d4 #52 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{ac3e421 #55 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{5abbca #60 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{c2d9b43 #61 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{bab9fa0 #62 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{42c4c27 #63 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{f52c5d #65 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{f9cc853 #66 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}, Task{6ab0deb #9 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}]
+  Recent tasks:
+  * Recent #0: Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+  * Recent #1: Task{f021121 #64 type=standard A=10063:com.ffalcon.navigation U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+  * Recent #2: Task{16b42f1 #59 type=standard A=10089:com.phoenix.read U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+  * Recent #3: Task{ac5853c #57 type=standard A=1000:com.ffalcon.appcontainer U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+  * Recent #4: Task{cb2c766 #56 type=standard A=10082:com.Ffalcon.BEATSPACE U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+  * Recent #5: Task{927d6a4 #54 type=standard A=10079:com.RayneoGame.ARPet U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+  * Recent #6: Task{24dfd46 #51 type=standard A=10078:com.rayneo.lifeai U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+  * Recent #7: Task{dd81028 #48 type=standard A=10051:com.eg.android.AlipayGGlasses U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+  * Recent #8: Task{62d1af1 #44 type=standard A=1000:com.rayneo.media U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+
+  Visible recent tasks (most recent first):
+  * RecentTaskInfo #0: 
+    id=67 userId=0 hasTask=true lastActiveTime=27989287
+    baseIntent=Intent { flg=0x10000000 cmp=com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity }
+    baseActivity={com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity}
+    topActivity={com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity}
+    realActivity={com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity}
+    isExcluded=false activityType=standard windowingMode=fullscreen supportsSplitScreenMultiWindow=false supportsMultiWindow=true
+    taskDescription { colorBackground=#fffafafa colorPrimary=#fff5f5f5 iconRes=/0 iconBitmap=false resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION minWidth=-1 minHeight=-1 colorBackgroundFloating=#ffffffff }
+    lastSnapshotData { taskSize=null contentInsets=null bufferSize=null }
+  * RecentTaskInfo #1: 
+    id=64 userId=0 hasTask=false lastActiveTime=5659784
+    baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.ffalcon.navigation/com.ffalcon.LBSUnityActivity }
+    realActivity={com.ffalcon.navigation/com.ffalcon.LBSUnityActivity}
+    isExcluded=false activityType=standard windowingMode=fullscreen supportsSplitScreenMultiWindow=false supportsMultiWindow=true
+    taskDescription { colorBackground=#fffafafa colorPrimary=#fff5f5f5 iconRes=/0 iconBitmap=false resizeMode=RESIZE_MODE_UNRESIZEABLE minWidth=-1 minHeight=-1 colorBackgroundFloating=#ffffffff }
+    lastSnapshotData { taskSize=Point(1280, 480) contentInsets=Rect(0, 0 - 0, 0) bufferSize=Point(1280, 480) }
+  * RecentTaskInfo #2: 
+    id=59 userId=0 hasTask=false lastActiveTime=4937277
+    baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10001000 cmp=com.phoenix.read/com.dragon.read.pages.splash.SplashActivity }
+    realActivity={com.phoenix.read/com.dragon.read.pages.splash.SplashActivity}
+    isExcluded=false activityType=standard windowingMode=fullscreen supportsSplitScreenMultiWindow=false supportsMultiWindow=true
+    taskDescription { colorBackground=#fffafafa colorPrimary=#ff191c1e iconRes=/0 iconBitmap=false resizeMode=RESIZE_MODE_RESIZEABLE minWidth=-1 minHeight=-1 colorBackgroundFloating=#ffffffff }
+    lastSnapshotData { taskSize=null contentInsets=null bufferSize=null }
+  * RecentTaskInfo #3: 
+    id=57 userId=0 hasTask=false lastActiveTime=4934202
+    baseIntent=Intent { act=com.ffalcon.appcontainer.MAIN dat=ffcontainer://com.ffalcon.appcontainer/launch?packageName=com.phoenix.read&virtualWidth=878&virtualHeight=880&density=320&realWidth=439&realHeight=440 flg=0x10000000 cmp=com.ffalcon.appcontainer/.MainActivityV4 }
+    realActivity={com.ffalcon.appcontainer/com.ffalcon.appcontainer.MainActivityV4}
+    isExcluded=false activityType=standard windowingMode=fullscreen supportsSplitScreenMultiWindow=false supportsMultiWindow=true
+    taskDescription { colorBackground=#0 colorPrimary=#ff222222 iconRes=/0 iconBitmap=false resizeMode=RESIZE_MODE_RESIZEABLE minWidth=-1 minHeight=-1 colorBackgroundFloating=#0 }
+    lastSnapshotData { taskSize=Point(1280, 480) contentInsets=Rect(0, 0 - 0, 0) bufferSize=Point(1280, 480) }
+  * RecentTaskInfo #4: 
+    id=56 userId=0 hasTask=false lastActiveTime=4779110
+    baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.Ffalcon.BEATSPACE/com.rayneo.openxradapter.UnityOpenXrActivity }
+    realActivity={com.Ffalcon.BEATSPACE/com.rayneo.openxradapter.UnityOpenXrActivity}
+    isExcluded=false activityType=standard windowingMode=fullscreen supportsSplitScreenMultiWindow=false supportsMultiWindow=true
+    taskDescription { colorBackground=#fffafafa colorPrimary=#fff5f5f5 iconRes=/0 iconBitmap=false resizeMode=RESIZE_MODE_UNRESIZEABLE minWidth=-1 minHeight=-1 colorBackgroundFloating=#ffffffff }
+    lastSnapshotData { taskSize=Point(1280, 480) contentInsets=Rect(0, 0 - 0, 0) bufferSize=Point(1280, 480) }
+  * RecentTaskInfo #5: 
+    id=54 userId=0 hasTask=false lastActiveTime=4580339
+    baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.RayneoGame.ARPet/com.rayneogame.unity.UnityGameActivityX3 }
+    realActivity={com.RayneoGame.ARPet/com.rayneogame.unity.UnityGameActivityX3}
+    isExcluded=false activityType=standard windowingMode=fullscreen supportsSplitScreenMultiWindow=false supportsMultiWindow=true
+    taskDescription { colorBackground=#fff3f3f3 colorPrimary=#ffe6e6e6 iconRes=/0 iconBitmap=false resizeMode=RESIZE_MODE_UNRESIZEABLE minWidth=-1 minHeight=-1 colorBackgroundFloating=#fff3f3f3 }
+    lastSnapshotData { taskSize=Point(1280, 480) contentInsets=Rect(0, 0 - 0, 0) bufferSize=Point(1280, 480) }
+  * RecentTaskInfo #6: 
+    id=51 userId=0 hasTask=false lastActiveTime=4256669
+    baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.rayneo.lifeai/com.ffalcon.LBSUnityActivity }
+    realActivity={com.rayneo.lifeai/com.ffalcon.LBSUnityActivity}
+    isExcluded=false activityType=standard windowingMode=fullscreen supportsSplitScreenMultiWindow=false supportsMultiWindow=true
+    taskDescription { colorBackground=#fffafafa colorPrimary=#fff5f5f5 iconRes=/0 iconBitmap=false resizeMode=RESIZE_MODE_UNRESIZEABLE minWidth=-1 minHeight=-1 colorBackgroundFloating=#ffffffff }
+    lastSnapshotData { taskSize=Point(1280, 480) contentInsets=Rect(0, 0 - 0, 0) bufferSize=Point(1280, 480) }
+  * RecentTaskInfo #7: 
+    id=48 userId=0 hasTask=false lastActiveTime=3690604
+    baseIntent=Intent { flg=0x10000000 cmp=com.eg.android.AlipayGGlasses/com.alipay.InnerScanApi.GlassesTransparentActivity }
+    realActivity={com.eg.android.AlipayGGlasses/com.alipay.InnerScanApi.GlassesTransparentActivity}
+    isExcluded=false activityType=standard windowingMode=fullscreen supportsSplitScreenMultiWindow=false supportsMultiWindow=true
+    taskDescription { colorBackground=#ff303030 colorPrimary=#ff212121 iconRes=/0 iconBitmap=false resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION minWidth=-1 minHeight=-1 colorBackgroundFloating=#ff424242 }
+    lastSnapshotData { taskSize=Point(1280, 480) contentInsets=Rect(0, 0 - 0, 0) bufferSize=Point(1280, 480) }
+  * RecentTaskInfo #8: 
+    id=44 userId=0 hasTask=false lastActiveTime=3660775
+    baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.rayneo.media/.MusicActivityV2 }
+    realActivity={com.rayneo.media/com.rayneo.media.MusicActivityV2}
+    isExcluded=false activityType=standard windowingMode=fullscreen supportsSplitScreenMultiWindow=false supportsMultiWindow=true
+    taskDescription { colorBackground=#ff121212 colorPrimary=#ffbb86fc iconRes=/0 iconBitmap=false resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION minWidth=-1 minHeight=-1 colorBackgroundFloating=#ff424242 }
+    lastSnapshotData { taskSize=Point(1280, 480) contentInsets=Rect(0, 0 - 0, 0) bufferSize=Point(1280, 480) }
+
+ACTIVITY MANAGER LAST ANR (dumpsys activity lastanr)
+  <no ANR has occurred since boot>
+
+ACTIVITY MANAGER STARTER (dumpsys activity starter)
+mLastHomeActivityStartResult=0
+mLastHomeActivityStartRecord:
+  packageName=com.ffalconxr.mercury.launcher processName=com.ffalconxr.mercury.launcher
+  launchedFromUid=0 launchedFromPackage=null launchedFromFeature=null userId=0
+  app=null
+  Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.ffalconxr.mercury.launcher/.home.MainActivity (has extras) }
+  rootOfTask=false task=null
+  taskAffinity=1000:com.ffalconxr.mercury.launcher
+  mActivityComponent=com.ffalconxr.mercury.launcher/.home.MainActivity
+  baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+  dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+  stateNotNeeded=false componentSpecified=false mActivityType=home
+  compat={160dpi always-compat} labelRes=0x7f100098 icon=0x7f0801a7 theme=0x7f1101fc
+  mLastReportedConfigurations:
+    mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.12 fontWeightAdjustment=0}
+    mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.3 fontWeightAdjustment=0}
+  CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.3 fontWeightAdjustment=0}
+  RequestedOverrideConfiguration={0.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mWindowingMode=undefined mDisplayWindowingMode=undefined mActivityType=home mAlwaysOnTop=undefined mRotation=undefined} ?fontWeightAdjustment}
+  taskDescription: label="null" icon=null iconResource=/0 iconFilename=null primaryColor=ff000000
+    backgroundColor=ff121212 statusBarColor=ff3700b3 navigationBarColor=0
+   backgroundColorFloating=ff424242
+  launchFailed=false launchCount=1 lastLaunchTime=-2h54m37s705ms
+  mHaveState=false mIcicle=null
+  state=DESTROYED stopped=false delayedResume=false finishing=true
+  keysPaused=false inHistory=false idle=false
+  occludesParent=false noDisplay=false immersive=false launchMode=0
+  frozenBeforeDestroy=false forceNewConfig=false
+  mActivityType=home
+  mImeInsetsFrozenUntilStartInput=true
+  windows=[]
+  windowType=2 hasVisible=false
+  mOccludesParent=true
+  mOrientation=SCREEN_ORIENTATION_LANDSCAPE
+  mVisibleRequested=false mVisible=false mClientVisible=false reportedDrawn=false reportedVisible=false
+  resizeMode=RESIZE_MODE_UNRESIZEABLE
+  mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+  supportsSizeChanges=SIZE_CHANGES_UNSUPPORTED_METADATA
+  configChanges=0x3
+  neverSandboxDisplayApis=false
+  alwaysSandboxDisplayApis=false
+    mCurrentUser=0
+    mLastStartReason=null
+    mLastStartActivityTimeMs=1970年1月1日 上午8:00:00
+    mLastStartActivityResult=0
+    mStartActivity:
+      packageName=com.ffalconxr.mercury.launcher processName=com.ffalconxr.mercury.launcher
+      launchedFromUid=1000 launchedFromPackage=com.ffalconxr.mercury.launcher launchedFromFeature=null userId=0
+      app=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+      Intent { flg=0x10000000 cmp=com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity (has extras) }
+      rootOfTask=true task=Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+      taskAffinity=1000:com.ffalconxr.mercury.launcher
+      mActivityComponent=com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity
+      baseDir=/system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+      dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+      stateNotNeeded=false componentSpecified=false mActivityType=standard
+      compat={160dpi always-compat} labelRes=0x7f100098 icon=0x7f0801a7 theme=0x7f1102ff
+      mLastReportedConfigurations:
+        mGlobalConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.12 fontWeightAdjustment=0}
+        mOverrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      CurrentConfiguration={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.1 fontWeightAdjustment=0}
+      taskDescription: label="null" icon=null iconResource=/0 iconFilename=null primaryColor=fff5f5f5
+        backgroundColor=fffafafa statusBarColor=ff757575 navigationBarColor=0
+       backgroundColorFloating=ffffffff
+      launchFailed=false launchCount=0 lastLaunchTime=-13m59s110ms
+      mHaveState=true mIcicle=Bundle[mParcelledData.dataSize=3348]
+      state=STOPPED stopped=true delayedResume=false finishing=false
+      keysPaused=false inHistory=true idle=true
+      occludesParent=true noDisplay=false immersive=false launchMode=3
+      frozenBeforeDestroy=false forceNewConfig=false
+      mActivityType=standard
+      mImeInsetsFrozenUntilStartInput=true
+      windows=[Window{3ee95b4 u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity}]
+      windowType=2 hasVisible=false
+      mOccludesParent=true
+      mOrientation=SCREEN_ORIENTATION_LANDSCAPE
+      mVisibleRequested=false mVisible=false mClientVisible=false reportedDrawn=false reportedVisible=false
+      mAppStopped=true
+      resizeMode=RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION
+      mLastReportedMultiWindowMode=false mLastReportedPictureInPictureMode=false
+      supportsSizeChanges=SIZE_CHANGES_UNSUPPORTED_METADATA
+      configChanges=0x4a3
+      neverSandboxDisplayApis=false
+      alwaysSandboxDisplayApis=false
+      areBoundsLetterboxed=false
+    mIntent=Intent { flg=0x10000000 cmp=com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity (has extras) }
+    mLaunchSingleTop=false mLaunchSingleInstance=true mLaunchSingleTask=false
+    mLaunchFlags=0x10000000 mDoResume=true mAddingToTask=true
+ mInTaskFragment=null
+
+ACTIVITY MANAGER CONTAINERS (dumpsys activity containers)
+ROOT type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+  #0 Display 0 name="内置屏幕" type=undefined mode=fullscreen override-mode=fullscreen requested-bounds=[0,0][1280,480] bounds=[0,0][1280,480]
+   #2 Leaf:36:36 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #1 WindowToken{c71486 android.os.BinderProxy@3afc161} type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 2a8c147 ScreenDecorOverlayBottom type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #0 WindowToken{a3b46ba android.os.BinderProxy@8314be5} type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 8a5f96b ScreenDecorOverlay type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+   #1 HideDisplayCutout:32:35 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #0 OneHanded:32:35 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #1 FullscreenMagnification:33:35 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #0 Leaf:33:35 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 Leaf:32:32 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+   #0 WindowedMagnification:0:31 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #6 HideDisplayCutout:26:31 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 OneHanded:26:31 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #2 FullscreenMagnification:29:31 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #0 Leaf:29:31 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #1 Leaf:28:28 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #0 FullscreenMagnification:26:27 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #0 Leaf:26:27 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #5 Leaf:24:25 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 WindowToken{90cd348 android.os.BinderProxy@169993a} type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #0 48615e1 NavigationBar0 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #4 HideDisplayCutout:20:23 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 OneHanded:20:23 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #0 FullscreenMagnification:20:23 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #0 Leaf:20:23 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #3 OneHanded:19:19 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 FullscreenMagnification:19:19 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #0 Leaf:19:19 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #0 WindowToken{c63c9a android.os.BinderProxy@e7899bc} type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+        #0 3fae9cb NotificationShade type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #2 HideDisplayCutout:18:18 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 OneHanded:18:18 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #0 FullscreenMagnification:18:18 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #0 Leaf:18:18 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #1 OneHanded:17:17 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 FullscreenMagnification:17:17 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #0 Leaf:17:17 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #0 WindowToken{3e06454 android.os.BinderProxy@33b8866} type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+        #0 2147ffd StatusBar type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+    #0 HideDisplayCutout:0:16 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #1 OneHanded:2:16 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #1 ImePlaceholder:15:16 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #0 ImeContainer type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+        #0 WindowToken{dda4392 android.os.Binder@1d551d} type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+         #0 27fc0bf InputMethod type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #0 FullscreenMagnification:2:14 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #1 Leaf:3:14 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+        #1 WindowToken{8c8bd7 android.os.BinderProxy@8a82f56} type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+         #0 dbd3cc4 com.ffalconxr.mercury.launcher type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+        #0 WindowToken{6d11dbf android.os.BinderProxy@1a47b18} type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+         #0 7beaa60 ShellDropTarget type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #0 DefaultTaskDisplayArea type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+        #2 Task=67 type=standard mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+         #0 ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67} type=standard mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+          #0 3ee95b4 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.lockscreen.LockScreenActivity type=standard mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+        #1 Task=9 type=standard mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+         #0 ActivityRecord{2379843 u0 com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity t9} type=standard mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+          #0 519d82e com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.home.LauncherHomeActivity type=standard mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+        #0 Task=2 type=undefined mode=fullscreen override-mode=fullscreen requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+     #0 OneHandedBackgroundPanel:0:1 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+      #0 OneHanded:0:1 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+       #0 FullscreenMagnification:0:1 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+        #0 Leaf:0:1 type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+         #0 WallpaperWindowToken{5a52251 token=android.os.Binder@7a78b78} type=undefined mode=fullscreen override-mode=fullscreen requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+          #0 456188b com.android.systemui.ImageWallpaper type=undefined mode=fullscreen override-mode=undefined requested-bounds=[0,0][0,0] bounds=[0,0][1280,480]
+ 
+
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+  * Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+    isSleeping=true
+        Hist  #0: ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67}
+      Intent { flg=0x10000000 cmp=com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity (has extras) }
+      ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+
+  * Task{6ab0deb #9 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    isSleeping=true
+        Hist  #0: ActivityRecord{2379843 u0 com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity t9}
+      Intent { flg=0x10000000 cmp=com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity (has extras) }
+      ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+
+  * Task{ca293e8 #2 type=undefined ?? U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+    mCreatedByOrganizer=true
+    isSleeping=true
+
+  Resumed activities in task display areas (from top to bottom):
+    Resumed: ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67}
+
+  ResumedActivity: ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67}
+
+ActivityTaskSupervisor state:
+  topDisplayFocusedRootTask=Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+  mLastOrientationSource=WindowedMagnification:0:31@1825729
+  deepestLastOrientationSource=Window{3fae9cb u0 NotificationShade}
+  overrideConfig={1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.10 fontWeightAdjustment=0}
+  Display: mDisplayId=0 rootTasks=3
+    init=1280x480 160dpi cur=1280x480 app=1280x480 rng=480x480-1280x1280
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion((0,0,1280,480))
+
+  mLayoutSeq=2628
+  mCurrentFocus=Window{3fae9cb u0 NotificationShade}
+  mFocusedApp=ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67}
+
+  displayId=0
+  mWallpaperTarget=null
+  mLastWallpaperX=-1.0 mLastWallpaperY=-1.0
+
+  Display areas in top down Z order:
+    * Leaf:36:36
+    * HideDisplayCutout:32:35
+      * OneHanded:32:35
+        * FullscreenMagnification:33:35
+          * Leaf:33:35
+        * Leaf:32:32
+    * WindowedMagnification:0:31
+      * HideDisplayCutout:26:31
+        * OneHanded:26:31
+          * FullscreenMagnification:29:31
+            * Leaf:29:31
+          * Leaf:28:28
+          * FullscreenMagnification:26:27
+            * Leaf:26:27
+      * Leaf:24:25
+      * HideDisplayCutout:20:23
+        * OneHanded:20:23
+          * FullscreenMagnification:20:23
+            * Leaf:20:23
+      * OneHanded:19:19
+        * FullscreenMagnification:19:19
+          * Leaf:19:19
+      * HideDisplayCutout:18:18
+        * OneHanded:18:18
+          * FullscreenMagnification:18:18
+            * Leaf:18:18
+      * OneHanded:17:17
+        * FullscreenMagnification:17:17
+          * Leaf:17:17
+      * HideDisplayCutout:0:16
+        * OneHanded:2:16
+          * ImePlaceholder:15:16
+            * ImeContainer
+          * FullscreenMagnification:2:14
+            * Leaf:3:14
+            * DefaultTaskDisplayArea
+        * OneHandedBackgroundPanel:0:1
+          * OneHanded:0:1
+            * FullscreenMagnification:0:1
+              * Leaf:0:1
+
+  Task display areas in top down Z order:
+    TaskDisplayArea DefaultTaskDisplayArea
+      mPreferredTopFocusableRootTask=Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+      mLastFocusedRootTask=Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+      Application tokens in top down Z order:
+      * Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+        bounds=[0,0][1280,480]
+        * ActivityRecord{94f7108 u0 com.ffalconxr.mercury.launcher/.lockscreen.LockScreenActivity t67}
+      * Task{6ab0deb #9 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+        bounds=[0,0][1280,480]
+        * ActivityRecord{2379843 u0 com.ffalconxr.mercury.launcher/.home.LauncherHomeActivity t9}
+      * Task{ca293e8 #2 type=undefined ?? U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+        bounds=[0,0][1280,480]
+
+  no ScreenRotationAnimation 
+
+
+  PinnedTaskController
+    mIsImeShowing=false
+    mImeHeight=0
+    mAspectRatio=-1.0
+    mMinAspectRatio=0.41841003
+    mMaxAspectRatio=2.39
+    mActions=[]
+
+  DisplayFrames w=1280 h=480 r=0
+
+  DisplayPolicy
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mDockMode=EXTRA_DOCK_STATE_UNDOCKED mLidState=LID_ABSENT
+    mAwake=false mScreenOnEarly=false mScreenOnFully=false
+    mKeyguardDrawComplete=false mWindowManagerDrawComplete=false
+    mHdmiPlugged=false
+    mLastBehavior=SHOW_TRANSIENT_BARS_BY_SWIPE
+    mShowingDream=false mDreamingLockscreen=false
+    mStatusBar=Window{2147ffd u0 StatusBar}
+    mExpandedPanel=Window{3fae9cb u0 NotificationShade}
+    isKeyguardShowing=false
+    mNavigationBar=Window{48615e1 u0 NavigationBar0}
+    mNavBarOpacityMode=0
+    mNavigationBarCanMove=true
+    mNavigationBarPosition=4
+    mFocusedWindow=Window{3fae9cb u0 NotificationShade}
+    mTopIsFullscreen=false
+    mForceStatusBar=false mAllowLockscreenWhenOn=false
+    mRemoteInsetsControllerControlsSystemBars=false
+    SystemGestures:
+      mDisplayCutoutTouchableRegionSize=0
+      mSwipeStartThreshold=Rect(-1, -1 - -1, -1)
+      mSwipeDistanceThreshold=-1
+    Looper state:
+      Looper (android.ui, tid 19) {5366784}
+        (Total messages: 0, polling=true, quitting=false)
+
+  DisplayRotation
+    mCurrentAppOrientation=SCREEN_ORIENTATION_NOSENSOR
+    mLastOrientation=5
+    mRotation=0 mDeferredRotationPauseCount=0
+    mLandscapeRotation=ROTATION_0 mSeascapeRotation=ROTATION_180
+    mPortraitRotation=ROTATION_270 mUpsideDownRotation=ROTATION_90
+    mSupportAutoRotation=true
+    WindowOrientationListener
+      mEnabled=false
+      mCurrentRotation=ROTATION_0
+      mSensorType=null
+      mSensor={Sensor name="lsm6dsr Accelerometer Non-wakeup", vendor="STMicro", version=142918, type=1, maxRange=78.4532, resolution=0.0023928226, power=0.17, minDelay=2404}
+      mRate=2
+      AccelSensorJudge
+        mProposedRotation=0
+        mPredictedRotation=0
+        mLastFilteredX=0.0
+        mLastFilteredY=0.0
+        mLastFilteredZ=0.0
+        mLastFilteredTimestampNanos=0 (2.8828406E7ms ago)
+        mTiltHistory={last: 0.0}
+        mFlat=false
+        mSwinging=false
+        mAccelerating=false
+        mOverhead=false
+        mTouched=false
+        mTiltToleranceConfig=[[-25, 70], [-25, 65], [-25, 60], [-25, 65]]
+
+    mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=USER_ROTATION_LOCKED mUserRotation=ROTATION_0 mCameraRotationMode=0 mAllowAllRotations=unknown
+    mDemoHdmiRotation=ROTATION_0 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+    mLidOpenRotation=-1
+    mFixedToUserRotation=false
+
+
+  WindowInsetsStateController
+    InsetsState
+      mDisplayFrame=Rect(0, 0 - 1280, 480)
+      mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+      mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+      mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1184, 0 - 1266, 0) rotation=0}
+        InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1280,0] visible=true
+        InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,480][1280,480] visible=false
+        InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,480] visible=true
+        InsetsSource type=ITYPE_RIGHT_GESTURES frame=[1280,0][1280,480] visible=true
+        InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1280,0] visible=true
+        InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,480][1280,480] visible=true
+        InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1280,0] visible=true
+        InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,480][1280,480] visible=true
+        InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+    Control map:
+      ITYPE_IME -> Window{519d82e u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.home.LauncherHomeActivity}
+      ITYPE_NAVIGATION_BAR -> Window{3fae9cb u0 NotificationShade}
+      ITYPE_STATUS_BAR -> Window{3fae9cb u0 NotificationShade}
+    InsetsSourceProviders:
+      ImeInsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+        mControl=InsetsSourceControl type=ITYPE_IME mLeash=Surface(name=Surface(name=27fc0bf InputMethod)/@0xb130ad5 - animation-leash of insets_animation)/@0xfcc7b6d mSurfacePosition=Point(0, 480) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{27fc0bf u0 InputMethod}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=27fc0bf InputMethod)/@0xb130ad5 - animation-leash of insets_animation)/@0xfcc7b6d
+        mControlTarget=Window{519d82e u0 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.launcher.home.LauncherHomeActivity}
+        mImeShowing=false
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,480][1280,480] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{48615e1 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1280,0] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{2147ffd u0 StatusBar}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,480][1280,480] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{48615e1 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1280,0] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{2147ffd u0 StatusBar}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_RIGHT_GESTURES frame=[1280,0][1280,480] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{48615e1 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,480] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{48615e1 u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,480][1280,480] visible=false
+        mControl=InsetsSourceControl type=ITYPE_NAVIGATION_BAR mLeash=Surface(name=Surface(name=48615e1 NavigationBar0)/@0xde0e059 - animation-leash of insets_animation)/@0xaf9f3a2 mSurfacePosition=Point(0, 480) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,480][1280,480]
+        mWin=Window{48615e1 u0 NavigationBar0}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=48615e1 NavigationBar0)/@0xde0e059 - animation-leash of insets_animation)/@0xaf9f3a2
+        mControlTarget=Window{3fae9cb u0 NotificationShade}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1280,0] visible=true
+        mControl=InsetsSourceControl type=ITYPE_STATUS_BAR mLeash=Surface(name=Surface(name=2147ffd StatusBar)/@0x272dca0 - animation-leash of insets_animation)/@0x5f44833 mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{2147ffd u0 StatusBar}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=2147ffd StatusBar)/@0x272dca0 - animation-leash of insets_animation)/@0x5f44833
+        mControlTarget=Window{3fae9cb u0 NotificationShade}
+
+  KeyguardController:
+    mKeyguardShowing=false
+    mAodShowing=true
+    mKeyguardGoingAway=false
+    Occluded=false DismissingKeyguardActivity=null TurnScreenOnActivity=null at display=0
+    mDismissalRequested=false
+
+  LockTaskController:
+    mLockTaskModeState=NONE
+    mLockTaskModeTasks=
+    mLockTaskPackages (userId:packages)=
+      u0:[]
+
+  mCurTaskIdForUser={0=67}
+  mUserRootTaskInFront={}
+  mVisibilityTransactionDepth=0
+  isHomeRecentsComponent=false
+  mNoHistoryActivities=[]
+
+  TaskOrganizerController:
+      android.window.ITaskOrganizer$Stub$Proxy@17477f0 uid=10069:
+        (fullscreen) Task{ca293e8 #2 type=undefined ?? U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=0}
+        (fullscreen) Task{6ab0deb #9 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+        (fullscreen) Task{f73c0a1 #67 type=standard A=1000:com.ffalconxr.mercury.launcher U=0 visible=true visibleRequested=false mode=fullscreen translucent=false sz=1}
+
+  VisibleActivityProcess:[]
+  NumNonAppVisibleWindowUidMap:[ 10069:5 1000:1]
+
+ACTIVITY MANAGER PROCESS EXIT INFO (dumpsys activity exit-info)
+Last Timestamp of Persistence Into Persistent Storage: 2026-03-19 02:08:17.342
+  package: tv.danmaku.bili
+    Historical Process Exit for uid=10086
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:54:04.805
+          pid=8879
+          realUid=10086
+          packageUid=10086
+          definingUid=10086
+          user=0
+          process=tv.danmaku.bili:pushservice
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=300
+          pss=0.00
+          rss=0.00
+          description=stop tv.danmaku.bili due to from pid 8356
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-03-18 18:54:04.738
+          pid=8774
+          realUid=99001
+          packageUid=10086
+          definingUid=10086
+          user=0
+          process=com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+          reason=1 (EXIT_SELF)
+          subreason=17 (ISOLATED NOT NEEDED)
+          status=0
+          importance=300
+          pss=0.00
+          rss=0.00
+          description=isolated not needed
+          state=empty
+          trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-03-18 18:54:04.697
+          pid=8436
+          realUid=10086
+          packageUid=10086
+          definingUid=10086
+          user=0
+          process=tv.danmaku.bili
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=100
+          pss=233MB
+          rss=452MB
+          description=stop tv.danmaku.bili due to from pid 8356
+          state=empty
+          trace=null
+        ApplicationExitInfo #3:
+          timestamp=2026-03-18 18:54:04.681
+          pid=8981
+          realUid=10086
+          packageUid=10086
+          definingUid=10086
+          user=0
+          process=tv.danmaku.bili:download
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=100
+          pss=0.00
+          rss=0.00
+          description=stop tv.danmaku.bili due to from pid 8356
+          state=empty
+          trace=null
+        ApplicationExitInfo #4:
+          timestamp=2026-03-18 18:54:04.675
+          pid=8756
+          realUid=10086
+          packageUid=10086
+          definingUid=10086
+          user=0
+          process=tv.danmaku.bili:ijkservice
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=100
+          pss=0.00
+          rss=0.00
+          description=stop tv.danmaku.bili due to from pid 8356
+          state=empty
+          trace=null
+  package: com.qualcomm.timeservice
+    Historical Process Exit for uid=10047
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:42:49.939
+          pid=3281
+          realUid=10047
+          packageUid=10047
+          definingUid=10047
+          user=0
+          process=com.qualcomm.timeservice
+          reason=3 (LOW_MEMORY)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=5.7MB
+          rss=84MB
+          description=null
+          state=empty
+          trace=null
+  package: com.android.bluetooth
+    Historical Process Exit for uid=1002
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 20:31:21.090
+          pid=1689
+          realUid=1002
+          packageUid=1002
+          definingUid=1002
+          user=0
+          process=com.android.bluetooth
+          reason=1 (EXIT_SELF)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=125
+          pss=21MB
+          rss=90MB
+          description=null
+          state=empty
+          trace=null
+  package: com.qualcomm.qtil.btdsda
+    Historical Process Exit for uid=1002
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:18:58.952
+          pid=2184
+          realUid=1002
+          packageUid=1002
+          definingUid=1002
+          user=0
+          process=com.qualcomm.qtil.btdsda
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.rayneo.aispeech
+    Historical Process Exit for uid=1000
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 20:55:29.322
+          pid=16279
+          realUid=99003
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.rayneo.aispeech:rhotword:com.rayneo.aispeech.wakeup.RayNeoHotwordDetectionService:hotword_detector_1
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=17 (ISOLATED NOT NEEDED)
+          status=0
+          importance=300
+          pss=21MB
+          rss=84MB
+          description=isolated not needed
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-03-18 19:53:21.262
+          pid=2679
+          realUid=99000
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.rayneo.aispeech:rhotword:com.rayneo.aispeech.wakeup.RayNeoHotwordDetectionService:hotword_detector_0
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=17 (ISOLATED NOT NEEDED)
+          status=0
+          importance=300
+          pss=12MB
+          rss=84MB
+          description=isolated not needed
+          state=empty
+          trace=null
+  package: com.RayneoGame.ARPet
+    Historical Process Exit for uid=10079
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 19:48:43.169
+          pid=14479
+          realUid=10079
+          packageUid=10079
+          definingUid=10079
+          user=0
+          process=com.RayneoGame.ARPet
+          reason=2 (SIGNALED)
+          subreason=0 (UNKNOWN)
+          status=9
+          importance=400
+          pss=338MB
+          rss=438MB
+          description=null
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-03-18 19:47:44.478
+          pid=14168
+          realUid=10079
+          packageUid=10079
+          definingUid=10079
+          user=0
+          process=com.RayneoGame.ARPet
+          reason=2 (SIGNALED)
+          subreason=0 (UNKNOWN)
+          status=9
+          importance=400
+          pss=273MB
+          rss=389MB
+          description=null
+          state=empty
+          trace=null
+  package: com.android.traceur
+    Historical Process Exit for uid=10033
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:18:59.812
+          pid=2510
+          realUid=10033
+          packageUid=10033
+          definingUid=10033
+          user=0
+          process=com.android.traceur
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.rayneogame.skiing
+    Historical Process Exit for uid=10084
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:58:50.071
+          pid=9528
+          realUid=10084
+          packageUid=10084
+          definingUid=10084
+          user=0
+          process=com.rayneogame.skiing
+          reason=2 (SIGNALED)
+          subreason=0 (UNKNOWN)
+          status=9
+          importance=400
+          pss=403MB
+          rss=443MB
+          description=null
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-03-18 18:55:10.004
+          pid=9367
+          realUid=10084
+          packageUid=10084
+          definingUid=10084
+          user=0
+          process=com.rayneogame.skiing
+          reason=2 (SIGNALED)
+          subreason=0 (UNKNOWN)
+          status=9
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=null
+          state=empty
+          trace=null
+  package: com.android.permissioncontroller
+    Historical Process Exit for uid=10075
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 19:46:35.287
+          pid=8582
+          realUid=10075
+          packageUid=10075
+          definingUid=10075
+          user=0
+          process=com.android.permissioncontroller
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=13MB
+          rss=89MB
+          description=stop com.android.permissioncontroller due to from pid 1858
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-03-18 18:52:11.765
+          pid=7140
+          realUid=10075
+          packageUid=10075
+          definingUid=10075
+          user=0
+          process=com.android.permissioncontroller
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=12MB
+          rss=91MB
+          description=stop com.android.permissioncontroller due to from pid 1858
+          state=empty
+          trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-03-18 18:44:51.533
+          pid=6128
+          realUid=10075
+          packageUid=10075
+          definingUid=10075
+          user=0
+          process=com.android.permissioncontroller
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=12MB
+          rss=90MB
+          description=stop com.android.permissioncontroller due to from pid 1858
+          state=empty
+          trace=null
+        ApplicationExitInfo #3:
+          timestamp=2026-03-18 18:41:58.542
+          pid=1772
+          realUid=10075
+          packageUid=10075
+          definingUid=10075
+          user=0
+          process=com.android.permissioncontroller
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=200
+          pss=14MB
+          rss=99MB
+          description=stop com.android.permissioncontroller due to from pid 1858
+          state=empty
+          trace=null
+  package: com.android.hotwordenrollment.rayneo
+    Historical Process Exit for uid=10052
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:41:12.017
+          pid=3130
+          realUid=10052
+          packageUid=10052
+          definingUid=10052
+          user=0
+          process=com.android.hotwordenrollment.rayneo
+          reason=3 (LOW_MEMORY)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=6.5MB
+          rss=87MB
+          description=null
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-02-04 22:19:01.140
+          pid=2867
+          realUid=10052
+          packageUid=10052
+          definingUid=10052
+          user=0
+          process=com.android.hotwordenrollment.rayneo
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.android.shell
+    Historical Process Exit for uid=2000
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:33:15.639
+          pid=3018
+          realUid=2000
+          packageUid=2000
+          definingUid=2000
+          user=0
+          process=com.android.shell
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=6.6MB
+          rss=85MB
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.rayneo.airscreen
+    Historical Process Exit for uid=10085
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:52:26.379
+          pid=8172
+          realUid=10085
+          packageUid=10085
+          definingUid=10085
+          user=0
+          process=com.rayneo.airscreen
+          reason=2 (SIGNALED)
+          subreason=0 (UNKNOWN)
+          status=9
+          importance=400
+          pss=211MB
+          rss=317MB
+          description=null
+          state=empty
+          trace=null
+  package: com.android.settings
+    Historical Process Exit for uid=1000
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:19:23.175
+          pid=2995
+          realUid=1000
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.android.settings
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=27MB
+          rss=108MB
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.ffalcon.navigation
+    Historical Process Exit for uid=10063
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 20:06:43.607
+          pid=17437
+          realUid=10063
+          packageUid=10063
+          definingUid=10063
+          user=0
+          process=com.ffalcon.navigation
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=300
+          pss=296MB
+          rss=407MB
+          description=stop com.ffalcon.navigation due to from pid 1858
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-03-18 19:34:16.443
+          pid=13223
+          realUid=10063
+          packageUid=10063
+          definingUid=10063
+          user=0
+          process=com.ffalcon.navigation
+          reason=2 (SIGNALED)
+          subreason=0 (UNKNOWN)
+          status=9
+          importance=300
+          pss=272MB
+          rss=398MB
+          description=null
+          state=empty
+          trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-03-18 18:42:26.475
+          pid=5673
+          realUid=10063
+          packageUid=10063
+          definingUid=10063
+          user=0
+          process=com.ffalcon.navigation
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=265MB
+          rss=393MB
+          description=stop com.ffalcon.navigation due to from pid 1858
+          state=empty
+          trace=null
+  package: com.Ffalcon.BEATSPACE
+    Historical Process Exit for uid=10082
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 19:52:02.045
+          pid=14702
+          realUid=10082
+          packageUid=10082
+          definingUid=10082
+          user=0
+          process=com.Ffalcon.BEATSPACE
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=100
+          pss=233MB
+          rss=326MB
+          description=stop com.Ffalcon.BEATSPACE due to from pid 1858
+          state=empty
+          trace=null
+  package: com.android.managedprovisioning
+    Historical Process Exit for uid=10028
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:19:01.897
+          pid=2912
+          realUid=10028
+          packageUid=10028
+          definingUid=10028
+          user=0
+          process=com.android.managedprovisioning
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.android.inputmethod.latin
+    Historical Process Exit for uid=10059
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:42:49.905
+          pid=3264
+          realUid=10059
+          packageUid=10059
+          definingUid=10059
+          user=0
+          process=com.android.inputmethod.latin
+          reason=3 (LOW_MEMORY)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=7.4MB
+          rss=88MB
+          description=null
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-02-04 22:18:59.024
+          pid=2259
+          realUid=10059
+          packageUid=10059
+          definingUid=10059
+          user=0
+          process=com.android.inputmethod.latin
+          reason=2 (SIGNALED)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=9
+          importance=300
+          pss=0.00
+          rss=0.00
+          description=null
+          state=empty
+          trace=null
+  package: com.rayneo.lifeai
+    Historical Process Exit for uid=10078
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 19:43:20.205
+          pid=13760
+          realUid=10078
+          packageUid=10078
+          definingUid=10078
+          user=0
+          process=com.rayneo.lifeai
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=352MB
+          rss=482MB
+          description=stop com.rayneo.lifeai due to from pid 1858
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-03-18 19:09:40.894
+          pid=10880
+          realUid=10078
+          packageUid=10078
+          definingUid=10078
+          user=0
+          process=com.rayneo.lifeai
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=300
+          pss=317MB
+          rss=445MB
+          description=stop com.rayneo.lifeai due to from pid 1858
+          state=empty
+          trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-03-18 18:45:10.405
+          pid=6447
+          realUid=10078
+          packageUid=10078
+          definingUid=10078
+          user=0
+          process=com.rayneo.lifeai
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=100
+          pss=291MB
+          rss=413MB
+          description=stop com.rayneo.lifeai due to from pid 1858
+          state=empty
+          trace=null
+  package: com.android.packageinstaller
+    Historical Process Exit for uid=10030
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:53:24.343
+          pid=5523
+          realUid=10030
+          packageUid=10030
+          definingUid=10030
+          user=0
+          process=com.android.packageinstaller
+          reason=3 (LOW_MEMORY)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=6.2MB
+          rss=80MB
+          description=null
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-02-04 22:19:17.730
+          pid=2976
+          realUid=10030
+          packageUid=10030
+          definingUid=10030
+          user=0
+          process=com.android.packageinstaller
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.android.localtransport
+    Historical Process Exit for uid=1000
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:19:02.261
+          pid=2932
+          realUid=1000
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.android.localtransport
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.android.keychain
+    Historical Process Exit for uid=1000
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:18:59.596
+          pid=2422
+          realUid=1000
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.android.keychain
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.android.onetimeinitializer
+    Historical Process Exit for uid=10053
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:19:02.112
+          pid=2934
+          realUid=10053
+          packageUid=10053
+          definingUid=10053
+          user=0
+          process=com.android.onetimeinitializer
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.android.mmitest
+    Historical Process Exit for uid=1000
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:18:59.591
+          pid=2421
+          realUid=1000
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.android.mmitest
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: com.android.statementservice
+    Historical Process Exit for uid=10035
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:53:25.053
+          pid=3035
+          realUid=10035
+          packageUid=10035
+          definingUid=10035
+          user=0
+          process=com.android.statementservice
+          reason=3 (LOW_MEMORY)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=9.7MB
+          rss=93MB
+          description=null
+          state=empty
+          trace=null
+  package: com.ffalcon.appcontainer
+    Historical Process Exit for uid=1000
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 19:54:38.673
+          pid=14861
+          realUid=1000
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.ffalcon.appcontainer
+          reason=2 (SIGNALED)
+          subreason=0 (UNKNOWN)
+          status=9
+          importance=400
+          pss=45MB
+          rss=141MB
+          description=null
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-03-18 18:54:05.035
+          pid=8356
+          realUid=1000
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.ffalcon.appcontainer
+          reason=2 (SIGNALED)
+          subreason=0 (UNKNOWN)
+          status=9
+          importance=400
+          pss=41MB
+          rss=151MB
+          description=null
+          state=empty
+          trace=null
+  package: com.android.contacts
+    Historical Process Exit for uid=10055
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:19:00.299
+          pid=2774
+          realUid=10055
+          packageUid=10055
+          definingUid=10055
+          user=0
+          process=com.android.contacts
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+  package: android
+    Historical Process Exit for uid=1037
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:18:49.092
+          pid=1734
+          realUid=1037
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=WebViewLoader-arm64-v8a
+          reason=1 (EXIT_SELF)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=100
+          pss=0.00
+          rss=0.00
+          description=null
+          state=empty
+          trace=null
+  package: com.android.providers.downloads
+    Historical Process Exit for uid=10025
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:42:42.078
+          pid=2641
+          realUid=10025
+          packageUid=10025
+          definingUid=10025
+          user=0
+          process=android.process.media
+          reason=3 (LOW_MEMORY)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=400
+          pss=8.9MB
+          rss=93MB
+          description=null
+          state=empty
+          trace=null
+  package: com.phoenix.read
+    Historical Process Exit for uid=10089
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 19:54:38.231
+          pid=15846
+          realUid=10089
+          packageUid=10089
+          definingUid=10089
+          user=0
+          process=com.phoenix.read:push
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=300
+          pss=101MB
+          rss=253MB
+          description=stop com.phoenix.read due to from pid 14861
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-03-18 19:54:38.107
+          pid=15458
+          realUid=99002
+          packageUid=10089
+          definingUid=10089
+          user=0
+          process=com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=17 (ISOLATED NOT NEEDED)
+          status=0
+          importance=300
+          pss=6.3MB
+          rss=64MB
+          description=isolated not needed
+          state=empty
+          trace=null
+        ApplicationExitInfo #2:
+          timestamp=2026-03-18 19:54:38.016
+          pid=14925
+          realUid=10089
+          packageUid=10089
+          definingUid=10089
+          user=0
+          process=com.phoenix.read
+          reason=10 (USER REQUESTED)
+          subreason=0 (UNKNOWN)
+          status=0
+          importance=100
+          pss=526MB
+          rss=716MB
+          description=stop com.phoenix.read due to from pid 14861
+          state=empty
+          trace=null
+  package: com.android.externalstorage
+    Historical Process Exit for uid=10027
+        ApplicationExitInfo #0:
+          timestamp=2026-03-18 18:41:12.536
+          pid=3147
+          realUid=10027
+          packageUid=10027
+          definingUid=10027
+          user=0
+          process=com.android.externalstorage
+          reason=3 (LOW_MEMORY)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=6.2MB
+          rss=86MB
+          description=null
+          state=empty
+          trace=null
+  package: com.android.dynsystem
+    Historical Process Exit for uid=1000
+        ApplicationExitInfo #0:
+          timestamp=2026-02-04 22:19:00.646
+          pid=2831
+          realUid=1000
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.android.dynsystem:dynsystem
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+        ApplicationExitInfo #1:
+          timestamp=2026-02-04 22:19:00.431
+          pid=2812
+          realUid=1000
+          packageUid=1000
+          definingUid=1000
+          user=0
+          process=com.android.dynsystem
+          reason=13 (OTHER KILLS BY SYSTEM)
+          subreason=3 (TOO MANY EMPTY PROCS)
+          status=0
+          importance=400
+          pss=0.00
+          rss=0.00
+          description=empty #9
+          state=empty
+          trace=null
+
+System server and oomAdj runtimes (ms) in recent battery sessions (most recent first):
+  system_server=[50,50]  oom_adj=[0,0]
+  system_server=[19050,19050]  oom_adj=[81,81]
+  system_server=[319890,102630]  oom_adj=[2699,1125]
+System server total oomAdj runtimes (us) since boot:
+  cpu time spent=4875008  number of calls=6609  average=737
+
+ACTIVITY MANAGER LMK KILLS (dumpsys activity lmk)
+  Total number of kills: 7
+    kills at or below oom_adj 999: 7
+    kills at or below oom_adj 900: 0
+    kills at or below oom_adj 800: 0
+    kills at or below oom_adj 700: 0
+    kills at or below oom_adj 600: 0
+    kills at or below oom_adj 500: 0
+    kills at or below oom_adj 400: 0
+    kills at or below oom_adj 300: 0
+    kills at or below oom_adj 250: 0
+    kills at or below oom_adj 200: 0
+    kills at or below oom_adj 100: 0
+    kills at or below oom_adj 0: 0
+
+ACTIVITY MANAGER RUNNING PROCESSES (dumpsys activity processes)
+  Isolated process list (sorted by uid):
+    Isolated #0: ProcessRecord{314b128 18662:com.rayneo.aispeech:rhotword:com.rayneo.aispeech.wakeup.RayNeoHotwordDetectionService:hotword_detector_2/99004}
+
+  OOM levels:
+    -900: SYSTEM_ADJ (   73,728K)
+    -800: PERSISTENT_PROC_ADJ (   73,728K)
+    -700: PERSISTENT_SERVICE_ADJ (   73,728K)
+      0: FOREGROUND_APP_ADJ (   73,728K)
+     100: VISIBLE_APP_ADJ (   92,160K)
+     200: PERCEPTIBLE_APP_ADJ (  110,592K)
+     225: PERCEPTIBLE_MEDIUM_APP_ADJ (  129,024K)
+     250: PERCEPTIBLE_LOW_APP_ADJ (  129,024K)
+     300: BACKUP_APP_ADJ (  221,184K)
+     400: HEAVY_WEIGHT_APP_ADJ (  221,184K)
+     500: SERVICE_ADJ (  221,184K)
+     600: HOME_APP_ADJ (  221,184K)
+     700: PREVIOUS_APP_ADJ (  221,184K)
+     800: SERVICE_B_ADJ (  221,184K)
+     900: CACHED_APP_MIN_ADJ (  221,184K)
+     999: CACHED_APP_MAX_ADJ (  322,560K)
+
+  Process OOM control (30 total, non-act at 9, non-svc at 9):
+    PERS #29: sys    F/ /PER  LCMN  t: 0 1288:system/1000 (fixed)
+        oom: max=-900 curRaw=-900 setRaw=-900 cur=-900 set=-900
+        state: cur=PER  set=PER  lastPss=146MB lastSwapPss=50MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    PERS #26: pers   F/ /PER  LCMN  t: 0 2417:.pasr/u0a48 (fixed)
+        oom: max=-800 curRaw=-800 setRaw=-800 cur=-800 set=-800
+        state: cur=PER  set=PER  lastPss=5.5MB lastSwapPss=3.0MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    PERS #28: pers   R/ /BFGS LCMN  t: 0 1705:com.android.systemui/u0a69 (pers-top-ui)
+        oom: max=-800 curRaw=-800 setRaw=-800 cur=-800 set=-800
+        state: cur=BFGS set=BFGS lastPss=56MB lastSwapPss=16MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc #11: psvc   F/ /PER  LCMN  t: 0 2387:com.android.providers.media.module/u0a76 (service)
+        com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl<=Proc{1288:system/1000}
+        oom: max=1001 curRaw=-700 setRaw=-700 cur=-700 set=-700
+        state: cur=PER  set=PER  lastPss=15MB lastSwapPss=9.7MB lastCachedPss=0.00
+        cached=false empty=true hasAboveClient=false
+    Proc # 8: psvc   F/ /PER  LCMN  t: 0 18188:com.android.bluetooth/1002 (service)
+        oom: max=1001 curRaw=-700 setRaw=-700 cur=-700 set=-700
+        state: cur=PER  set=PER  lastPss=24MB lastSwapPss=10MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc # 5: vis    F/S/FGS  ---N  t: 0 3055:com.leiniao.camera/1000 (fg-service)
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=FGS  set=FGS  lastPss=48MB lastSwapPss=1.2MB lastCachedPss=21MB
+        cached=false empty=false hasAboveClient=false
+    Proc # 3: vis    F/S/FGS  ---N  t: 0 2575:com.eg.android.AlipayGGlasses/u0a51 (fg-service)
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=FGS  set=FGS  lastPss=68MB lastSwapPss=5.5MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc # 2: vis    F/S/FGS  -C-N  t: 0 2603:com.rayneo.xr.runtime/u0a67 (fg-service)
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=FGS  set=FGS  lastPss=8.9MB lastSwapPss=4.1MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc # 1: vis    F/S/FGS  --MN  t: 0 2634:com.rayneo.airuntime/1000 (fg-service)
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=FGS  set=FGS  lastPss=85MB lastSwapPss=41MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc # 0: vis    F/A/FGS  -CMN  t: 0 1858:com.ffalconxr.mercury.launcher/1000 (provider)
+        com.ffalconxr.mercury.launcher/.provider.MercuryInteractProvider<=Proc{3744:com.rayneo.gallery/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=FGS  set=FGS  lastPss=166MB lastSwapPss=37MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc #27: vis    R/ /BFGS LCMN  t: 0 2392:com.rayneo.aispeech:interactor/1000 (service)
+        com.rayneo.aispeech/.wakeup.RayNeoVoiceInteractionService<=Proc{1288:system/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=BFGS set=BFGS lastPss=15MB lastSwapPss=8.8MB lastCachedPss=0.00
+        cached=false empty=true hasAboveClient=false
+    Proc #25: vis    R/ /BFGS LCMN  t: 0 1879:android.ext.services/u0a77 (service)
+        android.ext.services/.notification.Assistant<=Proc{1288:system/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=BFGS set=BFGS lastPss=7.5MB lastSwapPss=5.0MB lastCachedPss=0.00
+        cached=false empty=true hasAboveClient=false
+    Proc #20: vis    R/ /BFGS ---N  t: 0 3303:com.rayneo.notes/1000 (provider)
+        com.rayneo.notes/.provider.TodoContentProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=BFGS set=BFGS lastPss=9.9MB lastSwapPss=5.2MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc #19: vis    R/ /BFGS ---N  t: 0 4785:com.rayneo.aispeech/1000 (provider)
+        com.rayneo.aispeech/com.rayneo.appmars.SpeechProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=BFGS set=BFGS lastPss=41MB lastSwapPss=26MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc #18: vis    R/ /BFGS ---N  t: 0 3431:com.rayneo.live.ai/1000 (provider)
+        com.rayneo.live.ai/.LiveAIProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=BFGS set=BFGS lastPss=8.9MB lastSwapPss=6.6MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc #17: vis    R/ /BFGS ---N  t: 0 3093:com.rayneo.record/1000 (provider)
+        com.rayneo.record/.ActionButtonProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=BFGS set=BFGS lastPss=26MB lastSwapPss=13MB lastCachedPss=22MB
+        cached=false empty=false hasAboveClient=false
+    Proc #12: vis    R/ /BFGS ---N  t: 0 18662:com.rayneo.aispeech:rhotword:com.rayneo.aispeech.wakeup.RayNeoHotwordDetectionService:hotword_detector_2/99004 (service)
+        com.rayneo.aispeech/.wakeup.RayNeoHotwordDetectionService:hotword_detector_2<=Proc{1288:system/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=BFGS set=BFGS lastPss=23MB lastSwapPss=3.7MB lastCachedPss=0.00
+        cached=false empty=true hasAboveClient=false
+    Proc # 7: vis    R/ /BFGS ---N  t: 0 3330:com.rayneo.phone/1000 (provider)
+        com.rayneo.phone/com.ffalconxr.mercury.launcher.telephone.provider.PhoneInteractProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=BFGS set=BFGS lastPss=30MB lastSwapPss=16MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc # 4: vis    R/ /BFGS ---N  t: 0 2784:com.rayneo.media/1000 (provider)
+        com.rayneo.media/.core.MusicContentProvider<=Proc{2634:com.rayneo.airuntime/1000}
+        oom: max=1001 curRaw=100 setRaw=100 cur=100 set=100
+        state: cur=BFGS set=BFGS lastPss=33MB lastSwapPss=20MB lastCachedPss=0.00
+        cached=false empty=false hasAboveClient=false
+    Proc # 6: prcp   F/S/FGS  ---N  t: 0 3744:com.rayneo.gallery/1000 (fg-service)
+        oom: max=1001 curRaw=200 setRaw=200 cur=200 set=200
+        state: cur=FGS  set=FGS  lastPss=50MB lastSwapPss=0.92MB lastCachedPss=0.00
+        cached=false empty=true hasAboveClient=false
+    Proc #21: prcp   b/ /IMPB ----  t: 0 2437:com.sogou.inputmethod.iot/u0a54 (service)
+        com.sogou.inputmethod.iot/com.sogou.iot.SogouInputMethodService<=Proc{1288:system/1000}
+        oom: max=1001 curRaw=200 setRaw=200 cur=200 set=200
+        state: cur=IMPB set=IMPB lastPss=35MB lastSwapPss=20MB lastCachedPss=0.00
+        cached=false empty=true hasAboveClient=false
+    Proc #10: svc    b/ /SVC  ----  t: 0 18340:android.process.media/u0a25 (started-services)
+        oom: max=1001 curRaw=500 setRaw=500 cur=500 set=500
+        state: cur=SVC  set=SVC  lastPss=21MB lastSwapPss=1.7MB lastCachedPss=6.4MB
+        cached=false empty=true hasAboveClient=false
+        run cpu over +4m30s70ms used 0 (0%)
+    Proc # 9: cch+ 5 b/ /CEM  ----  t: 0 2486:android.process.acore/u0a24 (cch-empty)
+        oom: max=1001 curRaw=905 setRaw=905 cur=905 set=905
+        state: cur=CEM  set=CEM  lastPss=9.1MB lastSwapPss=6.2MB lastCachedPss=9.1MB
+        cached=true empty=true hasAboveClient=false
+        run cpu over +4m30s70ms used 0 (0%)
+    Proc #13: cch+15 b/ /CEM  ----  t: 0 18348:com.android.settings/1000 (cch-empty)
+        oom: max=1001 curRaw=915 setRaw=915 cur=915 set=915
+        state: cur=CEM  set=CEM  lastPss=7.0MB lastSwapPss=4.2MB lastCachedPss=7.0MB
+        cached=true empty=true hasAboveClient=false
+        run cpu over +4m30s70ms used 0 (0%)
+    Proc #14: cch+25 b/ /CEM  ----  t: 0 18344:com.android.statementservice/u0a35 (cch-empty)
+        oom: max=1001 curRaw=925 setRaw=925 cur=925 set=925
+        state: cur=CEM  set=CEM  lastPss=8.2MB lastSwapPss=641KB lastCachedPss=8.2MB
+        cached=true empty=true hasAboveClient=false
+    Proc #15: cch+35 b/ /CEM  ----  t: 0 15016:com.android.permissioncontroller/u0a75 (cch-empty)
+        oom: max=1001 curRaw=935 setRaw=935 cur=935 set=935
+        state: cur=CEM  set=CEM  lastPss=8.0MB lastSwapPss=1.8MB lastCachedPss=8.0MB
+        cached=true empty=true hasAboveClient=false
+        run cpu over +4m30s70ms used 0 (0%)
+    Proc #16: cch+45 b/ /SVC  ----  t: 0 18114:com.qualcomm.qtil.btdsda/1002 (cch-started-services)
+        oom: max=1001 curRaw=945 setRaw=945 cur=945 set=945
+        state: cur=SVC  set=SVC  lastPss=5.7MB lastSwapPss=1.7MB lastCachedPss=0.00
+        cached=true empty=true hasAboveClient=false
+        run cpu over +4m30s70ms used +70ms (0%)
+    Proc #22: cch+85 b/ /CEM  ----  t: 0 8541:com.android.webview:webview_service/u0a58 (cch-empty)
+        oom: max=1001 curRaw=985 setRaw=985 cur=985 set=985
+        state: cur=CEM  set=CEM  lastPss=7.2MB lastSwapPss=2.1MB lastCachedPss=7.2MB
+        cached=true empty=true hasAboveClient=false
+        run cpu over +4m30s70ms used 0 (0%)
+    Proc #23: cch+95 b/ /CEM  ----  t: 0 8414:com.ffalcon.appcontainer:floatball/1000 (cch-empty)
+        oom: max=1001 curRaw=995 setRaw=995 cur=995 set=995
+        state: cur=CEM  set=CEM  lastPss=7.8MB lastSwapPss=4.2MB lastCachedPss=7.8MB
+        cached=true empty=true hasAboveClient=false
+        run cpu over +4m30s70ms used 0 (0%)
+    Proc #24: cch+99 b/ /CEM  ----  t: 0 8823:com.android.webview:webview_apk/u0a58 (cch-empty)
+        oom: max=1001 curRaw=999 setRaw=999 cur=999 set=999
+        state: cur=CEM  set=CEM  lastPss=12MB lastSwapPss=2.1MB lastCachedPss=12MB
+        cached=true empty=true hasAboveClient=false
+
+  mHomeProcess: ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+  mPreviousProcess: ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+
+  UID states:
+    UID 1000: UidRecord{ec26169 1000 PER  fgServices procs:0 seq(0,0,0)}
+      curProcState=0 curCapability=LCMN
+      proc=ProcessRecord{bd874f6 3093:com.rayneo.record/1000}
+      proc=ProcessRecord{b51069b 8414:com.ffalcon.appcontainer:floatball/1000}
+      proc=ProcessRecord{ac633fb 3330:com.rayneo.phone/1000}
+      proc=ProcessRecord{a8d9821 3303:com.rayneo.notes/1000}
+      proc=ProcessRecord{a6190e5 1288:system/1000}
+      proc=ProcessRecord{920aa54 18348:com.android.settings/1000}
+      proc=ProcessRecord{71ca368 2392:com.rayneo.aispeech:interactor/1000}
+      proc=ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+      proc=ProcessRecord{4f21a46 3431:com.rayneo.live.ai/1000}
+      proc=ProcessRecord{3eea8d2 3055:com.leiniao.camera/1000}
+      proc=ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+      proc=ProcessRecord{18d5cfe 3744:com.rayneo.gallery/1000}
+      proc=ProcessRecord{1413726 2634:com.rayneo.airuntime/1000}
+      proc=ProcessRecord{e51862 4785:com.rayneo.aispeech/1000}
+    UID 1002: UidRecord{2a7a7ee 1002 PER  procs:0 seq(0,0,0)}
+      curProcState=0 curCapability=LCMN
+      proc=ProcessRecord{2f75ef9 18188:com.android.bluetooth/1002}
+      proc=ProcessRecord{1600fd7 18114:com.qualcomm.qtil.btdsda/1002}
+    UID u0a24: UidRecord{6a1348f u0a24 CEM  bg:+13m53s165ms idle change:idle procs:0 seq(0,0,0)}
+      curProcState=19 curCapability=----
+      proc=ProcessRecord{d560ce8 2486:android.process.acore/u0a24}
+    UID u0a25: UidRecord{641231c u0a25 SVC  idle procs:0 seq(0,0,0)}
+      curProcState=10 curCapability=----
+      proc=ProcessRecord{b185963 18340:android.process.media/u0a25}
+    UID u0a35: UidRecord{616ab25 u0a35 CEM  idle change:cached procs:0 seq(0,0,0)}
+      curProcState=19 curCapability=----
+      proc=ProcessRecord{ebb7ba8 18344:com.android.statementservice/u0a35}
+    UID u0a48: UidRecord{36a54fa u0a48 PER  procs:0 seq(0,0,0)}
+      curProcState=0 curCapability=LCMN
+      proc=ProcessRecord{b7ac26 2417:.pasr/u0a48}
+    UID u0a51: UidRecord{d868aab u0a51 FGS  fgServices procs:0 seq(0,0,0)}
+      curProcState=4 curCapability=---N
+      proc=ProcessRecord{4259469 2575:com.eg.android.AlipayGGlasses/u0a51}
+    UID u0a54: UidRecord{bcb5508 u0a54 IMPB change:uncached procs:0 seq(0,0,0)}
+      curProcState=7 curCapability=----
+      proc=ProcessRecord{6cf4be 2437:com.sogou.inputmethod.iot/u0a54}
+    UID u0a58: UidRecord{5abd4a1 u0a58 CEM  bg:+6h39m40s57ms idle change:idle procs:0 seq(0,0,0)}
+      curProcState=19 curCapability=----
+      proc=ProcessRecord{20bf2a4 8541:com.android.webview:webview_service/u0a58}
+      proc=ProcessRecord{1ec6b59 8823:com.android.webview:webview_apk/u0a58}
+    UID u0a67: UidRecord{a78c6c6 u0a67 FGS  fgServices procs:0 seq(0,0,0)}
+      curProcState=4 curCapability=-C-N
+      proc=ProcessRecord{c265f9e 2603:com.rayneo.xr.runtime/u0a67}
+    UID u0a69: UidRecord{5212687 u0a69 BFGS procs:0 seq(0,0,0)}
+      curProcState=5 curCapability=LCMN
+      proc=ProcessRecord{2b15f37 1705:com.android.systemui/u0a69}
+    UID u0a75: UidRecord{c44b9b4 u0a75 CEM  bg:+6h1m8s881ms idle change:idle procs:0 seq(0,0,0)}
+      curProcState=19 curCapability=----
+      proc=ProcessRecord{3c0c0f5 15016:com.android.permissioncontroller/u0a75}
+    UID u0a76: UidRecord{f1019dd u0a76 PER  procs:0 seq(0,0,0)}
+      curProcState=0 curCapability=LCMN
+      proc=ProcessRecord{cc70023 2387:com.android.providers.media.module/u0a76}
+    UID u0a77: UidRecord{faa8952 u0a77 BFGS change:active|uncached procs:0 seq(0,0,0)}
+      curProcState=5 curCapability=LCMN
+      proc=ProcessRecord{664686f 1879:android.ext.services/u0a77}
+    UID u0i4: UidRecord{8dfa423 u0i4 BFGS change:active|uncached procs:0 seq(0,0,0)}
+      curProcState=5 curCapability=---N
+      proc=ProcessRecord{314b128 18662:com.rayneo.aispeech:rhotword:com.rayneo.aispeech.wakeup.RayNeoHotwordDetectionService:hotword_detector_2/99004}
+
+  Raw LRU list (dumpsys activity lru):
+    Activities:
+    #29: vis    FGS  -CMN 1858:com.ffalconxr.mercury.launcher/1000 act:activities|recents
+    #28: vis    FGS  --MN 2634:com.rayneo.airuntime/1000 act:client
+    #27: vis    FGS  -C-N 2603:com.rayneo.xr.runtime/u0a67 act:client
+    #26: vis    FGS  ---N 2575:com.eg.android.AlipayGGlasses/u0a51 act:recents|client
+    #25: vis    BFGS ---N 2784:com.rayneo.media/1000 act:recents|client
+    #24: vis    FGS  ---N 3055:com.leiniao.camera/1000
+    #23: prcp   FGS  ---N 3744:com.rayneo.gallery/1000
+    #22: vis    BFGS ---N 3330:com.rayneo.phone/1000 act:client
+    #21: psvc   PER  LCMN 18188:com.android.bluetooth/1002 act:client
+    Other:
+    #20: cch+ 5 CEM  ---- 2486:android.process.acore/u0a24
+    #19: svc    SVC  ---- 18340:android.process.media/u0a25
+    #18: psvc   PER  LCMN 2387:com.android.providers.media.module/u0a76
+    #17: vis    BFGS ---N 18662:com.rayneo.aispeech:rhotword:com.rayneo.aispeech.wakeup.RayNeoHotwordDetectionService:hotword_detector_2/99004
+    #16: cch+15 CEM  ---- 18348:com.android.settings/1000
+    #15: cch+25 CEM  ---- 18344:com.android.statementservice/u0a35
+    #14: cch+35 CEM  ---- 15016:com.android.permissioncontroller/u0a75
+    #13: cch+45 SVC  ---- 18114:com.qualcomm.qtil.btdsda/1002
+    #12: vis    BFGS ---N 3093:com.rayneo.record/1000
+    #11: vis    BFGS ---N 3431:com.rayneo.live.ai/1000
+    #10: vis    BFGS ---N 4785:com.rayneo.aispeech/1000
+    # 9: vis    BFGS ---N 3303:com.rayneo.notes/1000
+    # 8: prcp   IMPB ---- 2437:com.sogou.inputmethod.iot/u0a54
+    # 7: cch+85 CEM  ---- 8541:com.android.webview:webview_service/u0a58
+    # 6: cch+95 CEM  ---- 8414:com.ffalcon.appcontainer:floatball/1000
+    # 5: cch+99 CEM  ---- 8823:com.android.webview:webview_apk/u0a58
+    # 4: vis    BFGS LCMN 1879:android.ext.services/u0a77
+    # 3: pers   PER  LCMN 2417:.pasr/u0a48
+    # 2: vis    BFGS LCMN 2392:com.rayneo.aispeech:interactor/1000
+    # 1: pers   BFGS LCMN 1705:com.android.systemui/u0a69
+    # 0: sys    PER  LCMN 1288:system/1000
+
+  Process LRU list (sorted by oom_adj, 30 total, non-act at 9, non-svc at 9):
+    PERS #29: sys    F/ /PER  LCMN  t: 0 1288:system/1000 (fixed)
+    PERS #26: pers   F/ /PER  LCMN  t: 0 2417:.pasr/u0a48 (fixed)
+    PERS #28: pers   R/ /BFGS LCMN  t: 0 1705:com.android.systemui/u0a69 (pers-top-ui)
+    Proc #11: psvc   F/ /PER  LCMN  t: 0 2387:com.android.providers.media.module/u0a76 (service)
+        com.android.providers.media.module/com.android.providers.media.fuse.ExternalStorageServiceImpl<=Proc{1288:system/1000}
+    Proc # 8: psvc   F/ /PER  LCMN  t: 0 18188:com.android.bluetooth/1002 (service)
+    Proc # 5: vis    F/S/FGS  ---N  t: 0 3055:com.leiniao.camera/1000 (fg-service)
+    Proc # 3: vis    F/S/FGS  ---N  t: 0 2575:com.eg.android.AlipayGGlasses/u0a51 (fg-service)
+    Proc # 2: vis    F/S/FGS  -C-N  t: 0 2603:com.rayneo.xr.runtime/u0a67 (fg-service)
+    Proc # 1: vis    F/S/FGS  --MN  t: 0 2634:com.rayneo.airuntime/1000 (fg-service)
+    Proc # 0: vis    F/A/FGS  -CMN  t: 0 1858:com.ffalconxr.mercury.launcher/1000 (provider)
+        com.ffalconxr.mercury.launcher/.provider.MercuryInteractProvider<=Proc{3744:com.rayneo.gallery/1000}
+    Proc #27: vis    R/ /BFGS LCMN  t: 0 2392:com.rayneo.aispeech:interactor/1000 (service)
+        com.rayneo.aispeech/.wakeup.RayNeoVoiceInteractionService<=Proc{1288:system/1000}
+    Proc #25: vis    R/ /BFGS LCMN  t: 0 1879:android.ext.services/u0a77 (service)
+        android.ext.services/.notification.Assistant<=Proc{1288:system/1000}
+    Proc #20: vis    R/ /BFGS ---N  t: 0 3303:com.rayneo.notes/1000 (provider)
+        com.rayneo.notes/.provider.TodoContentProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+    Proc #19: vis    R/ /BFGS ---N  t: 0 4785:com.rayneo.aispeech/1000 (provider)
+        com.rayneo.aispeech/com.rayneo.appmars.SpeechProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+    Proc #18: vis    R/ /BFGS ---N  t: 0 3431:com.rayneo.live.ai/1000 (provider)
+        com.rayneo.live.ai/.LiveAIProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+    Proc #17: vis    R/ /BFGS ---N  t: 0 3093:com.rayneo.record/1000 (provider)
+        com.rayneo.record/.ActionButtonProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+    Proc #12: vis    R/ /BFGS ---N  t: 0 18662:com.rayneo.aispeech:rhotword:com.rayneo.aispeech.wakeup.RayNeoHotwordDetectionService:hotword_detector_2/99004 (service)
+        com.rayneo.aispeech/.wakeup.RayNeoHotwordDetectionService:hotword_detector_2<=Proc{1288:system/1000}
+    Proc # 7: vis    R/ /BFGS ---N  t: 0 3330:com.rayneo.phone/1000 (provider)
+        com.rayneo.phone/com.ffalconxr.mercury.launcher.telephone.provider.PhoneInteractProvider<=Proc{1858:com.ffalconxr.mercury.launcher/1000}
+    Proc # 4: vis    R/ /BFGS ---N  t: 0 2784:com.rayneo.media/1000 (provider)
+        com.rayneo.media/.core.MusicContentProvider<=Proc{2634:com.rayneo.airuntime/1000}
+    Proc # 6: prcp   F/S/FGS  ---N  t: 0 3744:com.rayneo.gallery/1000 (fg-service)
+    Proc #21: prcp   b/ /IMPB ----  t: 0 2437:com.sogou.inputmethod.iot/u0a54 (service)
+        com.sogou.inputmethod.iot/com.sogou.iot.SogouInputMethodService<=Proc{1288:system/1000}
+    Proc #10: svc    b/ /SVC  ----  t: 0 18340:android.process.media/u0a25 (started-services)
+    Proc # 9: cch+ 5 b/ /CEM  ----  t: 0 2486:android.process.acore/u0a24 (cch-empty)
+    Proc #13: cch+15 b/ /CEM  ----  t: 0 18348:com.android.settings/1000 (cch-empty)
+    Proc #14: cch+25 b/ /CEM  ----  t: 0 18344:com.android.statementservice/u0a35 (cch-empty)
+    Proc #15: cch+35 b/ /CEM  ----  t: 0 15016:com.android.permissioncontroller/u0a75 (cch-empty)
+    Proc #16: cch+45 b/ /SVC  ----  t: 0 18114:com.qualcomm.qtil.btdsda/1002 (cch-started-services)
+    Proc #22: cch+85 b/ /CEM  ----  t: 0 8541:com.android.webview:webview_service/u0a58 (cch-empty)
+    Proc #23: cch+95 b/ /CEM  ----  t: 0 8414:com.ffalcon.appcontainer:floatball/1000 (cch-empty)
+    Proc #24: cch+99 b/ /CEM  ----  t: 0 8823:com.android.webview:webview_apk/u0a58 (cch-empty)
+
+  mHomeProcess: ProcessRecord{1c4f451 1858:com.ffalconxr.mercury.launcher/1000}
+  mPreviousProcess: ProcessRecord{6c09489 2784:com.rayneo.media/1000}
+  mGlobalConfiguration: {1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.10 fontWeightAdjustment=0}
+  Display override configurations:
+    0: {1.0 ?mcc?mnc [zh_CN] ldltr sw480dp w1280dp h480dp 160dpi lrg long land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1280, 480) mAppBounds=Rect(0, 0 - 1280, 480) mMaxBounds=Rect(0, 0 - 1280, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.2 s.10 fontWeightAdjustment=0}
+  mWakefulness=Dozing
+  mSleepTokens={-1415261878={"keyguard", display 0, acquire at 9659569 (839061 ms ago)}, 1575942989={"ScreenOff", display 0, acquire at 9659394 (839236 ms ago)}}
+  mSleeping=true
+  mShuttingDown=false mTestPssMode=false
+  mVrController=[VrState=0x0,VrRenderThreadTid=0]
+  mAllowAppSwitchUids:
+    User 0: Type VoiceInteractionManager = 1000
+  mGoingToSleepWakeLock=WakeLock{14dbd20 held=false, refCount=0}
+  mLaunchingActivityWakeLock=WakeLock{47976d9 held=false, refCount=16}
+  mForceBackgroundCheck=false
+
+ACTIVITY MANAGER USERS (dumpsys activity users)
+  mStartedUsers:
+    User #0: state=RUNNING_UNLOCKED
+  mStartedUserArray: [0]
+  mUserLru: [0]
+  mCurrentUserId:0
+  mTargetUserId:-10000
+  mLastActiveUsers:[]
+  mDelayUserDataLocking:false
+  shouldStopUserOnSwitch():false
+  mStopUserOnSwitch:-1
+  mMaxRunningUsers:3
+  mUserSwitchUiEnabled:true
+  mInitialized:true

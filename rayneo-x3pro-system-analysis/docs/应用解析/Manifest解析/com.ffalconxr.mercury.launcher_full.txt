@@ -1,0 +1,827 @@
+Activity Resolver Table:
+  Schemes:
+      mercury:
+        a6dbd62 com.ffalconxr.mercury.launcher/.protocol.ProtocolActivity filter c39aef3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "mercury"
+          Authority: "com.ffalconxr.mercury.launcher": -1
+
+  Non-Data Actions:
+      android.intent.action.userAgreement:
+        fc92b44 com.ffalconxr.mercury.launcher/.wizard.WizardUserAgreementActivity filter e6e542d
+          Action: "android.intent.action.userAgreement"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        548cd98 com.ffalconxr.mercury.launcher/.home.MainActivity filter a3409f1
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.HOME"
+          Category: "android.intent.category.MONKEY"
+          Category: "android.intent.category.DEFAULT"
+      com.rayneo.settings.wifi:
+        2b1570a com.ffalconxr.mercury.launcher/.wizard.netconfig.NetConfigActivity filter 9c34b7b
+          Action: "com.rayneo.settings.wifi"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.privacy:
+        495d9d6 com.ffalconxr.mercury.launcher/.wizard.WizardPrivacyActivity filter db12457
+          Action: "android.intent.action.privacy"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.Enter1:
+        acfb7b0 com.ffalconxr.mercury.launcher/.wizard.EnterActivity filter 6890629
+          Action: "android.intent.action.Enter1"
+          Category: "android.intent.category.DEFAULT"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        6b66486 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 3edd147
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        5d6ccc8 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 98a5161
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        5efed74 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter d39a29d
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        3844312 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter dac3ae3
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        5efed74 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter d39a29d
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.tcl.wifidirect.IOS_BROADCAST:
+        8d596ba com.ffalconxr.mercury.launcher/com.tcl.wifidirect.IosBroadCastReceiver filter 4ba096b
+          Action: "com.tcl.wifidirect.IOS_BROADCAST"
+      android.intent.action.BATTERY_LOW:
+        6b66486 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 3edd147
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        ad86ce0 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 492cb99
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        ad86ce0 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 492cb99
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.BOOT_COMPLETED:
+        8709edc com.ffalconxr.mercury.launcher/.dock.service.SystemUIReceiver filter 282dbe5
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Category: "android.intent.category.LAUNCHER"
+        ad86ce0 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 492cb99
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      com.ffalconxr.mercury.launcher.uninstall:
+        4ee4dae com.ffalconxr.mercury.launcher/.apps.AppInstaller$InstallResultReceiver filter 7b6474f
+          Action: "com.ffalconxr.mercury.launcher.install"
+          Action: "com.ffalconxr.mercury.launcher.uninstall"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        5d6ccc8 com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 98a5161
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      com.ffalconxr.mercury.launcher.install:
+        4ee4dae com.ffalconxr.mercury.launcher/.apps.AppInstaller$InstallResultReceiver filter 7b6474f
+          Action: "com.ffalconxr.mercury.launcher.install"
+          Action: "com.ffalconxr.mercury.launcher.uninstall"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        a07770c com.ffalconxr.mercury.launcher/androidx.work.impl.diagnostics.DiagnosticsReceiver filter abb8855
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        ddf7e5e com.ffalconxr.mercury.launcher/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter b5da23f
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.tcl.camera.action.screenout_snapshot:
+        73af7f8 com.ffalconxr.mercury.launcher/com.android.camera.quickshot.QuickShotService filter d7954d1
+          Action: "com.tcl.camera.action.screenout_snapshot"
+      com.ffalconxr.mercury.common.ACTION_INPUT_CONTROL_SERVICE:
+        c21226a com.ffalconxr.mercury.launcher/.input.ipcControl.InputControlService filter a94235b permission com.ffalconxr.mercury.common.aidl.ACCESS_INPUT_CONTROL
+          Action: "com.ffalconxr.mercury.common.ACTION_INPUT_CONTROL_SERVICE"
+      android.net.VpnService:
+        2239ba4 com.ffalconxr.mercury.launcher/com.rayneo.rayneovpn.vpn.GnirehtetService filter 76d6d0d permission android.permission.BIND_VPN_SERVICE
+          Action: "android.net.VpnService"
+      com.rayneo.device.service.ACTION:
+        5df94c2 com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.device.service.XRDeviceManagerService filter f91a2d3
+          Action: "com.rayneo.device.service.ACTION"
+      com.ffalconxr.mercury.launcher.messenger:
+        2d0ce10 com.ffalconxr.mercury.launcher/com.blankj.utilcode.util.MessengerUtils$ServerService filter 210cd09
+          Action: "com.ffalconxr.mercury.launcher.messenger"
+      android.accounts.AccountAuthenticator:
+        f26fb36 com.ffalconxr.mercury.launcher/com.rayneo.account.AuthenticationService filter 5e79a37
+          Action: "android.accounts.AccountAuthenticator"
+
+Domain verification status:
+
+Permissions:
+  Permission [com.launcher.audio.mode.permission] (464ffee):
+    sourcePackage=com.ffalconxr.mercury.launcher
+    uid=1000 gids=[] type=0 prot=signature
+    perm=PermissionInfo{cbf5c47 com.launcher.audio.mode.permission}
+
+Permissions:
+  Permission [com.ffalconxr.mercury.common.aidl.ACCESS_INPUT_CONTROL] (50fac8f):
+    sourcePackage=com.ffalconxr.mercury.launcher
+    uid=1000 gids=[] type=0 prot=signature|privileged
+    perm=PermissionInfo{332b835 com.ffalconxr.mercury.common.aidl.ACCESS_INPUT_CONTROL}
+
+Registered ContentProviders:
+  com.ffalconxr.mercury.launcher/.record.RecordNotifyProvider:
+    Provider{b059307 com.ffalconxr.mercury.launcher/.record.RecordNotifyProvider}
+  com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.transfermode.ConnectContentProvider:
+    Provider{168dcc com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.transfermode.ConnectContentProvider}
+  com.ffalconxr.mercury.launcher/.notes.TodoNotifyProvider:
+    Provider{20f45df com.ffalconxr.mercury.launcher/.notes.TodoNotifyProvider}
+  com.ffalconxr.mercury.launcher/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{145e4f5 com.ffalconxr.mercury.launcher/com.google.mlkit.common.internal.MlKitInitProvider}
+  com.ffalconxr.mercury.launcher/com.liulishuo.okdownload.OkDownloadProvider:
+    Provider{2651fbf com.ffalconxr.mercury.launcher/com.liulishuo.okdownload.OkDownloadProvider}
+  com.ffalconxr.mercury.launcher/androidx.startup.InitializationProvider:
+    Provider{fa0237f com.ffalconxr.mercury.launcher/androidx.startup.InitializationProvider}
+  com.ffalconxr.mercury.launcher/.provider.MercuryInteractProvider:
+    Provider{27f0405 com.ffalconxr.mercury.launcher/.provider.MercuryInteractProvider}
+  com.ffalconxr.mercury.launcher/com.blankj.utilcode.util.UtilsFileProvider:
+    Provider{bde2e61 com.ffalconxr.mercury.launcher/com.blankj.utilcode.util.UtilsFileProvider}
+
+ContentProvider Authorities:
+  [com.ffalconxr.mercury.launcher.com.liulishuo.okdownload]:
+    Provider{2651fbf com.ffalconxr.mercury.launcher/com.liulishuo.okdownload.OkDownloadProvider}
+      applicationInfo=ApplicationInfo{3da3b1c com.ffalconxr.mercury.launcher}
+  [com.ffalconxr.mercury.launcher.InteractProvider]:
+    Provider{27f0405 com.ffalconxr.mercury.launcher/.provider.MercuryInteractProvider}
+      applicationInfo=ApplicationInfo{595e325 com.ffalconxr.mercury.launcher}
+  [com.ffalconxr.mercury.launcher.androidx-startup]:
+    Provider{fa0237f com.ffalconxr.mercury.launcher/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{fa52cfa com.ffalconxr.mercury.launcher}
+  [com.ffalconxr.mercury.launcher.mlkitinitprovider]:
+    Provider{145e4f5 com.ffalconxr.mercury.launcher/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{6482ab com.ffalconxr.mercury.launcher}
+  [com.rayneo.notes.TodoNotifyProvider]:
+    Provider{20f45df com.ffalconxr.mercury.launcher/.notes.TodoNotifyProvider}
+      applicationInfo=ApplicationInfo{5dded08 com.ffalconxr.mercury.launcher}
+  [com.ffalconxr.mercury.launcher.utilcode.fileprovider]:
+    Provider{bde2e61 com.ffalconxr.mercury.launcher/com.blankj.utilcode.util.UtilsFileProvider}
+      applicationInfo=ApplicationInfo{9e68ca1 com.ffalconxr.mercury.launcher}
+  [com.rayneo.record.RecordNotifyProvider]:
+    Provider{b059307 com.ffalconxr.mercury.launcher/.record.RecordNotifyProvider}
+      applicationInfo=ApplicationInfo{b891ec6 com.ffalconxr.mercury.launcher}
+  [com.ffalconxr.mercury.transfermode.ConnectContentProvider]:
+    Provider{168dcc com.ffalconxr.mercury.launcher/com.ffalconxr.mercury.transfermode.ConnectContentProvider}
+      applicationInfo=ApplicationInfo{3e69e87 com.ffalconxr.mercury.launcher}
+
+Key Set Manager:
+  [com.ffalconxr.mercury.launcher]
+      Signing KeySets: 2
+
+Packages:
+  Package [com.ffalconxr.mercury.launcher] (9f234dd):
+    userId=1000
+    sharedUser=SharedUserSetting{3b8cbad android.uid.system/1000}
+    pkg=Package{e081b19 com.ffalconxr.mercury.launcher}
+    codePath=/system_ext/priv-app/RayNeoLauncher
+    resourcePath=/system_ext/priv-app/RayNeoLauncher
+    legacyNativeLibraryDir=/system_ext/priv-app/RayNeoLauncher/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=2026020406 minSdk=31 targetSdk=31
+    minExtensionVersions=[]
+    versionName=2026.02.04.06
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{e081b19 com.ffalconxr.mercury.launcher}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE DEFAULT_TO_DEVICE_PROTECTED_STORAGE DIRECT_BOOT_AWARE PARTIALLY_DIRECT_BOOT_AWARE PRIVILEGED SYSTEM_EXT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesIntents=[Intent { act=androidx.camera.extensions.action.VENDOR_ACTION }]
+    dataDir=/data/user_de/0/com.ffalconxr.mercury.launcher
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      androidx.camera.extensions.impl
+    timeStamp=2009-01-01 08:00:00
+    firstInstallTime=2009-01-01 08:00:00
+    lastUpdateTime=2009-01-01 08:00:00
+    signatures=PackageSignatures{b57de version:3, signatures:[e89d297f], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    declared permissions:
+      com.launcher.audio.mode.permission: prot=signature, INSTALLED
+      com.ffalconxr.mercury.common.aidl.ACCESS_INPUT_CONTROL: prot=signature|privileged, INSTALLED
+    requested permissions:
+      android.permission.BLUETOOTH
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.DISABLE_KEYGUARD
+      android.permission.BLUETOOTH_ADVERTISE
+      android.permission.BLUETOOTH_SCAN
+      android.permission.FOREGROUND_SERVICE
+      android.permission.CAMERA
+      android.permission.LOCAL_MAC_ADDRESS
+      android.permission.MEDIA_CONTENT_CONTROL
+      android.permission.READ_PRIVILEGED_PHONE_STATE
+      android.permission.REBOOT
+      android.permission.SET_TIME
+      android.permission.SET_TIME_ZONE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.SYSTEM_OVERLAY_WINDOW
+      android.permission.CHANGE_CONFIGURATION
+      android.permission.WRITE_SETTINGS
+      android.permission.WRITE_SECURE_SETTINGS
+      android.permission.READ_PHONE_STATE
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.ANSWER_PHONE_CALLS
+      android.permission.BLUETOOTH_PRIVILEGED
+      android.permission.MANAGE_OWN_CALLS
+      android.permission.READ_CALL_LOG
+      android.permission.READ_CONTACTS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.TYPE_APPLICATION_OVERLAY
+      android.permission.MONITOR_INPUT
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.INJECT_EVENTS
+      android.permission.SHUTDOWN
+      android.permission.INTERNET
+      android.permission.RECOVERY
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      android.permission.DELETE_PACKAGES
+      android.permission.REQUEST_DELETE_PACKAGES
+      android.permission.INSTALL_PACKAGES
+      android.permission.WAKE_LOCK
+      android.permission.DEVICE_POWER
+      android.permission.PACKAGE_USAGE_STATS
+      android.permission.CAPTURE_AUDIO_OUTPUT
+      android.permission.RECORD_AUDIO
+      android.permission.ACCOUNT_MANAGER
+      android.permission.GET_ACCOUNTS
+      android.permission.BACKGROUND_EXECUTION_SERVICE
+      com.rayneo.gallery.copyAsset
+      android.permission.GET_RUNNING_APPS
+      android.permission.MANAGE_WIFI_COUNTRY_CODE
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.CLEAR_APP_USER_DATA
+      android.permission.ACCESS_INSTANT_APPS
+      android.permission.MANAGE_DEBUGGING
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+    install permissions:
+      android.permission.BIND_INCALL_SERVICE: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      android.permission.CONFIGURE_DISPLAY_COLOR_MODE: granted=true
+      android.permission.RECOVERY: granted=true
+      android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS: granted=true
+      com.rayneo.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.BIND_ATTENTION_SERVICE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_CHECKIN_PROPERTIES: granted=true
+      com.rayneo.media.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.MODIFY_AUDIO_ROUTING: granted=true
+      android.permission.MANAGE_HOTWORD_DETECTION: granted=true
+      android.permission.INSTALL_LOCATION_PROVIDER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.rayneo.aispeech.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.BROADCAST_PHONE_ACCOUNT_REGISTRATION: granted=true
+      android.permission.CLEAR_APP_USER_DATA: granted=true
+      android.permission.MONITOR_INPUT: granted=true
+      android.permission.BROADCAST_CALLLOG_INFO: granted=true
+      android.permission.INSTALL_PACKAGES: granted=true
+      android.permission.MANAGE_VOICE_KEYPHRASES: granted=true
+      android.permission.SHUTDOWN: granted=true
+      android.permission.NFC: granted=true
+      android.permission.BIND_ROTATION_RESOLVER_SERVICE: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.MANAGE_WIFI_COUNTRY_CODE: granted=true
+      android.permission.CALL_PRIVILEGED: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.ALLOW_PLACE_IN_MULTI_PANE_SETTINGS: granted=true
+      android.permission.MANAGE_DYNAMIC_SYSTEM: granted=true
+      android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.MANAGE_ROLE_HOLDERS: granted=true
+      android.permission.CONTROL_DEVICE_LIGHTS: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      android.permission.SET_TIME_ZONE: granted=true
+      android.permission.READ_PRINT_SERVICES: granted=true
+      android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.CAPTURE_AUDIO_HOTWORD: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      android.permission.RECORD_BACKGROUND_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+      android.permission.WRITE_BLOCKED_NUMBERS: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.UPDATE_DEVICE_STATS: granted=true
+      android.permission.MANAGE_FINGERPRINT: granted=true
+      com.rayneo.gallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.READ_PROJECTION_STATE: granted=true
+      android.permission.BIND_CONNECTION_SERVICE: granted=true
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      android.permission.ACCOUNT_MANAGER: granted=true
+      android.permission.ACCESS_CONTEXT_HUB: granted=true
+      android.permission.MANAGE_USB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      android.permission.BATTERY_STATS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.CAPTURE_AUDIO_OUTPUT: granted=true
+      android.permission.MANAGE_DEBUGGING: granted=true
+      android.permission.MOVE_PACKAGE: granted=true
+      android.permission.READ_BLOCKED_NUMBERS: granted=true
+      android.permission.READ_SEARCH_INDEXABLES: granted=true
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.TRIGGER_TIME_ZONE_RULES_CHECK: granted=true
+      android.permission.ACCESS_DOWNLOAD_MANAGER: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.HARDWARE_TEST: granted=true
+      android.permission.USE_BIOMETRIC_INTERNAL: granted=true
+      android.permission.INSTALL_DYNAMIC_SYSTEM: granted=true
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE: granted=true
+      android.permission.BIND_JOB_SERVICE: granted=true
+      android.permission.CONFIRM_FULL_BACKUP: granted=true
+      android.permission.SET_TIME: granted=true
+      android.permission.WRITE_APN_SETTINGS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.SYSTEM_APPLICATION_OVERLAY: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.BACKUP: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      android.permission.USER_ACTIVITY: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.READ_LOGS: granted=true
+      android.permission.COPY_PROTECTED_DATA: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.SET_KEYBOARD_LAYOUT: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      android.permission.READ_DREAM_STATE: granted=true
+      com.rayneo.record.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MANAGE_APP_OPS_RESTRICTIONS: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.MANAGE_USER_OEM_UNLOCK_STATE: granted=true
+      android.permission.REQUEST_NETWORK_SCORES: granted=true
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.WRITE_USER_DICTIONARY: granted=true
+      android.permission.READ_DREAM_SUPPRESSION: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.MANAGE_OWN_CALLS: granted=true
+      android.permission.REBOOT: granted=true
+      com.ffalcon.wordprompt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.OEM_UNLOCK_STATE: granted=true
+      android.permission.MANAGE_DEVICE_ADMINS: granted=true
+      android.permission.CHANGE_APP_IDLE_STATE: granted=true
+      android.permission.BIND_SETTINGS_SUGGESTIONS_SERVICE: granted=true
+      android.permission.TEST_BLACKLISTED_PASSWORD: granted=true
+      android.permission.MANAGE_NOTIFICATION_LISTENERS: granted=true
+      android.permission.SET_POINTER_SPEED: granted=true
+      android.permission.MANAGE_NOTIFICATIONS: granted=true
+      android.permission.SEND_SHOW_SUSPENDED_APP_DETAILS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      android.permission.BIND_CELL_BROADCAST_SERVICE: granted=true
+      android.permission.LOADER_USAGE_STATS: granted=true
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      android.permission.SUGGEST_MANUAL_TIME_AND_ZONE: granted=true
+      android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS: granted=true
+      android.permission.ACCESS_NOTIFICATIONS: granted=true
+      android.permission.HANDLE_CALL_INTENT: granted=true
+      android.permission.MEDIA_RESOURCE_OVERRIDE_PID: granted=true
+      android.permission.VIBRATE: granted=true
+      com.android.certinstaller.INSTALL_AS_USER: granted=true
+      android.permission.MANAGE_APP_HIBERNATION: granted=true
+      android.permission.HANDLE_CAR_MODE_CHANGES: granted=true
+      android.permission.READ_USER_DICTIONARY: granted=true
+      android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.MANAGE_APP_OPS_MODES: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.STATUS_BAR: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.READ_DEVICE_CONFIG: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.UNLIMITED_TOASTS: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.INJECT_EVENTS: granted=true
+      android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE: granted=true
+      com.rayneo.notes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.READ_OEM_UNLOCK_STATE: granted=true
+      android.permission.MEDIA_CONTENT_CONTROL: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    User 0: ceDataInode=1486 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      enabledComponents:
+        androidx.work.impl.background.systemalarm.RescheduleReceiver
+        androidx.work.impl.background.systemjob.SystemJobService
+
+Queries:
+  system apps queryable: false
+  forceQueryable:
+    [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+  queries via package name:
+  queries via intent:
+    [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+      com.android.traceur
+      com.sogou.inputmethod.iot
+      com.android.contacts
+      com.android.inputmethod.latin
+      com.rayneo.lifeai
+      com.RayneoGame.ARPet
+      com.ffalcon.vision.scanner.maotai
+      com.chatppt.noteshow.release
+      com.Ffalcon.BEATSPACE
+      com.rayneogame.pinball
+      com.rayneogame.skiing
+      com.rayneo.airscreen
+      tv.danmaku.bili
+      com.xingin.xhs
+      com.larus.nova
+      com.phoenix.read
+      com.tencent.qqmusicpad
+      com.sina.weibo
+      com.tencent.mm
+      com.tencent.wemeet.app
+  queryable via interaction:
+    User 0:
+      [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]:
+        [com.android.bluetooth,com.qualcomm.qtil.btdsda]
+        [com.android.providers.userdictionary,com.android.providers.blockednumber,com.android.providers.contacts]
+        [com.android.soundpicker,com.android.providers.downloads,com.android.mtp,com.android.providers.media,com.android.providers.downloads.ui]
+        com.android.externalstorage
+        com.android.packageinstaller
+        com.android.traceur
+        com.android.statementservice
+        com.eg.android.AlipayGGlasses
+        com.sogou.inputmethod.iot
+        com.android.inputmethod.latin
+        com.ffalcon.navigation
+        com.android.systemui
+        com.android.permissioncontroller
+        com.android.providers.media.module
+        android.ext.services
+        com.rayneo.lifeai
+        com.RayneoGame.ARPet
+        com.Ffalcon.BEATSPACE
+        com.rayneogame.skiing
+        com.rayneo.airscreen
+        tv.danmaku.bili
+        com.phoenix.read
+      [com.android.bluetooth,com.qualcomm.qtil.btdsda]:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      [com.android.providers.userdictionary,com.android.providers.blockednumber,com.android.providers.contacts]:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      [com.android.soundpicker,com.android.providers.downloads,com.android.mtp,com.android.providers.media,com.android.providers.downloads.ui]:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      com.android.statementservice:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      com.eg.android.AlipayGGlasses:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      com.sogou.inputmethod.iot:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      com.android.webview:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      com.android.inputmethod.latin:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      com.rayneo.xr.runtime:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      com.android.systemui:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      com.android.permissioncontroller:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      com.android.providers.media.module:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+      android.ext.services:
+        [com.rayneo.record,com.rayneo.live.ai,com.leiniao.camera,com.rayneo.airuntime,com.android.localtransport,com.ffalcon.appcontainer,com.qti.snapdragon.qdcm_ff,com.android.inputdevices,com.rayneo.phone,com.android.server.telecom,com.android.mmitest,com.rayneo.notes,com.android.providers.settings,com.android.settings,com.ffalconxr.mercury.launcher.mini.test,com.rayneo.aispeech,com.android.wallpaperbackup,com.android.networkstack.inprocess,com.ffalconxr.mercury.launcher,android,com.android.keychain,com.rayneo.media,com.android.networkstack.tethering.inprocess,com.android.dynsystem,com.android.location.fused,com.rayneo.gallery,com.ffalcon.wordprompt]
+  queryable via uses-library:
+
+Shared users:
+  SharedUser [android.uid.system] (3b8cbad):
+    userId=1000
+    Packages
+      PackageSetting{18f0f4d com.rayneo.record/1000}
+      PackageSetting{1995ee4 com.rayneo.live.ai/1000}
+      PackageSetting{1a4296f com.leiniao.camera/1000}
+      PackageSetting{25fa67c com.rayneo.airuntime/1000}
+      PackageSetting{2d96277 com.android.localtransport/1000}
+      PackageSetting{397a27f com.ffalcon.appcontainer/1000}
+      PackageSetting{39dbc76 com.qti.snapdragon.qdcm_ff/1000}
+      PackageSetting{4924faa com.android.inputdevices/1000}
+      PackageSetting{551a0b9 com.rayneo.phone/1000}
+      PackageSetting{55f0738 com.android.server.telecom/1000}
+      PackageSetting{72c2295 com.android.mmitest/1000}
+      PackageSetting{7e6e280 com.rayneo.notes/1000}
+      PackageSetting{84d124c com.android.providers.settings/1000}
+      PackageSetting{8ff8550 com.android.settings/1000}
+      PackageSetting{9123fa1 com.ffalconxr.mercury.launcher.mini.test/1000}
+      PackageSetting{931d767 com.rayneo.aispeech/1000}
+      PackageSetting{9b5f75a com.android.wallpaperbackup/1000}
+      PackageSetting{9dab723 com.android.networkstack.inprocess/1000}
+      PackageSetting{9f234dd com.ffalconxr.mercury.launcher/1000}
+      PackageSetting{ae241d9 android/1000}
+      PackageSetting{af95311 com.android.keychain/1000}
+      PackageSetting{afa8303 com.rayneo.media/1000}
+      PackageSetting{b4a5349 com.android.networkstack.tethering.inprocess/1000}
+      PackageSetting{c810987 com.android.dynsystem/1000}
+      PackageSetting{d442281 com.android.location.fused/1000}
+      PackageSetting{e0de79b com.rayneo.gallery/1000}
+      PackageSetting{f77af13 com.ffalcon.wordprompt/1000}
+    install permissions:
+      android.permission.BIND_INCALL_SERVICE: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      android.permission.CONFIGURE_DISPLAY_COLOR_MODE: granted=true
+      android.permission.RECOVERY: granted=true
+      android.permission.CONTROL_DISPLAY_COLOR_TRANSFORMS: granted=true
+      com.rayneo.phone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.BIND_ATTENTION_SERVICE: granted=true
+      android.permission.USE_CREDENTIALS: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      android.permission.MANAGE_EXTERNAL_STORAGE: granted=true
+      android.permission.ACCESS_CHECKIN_PROPERTIES: granted=true
+      com.rayneo.media.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.ACCESS_NOTIFICATION_POLICY: granted=true
+      android.permission.MODIFY_AUDIO_ROUTING: granted=true
+      android.permission.MANAGE_HOTWORD_DETECTION: granted=true
+      android.permission.INSTALL_LOCATION_PROVIDER: granted=true
+      android.permission.USE_RESERVED_DISK: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.rayneo.aispeech.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.BROADCAST_PHONE_ACCOUNT_REGISTRATION: granted=true
+      android.permission.CLEAR_APP_USER_DATA: granted=true
+      android.permission.MONITOR_INPUT: granted=true
+      android.permission.BROADCAST_CALLLOG_INFO: granted=true
+      android.permission.INSTALL_PACKAGES: granted=true
+      android.permission.MANAGE_VOICE_KEYPHRASES: granted=true
+      android.permission.SHUTDOWN: granted=true
+      android.permission.NFC: granted=true
+      android.permission.BIND_ROTATION_RESOLVER_SERVICE: granted=true
+      android.permission.NETWORK_SETTINGS: granted=true
+      android.permission.MANAGE_WIFI_COUNTRY_CODE: granted=true
+      android.permission.CALL_PRIVILEGED: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.MASTER_CLEAR: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.ALLOW_PLACE_IN_MULTI_PANE_SETTINGS: granted=true
+      android.permission.MANAGE_DYNAMIC_SYSTEM: granted=true
+      android.permission.LAUNCH_MULTI_PANE_SETTINGS_DEEP_LINK: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.MANAGE_ROLE_HOLDERS: granted=true
+      android.permission.CONTROL_DEVICE_LIGHTS: granted=true
+      android.permission.PEERS_MAC_ADDRESS: granted=true
+      android.permission.DEVICE_POWER: granted=true
+      android.permission.SET_TIME_ZONE: granted=true
+      android.permission.READ_PRINT_SERVICES: granted=true
+      android.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.CAPTURE_AUDIO_HOTWORD: granted=true
+      android.permission.WRITE_MEDIA_STORAGE: granted=true
+      android.permission.RECORD_BACKGROUND_AUDIO: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+      android.permission.WRITE_BLOCKED_NUMBERS: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.UPDATE_PACKAGES_WITHOUT_USER_ACTION: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      android.permission.CONTROL_VPN: granted=true
+      android.permission.UPDATE_DEVICE_STATS: granted=true
+      android.permission.MANAGE_FINGERPRINT: granted=true
+      com.rayneo.gallery.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.READ_PROJECTION_STATE: granted=true
+      android.permission.BIND_CONNECTION_SERVICE: granted=true
+      android.permission.ACCESS_INSTANT_APPS: granted=true
+      android.permission.ACCOUNT_MANAGER: granted=true
+      android.permission.ACCESS_CONTEXT_HUB: granted=true
+      android.permission.MANAGE_USB: granted=true
+      android.permission.INTERACT_ACROSS_USERS_FULL: granted=true
+      android.permission.STOP_APP_SWITCHES: granted=true
+      android.permission.BATTERY_STATS: granted=true
+      android.permission.PACKAGE_USAGE_STATS: granted=true
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS: granted=true
+      android.permission.TETHER_PRIVILEGED: granted=true
+      android.permission.WRITE_SECURE_SETTINGS: granted=true
+      android.permission.CAPTURE_AUDIO_OUTPUT: granted=true
+      android.permission.MANAGE_DEBUGGING: granted=true
+      android.permission.MOVE_PACKAGE: granted=true
+      android.permission.READ_BLOCKED_NUMBERS: granted=true
+      android.permission.READ_SEARCH_INDEXABLES: granted=true
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted=true
+      android.permission.READ_PRIVILEGED_PHONE_STATE: granted=true
+      android.permission.TRIGGER_TIME_ZONE_RULES_CHECK: granted=true
+      android.permission.ACCESS_DOWNLOAD_MANAGER: granted=true
+      android.permission.BLUETOOTH_PRIVILEGED: granted=true
+      android.permission.HARDWARE_TEST: granted=true
+      android.permission.USE_BIOMETRIC_INTERNAL: granted=true
+      android.permission.INSTALL_DYNAMIC_SYSTEM: granted=true
+      android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME: granted=true
+      android.intent.category.MASTER_CLEAR.permission.C2D_MESSAGE: granted=true
+      android.permission.BIND_JOB_SERVICE: granted=true
+      android.permission.CONFIRM_FULL_BACKUP: granted=true
+      android.permission.SET_TIME: granted=true
+      android.permission.WRITE_APN_SETTINGS: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.SYSTEM_APPLICATION_OVERLAY: granted=true
+      android.permission.MANAGE_USERS: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.DISABLE_KEYGUARD: granted=true
+      android.permission.BACKUP: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      android.permission.USER_ACTIVITY: granted=true
+      android.permission.LOCAL_MAC_ADDRESS: granted=true
+      android.permission.READ_LOGS: granted=true
+      android.permission.COPY_PROTECTED_DATA: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.SET_WALLPAPER: granted=true
+      android.permission.SET_KEYBOARD_LAYOUT: granted=true
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS: granted=true
+      android.permission.READ_DREAM_STATE: granted=true
+      com.rayneo.record.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MANAGE_APP_OPS_RESTRICTIONS: granted=true
+      android.permission.KILL_BACKGROUND_PROCESSES: granted=true
+      android.permission.MANAGE_USER_OEM_UNLOCK_STATE: granted=true
+      android.permission.REQUEST_NETWORK_SCORES: granted=true
+      android.permission.CONNECTIVITY_USE_RESTRICTED_NETWORKS: granted=true
+      android.permission.WRITE_USER_DICTIONARY: granted=true
+      android.permission.READ_DREAM_SUPPRESSION: granted=true
+      android.permission.READ_SYNC_STATS: granted=true
+      android.permission.MANAGE_OWN_CALLS: granted=true
+      android.permission.REBOOT: granted=true
+      com.ffalcon.wordprompt.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.REQUEST_DELETE_PACKAGES: granted=true
+      android.permission.OEM_UNLOCK_STATE: granted=true
+      android.permission.MANAGE_DEVICE_ADMINS: granted=true
+      android.permission.CHANGE_APP_IDLE_STATE: granted=true
+      android.permission.BIND_SETTINGS_SUGGESTIONS_SERVICE: granted=true
+      android.permission.TEST_BLACKLISTED_PASSWORD: granted=true
+      android.permission.MANAGE_NOTIFICATION_LISTENERS: granted=true
+      android.permission.SET_POINTER_SPEED: granted=true
+      android.permission.MANAGE_NOTIFICATIONS: granted=true
+      android.permission.SEND_SHOW_SUSPENDED_APP_DETAILS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.START_ACTIVITIES_FROM_BACKGROUND: granted=true
+      android.permission.BIND_CELL_BROADCAST_SERVICE: granted=true
+      android.permission.LOADER_USAGE_STATS: granted=true
+      android.permission.OVERRIDE_WIFI_CONFIG: granted=true
+      android.permission.FORCE_STOP_PACKAGES: granted=true
+      android.permission.SUGGEST_MANUAL_TIME_AND_ZONE: granted=true
+      android.permission.HIDE_NON_SYSTEM_OVERLAY_WINDOWS: granted=true
+      android.permission.ACCESS_NOTIFICATIONS: granted=true
+      android.permission.HANDLE_CALL_INTENT: granted=true
+      android.permission.MEDIA_RESOURCE_OVERRIDE_PID: granted=true
+      android.permission.VIBRATE: granted=true
+      com.android.certinstaller.INSTALL_AS_USER: granted=true
+      android.permission.MANAGE_APP_HIBERNATION: granted=true
+      android.permission.HANDLE_CAR_MODE_CHANGES: granted=true
+      android.permission.READ_USER_DICTIONARY: granted=true
+      android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      android.permission.MANAGE_APP_OPS_MODES: granted=true
+      android.permission.MODIFY_PHONE_STATE: granted=true
+      android.permission.STATUS_BAR: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      android.permission.READ_DEVICE_CONFIG: granted=true
+      android.permission.LOCATION_HARDWARE: granted=true
+      android.permission.UNLIMITED_TOASTS: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      android.permission.INJECT_EVENTS: granted=true
+      android.permission.BIND_NETWORK_RECOMMENDATION_SERVICE: granted=true
+      com.rayneo.notes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.UPDATE_APP_OPS_STATS: granted=true
+      android.permission.READ_OEM_UNLOCK_STATE: granted=true
+      android.permission.MEDIA_CONTENT_CONTROL: granted=true
+      android.permission.DELETE_PACKAGES: granted=true
+    User 0: 
+      gids=[1065, 1005, 3002, 3003, 3001, 3007, 1007]
+      runtime permissions:
+        android.permission.READ_CALL_LOG: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.ANSWER_PHONE_CALLS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.BLUETOOTH_CONNECT: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.READ_PHONE_STATE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.SEND_SMS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.CALL_PHONE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.WRITE_CONTACTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.CAMERA: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.WRITE_CALL_LOG: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_ADVERTISE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.GET_ACCOUNTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.READ_CONTACTS: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|RESTRICTION_SYSTEM_EXEMPT|RESTRICTION_UPGRADE_EXEMPT]
+        android.permission.BLUETOOTH_SCAN: granted=true, flags=[ SYSTEM_FIXED|GRANTED_BY_DEFAULT|USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_SYSTEM_EXEMPT]
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.ffalconxr.mercury.launcher]
+    path: /system_ext/priv-app/RayNeoLauncher/RayNeoLauncher.apk
+      arm64: [status=speed] [reason=prebuilt]
+
+
+Compiler stats:
+  [com.ffalconxr.mercury.launcher]
+    (No recorded stats)
+Snapshot statistics
+   Unrecorded-hits: 4432  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:53         now           0           0           0           0           0           0           0
+          1:53        0:53           0           0           0           0           0           0           0
+          2:53        1:53           0           0           0           0           0           0           0
+          3:53        2:53           0           0           0           0           0           0           0
+          4:53        3:53           0           0           0           0           0           0           0
+          5:53        4:53           0           0           0           0           0           0           0
+          6:53        5:53           0           0           0           0           0           0           0
+          7:53        6:53           0           0           0           0           0           0           0
+          8:53        7:53           0           0           0           0           0           0           0
+          9:53        8:53           0           0           0           0           0           0           0
+   20513:16:09:37         now         305      413335           0           2          73         241          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:53         now           0           0           0           0           0           0           0           0
+          1:53        0:53           0           0           0           0           0           0           0           0
+          2:53        1:53           0           0           0           0           0           0           0           0
+          3:53        2:53           0           0           0           0           0           0           0           0
+          4:53        3:53           0           0           0           0           0           0           0           0
+          5:53        4:53           0           0           0           0           0           0           0           0
+          6:53        5:53           0           0           0           0           0           0           0           0
+          7:53        6:53           0           0           0           0           0           0           0           0
+          8:53        7:53           0           0           0           0           0           0           0           0
+          9:53        8:53           0           0           0           0           0           0           0           0
+   20513:16:09:37         now         277          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:53         now           0           0           0           0           0           0           0           0
+          1:53        0:53           0           0           0           0           0           0           0           0
+          2:53        1:53           0           0           0           0           0           0           0           0
+          3:53        2:53           0           0           0           0           0           0           0           0
+          4:53        3:53           0           0           0           0           0           0           0           0
+          5:53        4:53           0           0           0           0           0           0           0           0
+          6:53        5:53           0           0           0           0           0           0           0           0
+          7:53        6:53           0           0           0           0           0           0           0           0
+          8:53        7:53           0           0           0           0           0           0           0           0
+          9:53        8:53           0           0           0           0           0           0           0           0
+   20513:16:09:37         now          52          14           6           5           5          26          21         175

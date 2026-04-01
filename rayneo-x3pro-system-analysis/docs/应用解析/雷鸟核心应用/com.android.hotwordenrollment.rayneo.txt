@@ -1,0 +1,160 @@
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.android.intent.action.MANAGE_VOICE_KEYPHRASES:
+        4004c63 com.android.hotwordenrollment.rayneo/.EnrollmentDelegateReceiver filter 2f8e060
+          Action: "com.android.intent.action.MANAGE_VOICE_KEYPHRASES"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.BOOT_COMPLETED:
+        aabf81d com.android.hotwordenrollment.rayneo/.StartupReceiver filter 43faa92
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+      android.intent.action.MY_PACKAGE_REPLACED:
+        aabf81d com.android.hotwordenrollment.rayneo/.StartupReceiver filter 43faa92
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.MY_PACKAGE_REPLACED"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.android.intent.action.MANAGE_VOICE_KEYPHRASES:
+        294f919 com.android.hotwordenrollment.rayneo/.EnrollmentForegroundIntentService filter fa9ddde permission android.permission.MANAGE_VOICE_KEYPHRASES
+          Action: "com.android.intent.action.MANAGE_VOICE_KEYPHRASES"
+          Category: "android.intent.category.DEFAULT"
+
+Domain verification status:
+
+Key Set Manager:
+  [com.android.hotwordenrollment.rayneo]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.android.hotwordenrollment.rayneo] (a49083e):
+    userId=10052
+    pkg=Package{f8f969f com.android.hotwordenrollment.rayneo}
+    codePath=/product/priv-app/HotwordEnrollmentRayNeo
+    resourcePath=/product/priv-app/HotwordEnrollmentRayNeo
+    legacyNativeLibraryDir=/product/priv-app/HotwordEnrollmentRayNeo/lib
+    extractNativeLibs=true
+    primaryCpuAbi=null
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=32 minSdk=32 targetSdk=31
+    minExtensionVersions=[]
+    versionName=12
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{f8f969f com.android.hotwordenrollment.rayneo}
+    flags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVILEGED PRODUCT PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    queriesPackages=[]
+    dataDir=/data/user/0/com.android.hotwordenrollment.rayneo
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      com.android.hotwordenrollment.common.util
+    usesLibraryFiles:
+      /system_ext/framework/com.android.hotwordenrollment.common.util.jar
+    timeStamp=2009-01-01 08:00:00
+    firstInstallTime=2009-01-01 08:00:00
+    lastUpdateTime=2009-01-01 08:00:00
+    signatures=PackageSignatures{e01c3ec version:3, signatures:[d7f1f224], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ SYSTEM HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.KEYPHRASE_ENROLLMENT_APPLICATION
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+      android.permission.INTERACT_ACROSS_USERS
+      android.permission.WAKE_LOCK
+    install permissions:
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.KEYPHRASE_ENROLLMENT_APPLICATION: granted=true
+      android.permission.INTERACT_ACROSS_USERS: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=1780 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false
+      overlay paths:
+        /data/resource-cache/com.android.systemui-neutral-RYVI.frro
+        /data/resource-cache/com.android.systemui-accent-T5tz.frro
+      runtime permissions:
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+  queries via intent:
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Package Changes:
+  Sequence number=53
+  User 0:
+    seq=2, package=com.rayneo.lifeai
+    seq=3, package=com.RayneoGame.ARPet
+    seq=4, package=com.ffalcon.vision.scanner.maotai
+    seq=5, package=com.chatppt.noteshow.release
+    seq=6, package=com.Ffalcon.BEATSPACE
+    seq=7, package=com.rayneogame.pinball
+    seq=8, package=com.rayneogame.skiing
+    seq=9, package=com.rayneo.airscreen
+    seq=11, package=com.xingin.xhs
+    seq=12, package=com.larus.nova
+    seq=14, package=com.tencent.qqmusicpad
+    seq=15, package=com.sina.weibo
+    seq=16, package=com.tencent.mm
+    seq=17, package=com.tencent.wemeet.app
+    seq=28, package=tv.danmaku.bili
+    seq=36, package=com.phoenix.read
+    seq=51, package=com.android.bluetooth
+    seq=52, package=com.qualcomm.qtil.btdsda
+
+
+Dexopt state:
+  [com.android.hotwordenrollment.rayneo]
+    path: /product/priv-app/HotwordEnrollmentRayNeo/HotwordEnrollmentRayNeo.apk
+      arm64: [status=verify] [reason=prebuilt]
+
+
+Compiler stats:
+  [com.android.hotwordenrollment.rayneo]
+    (No recorded stats)
+Snapshot statistics
+   Unrecorded-hits: 4287  Cork-level: 0
+   Summary stats               TotBlds     TotUsed     TotCork     BigBlds    ShortLvd     TotTime     MaxTime
+          0:15         now           0           0           0           0           0           0           0
+          1:15        0:15           0           0           0           0           0           0           0
+          2:15        1:15           0           0           0           0           0           0           0
+          3:15        2:15           0           0           0           0           0           0           0
+          4:15        3:15           0           0           0           0           0           0           0
+          5:15        4:15           0           0           0           0           0           0           0
+          6:15        5:15           0           0           0           0           0           0           0
+          7:15        6:15           0           0           0           0           0           0           0
+          8:15        7:15           0           0           0           0           0           0           0
+          9:15        8:15           0           0           0           0           0           0           0
+   20513:16:08:59         now         305      413335           0           2          73         241          16
+
+   Build times                  <= 1ms      <= 2ms      <= 5ms     <= 10ms     <= 20ms     <= 50ms    <= 100ms     > 100ms
+          0:15         now           0           0           0           0           0           0           0           0
+          1:15        0:15           0           0           0           0           0           0           0           0
+          2:15        1:15           0           0           0           0           0           0           0           0
+          3:15        2:15           0           0           0           0           0           0           0           0
+          4:15        3:15           0           0           0           0           0           0           0           0
+          5:15        4:15           0           0           0           0           0           0           0           0
+          6:15        5:15           0           0           0           0           0           0           0           0
+          7:15        6:15           0           0           0           0           0           0           0           0
+          8:15        7:15           0           0           0           0           0           0           0           0
+          9:15        8:15           0           0           0           0           0           0           0           0
+   20513:16:08:59         now         277          10          14           2           2           0           0           0
+
+   Use counters                   <= 1        <= 2        <= 5       <= 10       <= 20       <= 50      <= 100       > 100
+          0:15         now           0           0           0           0           0           0           0           0
+          1:15        0:15           0           0           0           0           0           0           0           0
+          2:15        1:15           0           0           0           0           0           0           0           0
+          3:15        2:15           0           0           0           0           0           0           0           0
+          4:15        3:15           0           0           0           0           0           0           0           0
+          5:15        4:15           0           0           0           0           0           0           0           0
+          6:15        5:15           0           0           0           0           0           0           0           0
+          7:15        6:15           0           0           0           0           0           0           0           0
+          8:15        7:15           0           0           0           0           0           0           0           0
+          9:15        8:15           0           0           0           0           0           0           0           0
+   20513:16:08:59         now          52          14           6           5           5          26          21         175
